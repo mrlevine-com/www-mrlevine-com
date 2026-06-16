@@ -1,6 +1,25 @@
 baseURL: https://www.mrlevine.com/
 locale: en-us
 title: Mr. Levine
+enableEmoji: true
 module:
   imports:
     - path: github.com/adityatelange/hugo-PaperMod
+params:
+  profileMode:
+    enabled: true
+    title: Computer Science Teacher
+    subtitle: ":round_pushpin: Archbishop McCarthy High School"
+    imageUrl: "icon.png"
+    imageTitle: Mr. Levine
+    imageWidth: 200
+    imageHeight: 200
+    buttons:
+      - name: View Courses
+        url: courses
+  showBreadCrumbs: true
+  editPost:
+    url: "https://github.com/mrlevine-com/www-mrlevine-com/content"
+    text: Suggest Changes
+    appendFilePath: true
+  showTOC: true

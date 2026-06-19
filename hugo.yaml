@@ -20,7 +20,7 @@ params:
         url: courses
   showBreadCrumbs: true
   editPost:
-    url: "https://github.com/mrlevine-com/www-mrlevine-com/content"
+    url: "https://github.com/mrlevine-com/www-mrlevine-com/blob/main/content"
     text: Suggest Changes
     appendFilePath: true
   showTOC: true

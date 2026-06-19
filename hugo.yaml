@@ -2,6 +2,7 @@ baseURL: https://www.mrlevine.com/
 locale: en-us
 title: Mr. Levine
 enableEmoji: true
+buildFuture: true
 module:
   imports:
     - path: github.com/adityatelange/hugo-PaperMod
@@ -23,3 +24,4 @@ params:
     text: Suggest Changes
     appendFilePath: true
   showTOC: true
+  showPostNavLinks: true

@@ -38,7 +38,7 @@ You can have the same idea as a classmate but you must create your prototype ind
 
 You can create your prototype in Notability on your iPad or Excalidraw on your computer.
 
-Your prototype will consist of:
+Your prototype must include:
 - A sketch of your innovation
 - A description of your innovation
 - At least two positive effects of your innovation
@@ -48,13 +48,13 @@ Your prototype will consist of:
 ## Submission
 ### Deliverables
 | Item                                  | Est. Time |
-|---------------------------------------|-----------|
+|---------------------------------------|----------:|
 | Your prototype submitted on Canvas    | ~20 mins  |
 | Unit 1 Lesson 1 submitted on Code.org | ~5 mins   |
 
 ### Rubric
 | Criteria                                         | Points |
-|--------------------------------------------------|--------|
+|--------------------------------------------------|-------:|
 | A sketch of your innovation                      | 20     |
 | A description of your innovation                 | 20     |
 | At least two positive effects of your innovation | 10     |

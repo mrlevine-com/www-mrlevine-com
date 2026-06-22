@@ -74,13 +74,13 @@ Your report must include:
 ## Submission
 ### Deliverables
 | Item                                  | Est. Time |
-|---------------------------------------|-----------|
+|---------------------------------------|----------:|
 | Your report submitted on Canvas       | ~30 mins  |
 | Unit 1 Lesson 2 submitted on Code.org | ~5 mins   |
 
 ### Rubric
 | Criteria                                     | Points |
-|----------------------------------------------|--------|
+|----------------------------------------------|-------:|
 | Detailed report of today's activity          | 40     |
 | Your name written at the top                 | 10     |
 | The name of the classmate your paired with   | 10     |

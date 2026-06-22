@@ -37,9 +37,9 @@ There are eight possible patterns. Make sure you have included patterns like `sq
 ## How can you represent 7 using only circles and squares?
 Take a look at the seventh pattern you wrote down. Logically, you might choose that pattern to represent 7. Except, there's a problem...
 
-Your classmates wrote down the patterns in a different order, meaning everyone's seventh pattern is different!
+Your classmates may have listed the patterns in a different order, meaning not everyone has the same seventh pattern!
 
-To ensure everyone's seventh pattern is the same, you will need to create a clear set of rules, where if the class were to follow these rules, everyone should generate the same list of patterns in the same order.
+To ensure everyone has the same seventh pattern, you will need to create a clear set of rules, where if the class were to follow these rules, everyone should generate the same list of patterns in the same order.
 
 # Assignment
 ## Instructions

@@ -12,7 +12,6 @@ _insert summary_
 
 # Lesson Overview
 ## ?
-
 {{< collapse summary="Click here to reveal the answer." >}}
 
 {{</ collapse >}}

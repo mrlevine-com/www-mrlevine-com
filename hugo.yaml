@@ -3,6 +3,10 @@ locale: en-us
 title: Mr. Levine
 enableEmoji: true
 buildFuture: true
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
 module:
   imports:
     - path: github.com/adityatelange/hugo-PaperMod

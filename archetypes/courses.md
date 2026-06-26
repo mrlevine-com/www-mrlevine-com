@@ -1,11 +1,11 @@
 ---
 title: {{ replace .File.ContentBaseName `-` ` ` | title }}
-summary: _insert summary_
+summary:
 date: {{ time.Now.Format "2006-01-02" }}
 weight: 0
 ---
 
-_insert summary_
+{{% param summary %}}
 
 # Today's Objectives
 -

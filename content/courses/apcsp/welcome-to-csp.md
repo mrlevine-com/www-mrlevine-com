@@ -5,7 +5,7 @@ date: 2026-08-10
 weight: 10
 ---
 
-Welcome to AP Computer Science Principles with Mr. Levine!
+{{% param summary %}}
 
 # Today's Objectives
 - Create your own computing innovation.

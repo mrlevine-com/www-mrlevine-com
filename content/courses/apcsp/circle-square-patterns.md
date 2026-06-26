@@ -5,7 +5,7 @@ date: 2026-08-12
 weight: 30
 ---
 
-Patterns and rules make it easy to exchange information.
+{{% param summary %}}
 
 # Today's Objectives
 - Explain a number system to someone who has never seen numbers before.

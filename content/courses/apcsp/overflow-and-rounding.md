@@ -5,7 +5,7 @@ date: 2026-08-14
 weight: 50
 ---
 
-Bits can represent a limited amount of information.
+{{% param summary %}}
 
 # Today's Objectives
 - Understand that overflow and roundoff errors result from real-world limitations in representing place value.

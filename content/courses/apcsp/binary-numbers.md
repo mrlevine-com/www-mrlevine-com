@@ -5,7 +5,7 @@ date: 2026-08-13
 weight: 40
 ---
 
-Binary is the fundamental language of computers.
+{{% param summary %}}
 
 # Today's Objectives
 - Explain how the position of each binary digit determines its place value and numeric value.

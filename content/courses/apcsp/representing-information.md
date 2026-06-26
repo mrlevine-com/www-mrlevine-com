@@ -5,7 +5,7 @@ date: 2026-08-11
 weight: 20
 ---
 
-Information guides decision-making and exists in multiple forms.
+{{% param summary %}}
 
 # Today's Objectives
 - Understand the concept of information.

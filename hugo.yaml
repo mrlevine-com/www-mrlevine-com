@@ -16,7 +16,7 @@ params:
     enabled: true
     title: Computer Science Teacher
     subtitle: ":round_pushpin: Archbishop McCarthy High School"
-    imageUrl: "icon.png"
+    imageUrl: icon.png
     imageTitle: Mr. Levine
     imageWidth: 200
     imageHeight: 200
@@ -25,7 +25,7 @@ params:
         url: courses
   showBreadCrumbs: true
   editPost:
-    url: "https://github.com/mrlevine-com/www-mrlevine-com/blob/main/content"
+    url: https://github.com/mrlevine-com/www-mrlevine-com/blob/main/content
     text: Suggest Changes
     appendFilePath: true
   showTOC: true

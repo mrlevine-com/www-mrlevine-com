@@ -1,6 +1,6 @@
 ---
 title: Welcome to CSP
-summary: Welcome to AP Computer Science Principles with Mr. Levine!
+summary: Welcome to Computer Science Principles with Mr. Levine!
 date: 2026-08-10
 weight: 10
 ---

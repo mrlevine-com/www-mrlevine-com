@@ -7,29 +7,29 @@ weight: 0
 
 {{% param summary %}}
 
-# Today's Objectives
+## Today's Objectives
 -
 
-# Lesson Overview
-## ?
+## Lesson Overview
+### ?
 {{< collapse summary="Click here to reveal the answer." >}}
 
 
 
 {{</ collapse >}}
 
-# Assignment
-## Instructions
-###
+## Assignment
+### Instructions
+####
 
-## Submission
-### Deliverables
+### Submission
+#### Deliverables
 | Item                                  | Est. Time |
 |---------------------------------------|----------:|
 | Today's activity submitted on Canvas  | ~__ mins  |
 | Unit _ Lesson _ submitted on Code.org | ~__ mins  |
 
-### Rubric
+#### Rubric
 | Criteria                     | Points |
 |------------------------------|-------:|
 | ___                          | __     |

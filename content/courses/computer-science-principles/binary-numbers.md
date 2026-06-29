@@ -7,13 +7,13 @@ weight: 40
 
 {{% param summary %}}
 
-# Today's Objectives
+## Today's Objectives
 - Explain how the position of each binary digit determines its place value and numeric value.
 - Represent binary numbers using combinations of decimal (base 10) digits 0-9.
 - Represent decimal numbers using combinations of binary (base 2) digits 0 and 1.
 
-# Lesson Overview
-## What can you communicate using only two symbols? Is there a limit?
+## Lesson Overview
+### What can you communicate using only two symbols? Is there a limit?
 {{< collapse summary="Click here to reveal the answer." >}}
 
 - The answer to a yes/no or true/false question
@@ -23,7 +23,7 @@ weight: 40
 
 {{</ collapse >}}
 
-## Using only circles and squares, how many unique patterns can you make with one place value?
+### Using only circles and squares, how many unique patterns can you make with one place value?
 {{< collapse summary="Click here to reveal the answer." >}}
 
 You can make two unique patterns:
@@ -32,7 +32,7 @@ You can make two unique patterns:
 
 {{</ collapse >}}
 
-## Two place values?
+### Two place values?
 {{< collapse summary="Click here to reveal the answer." >}}
 
 You can make four unique patterns:
@@ -43,7 +43,7 @@ You can make four unique patterns:
 
 {{</ collapse >}}
 
-## Three place values?
+### Three place values?
 {{< collapse summary="Click here to reveal the answer." >}}
 
 You can make eight unique patterns:
@@ -58,7 +58,7 @@ You can make eight unique patterns:
 
 {{</ collapse >}}
 
-## Now using ten shapes instead of two, how many unique patterns can you make with one place value?
+### Now using ten shapes instead of two, how many unique patterns can you make with one place value?
 {{< collapse summary="Click here to reveal the answer." >}}
 
 You can make ten unique patterns:
@@ -75,7 +75,7 @@ You can make ten unique patterns:
 
 {{</ collapse >}}
 
-## Two place values?
+### Two place values?
 {{< collapse summary="Click here to reveal the answer." >}}
 
 You can make one hundred unique patterns:
@@ -91,7 +91,7 @@ You can make one hundred unique patterns:
 
 {{</ collapse >}}
 
-## Introducing binary...
+### Introducing binary...
 Binary is the fundamental language of computers.
 
 Binary is a base 2 number system, meaning it uses two symbols to represent information. Instead of circles and squares, binary uses zeros and ones.
@@ -107,7 +107,7 @@ Binary is a base 2 number system, meaning it uses two symbols to represent infor
 | :blue_square: :blue_square: :red_circle:  | 110    |
 | :blue_square: :blue_square: :blue_square: | 111    |
 
-## Why binary?
+### Why binary?
 Computers use binary numbers as a representation of electrical signals on a wire. The wire is always either off or on, so the "off" state can be represented by 0 and the "on" state by 1.
 
 You are already familiar with the decimal number system, which is base 10, meaning it uses ten symbols to represent information: 0-9, also known as the ten decimal digits.
@@ -116,14 +116,14 @@ In today's assignment, you will make a Flippy Do, which will help you convert be
 
 Similar to the rules you created for your circle square system, the binary and decimal number systems both leverage a concept called place value.
 
-## What is place value?
+### What is place value?
 Place value is the value of each digit in a number based on its position. For example, in decimal, the 1 in the number 124 represents 100, the 2 represents 20, and the 4 represents 4.
 
 In binary, each place value represents one **bit** (**b**~inary dig~**it**). Your Flippy Do will have eight bits which together makes one **byte**.
 
-# Assignment
-## Instructions
-### Make Your Flippy Do
+## Assignment
+### Instructions
+#### Make Your Flippy Do
 Hand-draw your Flippy Do in Notability on your iPad or your preferred software.
 
 It should look like this.
@@ -133,8 +133,8 @@ It should look like this.
 | 128           | 64            | 32            | 16            | 8             | 4             | 2             | 1             |
 | _             | _             | _             | _             | _             | _             | _             | _             |
 
-### How to Use Your Flippy Do
-#### Convert Binary to Decimal
+#### How to Use Your Flippy Do
+##### Convert Binary to Decimal
 **Example: Convert 1010 to decimal.**
 
 1. Place the rightmost bit of your number in the rightmost column of the third row.
@@ -171,10 +171,10 @@ It should look like this.
 
 Congrats! You have successfully converted the binary number 1010 to the decimal number 10.
 
-#### Reset Your Flippy Do
+##### Reset Your Flippy Do
 Reset your Flippy Do by erasing the zeros and ones in the third row.
 
-#### Convert Decimal to Binary
+##### Convert Decimal to Binary
 **Example: Convert 25 to binary.**
 
 1. Find the largest number in the second row that is less than or equal to your number.
@@ -227,7 +227,7 @@ Since the leading zeros do not affect the value of the number, you can safely re
 
 Congrats! You have successfully converted the decimal number 25 to the binary number 11001.
 
-### Answer the Questions
+#### Answer the Questions
 > Remember to reset your Flippy Do before each conversion.
 
 Under your Flippy Do, answer the following questions.
@@ -303,14 +303,14 @@ Under your Flippy Do, answer the following questions.
 - Byte
 - Decimal
 
-## Submission
-### Deliverables
+### Submission
+#### Deliverables
 | Item                                  | Est. Time |
 |---------------------------------------|----------:|
 | Today's activity submitted on Canvas  | ~30 mins  |
 | Unit 1 Lesson 4 submitted on Code.org | ~10 mins  |
 
-### Rubric
+#### Rubric
 | Criteria                     | Points |
 |------------------------------|-------:|
 | Your Flippy Do               | 20     |

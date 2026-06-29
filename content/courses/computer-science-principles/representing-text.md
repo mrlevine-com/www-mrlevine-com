@@ -7,13 +7,13 @@ weight: 60
 
 {{% param summary %}}
 
-# Today's Objectives
+## Today's Objectives
 - Identify a system for using numbers to represent text.
 - Explain how bits are grouped to represent abstractions like numbers and text.
 - Describe the challenges in representing text when using a fixed number of bits for each character.
 
-# Lesson Overview
-## How can computers understand text?
+## Lesson Overview
+### How can computers understand text?
 How can computers understand text if they can only understand binary?
 
 {{< collapse summary="Click here to reveal the answer." >}}
@@ -22,7 +22,7 @@ They can use a system that maps bits to characters.
 
 {{</ collapse >}}
 
-## What is ASCII?
+### What is ASCII?
 ASCII (American Standard Code for Information Interchange) is a widely used system for character encoding. It was originally developed in 1963 as a 7-bit system allowing for 128 characters. Symbols 0-31 and 127 were reserved for control characters (e.g. “Backspace” or “Delete”) with the numbers 32-126 being used for printable characters. As the 8-bit “byte” became standardized, ASCII was extended to the 8-bit format you see below.
 
 {{< collapse summary="Click here to reveal the table." >}}
@@ -127,17 +127,17 @@ ASCII (American Standard Code for Information Interchange) is a widely used syst
 
 {{</ collapse >}}
 
-# Assignment
-## Instructions
-### Complete Code.org Unit 1 Lesson 6
+## Assignment
+### Instructions
+#### Complete Code.org Unit 1 Lesson 6
 
-## Submission
-### Deliverables
+### Submission
+#### Deliverables
 | Item                                  | Est. Time |
 |---------------------------------------|----------:|
 | Unit 1 Lesson 6 submitted on Code.org | ~10 mins  |
 
-### Rubric
+#### Rubric
 | Criteria                     | Points |
 |------------------------------|-------:|
 | Code.org Unit 1 Lesson 6     | 100    |

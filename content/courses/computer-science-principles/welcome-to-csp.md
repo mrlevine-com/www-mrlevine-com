@@ -7,13 +7,13 @@ weight: 10
 
 {{% param summary %}}
 
-# Today's Objectives
+## Today's Objectives
 - Create your own computing innovation.
 - Describe positive and negative effects of computing innovations.
 - Set up your Code.org account and complete the first lesson.
 
-# Lesson Overview
-## What is a computing innovation?
+## Lesson Overview
+### What is a computing innovation?
 A computing innovation is the use of technology to create or improve something.
 
 | Category     | Examples                                            |
@@ -21,17 +21,17 @@ A computing innovation is the use of technology to create or improve something.
 | Physical     | Smart home assistant, wearable health monitor, etc. |
 | Non-physical | E-commerce website, videogame, etc.                 |
 
-## Why would someone create a computing innovation?
+### Why would someone create a computing innovation?
 Someone might create a computing innovation to solve a problem or explore an interest.
 
-# Assignment
-## Instructions
-### Brainstorm
+## Assignment
+### Instructions
+#### Brainstorm
 Think of a problem you could solve or an interest you could explore with computer science.
 
 Exchange ideas with your classmates and choose your favorite.
 
-### Prototype
+#### Prototype
 A prototype is a rough draft of an idea.
 
 You can have the same idea as a classmate but you must create your prototype individually.
@@ -45,14 +45,14 @@ Your prototype must include:
 - At least two negative effects of your innovation
 - Your name written at the top
 
-## Submission
-### Deliverables
+### Submission
+#### Deliverables
 | Item                                  | Est. Time |
 |---------------------------------------|----------:|
 | Your prototype submitted on Canvas    | ~20 mins  |
 | Unit 1 Lesson 1 submitted on Code.org | ~5 mins   |
 
-### Rubric
+#### Rubric
 | Criteria                                         | Points |
 |--------------------------------------------------|-------:|
 | A sketch of your innovation                      | 20     |

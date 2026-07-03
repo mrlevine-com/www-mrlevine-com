@@ -1,6 +1,6 @@
 ---
 title: Representing Information
-summary: Information guides decision-making and exists in multiple forms.
+summary: The same information can be represented in multiple ways.
 date: 2026-08-11
 weight: 20
 ---

@@ -15,7 +15,7 @@ weight: 70
 ### Vocabulary
 - **Analog Data**: Data with values that change continuously, or smoothly, over time (e.g. music, colors of a painting, position of a sprinter during a race, etc.)
 - **Digital Data**: Data that changes discretely through a finite set of possible values
-- **Sampling**: A process for creating a digital representation of analog data by measuring the analog data at regular intervals called samples.
+- **Sampling**: A process for creating a digital representation of analog data by measuring the analog data at regular intervals called samples
 
 ### How can you create an image with bits?
 You can create an image with bits using Code.org's Pixelation Widget.

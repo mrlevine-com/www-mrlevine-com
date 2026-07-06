@@ -1,7 +1,7 @@
 ---
 title: Lossless Compression
 summary: Data can be represented with fewer bits without losing any information.
-date: 2026-07-03
+date: 2026-08-20
 weight: 90
 ---
 

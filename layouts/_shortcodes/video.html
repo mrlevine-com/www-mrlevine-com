@@ -1,13 +1,18 @@
-{{ $title := (.Get "title") }}
-{{ $src := (.Get "src") }}
+{{ $title := .Get "title" }}
+{{ $src := .Get "src" }}
+{{ $cc := .Get "cc" | default "code.org" }}
+
 <video src="{{ $src }}" controls muted></video>
-<small class="md-content footer" style="font-size: 14px; padding: 0;">
-	<a href="{{ $src }}">{{ $title }}</a> © {{ now.Year }} by
-	<a href="https://code.org/about/code-org-free-curriculum-commitment/">Code.org</a>
-	is licensed under
-	<a href="https://creativecommons.org/licenses/by-nc-nd/4.0/">CC BY-NC-ND 4.0</a>
-	<img class="in-text" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;">
-	<img class="in-text" src="https://mirrors.creativecommons.org/presskit/icons/by.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;">
-	<img class="in-text" src="https://mirrors.creativecommons.org/presskit/icons/nc.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;">
-	<img class="in-text" src="https://mirrors.creativecommons.org/presskit/icons/nd.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;">
-</small>
+
+{{ if eq $cc "code.org" }}
+	<small class="md-content footer" style="font-size: 14px; padding: 0;">
+		<a href="{{ $src }}">{{ $title }}</a> © {{ now.Year }} by
+		<a href="https://code.org/about/code-org-free-curriculum-commitment/">Code.org</a>
+		is licensed under
+		<a href="https://creativecommons.org/licenses/by-nc-nd/4.0/">CC BY-NC-ND 4.0</a>
+		<img class="in-text" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;">
+		<img class="in-text" src="https://mirrors.creativecommons.org/presskit/icons/by.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;">
+		<img class="in-text" src="https://mirrors.creativecommons.org/presskit/icons/nc.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;">
+		<img class="in-text" src="https://mirrors.creativecommons.org/presskit/icons/nd.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;">
+	</small>
+{{ end }}

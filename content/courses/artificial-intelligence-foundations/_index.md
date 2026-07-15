@@ -1,5 +1,5 @@
 ---
-title: AI Foundations
+title: Artificial Intelligence Foundations
 summary: This course introduces students to the foundational concepts of AI and challenges them to explore how it works, how it impacts others, and how to use it ethically.
 hideMeta: true
 ---

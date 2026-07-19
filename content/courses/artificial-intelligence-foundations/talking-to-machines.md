@@ -1,0 +1,105 @@
+---
+title: Talking to Machines
+summary: Welcome to Artificial Intelligence Foundations with Mr. Levine!
+date: 2026-08-10
+weight: 10
+---
+
+{{% param summary %}}
+
+## Today's Objectives
+- Analyze patterns in AI-generated responses to explain how input prompts influence outputs.
+- Experiment with different prompts to observe how AI’s responses change.
+- Explain that AI models use probability and statistics to generate responses.
+- Refine AI-generated outputs by iterating on prompts and recognizing patterns in responses.
+
+## Lesson Overview
+### Vocabulary
+- **Abstraction**: Focusing on the important information and ignoring irrelevant details
+- **Artificial intelligence (AI)**: A technology that mimics human intelligence, performing tasks such as understanding language, recognizing patterns, and making decisions
+- **Probability**: The likelihood that a specific outcome might occur
+- **Prompt**: A question, instruction, scenario, or statement provided by the user to guide the AI's response
+
+### How do you use AI?
+#### Have you ever used an AI chatbot (e.g. ChatGPT, Gemini, Copilot, etc.)?
+Guess what percentage of U.S. adults used AI chatbots in 2026.
+
+{{< collapse summary="Click here to reveal the answer." >}}
+
+According to Pew Research Center, 49% of U.S. adults used AI chatbots in 2026, up from 33% in 2024 [[Source](https://www.pewresearch.org/internet/2026/06/17/americans-and-ai-2026-chatbots-smart-devices-and-views-on-impact/)].
+
+{{</ collapse >}}
+
+#### What do you use AI chatbots for?
+Guess what your classmates might have said.
+{{< collapse summary="Click here to reveal likely answers." >}}
+
+According to Pew Research Center, likely answers include:
+
+| Using AI chatbots...                    | % of U.S. teens ages 13 to 17 |
+|-----------------------------------------|------------------------------:|
+| to search for information               | 57%                           |
+| to get help with schoolwork             | 54%                           |
+| for fun or entertainment                | 47%                           |
+| to summarize an article, book, or video | 42%                           |
+| to create or edit images or videos      | 38%                           |
+| to get news                             | 19%                           |
+| for casual conversation                 | 16%                           |
+| to get emotional support or advice      | 12%                           |
+
+[[Source](https://www.pewresearch.org/internet/2026/02/24/how-teens-use-and-view-ai/)]
+
+{{</ collapse >}}
+
+### How does AI generate responses?
+{{< collapse summary="Click here to reveal the answer." >}}
+
+AI generates responses by (in simple terms):
+
+1. Reading your prompt
+2. Predicting likely responses based on patterns in its training data
+3. Choosing a response based on probability and randomness
+
+{{</ collapse >}}
+
+### How will AI respond to the following prompt?
+> Complete this sentence: The dog barked at the...
+
+{{< collapse summary="Click here to reveal the answer." >}}
+
+You will have to find out for yourself on Code.org! Keep in mind that the same prompt can result in various responses due to randomness. You can always respond with a message like "Again" to generate additional responses to your original prompt.
+
+{{</ collapse >}}
+
+### Can AI make mistakes?
+
+{{< collapse summary="Click here to reveal the answer." >}}
+
+Yes, AI can make mistakes because it turns your prompt into a simplified representation, which may lose important information. This abstraction can lead to misunderstandings and incorrect responses.
+
+{{</ collapse >}}
+
+### How can you use AI effectively?
+Using AI effectively requires learning how to prompt AI, which you will start experimenting with today.
+
+Go to Code.org Unit 1 Lesson 1 to get started and complete each level following the instructions on the screen.
+
+## Assignment
+### Instructions
+#### Complete Code.org Unit 1 Lesson 1
+
+### Submission
+#### Deliverables
+| Item                                  | Est. Time |
+|---------------------------------------|----------:|
+| Unit 1 Lesson 1 submitted on Code.org | ~30 mins  |
+
+#### Rubric
+| Criteria                         | Points |
+|----------------------------------|-------:|
+| Code.org Unit 1 Lesson 1 Level 1 | 10     |
+| Code.org Unit 1 Lesson 1 Level 2 | 10     |
+| Code.org Unit 1 Lesson 1 Level 3 | 10     |
+| Code.org Unit 1 Lesson 1 Level 4 | 10     |
+| Code.org Unit 1 Lesson 1 Level 5 | 10     |
+| Code.org Unit 1 Lesson 1 Level 6 | 50     |

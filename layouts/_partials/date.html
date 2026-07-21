@@ -1,0 +1,23 @@
+{{ $counter := 0 }}
+{{ $page := . }}
+{{ range $i, $p := .Parent.Pages }}
+	{{ if eq $p $page }}
+		{{ $counter = $i }}
+	{{ end }}
+{{ end }}
+
+{{ $date := time.AsTime .Parent.Params.Start }}
+{{ range 365 }}
+	{{ if le $counter 0 }}
+		{{ break }}
+	{{ else }}
+		{{ $date = $date.AddDate 0 0 1 }}
+		{{ $dayOfWeek := $date | time.Format "Mon" }}
+		{{ $isWeekend := or (eq $dayOfWeek "Sat") (eq $dayOfWeek "Sun") }}
+		{{ if not $isWeekend }}
+			{{ $counter = sub $counter 1 }}
+		{{ end }}
+	{{ end }}
+{{ end }}
+
+{{ return $date }}

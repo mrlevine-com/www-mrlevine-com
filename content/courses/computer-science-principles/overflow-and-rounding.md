@@ -1,7 +1,6 @@
 ---
 title: Overflow and Rounding
 summary: Bits can represent a limited amount of information.
-date: 2026-08-14
 weight: 50
 ---
 

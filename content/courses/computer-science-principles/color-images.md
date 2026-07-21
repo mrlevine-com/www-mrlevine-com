@@ -1,7 +1,6 @@
 ---
 title: Color Images
 summary: Bits can represent a color image.
-date: 2026-08-19
 weight: 80
 ---
 

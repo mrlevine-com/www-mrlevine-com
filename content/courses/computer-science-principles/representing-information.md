@@ -1,7 +1,6 @@
 ---
 title: Representing Information
 summary: The same information can be represented in multiple ways.
-date: 2026-08-11
 weight: 20
 ---
 

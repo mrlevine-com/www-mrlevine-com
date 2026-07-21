@@ -1,7 +1,6 @@
 ---
 title: Black and White Images
 summary: Bits can represent a black and white image.
-date: 2026-08-18
 weight: 70
 ---
 

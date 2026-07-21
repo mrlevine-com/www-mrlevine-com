@@ -1,7 +1,6 @@
 ---
 title: Talking to Machines
 summary: Welcome to Artificial Intelligence Foundations with Mr. Levine!
-date: 2026-08-10
 weight: 10
 ---
 

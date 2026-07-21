@@ -1,7 +1,6 @@
 ---
 title: "Quiz Review: Digital Information"
 summary: Prepare for your quiz tomorrow!
-date: 2026-08-19
 weight: 85
 ---
 

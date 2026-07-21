@@ -1,7 +1,6 @@
 ---
 title: Lossy Compression
 summary: The best compression algorithm depends on the situation.
-date: 2026-08-21
 weight: 100
 ---
 

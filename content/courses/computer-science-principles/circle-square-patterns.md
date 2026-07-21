@@ -1,7 +1,6 @@
 ---
 title: Circle Square Patterns
 summary: Patterns and rules make it easy to exchange information.
-date: 2026-08-12
 weight: 30
 ---
 

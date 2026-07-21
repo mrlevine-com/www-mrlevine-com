@@ -1,7 +1,6 @@
 ---
 title: Binary Numbers
 summary: Binary is the fundamental language of computers.
-date: 2026-08-13
 weight: 40
 ---
 

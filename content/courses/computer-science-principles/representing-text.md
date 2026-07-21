@@ -1,7 +1,6 @@
 ---
 title: Representing Text
 summary: The same sequence of bits may represent different types of data in different contexts.
-date: 2026-08-17
 weight: 60
 ---
 

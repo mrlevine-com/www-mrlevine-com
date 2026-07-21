@@ -1,6 +1,6 @@
 ---
 title: {{ replace .File.ContentBaseName `-` ` ` | title }}
-summary:
+summary: ":construction:"
 weight: 0
 ---
 

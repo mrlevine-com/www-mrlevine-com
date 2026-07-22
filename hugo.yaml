@@ -1,7 +1,6 @@
 baseURL: https://www.mrlevine.com/
 locale: en-us
 title: Mr. Levine
-copyright: Created by [Mr. Levine et al.](https://github.com/mrlevine-com/www-mrlevine-com/graphs/contributors)
 enableEmoji: true
 buildFuture: true
 markup:

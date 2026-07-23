@@ -10,7 +10,7 @@ weight: 0
 ## Today's Objectives
 -
 
-{{% comment %}}
+<!--
 
 ## Lesson Overview
 ### ?
@@ -38,4 +38,4 @@ weight: 0
 | Your name written at the top | __     |
 | Code.org Unit _ Lesson _     | __     |
 
-{{% /comment %}}
+-->

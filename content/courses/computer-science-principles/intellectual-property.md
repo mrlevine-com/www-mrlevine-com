@@ -11,7 +11,7 @@ weight: 110
 - Argue if current copyright laws are helping or harming society using evidence.
 - Explain how copyright and Creative Commons licenses can be applied to digital creative works.
 
-{{% comment %}}
+<!--
 
 ## Lesson Overview
 ### ?
@@ -39,4 +39,4 @@ weight: 110
 | Your name written at the top | __     |
 | Code.org Unit _ Lesson _     | __     |
 
-{{% /comment %}}
+-->

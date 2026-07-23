@@ -5,9 +5,12 @@ weight: 0
 ---
 
 {{% param summary %}}
+> This page is under construction.
 
 ## Today's Objectives
 -
+
+{{% comment %}}
 
 ## Lesson Overview
 ### ?
@@ -34,3 +37,5 @@ weight: 0
 | ___                          | __     |
 | Your name written at the top | __     |
 | Code.org Unit _ Lesson _     | __     |
+
+{{% /comment %}}

@@ -30,3 +30,10 @@ Creating a color image with bits requires more than one bit per pixel.
 | Criteria                 | Points |
 |--------------------------|-------:|
 | Code.org Unit 1 Lesson 8 | 100    |
+
+## Tomorrow's Quiz
+### Review recent lessons
+Tomorrow's quiz will be based on the previous seven lessons.
+
+### Watch this video
+{{< video title="How Computers Work - Data and Binary" src="/videos/how-computers-work-data-and-binary.mp4" >}}

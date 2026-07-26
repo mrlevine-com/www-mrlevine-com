@@ -1,0 +1,123 @@
+{{ define "main" }}
+
+<header class="page-header">
+	<h1>
+		{{- .Title -}}
+	</h1>
+	{{ if .Description }}
+		<div class="post-description">
+			{{- .Description -}}
+		</div>
+	{{ end }}
+</header>
+
+{{ $items := slice }}
+
+{{ range where site.RegularPages "Type" "in" site.Params.mainSections }}
+	{{ $d := partial "date.html" . }}
+	{{ $items = $items | append (dict
+		"page" . 
+		"date" $d
+		"dateStr" ($d.Format "2006-01-02")
+		"yearKey" ($d.Format "2006")
+		"monthKey" ($d.Format "01")
+		"dayKey" ($d.Format "02")
+	) }}
+{{ end }}
+
+{{ $sorted := sort $items "dateStr" "asc" }}
+{{ $yearCounts := dict }}
+{{ $monthCounts := dict }}
+{{ $dayCounts := dict }}
+
+{{ range $sorted }}
+	{{ $y := .yearKey }}
+	{{ $m := .monthKey }}
+	{{ $d := .dayKey }}
+	{{ $ym := printf "%s|%s" $y $m }}
+	{{ $ymd := printf "%s|%s|%s" $y $m $d }}
+	{{ $yearCounts = merge $yearCounts (dict $y (add (index $yearCounts $y | default 0) 1)) }}
+	{{ $monthCounts = merge $monthCounts (dict $ym (add (index $monthCounts $ym | default 0) 1)) }}
+	{{ $dayCounts = merge $dayCounts (dict $ymd (add (index $dayCounts $ymd | default 0) 1)) }}
+{{ end }}
+
+{{ $haveOpenYear := false }}
+{{ $haveOpenMonth := false }}
+{{ $currentYear := "" }}
+{{ $currentMonth := "" }}
+
+{{ range $sorted }}
+	{{ $p := .page }}
+	{{ $y := .yearKey }}
+	{{ $m := .monthKey }}
+	{{ $d := .dayKey }}
+	{{ $ym := printf "%s|%s" $y $m }}
+	{{ $ymd := printf "%s|%s|%s" $y $m $d }}
+	{{ $ymFormatted := .date.Format "January 2006" }}
+	{{ $dFormatted := .date.Format "Mon 02" }}
+
+	{{ if and $haveOpenYear (ne $ym $currentYear) }}
+		{{ if $haveOpenMonth }}
+			</div>{{/* .archive-posts */}}
+			</div>{{/* .archive-month */}}
+		{{ end }}
+		</div>{{/* .archive-year */}}
+		{{ $haveOpenMonth = false }}
+		{{ $haveOpenYear = false }}
+	{{ end }}
+
+	{{ if and $haveOpenMonth (ne $ymd $currentMonth) }}
+		{{ if eq $ym $currentYear }}
+			</div>{{/* .archive-posts */}}
+			</div>{{/* .archive-month */}}
+		{{ end }}
+		{{ $haveOpenMonth = false }}
+	{{ end }}
+
+	{{ if not $haveOpenYear }}
+		{{ $currentYear = $ym }}
+		{{ $currentMonth = "" }}
+		<div class="archive-year">
+		<h2 class="archive-year-header" id="{{ $y }}-{{ $m }}">
+			<a class="archive-header-link" href="#{{ $y }}-{{ $m }}">
+				{{- $ymFormatted -}}
+			</a>
+			<!--<sup class="archive-count">{{- index $monthCounts $ym -}}</sup>-->
+		</h2>
+		{{ $haveOpenYear = true }}
+	{{ end }}
+
+	{{ if not $haveOpenMonth }}
+		{{ $currentMonth = $ymd }}
+		<div class="archive-month">
+			<h3 class="archive-month-header" id="{{ $y }}-{{ $m }}-{{ $d }}">
+				<a class="archive-header-link" href="#{{ $y }}-{{ $m }}-{{ $d }}">
+					{{- $dFormatted -}}
+				</a>
+				<!--<sup class="archive-count">{{- index $dayCounts $ymd -}}</sup>-->
+			</h3>
+		<div class="archive-posts">
+		{{ $haveOpenMonth = true }}
+	{{ end }}
+
+	<div class="archive-entry">
+		<h3 class="archive-entry-title entry-hint-parent">
+			{{- $p.Title | markdownify -}}
+		</h3>
+	<div class="archive-meta">
+		{{- partial "post_meta.html" $p -}}
+	</div>
+	<a class="entry-link" aria-label="post link to {{ $p.Title | plainify }}" href="{{ $p.Permalink }}"></a>
+	</div>
+{{ end }}
+
+{{ if $haveOpenMonth }}
+	</div>{{/* .archive-posts */}}
+	</div>{{/* .archive-month */}}
+{{ end }}
+
+{{ if $haveOpenYear }}
+	</div>{{/* .archive-year */}}
+{{ end }}
+
+{{ end }}{{/* end main */}}

@@ -24,8 +24,8 @@ params:
         url: courses
   showBreadCrumbs: true
   editPost:
-    url: https://github.com/mrlevine-com/www-mrlevine-com/blob/main/content
-    text: Suggest Changes
+    url: https://github.com/mrlevine-com/www-mrlevine-com/edit/main/content
+    text: "✎ Propose Changes on GitHub"
     appendFilePath: true
   showTOC: true
   showPostNavLinks: true

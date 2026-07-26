@@ -1,6 +1,6 @@
 {{- if and (.Param "editPost.URL") (not (.Param "editPost.disabled")) -}}
     {{- if or (.Param "author") (.Param "ShowReadingTime") (not .Date.IsZero) .IsTranslated true }}
-        {{- printf "&nbsp;&#9728;" | safeHTML -}}
+        {{- printf "&nbsp;&#10072;" | safeHTML -}}
     {{- end -}}
 
     {{- $editURL := .Param "editPost.URL" }}

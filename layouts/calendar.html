@@ -15,17 +15,18 @@
 
 {{ range where site.RegularPages "Type" "in" site.Params.mainSections }}
 	{{ $d := partial "date.html" . }}
+	{{ $course := .Parent.Title }}
 	{{ $items = $items | append (dict
 		"page" . 
 		"date" $d
-		"dateStr" ($d.Format "2006-01-02")
+		"sortKey" (printf "%s|%s" ($d.Format "2006-01-02") $course)
 		"yearKey" ($d.Format "2006")
 		"monthKey" ($d.Format "01")
 		"dayKey" ($d.Format "02")
 	) }}
 {{ end }}
 
-{{ $sorted := sort $items "dateStr" "asc" }}
+{{ $sorted := sort $items "sortKey" "asc" }}
 {{ $yearCounts := dict }}
 {{ $monthCounts := dict }}
 {{ $dayCounts := dict }}

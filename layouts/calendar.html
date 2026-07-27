@@ -94,7 +94,7 @@
 		{{ $currentMonth = $ymd }}
 		{{ if eq $dayOfWeek "Mon" }}
 			{{ $currentWeek = add $currentWeek 1 }}
-			<p style="margin: 30px 0 5px 0;color: var(--secondary);font-weight: normal";>Week {{ $currentWeek }}&nbsp; &#9775;</p>
+			<p style="margin: 30px 0 5px 0;color: var(--secondary);font-weight: normal";>Week {{ $currentWeek }}</p>
 		{{ end }}
 		<div class="archive-month">
 			<h3 class="archive-month-header" id="{{ $y }}-{{ $m }}-{{ $d }}">
@@ -109,7 +109,7 @@
 
 	<div class="archive-entry">
 		<div class="archive-meta">
-			{{- $p.Parent.Title -}}&#8631;
+			{{- $p.Parent.Title -}}
 		</div>
 		<h3 class="archive-entry-title entry-hint-parent">
 			{{- $p.Title | markdownify -}}

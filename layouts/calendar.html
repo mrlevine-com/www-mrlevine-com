@@ -108,12 +108,12 @@
 	{{ end }}
 
 	<div class="archive-entry">
-		<div class="archive-meta">
-			{{- $p.Parent.Title -}}
-		</div>
 		<h3 class="archive-entry-title entry-hint-parent">
 			{{- $p.Title | markdownify -}}
 		</h3>
+		<div class="archive-meta">
+			{{- $p.Parent.Title -}}
+		</div>
 	<a class="entry-link" aria-label="post link to {{ $p.Title | plainify }}" href="{{ $p.Permalink }}"></a>
 	</div>
 {{ end }}

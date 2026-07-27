@@ -15,7 +15,7 @@
 
 {{ range where site.RegularPages "Type" "in" site.Params.mainSections }}
 	{{ $d := partial "date.html" . }}
-	{{ $course := .Parent.Title }}
+	{{ $course := .Parent.Weight }}
 	{{ $items = $items | append (dict
 		"page" . 
 		"date" $d

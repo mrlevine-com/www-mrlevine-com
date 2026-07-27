@@ -97,12 +97,12 @@
 			<p style="margin: 30px 0 5px 0;color: var(--secondary);font-weight: normal";>Week {{ $currentWeek }}</p>
 		{{ end }}
 		<div class="archive-month">
-			<h3 class="archive-month-header" id="{{ $y }}-{{ $m }}-{{ $d }}">
-				<a class="archive-header-link" href="#{{ $y }}-{{ $m }}-{{ $d }}">
-					{{- $dFormatted -}}
-				</a>
-				<!--<sup class="archive-count">{{- index $dayCounts $ymd -}}</sup>-->
-			</h3>
+		<h3 class="archive-month-header" id="{{ $y }}-{{ $m }}-{{ $d }}">
+			<a class="archive-header-link" href="#{{ $y }}-{{ $m }}-{{ $d }}">
+				{{- $dFormatted -}}
+			</a>
+			<!--<sup class="archive-count">{{- index $dayCounts $ymd -}}</sup>-->
+		</h3>
 		<div class="archive-posts">
 		{{ $haveOpenMonth = true }}
 	{{ end }}
@@ -114,7 +114,7 @@
 		<div class="archive-meta">
 			{{- $p.Parent.Title -}}
 		</div>
-	<a class="entry-link" aria-label="post link to {{ $p.Title | plainify }}" href="{{ $p.Permalink }}"></a>
+		<a class="entry-link" aria-label="post link to {{ $p.Title | plainify }}" href="{{ $p.Permalink }}"></a>
 	</div>
 {{ end }}
 

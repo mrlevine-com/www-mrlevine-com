@@ -3,6 +3,12 @@ locale: en-us
 title: Mr. Levine
 enableEmoji: true
 buildFuture: true
+menus:
+  main:
+    - name: Calendar
+      pageRef: /calendar
+    - name: Courses
+      pageRef: /courses
 markup:
   goldmark:
     renderer:
@@ -20,8 +26,8 @@ params:
     imageWidth: 200
     imageHeight: 200
     buttons:
-      - name: View Courses
-        url: courses
+      - name: View Calendar
+        url: /calendar
   showBreadCrumbs: true
   editPost:
     url: https://github.com/mrlevine-com/www-mrlevine-com/edit/main/content

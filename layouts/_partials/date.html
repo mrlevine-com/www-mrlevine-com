@@ -1,24 +1,27 @@
-{{ $page := . }}
-{{ $weight := 0 }}
-{{ $date := time.AsTime .Parent.Params.Start }}
-
-{{ range $i, $p := .Parent.Pages }}
-	{{ if eq $p $page }}
-		{{ $weight = $i }}
-	{{ end }}
-{{ end }}
+{{ $lesson := . }}
+{{ $course := $lesson.Parent }}
+{{ $currDate := $course.Params.Start | time.AsTime }}
 
 {{ range 365 }}
-	{{ if le $weight 0 }}
+	{{ $currLesson := index $course.Pages . }}
+	{{ $currDays := $currLesson.Params.Days | default 1 }}
+
+	{{ if eq $currLesson $lesson }}
 		{{ break }}
-	{{ else }}
-		{{ $date = $date.AddDate 0 0 1 }}
-		{{ $dayOfWeek := $date | time.Format "Mon" }}
+	{{ end }}
+
+	{{ range 30 }}
+		{{ if le $currDays 0 }}
+			{{ break }}
+		{{ end }}
+
+		{{ $currDate = $currDate.AddDate 0 0 1 }}
+		{{ $dayOfWeek := $currDate | time.Format "Mon" }}
 		{{ $isWeekend := or (eq $dayOfWeek "Sat") (eq $dayOfWeek "Sun") }}
 		{{ if not $isWeekend }}
-			{{ $weight = sub $weight 1 }}
+			{{ $currDays = sub $currDays 1 }}
 		{{ end }}
 	{{ end }}
 {{ end }}
 
-{{ return $date }}
+{{ return $currDate }}

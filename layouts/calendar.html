@@ -15,15 +15,34 @@
 
 {{ range where site.RegularPages "Type" "in" site.Params.mainSections }}
 	{{ $d := partial "date.html" . }}
+	{{ $lesson := . }}
 	{{ $course := .Parent.Weight }}
-	{{ $items = $items | append (dict
-		"page" . 
-		"date" $d
-		"sortKey" (printf "%s|%s" ($d.Format "2006-01-02") $course)
-		"yearKey" ($d.Format "2006")
-		"monthKey" ($d.Format "01")
-		"dayKey" ($d.Format "02")
-	) }}
+	{{ $currDays := $lesson.Params.Days | default 1 }}
+
+	{{ range 30 }}
+		{{ if le $currDays 0 }}
+			{{ break }}
+		{{ end }}
+
+		{{ $dayOfWeek := $d | time.Format "Mon" }}
+		{{ $isWeekend := or (eq $dayOfWeek "Sat") (eq $dayOfWeek "Sun") }}
+
+		{{ if not $isWeekend }}
+			{{ $currDays = sub $currDays 1 }}
+			{{ $items = $items | append (dict
+				"page" $lesson
+				"date" $d
+				"sortKey" (printf "%s|%s" ($d.Format "2006-01-02") $course)
+				"yearKey" ($d.Format "2006")
+				"monthKey" ($d.Format "01")
+				"dayKey" ($d.Format "02")
+			) }}
+		{{ end }}
+
+		{{ $d = $d.AddDate 0 0 1 }}
+	{{ end }}
+
+
 {{ end }}
 
 {{ $sorted := sort $items "sortKey" "asc" }}

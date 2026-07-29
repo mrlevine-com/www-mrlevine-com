@@ -2,6 +2,7 @@
 title: Exploring Problem Solving
 summary: ":construction:"
 weight: 30
+days: 2
 ---
 
 {{% param summary %}}

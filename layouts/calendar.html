@@ -12,6 +12,7 @@
 </header>
 
 {{ $items := slice }}
+{{ $allEvents := hugo.Data.events }}
 
 {{ range where site.RegularPages "Type" "in" site.Params.mainSections }}
 	{{ $d := partial "date.html" . }}
@@ -29,7 +30,10 @@
 		{{ $dayOfWeek := $d | time.Format "Mon" }}
 		{{ $isWeekend := or (eq $dayOfWeek "Sat") (eq $dayOfWeek "Sun") }}
 
-		{{ if not $isWeekend }}
+		{{ $today := $d | time.Format "2006-01-02" }}
+		{{ $eventsToday := where $allEvents "date" $today }}
+
+		{{ if and (not $isWeekend) (eq ($eventsToday | len) 0) }}
 			{{ $items = $items | append (dict
 				"page" $lesson
 				"day" $day
@@ -52,7 +56,7 @@
 
 {{ $events := slice }}
 
-{{ range hugo.Data.events }}
+{{ range $allEvents }}
 	{{ $d := .date | time.AsTime }}
 	{{ $events = $events | append (dict
 		"event" .title
@@ -89,6 +93,7 @@
 {{ $haveOpenMonth := false }}
 {{ $currentYear := "" }}
 {{ $currentMonth := "" }}
+{{ $currentQuarter := 0 }}
 {{ $currentWeek := 0 }}
 
 {{ range $sorted }}
@@ -140,8 +145,25 @@
 		{{ $currentMonth = $ymd }}
 		{{ if eq $dayOfWeek "Mon" }}
 			{{ $currentWeek = add $currentWeek 1 }}
+			{{ $date := add $y "-" $m "-" $d }}
+			{{ if eq $date "2026-08-10" }}
+				{{ $currentQuarter = 1 }}
+				{{ $currentWeek = 1 }}
+			{{ end }}
+			{{ if eq $date "2026-10-12" }}
+				{{ $currentQuarter = 2 }}
+				{{ $currentWeek = 1 }}
+			{{ end }}
+			{{ if eq $date "2027-01-04" }}
+				{{ $currentQuarter = 3 }}
+				{{ $currentWeek = 1 }}
+			{{ end }}
+			{{ if eq $date "2027-03-15" }}
+				{{ $currentQuarter = 4 }}
+				{{ $currentWeek = 1 }}
+			{{ end }}
 			<div style="margin: 30px 0 5px 0; padding: 4px 16px; background: var(--code-bg); border: 1px solid var(--border); border-radius: var(--radius);">
-				<span>Week {{ $currentWeek }}</span>
+				<span>Quarter {{ $currentQuarter }} Week {{ $currentWeek }}</span>
 			</div>
 		{{ end }}
 		<div class="archive-month">

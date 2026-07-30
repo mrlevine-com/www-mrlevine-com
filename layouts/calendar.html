@@ -184,6 +184,7 @@
 		</h3>
 		<div class="archive-meta">
 			{{- $p.Parent.Title | default "No School" -}}
+			{{- cond $p (cond (ne $p.Params.Summary ":construction:") " ●" " ○") "" -}}
 		</div>
 		{{- if $p -}}
 			<a class="entry-link" aria-label="post link to {{ $p.Title | plainify }}" href="{{ $p.Permalink }}"></a>

@@ -102,7 +102,7 @@
 	{{ $ym := printf "%s|%s" $y $m }}
 	{{ $ymd := printf "%s|%s|%s" $y $m $d }}
 	{{ $ymFormatted := .date.Format "January 2006" }}
-	{{ $dFormatted := .date.Format "Mon 02" }}
+	{{ $dFormatted := .date.Format "Mon 2" }}
 	{{ $dayOfWeek := .date.Format "Mon" }}
 
 	{{ if and $haveOpenYear (ne $ym $currentYear) }}

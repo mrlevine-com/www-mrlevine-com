@@ -1,6 +1,7 @@
 {{ $lesson := . }}
 {{ $course := $lesson.Parent }}
 {{ $currDate := $course.Params.Start | time.AsTime }}
+{{ $events := hugo.Data.events }}
 
 {{ range 365 }}
 	{{ $currLesson := index $course.Pages . }}
@@ -16,9 +17,14 @@
 		{{ end }}
 
 		{{ $currDate = $currDate.AddDate 0 0 1 }}
+
 		{{ $dayOfWeek := $currDate | time.Format "Mon" }}
 		{{ $isWeekend := or (eq $dayOfWeek "Sat") (eq $dayOfWeek "Sun") }}
-		{{ if not $isWeekend }}
+
+		{{ $today := $currDate | time.Format "2006-01-02" }}
+		{{ $eventsToday := where $events "date" $today }}
+
+		{{ if and (not $isWeekend) (eq ($eventsToday | len) 0) }}
 			{{ $currDays = sub $currDays 1 }}
 		{{ end }}
 	{{ end }}

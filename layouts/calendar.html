@@ -50,6 +50,25 @@
 
 {{ end }}
 
+{{ $events := slice }}
+
+{{ range hugo.Data.events }}
+	{{ $d := .date | time.AsTime }}
+	{{ $events = $events | append (dict
+		"event" .title
+		"page" nil
+		"day" nil
+		"isMultiDay" nil
+		"date" $d
+		"sortKey" ($d.Format "2006-01-02")
+		"yearKey" ($d.Format "2006")
+		"monthKey" ($d.Format "01")
+		"dayKey" ($d.Format "02")
+	) }}
+{{ end }}
+
+{{ $items = $items | append $events }}
+
 {{ $sorted := sort $items "sortKey" "asc" }}
 {{ $yearCounts := dict }}
 {{ $monthCounts := dict }}
@@ -74,6 +93,7 @@
 
 {{ range $sorted }}
 	{{ $p := .page }}
+	{{ $event := .event }}
 	{{ $day := .day }}
 	{{ $isMultiDay := .isMultiDay }}
 	{{ $y := .yearKey }}
@@ -137,13 +157,17 @@
 
 	<div class="archive-entry">
 		<h3 class="archive-entry-title entry-hint-parent">
-			{{- $p.Title | markdownify -}}
+			{{- $p.Title | default $event | markdownify -}}
 			{{- cond $isMultiDay (add " (Day " (string .day) ")") "" -}}
 		</h3>
 		<div class="archive-meta">
-			{{- $p.Parent.Title -}}
+			{{- $p.Parent.Title | default "No School" -}}
 		</div>
-		<a class="entry-link" aria-label="post link to {{ $p.Title | plainify }}" href="{{ $p.Permalink }}"></a>
+		{{- if $p -}}
+			<a class="entry-link" aria-label="post link to {{ $p.Title | plainify }}" href="{{ $p.Permalink }}"></a>
+		{{- else -}}
+			<div class="entry-link"></div>
+		{{- end -}}
 	</div>
 {{ end }}
 

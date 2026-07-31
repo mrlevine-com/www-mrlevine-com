@@ -1,6 +1,6 @@
 ---
 title: Talking to Machines
-summary: Welcome to Artificial Intelligence Foundations with Mr. Levine!
+summary: Welcome to AI Foundations with Mr. Levine!
 weight: 10
 ---
 

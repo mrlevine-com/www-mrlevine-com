@@ -32,7 +32,7 @@ params:
   dateFormat: Monday, January 2, 2006
   editPost:
     url: https://github.com/mrlevine-com/www-mrlevine-com/edit/main/content
-    text: "✎ Propose Changes on GitHub"
+    text: ✎ Propose Changes on GitHub
     appendFilePath: true
   showTOC: true
   showPostNavLinks: true

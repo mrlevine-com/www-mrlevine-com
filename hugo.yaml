@@ -26,8 +26,8 @@ params:
     imageWidth: 200
     imageHeight: 200
     buttons:
-      - name: View Calendar
-        url: /calendar
+      - name: View Courses
+        url: /courses
   showBreadCrumbs: true
   dateFormat: Monday, January 2, 2006
   editPost:

@@ -4,6 +4,7 @@ summary: This course introduces students to the foundational concepts of artific
 weight: 20
 start: 2026-08-10
 hideMeta: true
+layout: calendar
 ---
 
 {{% param summary %}}

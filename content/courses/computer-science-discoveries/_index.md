@@ -4,6 +4,7 @@ summary: This course introduces students to the fundamentals of a computer and c
 weight: 30
 start: 2026-08-10
 hideMeta: true
+layout: calendar
 ---
 
 {{% param summary %}}

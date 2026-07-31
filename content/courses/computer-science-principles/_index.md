@@ -4,6 +4,7 @@ summary: This course introduces students to the foundational concepts of compute
 weight: 10
 start: 2026-08-10
 hideMeta: true
+layout: calendar
 ---
 
 {{% param summary %}}

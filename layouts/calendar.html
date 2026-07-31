@@ -11,10 +11,23 @@
 	{{ end }}
 </header>
 
+{{ if .Content }}
+	<div class="post-content md-content">
+		{{- if not (.Param "disableAnchoredHeadings") }}
+			{{- partial "anchored_headings.html" .Content -}}
+		{{- else }}{{ .Content }}{{ end }}
+	</div>
+{{- end }}
+
 {{ $items := slice }}
 {{ $allEvents := hugo.Data.events }}
+{{ $lessons := where site.RegularPages "Type" "in" site.Params.mainSections }}
+{{ $courseFilter := .File.ContentBaseName }}
+{{ if ne $courseFilter "calendar" }}
+	{{ $lessons = where $lessons "Parent.File.ContentBaseName" $courseFilter }}
+{{ end }}
 
-{{ range where site.RegularPages "Type" "in" site.Params.mainSections }}
+{{ range $lessons }}
 	{{ $d := partial "date.html" . }}
 	{{ $lesson := . }}
 	{{ $course := .Parent.Weight }}
@@ -182,8 +195,8 @@
 			{{- $p.Title | default $event | markdownify -}}
 			{{- cond $isMultiDay (add " (Day " (string .day) ")") "" -}}
 		</h3>
-		<div class="archive-meta">
-			{{- $p.Parent.Title | default "No School" -}}
+		<div class="entry-content">
+			{{- cond (eq $courseFilter "calendar") ($p.Parent.Title | default "No School") (cond (ne $p.Params.Summary ":construction:") ($p.Summary | plainify | htmlUnescape | default "No School") "This page is under construction...") -}}
 			{{- cond $p (cond (ne $p.Params.Summary ":construction:") " ●" " ○") "" -}}
 		</div>
 		{{- if $p -}}

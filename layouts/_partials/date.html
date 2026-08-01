@@ -3,6 +3,17 @@
 {{ $currDate := $course.Params.Start | time.AsTime }}
 {{ $events := hugo.Data.events }}
 
+{{ range 30 }}
+	{{ $today := $currDate | time.Format "2006-01-02" }}
+	{{ $eventsToday := where $events "date" $today }}
+
+	{{ if eq ($eventsToday | len) 0 }}
+		{{ break }}
+	{{ end }}
+
+	{{ $currDate = $currDate.AddDate 0 0 1 }}
+{{ end }}
+
 {{ range 365 }}
 	{{ $currLesson := index $course.Pages . }}
 	{{ $currDays := $currLesson.Params.Days | default 1 }}

@@ -72,7 +72,7 @@
 {{ range $allEvents }}
 	{{ $d := .date | time.AsTime }}
 	{{ $events = $events | append (dict
-		"event" .title
+		"event" (dict "title" .title "type" .type)
 		"page" nil
 		"day" nil
 		"isMultiDay" nil
@@ -192,11 +192,11 @@
 
 	<div class="archive-entry">
 		<h3 class="archive-entry-title entry-hint-parent">
-			{{- $p.Title | default $event | markdownify -}}
+			{{- $p.Title | default $event.title | markdownify -}}
 			{{- cond $isMultiDay (add " (Day " (string .day) ")") "" -}}
 		</h3>
 		<div class="entry-content">
-			{{- cond (eq $courseFilter "calendar") ($p.Parent.Title | default "No School") (cond (ne $p.Params.Summary ":construction:") ($p.Summary | plainify | htmlUnescape | default "No School") "This page is under construction...") -}}
+			{{- cond (eq $courseFilter "calendar") ($p.Parent.Title | default $event.type) (cond (ne $p.Params.Summary ":construction:") ($p.Summary | plainify | htmlUnescape | default $event.type) "This page is under construction...") -}}
 			{{- cond $p (cond (ne $p.Params.Summary ":construction:") " ●" " ○") "" -}}
 		</div>
 		{{- if $p -}}

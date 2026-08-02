@@ -1,13 +1,13 @@
 {{ $lesson := . }}
 {{ $course := $lesson.Parent }}
 {{ $currDate := $course.Params.Start | time.AsTime }}
-{{ $events := hugo.Data.events }}
+{{ $noSchool := where hugo.Data.events "type" "No School" }}
 
 {{ range 30 }}
 	{{ $today := $currDate | time.Format "2006-01-02" }}
-	{{ $eventsToday := where $events "date" $today }}
+	{{ $noSchoolToday := where $noSchool "date" $today }}
 
-	{{ if eq ($eventsToday | len) 0 }}
+	{{ if eq ($noSchoolToday | len) 0 }}
 		{{ break }}
 	{{ end }}
 
@@ -33,9 +33,9 @@
 		{{ $isWeekend := or (eq $dayOfWeek "Sat") (eq $dayOfWeek "Sun") }}
 
 		{{ $today := $currDate | time.Format "2006-01-02" }}
-		{{ $eventsToday := where $events "date" $today }}
+		{{ $noSchoolToday := where $noSchool "date" $today }}
 
-		{{ if and (not $isWeekend) (eq ($eventsToday | len) 0) }}
+		{{ if and (not $isWeekend) (eq ($noSchoolToday | len) 0) }}
 			{{ $currDays = sub $currDays 1 }}
 		{{ end }}
 	{{ end }}

@@ -44,9 +44,9 @@
 		{{ $isWeekend := or (eq $dayOfWeek "Sat") (eq $dayOfWeek "Sun") }}
 
 		{{ $today := $d | time.Format "2006-01-02" }}
-		{{ $eventsToday := where $allEvents "date" $today }}
+		{{ $noSchoolToday := where (where $allEvents "type" "No School") "date" $today }}
 
-		{{ if and (not $isWeekend) (eq ($eventsToday | len) 0) }}
+		{{ if and (not $isWeekend) (eq ($noSchoolToday | len) 0) }}
 			{{ $items = $items | append (dict
 				"page" $lesson
 				"day" $day
@@ -67,11 +67,11 @@
 
 {{ end }}
 
-{{ $events := slice }}
+{{ $noSchool := slice }}
 
 {{ range $allEvents }}
 	{{ $d := .date | time.AsTime }}
-	{{ $events = $events | append (dict
+	{{ $noSchool = $noSchool | append (dict
 		"event" (dict "title" .title "type" .type)
 		"page" nil
 		"day" nil
@@ -84,7 +84,7 @@
 	) }}
 {{ end }}
 
-{{ $items = $items | append $events }}
+{{ $items = $items | append $noSchool }}
 
 {{ $sorted := sort $items "sortKey" "asc" }}
 {{ $yearCounts := dict }}
@@ -190,17 +190,17 @@
 		{{ $haveOpenMonth = true }}
 	{{ end }}
 
-	<div class="archive-entry">
-		<h3 class="archive-entry-title entry-hint-parent">
+	<div class="archive-entry" style="{{ cond (not $p) "font-style: italic" "" }}">
+		<h3 class="archive-entry-title entry-hint-parent" style="{{ cond ($p) "margin: 5px" "" }}">
 			{{- $p.Title | default $event.title | markdownify -}}
 			{{- cond $isMultiDay (add " (Day " (string .day) ")") "" -}}
 		</h3>
-		<div class="entry-content">
+		<div class="entry-content" style="{{ cond ($p) "margin: 5px" "" }}">
 			{{- cond (eq $courseFilter "calendar") ($p.Parent.Title | default $event.type) (cond (ne $p.Params.Summary ":construction:") ($p.Summary | plainify | htmlUnescape | default $event.type) "This page is under construction...") -}}
 			{{- cond $p (cond (ne $p.Params.Summary ":construction:") " ●" " ○") "" -}}
 		</div>
 		{{- if $p -}}
-			<a class="entry-link" aria-label="post link to {{ $p.Title | plainify }}" href="{{ $p.Permalink }}"></a>
+			<a class="entry-link" style="border: 1px dotted var(--secondary)" aria-label="post link to {{ $p.Title | plainify }}" href="{{ $p.Permalink }}"></a>
 		{{- else -}}
 			<div class="entry-link"></div>
 		{{- end -}}

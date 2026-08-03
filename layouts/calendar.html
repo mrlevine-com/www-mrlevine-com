@@ -1,14 +1,12 @@
 {{ define "main" }}
 
+
+
 <header class="page-header">
 	<h1>
 		{{- .Title -}}
 	</h1>
-	{{ if .Description }}
-		<div class="post-description">
-			{{- .Description -}}
-		</div>
-	{{ end }}
+	<button id="today" hidden style="margin-top: 12px; padding: 4px 16px; font-size: 18px; border: 1px dotted var(--secondary); border-radius: var(--radius); cursor: pointer;">View Today</button>
 </header>
 
 {{ if .Content }}
@@ -215,5 +213,24 @@
 {{ if $haveOpenYear }}
 	</div>{{/* .archive-year */}}
 {{ end }}
+
+<script>
+	document.addEventListener("DOMContentLoaded", () => {
+		const d = new Date();
+		const id = `${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,"0")}-${String(d.getDate()).padStart(2,"0")}`;
+		const today = document.getElementById("today");
+		const target = document.getElementById(id);
+		if (target) {
+			today.removeAttribute("hidden");
+			target.querySelector("a").textContent = "Today"
+			target.style="font-weight: 500; text-decoration: underline; text-underline-offset: .3rem; text-decoration-thickness: 2px;"
+			today.addEventListener("click", (e) => {
+				e.preventDefault();
+				target.scrollIntoView({ behavior: "smooth" });
+				history.pushState(null, "", `#${id}`);
+			});
+		}
+	});
+</script>
 
 {{ end }}{{/* end main */}}

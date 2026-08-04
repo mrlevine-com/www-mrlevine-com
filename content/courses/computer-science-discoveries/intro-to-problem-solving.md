@@ -1,43 +1,68 @@
 ---
 title: Intro to Problem Solving
-summary: ":construction:"
+summary: Problem solving is fundamental to computers.
 weight: 10
 ---
 
 {{% param summary %}}
-> This page is under construction.
 
 ## Today's Objectives
 - Communicate and collaborate with classmates to solve a problem.
 - Identify different strategies used to solve a problem.
 - Iteratively improve a solution to a problem.
 
-<!--
-
 ## Lesson Overview
-### ?
+### Why am I learning about problem solving?
 {{< collapse summary="Click here to reveal the answer." >}}
 
+Problem solving is fundamental to computers. Soon, you will learn how computers input, output, store, and process information to help humans solve problems.
 
+Learning how to effectively solve problems can also help you develop your critical thinking skills and become more creative and resilient in your various pursuits in life.
+
+{{</ collapse >}}
+
+### What is problem solving?
+{{< collapse summary="Click here to reveal the answer." >}}
+
+A problem is essentially a question that you don't have the answer to.
+
+Problem solving is the process of seeking that answer.
+
+{{</ collapse >}}
+
+### What are some examples of problems?
+{{< collapse summary="Click here to reveal the answer." >}}
+
+Problems come in many forms and make up an integral part of the human experience.
+
+Here are a couple examples ranging from simple to complex.
+
+| Category | Example                                                 |
+|----------|---------------------------------------------------------|
+| Simple   | How do I get to the restaurant from my house?           |
+| Complex  | How do I save the declining global seagrass population? |
+
+What are some problems you have faced in your life?
 
 {{</ collapse >}}
 
 ## Assignment
 ### Instructions
-####
+#### Start Your Unit Journal
+In Notability, or the software of your choice, start your first Unit Journal. It will contain multiple days of work, including today's assignment. Later, you will turn it in for a grade, so make sure you don't lose it!
 
-### Submission
-#### Deliverables
-| Item                                  | Est. Time |
-|---------------------------------------|----------:|
-| Today's activity submitted on Canvas  | ~__ mins  |
-| Unit _ Lesson _ submitted on Code.org | ~__ mins  |
+1. Write your name at the top.
+2. Write the title: "Unit 1: Problem Solving and Computing".
+3. Write the heading for today's assignment: "Intro to Problem Solving".
 
-#### Rubric
-| Criteria                     | Points |
-|------------------------------|-------:|
-| ___                          | __     |
-| Your name written at the top | __     |
-| Code.org Unit _ Lesson _     | __     |
+#### Beat the World's Hardest Game
+Today, you will work to beat at least three levels of the World's Hardest Game, available to play on your computer's browser at Poki, Coolmath Games, and other sites (you will need to find one that isn't blocked).
 
--->
+Each level introduces a unique problem to solve. Work with others to come up with creative solutions!
+
+#### Journal Your Solutions
+For each level, record your solution in your Unit Journal.
+
+When you submit your Unit Journal later, your solutions will be graded based on how easily they can be followed, so be as clear and descriptive as possible.
+
+You can test the effectiveness of one of your solutions by having your classmates use it to beat the level. Use any feedback you receive to improve your solutions.

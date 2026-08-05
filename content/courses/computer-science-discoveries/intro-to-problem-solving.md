@@ -48,12 +48,8 @@ What are some problems you have faced in your life?
 
 ## Assignment
 ### Instructions
-#### Start Your Unit Journal
-In Notability, or the software of your choice, start your first Unit Journal. It will contain multiple days of work, including today's assignment. Later, you will turn it in for a grade, so make sure you don't lose it!
-
-1. Write your name at the top.
-2. Write the title: "Unit 1: Problem Solving and Computing".
-3. Write the heading for today's assignment: "Intro to Problem Solving".
+{{% instructions-unit-journal-create title="Digital Information" %}}
+{{% instructions-unit-journal-update %}}
 
 #### Beat the World's Hardest Game
 Today, you will work to beat at least three levels of the World's Hardest Game, available to play on your computer's browser at Poki, Coolmath Games, and other sites (you will need to find one that isn't blocked).

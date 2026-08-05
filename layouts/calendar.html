@@ -193,7 +193,7 @@
 		</h3>
 		<div class="entry-content" style="{{ cond ($p) "margin: 5px" "" }}">
 			{{- cond (eq $courseFilter "calendar") ($p.Parent.Title | default $event.type) (cond (ne $p.Params.Summary ":construction:") ($p.Summary | plainify | htmlUnescape | default $event.type) "This page is under construction...") -}}
-			{{- cond $p (cond (ne $p.Params.Summary ":construction:") " ●" " ○") "" -}}
+			{{- cond $p (cond (or (not $p.Params.Unit) (eq $p.Params.Summary ":construction:")) " ○" " ●") "" -}}
 		</div>
 		{{- if $p -}}
 			<a class="entry-link" style="border: 1px dotted var(--secondary)" aria-label="post link to {{ $p.Title | plainify }}" href="{{ $p.Permalink }}"></a>

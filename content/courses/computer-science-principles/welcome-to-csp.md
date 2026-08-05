@@ -1,6 +1,6 @@
 ---
 title: Welcome to CSP
-unit: Digital Information
+units: [Digital Information]
 summary: Welcome to Computer Science Principles with Mr. Levine!
 weight: 10
 ---

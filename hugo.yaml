@@ -10,7 +10,7 @@ menus:
     - name: Courses
       pageRef: /courses
 taxonomies:
-  unit: unit
+  unit: units
 markup:
   goldmark:
     renderer:

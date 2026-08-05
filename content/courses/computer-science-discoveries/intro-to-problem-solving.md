@@ -1,6 +1,6 @@
 ---
 title: Intro to Problem Solving
-unit: Problem Solving and Computing
+units: [Problem Solving and Computing]
 summary: Welcome to Computer Fundamentals with Mr. Levine!
 weight: 10
 ---

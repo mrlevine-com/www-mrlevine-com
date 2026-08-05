@@ -3,7 +3,7 @@
 It's time to update your Unit Journal!
 
 1. Open Notability on your iPad.
-2. Open your "{{ .Page.Params.Unit }}" note in your "{{ .Page.Parent.Title }}" folder.
+2. Open your "{{ index .Page.Params.Units 0 }}" note in your "{{ .Page.Parent.Title }}" folder.
 3. Add the following information:
 	- Today's lesson title: "{{ .Page.Title }}"
 	- Your work for today's assignment

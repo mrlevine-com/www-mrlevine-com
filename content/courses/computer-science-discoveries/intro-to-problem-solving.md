@@ -48,7 +48,7 @@ What are some problems you have faced in your life?
 
 ## Assignment
 ### Instructions
-{{% instructions-unit-journal-create title="Digital Information" %}}
+{{% instructions-unit-journal-create title="Problem Solving and Computing" %}}
 {{% instructions-unit-journal-update %}}
 
 #### Beat the World's Hardest Game

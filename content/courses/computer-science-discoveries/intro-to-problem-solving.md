@@ -1,6 +1,6 @@
 ---
 title: Intro to Problem Solving
-summary: Problem solving is fundamental to computers.
+summary: Welcome to Computer Fundamentals with Mr. Levine!
 weight: 10
 ---
 
@@ -15,7 +15,7 @@ weight: 10
 ### Why am I learning about problem solving?
 {{< collapse summary="Click here to reveal the answer." >}}
 
-Problem solving is fundamental to computers. Soon, you will learn how computers input, output, store, and process information to help humans solve problems.
+Problem solving is fundamental to computing. Soon, you will learn how computers input, output, store, and process information to help humans solve problems.
 
 Learning how to effectively solve problems can also help you develop your critical thinking skills and become more creative and resilient in your various pursuits in life.
 

@@ -1,5 +1,6 @@
 ---
 title: {{ replace .File.ContentBaseName `-` ` ` | title }}
+units: []
 summary: ":construction:"
 weight: 0
 ---
@@ -21,21 +22,12 @@ weight: 0
 {{</ collapse >}}
 
 ## Assignment
-### Instructions
-####
+{{% instructions-unit-journal-create %}}
+{{% instructions-unit-journal-update %}}
 
-### Submission
-#### Deliverables
-| Item                                  | Est. Time |
-|---------------------------------------|----------:|
-| Today's activity submitted on Canvas  | ~__ mins  |
-| Unit _ Lesson _ submitted on Code.org | ~__ mins  |
+###
 
-#### Rubric
-| Criteria                     | Points |
-|------------------------------|-------:|
-| ___                          | __     |
-| Your name written at the top | __     |
-| Code.org Unit _ Lesson _     | __     |
+{{% instructions-code-org-create %}}
+{{% instructions-code-org-update %}}
 
 -->

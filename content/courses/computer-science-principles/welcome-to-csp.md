@@ -25,6 +25,9 @@ Someone might create a computing innovation to solve a problem or explore an int
 
 ## Assignment
 ### Instructions
+{{% instructions-unit-journal-create title="Digital Information" %}}
+{{% instructions-unit-journal-update %}}
+
 #### Brainstorm
 Think of a problem you could solve or an interest you could explore with computer science.
 
@@ -35,28 +38,15 @@ A prototype is a rough draft of an idea.
 
 You can have the same idea as a classmate but you must create your prototype individually.
 
-You can create your prototype in Notability on your iPad or Excalidraw on your computer.
-
 Your prototype must include:
 - A sketch of your innovation
 - A description of your innovation
 - At least two positive effects of your innovation
 - At least two negative effects of your innovation
-- Your name written at the top
 
 ### Submission
 #### Deliverables
 | Item                                  | Est. Time |
 |---------------------------------------|----------:|
-| Your prototype submitted on Canvas    | ~20 mins  |
+| Your work added to your Unit Journal  | ~20 mins  |
 | Unit 1 Lesson 1 submitted on Code.org | ~5 mins   |
-
-#### Rubric
-| Criteria                                         | Points |
-|--------------------------------------------------|-------:|
-| A sketch of your innovation                      | 20     |
-| A description of your innovation                 | 20     |
-| At least two positive effects of your innovation | 10     |
-| At least two negative effects of your innovation | 10     |
-| Your name written at the top                     | 10     |
-| Code.org Unit 1 Lesson 1                         | 30     |

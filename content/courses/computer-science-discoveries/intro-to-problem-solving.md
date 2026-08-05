@@ -1,5 +1,6 @@
 ---
 title: Intro to Problem Solving
+unit: Problem Solving and Computing
 summary: Welcome to Computer Fundamentals with Mr. Levine!
 weight: 10
 ---
@@ -48,7 +49,7 @@ What are some problems you have faced in your life?
 
 ## Assignment
 ### Instructions
-{{% instructions-unit-journal-create title="Problem Solving and Computing" %}}
+{{% instructions-unit-journal-create %}}
 {{% instructions-unit-journal-update %}}
 
 #### Beat the World's Hardest Game

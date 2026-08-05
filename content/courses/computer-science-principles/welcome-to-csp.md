@@ -1,5 +1,6 @@
 ---
 title: Welcome to CSP
+unit: Digital Information
 summary: Welcome to Computer Science Principles with Mr. Levine!
 weight: 10
 ---
@@ -25,7 +26,7 @@ Someone might create a computing innovation to solve a problem or explore an int
 
 ## Assignment
 ### Instructions
-{{% instructions-unit-journal-create title="Digital Information" %}}
+{{% instructions-unit-journal-create %}}
 {{% instructions-unit-journal-update %}}
 
 #### Brainstorm

@@ -2,7 +2,8 @@
 
 It's time to create your Unit Journal!
 
-Include the following information at the top:
-
-- Your first and last name
-- The unit title: "{{ .Get "title" }}"
+1. Open Notability on your iPad.
+2. Create a new note in your "{{ .Page.Parent.Title }}" folder.
+3. Add the following information:
+	- Your first and last name
+	- The unit title: "{{ .Page.Params.Unit }}"

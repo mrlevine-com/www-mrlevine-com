@@ -1,0 +1,6 @@
+{{ $glossary := where .Site.Pages "Section" "glossary" }}
+{{ $term := .Get 0 }}
+{{ $page := index (where $glossary "Params.Title" (cond $term $term .Page.Params.Title)) 0 }}
+{{ with $page.Params -}}
+    **{{ .Title }}**: {{ .Summary }}
+{{ end }}

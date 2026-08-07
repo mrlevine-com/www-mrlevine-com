@@ -1,5 +1,6 @@
 ---
 title: Talking to Machines
+units: [Problem Solving With AI]
 summary: Welcome to AI Foundations with Mr. Levine!
 weight: 10
 ---
@@ -13,13 +14,9 @@ weight: 10
 - Refine AI-generated outputs by iterating on prompts and recognizing patterns in responses.
 
 ## Lesson Overview
-### Vocabulary
-- **Abstraction**: Focusing on the important information and ignoring irrelevant details
-- **Artificial intelligence (AI)**: A technology that mimics human intelligence, performing tasks such as understanding language, recognizing patterns, and making decisions
-- **Probability**: The likelihood that a specific outcome might occur
-- **Prompt**: A question, instruction, scenario, or statement provided by the user to guide the AI's response
-
 ### How do you use AI?
+{{% define "Artificial Intelligence (AI)" %}}
+
 #### Have you ever used an AI chatbot (e.g. ChatGPT, Gemini, Copilot, etc.)?
 Guess what percentage of U.S. adults used AI chatbots in 2026.
 
@@ -31,6 +28,7 @@ According to Pew Research Center, 49% of U.S. adults used AI chatbots in 2026, u
 
 #### What do you use AI chatbots for?
 Guess what your classmates might have said.
+
 {{< collapse summary="Click here to reveal likely answers." >}}
 
 According to Pew Research Center, likely answers include:
@@ -59,10 +57,13 @@ AI generates responses by (in simple terms):
 2. Predicting likely responses based on patterns in its training data
 3. Choosing a response based on probability and randomness
 
+{{% define "Prompt" %}}
+{{% define "Probability" %}}
+
 {{</ collapse >}}
 
 ### How will AI respond to the following prompt?
-> Complete this sentence: The dog barked at the...
+Complete this sentence: The dog barked at the...
 
 {{< collapse summary="Click here to reveal the answer." >}}
 
@@ -76,29 +77,24 @@ You will have to find out for yourself on Code.org! Keep in mind that the same p
 
 Yes, AI can make mistakes because it turns your prompt into a simplified representation, which may lose important information. This abstraction can lead to misunderstandings and incorrect responses.
 
+{{% define "Abstraction" %}}
+
 {{</ collapse >}}
 
 ### How can you use AI effectively?
+{{< collapse summary="Click here to reveal the answer." >}}
+
 Using AI effectively requires learning how to prompt AI, which you will start experimenting with today.
 
 Go to Code.org Unit 1 Lesson 1 to get started and complete each level following the instructions on the screen.
 
+{{</ collapse >}}
+
 ## Assignment
-### Instructions
-#### Complete Code.org Unit 1 Lesson 1
+{{% instructions-unit-journal-create %}}
+{{% instructions-unit-journal-update %}}
 
-### Submission
-#### Deliverables
-| Item                                  | Est. Time |
-|---------------------------------------|----------:|
-| Unit 1 Lesson 1 submitted on Code.org | ~30 mins  |
+###
 
-#### Rubric
-| Criteria                         | Points |
-|----------------------------------|-------:|
-| Code.org Unit 1 Lesson 1 Level 1 | 10     |
-| Code.org Unit 1 Lesson 1 Level 2 | 10     |
-| Code.org Unit 1 Lesson 1 Level 3 | 10     |
-| Code.org Unit 1 Lesson 1 Level 4 | 10     |
-| Code.org Unit 1 Lesson 1 Level 5 | 10     |
-| Code.org Unit 1 Lesson 1 Level 6 | 50     |
+{{% instructions-code-org-create %}}
+{{% instructions-code-org-update %}}

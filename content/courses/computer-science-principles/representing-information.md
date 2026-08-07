@@ -1,5 +1,6 @@
 ---
 title: Representing Information
+units: [Digital Information]
 summary: The same information can be represented in multiple ways.
 weight: 20
 ---
@@ -13,6 +14,8 @@ weight: 20
 
 ## Lesson Overview
 ### What is information?
+{{< collapse summary="Click here to reveal the answer." >}}
+
 Information is an abstract concept referring to something that living things and computers can exchange and process to guide decision-making.
 
 Information can be obtained by asking a question and receiving an answer. For example:
@@ -23,7 +26,11 @@ Information can be obtained by asking a question and receiving an answer. For ex
 
 This answer informs me that your favorite fruit is mango.
 
-### How do humans and computers process information?
+{{</ collapse >}}
+
+### How do you process information?
+{{< collapse summary="Click here to reveal the answer." >}}
+
 Since information is intangible, humans and computers can only process physical representations of it.
 
 In the example above, the information is represented by a written English sentence.
@@ -38,16 +45,17 @@ The mango emoji _still_ informs me that your favorite fruit is mango!
 
 Can you think of other ways to represent this information?
 
+{{</ collapse >}}
+
 ## Assignment
-### Instructions
-#### Build Your Own Information Sending Device
+### Build Your Own Information Sending Device
 Build a device out of classroom supplies that you will use to answer a question.
 
 Rules:
 - No projectiles
 - No language
 
-#### Demonstrate Your Information Sending Device
+### Demonstrate Your Information Sending Device
 To successfully demonstrate your information sending device, you must pass the following challenges with a classmate:
 
 **Challenge #1**:
@@ -61,7 +69,9 @@ To successfully demonstrate your information sending device, you must pass the f
 
 **Bonus Challenge**: Try the exercise with sixteen answer choices!
 
-#### Report
+{{% instructions-unit-journal-update %}}
+
+### Report
 Write a detailed report of today's activity.
 
 Your report must include:
@@ -70,18 +80,5 @@ Your report must include:
 - The materials you used to create your information sending device
 - Details on how you represented information using your device for each challenge
 
-### Submission
-#### Deliverables
-| Item                                  | Est. Time |
-|---------------------------------------|----------:|
-| Your report submitted on Canvas       | ~30 mins  |
-| Unit 1 Lesson 2 submitted on Code.org | ~5 mins   |
+{{% instructions-code-org-update %}}
 
-#### Rubric
-| Criteria                                     | Points |
-|----------------------------------------------|-------:|
-| Detailed report of today's activity          | 40     |
-| Your name written at the top                 | 10     |
-| The name of the classmate your paired with   | 10     |
-| The materials you used to create your device | 10     |
-| Code.org Unit 1 Lesson 2                     | 30     |

@@ -86,15 +86,23 @@ Yes, AI can make mistakes because it turns your prompt into a simplified represe
 
 Using AI effectively requires learning how to prompt AI, which you will start experimenting with today.
 
-Go to Code.org Unit 1 Lesson 1 to get started and complete each level following the instructions on the screen.
-
 {{</ collapse >}}
 
 ## Assignment
+{{% instructions-code-org-create %}}
+{{% instructions-code-org-update %}}
 {{% instructions-unit-journal-create %}}
 {{% instructions-unit-journal-update %}}
 
-###
+### Define Terms
+Record the following terms with a definition and example or illustration of each:
+- Artificial Intelligence (AI)
+- Probability
+- Abstraction
+- Prompt
 
-{{% instructions-code-org-create %}}
-{{% instructions-code-org-update %}}
+### Question of the Day
+Record the Question of the Day and answer it concisely in your own words or bullet points:
+
+**How can I use AI effectively?**
+(_Hint: Think about what prompting strategies you used to get the most helpful AI chatbot output._)

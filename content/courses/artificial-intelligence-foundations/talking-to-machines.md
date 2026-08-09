@@ -93,16 +93,5 @@ Using AI effectively requires learning how to prompt AI, which you will start ex
 {{% instructions-code-org-update %}}
 {{% instructions-unit-journal-create %}}
 {{% instructions-unit-journal-update %}}
-
-### Define Terms
-Record the following terms with a definition and example or illustration of each:
-- Artificial Intelligence (AI)
-- Probability
-- Abstraction
-- Prompt
-
-### Question of the Day
-Record the Question of the Day and answer it concisely in your own words or bullet points:
-
-**How can I use AI effectively?**
-(_Hint: Think about what prompting strategies you used to get the most helpful AI chatbot output._)
+{{% unit-journal-define-terms "Artificial Intelligence (AI)" "Probability" "Abstraction" "Prompt" %}}
+{{% unit-journal-question-of-the-day question="How can I use AI effectively?" hint="Think about what prompting strategies you used to get the most helpful AI chatbot output." %}}

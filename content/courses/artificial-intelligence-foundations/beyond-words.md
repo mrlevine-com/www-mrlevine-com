@@ -1,11 +1,11 @@
 ---
 title: Beyond Words
-summary: ":construction:"
+units: [Digital Information]
+summary: AI can process images and more.
 weight: 20
 ---
 
 {{% param summary %}}
-> This page is under construction.
 
 ## Today's Objectives
 - Compare how AI-generated outputs change based on the type of input provided.
@@ -13,32 +13,25 @@ weight: 20
 - Explain that multimodal AI models process information from multiple types of input.
 - Identify privacy and ethical concerns when using AI with multimedia data.
 
-<!--
-
 ## Lesson Overview
-### ?
+### What is a multimodal model?
 {{< collapse summary="Click here to reveal the answer." >}}
 
+{{% define "Multimodal Model" %}}
 
+{{</ collapse >}}
+
+### Where is multimodal AI used?
+{{< collapse summary="Click here to reveal the answer." >}}
+
+- **Accessibility**: screen readers interpreting images and text
+- **Healthcare**: AI analyzing X-ray images and text
+- **Translation**: real-time text and audio speech translation
+- **Security**: facial and object recognition
 
 {{</ collapse >}}
 
 ## Assignment
-### Instructions
-####
-
-### Submission
-#### Deliverables
-| Item                                  | Est. Time |
-|---------------------------------------|----------:|
-| Today's activity submitted on Canvas  | ~__ mins  |
-| Unit _ Lesson _ submitted on Code.org | ~__ mins  |
-
-#### Rubric
-| Criteria                     | Points |
-|------------------------------|-------:|
-| ___                          | __     |
-| Your name written at the top | __     |
-| Code.org Unit _ Lesson _     | __     |
-
--->
+{{% instructions-code-org-update %}}
+{{% instructions-unit-journal-update %}}
+{{% unit-journal-define-terms "Multimodal Model" %}}

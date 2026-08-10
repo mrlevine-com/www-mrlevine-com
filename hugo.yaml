@@ -38,3 +38,5 @@ params:
     appendFilePath: true
   showTOC: true
   showPostNavLinks: true
+  assets:
+    favicon: icon.png

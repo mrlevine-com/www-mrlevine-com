@@ -1,42 +1,49 @@
 ---
 title: The Problem Solving Process
-summary: ":construction:"
+units: [Problem Solving and Computing]
+summary: Problem solving is an iterative process.
 weight: 20
 ---
 
 {{% param summary %}}
-> This page is under construction.
 
 ## Today's Objectives
 - Given a problem, identify individual actions that would fall within each step of the problem solving process.
 - Identify useful strategies within each step of the problem solving process.
 
-<!--
-
 ## Lesson Overview
-### ?
+### What is the problem solving process?
+[insert video here]
+
 {{< collapse summary="Click here to reveal the answer." >}}
 
-
+1. Define
+    - What problem are you trying to solve?
+    - What are your constraints?
+    - What does success look like?
+2. Prepare
+    - Brainstorm / research possible solutions
+    - Compare pros and cons
+    - Make a plan
+3. Try
+    - Put your plan into action
+4. Reflect
+    - How do your results compare to the goals you set while defining the problem?
+    - What can you learn from this or do better next time?
+    - What new problems have you discovered?
 
 {{</ collapse >}}
 
 ## Assignment
-### Instructions
-####
+{{% instructions-unit-journal-update %}}
 
-### Submission
-#### Deliverables
-| Item                                  | Est. Time |
-|---------------------------------------|----------:|
-| Today's activity submitted on Canvas  | ~__ mins  |
-| Unit _ Lesson _ submitted on Code.org | ~__ mins  |
+### What the Problem Solving Process Looks Like
+Explain how you would approach each step of the problem solving process (define, prepare, try, reflect) for the following problems:
 
-#### Rubric
-| Criteria                     | Points |
-|------------------------------|-------:|
-| ___                          | __     |
-| Your name written at the top | __     |
-| Code.org Unit _ Lesson _     | __     |
+- The World's Hardest Game
+- A Problem You Are Good at Solving
+- A Problem You Want to Get Better at Solving
 
--->
+Remember, an effective process lets you iterate (repeat the process) quickly.
+
+The process can often reveal that you need to redefine the problem (e.g. “I need to study more” → “I need to study smarter”).

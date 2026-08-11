@@ -1,5 +1,6 @@
 ---
 title: Circle Square Patterns
+units: [Digital Information]
 summary: Patterns and rules make it easy to exchange information.
 weight: 30
 ---
@@ -41,9 +42,14 @@ Your classmates may have listed the patterns in a different order, meaning not e
 To ensure everyone has the same seventh pattern, you will need to create a clear set of rules, where if the class were to follow these rules, everyone should generate the same list of patterns in the same order.
 
 ## Assignment
-### Instructions
-#### Create Your Own Number System
+{{% instructions-unit-journal-update %}}
+
+### Create Your Own Number System
 You may freely share ideas with your classmates, but you must write your report individually.
+
+Your report must include:
+- Rules for how you listed all possible three and four place value patterns
+- All possible three and four place value patterns listed accurately according to your own rules
 
 **Challenge #1**: Again, using only circles and squares, list all possible three place value patterns, but with an added focus on the placement of your patterns.
 
@@ -53,27 +59,4 @@ You may freely share ideas with your classmates, but you must write your report 
 
 Congratulations! You just created your own number system, and your seventh pattern can now represent 7.
 
-#### Report
-You can write your report in Notability on your iPad or Excalidraw on your computer. You need to be able to make circles and squares to make your patterns!
-
-Your report must include:
-- Your name written at the top
-- The names of any classmates you collaborated with
-- Rules for how you listed all possible three and four place value patterns
-- All possible three and four place value patterns listed accurately according to your own rules
-
-### Submission
-#### Deliverables
-| Item                                  | Est. Time |
-|---------------------------------------|----------:|
-| Your report submitted on Canvas       | ~30 mins  |
-| Unit 1 Lesson 3 submitted on Code.org | ~5 mins   |
-
-#### Rubric
-| Criteria                            | Points |
-|-------------------------------------|-------:|
-| Your rules                          | 25     |
-| Your patterns                       | 25     |
-| Your name written at the top        | 10     |
-| The names of anyone you worked with | 10     |
-| Code.org Unit 1 Lesson 3            | 30     |
+{{% instructions-code-org-update %}}

@@ -3,6 +3,7 @@ title: Talking to Machines
 units: [Problem Solving With AI]
 summary: Welcome to AI Foundations with Mr. Levine!
 weight: 10
+days: 2
 ---
 
 {{% param summary %}}

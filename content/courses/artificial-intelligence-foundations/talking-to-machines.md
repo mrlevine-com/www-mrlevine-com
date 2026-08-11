@@ -63,20 +63,11 @@ AI generates responses by (in simple terms):
 
 {{</ collapse >}}
 
-### How will AI respond to the following prompt?
-Complete this sentence: The dog barked at the...
-
-{{< collapse summary="Click here to reveal the answer." >}}
-
-You will have to find out for yourself on Code.org! Keep in mind that the same prompt can result in various responses due to randomness. You can always respond with a message like "Again" to generate additional responses to your original prompt.
-
-{{</ collapse >}}
-
 ### Can AI make mistakes?
 
 {{< collapse summary="Click here to reveal the answer." >}}
 
-Yes, AI can make mistakes because it turns your prompt into a simplified representation, which may lose important information. This abstraction can lead to misunderstandings and incorrect responses.
+Yes, AI can make mistakes because it turns your prompt into a simplified representation, which can cause important details to be lost in the process. This abstraction can lead to misunderstandings and incorrect responses.
 
 {{% define "Abstraction" %}}
 

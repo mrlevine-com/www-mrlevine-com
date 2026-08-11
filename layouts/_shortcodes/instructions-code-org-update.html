@@ -2,11 +2,24 @@
 
 It's time to work on Code.org!
 
+| Unit                             | Lesson            |
+|----------------------------------|-------------------|
+| {{ index .Page.Params.Units 0 }} | {{ .Page.Title }} |
+
+{{ $ctx := dict
+	"page" .
+	"summary" "Click here for instructions on how to access Code.org."
+}}
+
+{{ with partial "collapse.html" $ctx }}
+
+Do the following:
+
 1. Sign into [Canvas](https://mccarthyhigh.instructure.com/).
 2. Open your "{{ .Page.Parent.Title }}" course.
 3. Open "Modules".
 4. Click "Launch Code.org".
 5. Sign into Code.org.
-6. Complete today's lesson:
-	- Unit: "{{ index .Page.Params.Units 0 }}"
-	- Lesson: "{{ .Page.Title }}"
+6. Complete today's lesson.
+
+{{ end }}

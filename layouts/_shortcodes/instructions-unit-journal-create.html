@@ -2,8 +2,20 @@
 
 It's time to create your Unit Journal!
 
+{{ $ctx := dict
+	"page" .
+	"summary" "Click here for instructions."
+}}
+
+{{ with partial "collapse.html" $ctx }}
+
+Do the following:
+
 1. Open Notability on your iPad.
-2. Create a new note in your "{{ .Page.Parent.Title }}" folder.
-3. Add the following information:
+2. Create a folder called "{{ .Page.Parent.Title }}" if you haven't already.
+3. Create a note in this folder called "{{ index .Page.Params.Units 0 }}".
+4. Add the following information to this note:
 	- Your first and last name
-	- The unit title: "{{ index .Page.Params.Units 0 }}"
+	- The title of this unit: "{{ index .Page.Params.Units 0 }}"
+
+{{ end }}

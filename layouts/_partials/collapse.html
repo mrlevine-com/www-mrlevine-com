@@ -1,0 +1,9 @@
+{{ if .summary }}
+{{ else }}
+{{ warnf "missing value for param 'summary': %s" .Position }}
+{{ end }}
+<p><details style="border-left: 1px dotted var(--secondary); padding-left: 10px;">
+	<summary markdown="span">{{ .summary | markdownify }}</summary>
+	<div style="height: var(--content-gap);"></div>
+	{{ inner .page | markdownify }}
+</details></p>

@@ -2,8 +2,20 @@
 
 It's time to update your Unit Journal!
 
+{{ $ctx := dict
+	"page" .
+	"summary" "Click here for instructions."
+}}
+
+{{ with partial "collapse.html" $ctx }}
+
+Do the following:
+
 1. Open Notability on your iPad.
-2. Open your "{{ index .Page.Params.Units 0 }}" note in your "{{ .Page.Parent.Title }}" folder.
-3. Add the following information:
-	- Today's lesson title: "{{ .Page.Title }}"
+2. Open your "{{ .Page.Parent.Title }}" folder.
+3. Open your "{{ index .Page.Params.Units 0 }}" note.
+4. Add the following information to this note:
+	- The title of today's lesson: "{{ .Page.Title }}"
 	- Your work for today's assignment
+
+{{ end }}

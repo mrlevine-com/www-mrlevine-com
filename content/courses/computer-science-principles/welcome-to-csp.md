@@ -23,6 +23,8 @@ A computing innovation is the use of technology to create or improve something.
 | Physical     | Smart home assistant, wearable health monitor, etc. |
 | Non-physical | E-commerce website, videogame, etc.                 |
 
+Can you think of any computing innovations in your life?
+
 {{</ collapse >}}
 
 ### Why would someone create a computing innovation?

@@ -17,34 +17,28 @@ days: 2
 ### Why am I learning about problem solving?
 {{< collapse summary="Click here to reveal the answer." >}}
 
-Problem solving is fundamental to computing. Soon, you will learn how computers input, output, store, and process information to help humans solve problems.
-
-Learning how to effectively solve problems can also help you develop your critical thinking skills and become more creative and resilient in your various pursuits in life.
+Problem solving is fundamental to computing. Soon, you will learn how computers can input, output, store, and process information to help with problem solving. Later, you will apply your problem solving skills to create your own websites and games.
 
 {{</ collapse >}}
 
 ### What is problem solving?
 {{< collapse summary="Click here to reveal the answer." >}}
 
-A problem is essentially a question that you don't have the answer to.
-
-Problem solving is the process of seeking that answer.
+You can think of a problem as a question that you don't have the answer to yet and problem solving as the process of seeking that answer.
 
 {{</ collapse >}}
 
 ### What are some examples of problems?
 {{< collapse summary="Click here to reveal the answer." >}}
 
-Problems come in many forms and make up an integral part of the human experience.
-
-Here are a couple examples ranging from simple to complex.
+Problems come in many forms.
 
 | Category | Example                                                 |
 |----------|---------------------------------------------------------|
 | Simple   | How do I get to the restaurant from my house?           |
 | Complex  | How do I save the declining global seagrass population? |
 
-What are some problems you have faced in your life?
+Think about a problem you have faced in your life (or even today) and how you have solved it.
 
 {{</ collapse >}}
 
@@ -53,16 +47,16 @@ What are some problems you have faced in your life?
 {{% instructions-unit-journal-update %}}
 
 ### Beat the World's Hardest Game
-Today, you will work to beat at least three levels of the World's Hardest Game, available to play on your computer's browser at Poki, Coolmath Games, and other sites (you will need to find one that isn't blocked).
+Today, you will work to beat at least three levels of the World's Hardest Game, available to play on your computer's browser on a website called Poki.
 
 Each level introduces a unique problem to solve. Work with others to come up with creative solutions!
 
-### Journal Your Solutions
-For each level, record your solution in your Unit Journal.
+### Record Your Solutions
+Every time you beat a level, record your solution. Your solutions will be graded based on how easily they can be followed, so be as clear and descriptive as possible.
 
-When you submit your Unit Journal later, your solutions will be graded based on how easily they can be followed, so be as clear and descriptive as possible.
+### Record Your Feedback
 
-You can test the effectiveness of one of your solutions by having your classmates use it to beat the level. Use any feedback you receive to improve your solutions.
+Ask your classmates to test the effectiveness of each of your solutions. Record the feedback you receive and use them to improve your original solutions.
 
 {{% instructions-code-org-create %}}
 {{% instructions-code-org-update %}}

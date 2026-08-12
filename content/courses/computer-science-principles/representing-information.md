@@ -67,7 +67,11 @@ To successfully demonstrate your information sending device, you must pass the f
 
 **Challenge #3**: Repeat the exercise with eight answer choices.
 
-**Bonus Challenge**: Try the exercise with sixteen answer choices!
+**Challenge #4**: Repeat the exercise with sixteen answer choices.
+
+The goal is to make a device that can communicate a _large_ amount of information.
+
+Try repeating the exercise with thirty-two, sixty-four, and even more answer choices.
 
 {{% instructions-unit-journal-update %}}
 
@@ -81,4 +85,3 @@ Your report must include:
 - Details on how you represented information using your device for each challenge
 
 {{% instructions-code-org-update %}}
-

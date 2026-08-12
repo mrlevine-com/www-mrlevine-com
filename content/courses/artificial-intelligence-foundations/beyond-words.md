@@ -50,12 +50,11 @@ Can you think of any other industries changed by multimodal AI?
 {{</ collapse >}}
 
 ## Assignment
-{{% instructions-code-org-update %}}
 {{% instructions-unit-journal-update %}}
 {{% unit-journal-define-terms "Multimodal Model" %}}
 
 ### What's in an Image?
-List _everything_ you see in this image:
+Before completing Code.org, list _everything_ you see in this image:
 
 ![Image](/images/whats-in-an-image.jpg)
 
@@ -63,13 +62,14 @@ After completing Level 2 on Code.org, record the following table, and compare an
 
 | Things Only I Noticed | Things AI and I _Both_ Noticed | Things Only AI Noticed |
 |-----------------------|--------------------------------|------------------------|
-| -                     | -                              | -                      |
+| _                     | _                              | _                      |
 
 ### Privacy and Ethical Concerns
-Answer the following questions:
+After completing Code.org, answer the following questions:
 
 - What unexpected details did AI pull from the image description?
 - Could someone's location, identity, or background information be inferred?
 - How does this relate to privacy risks in AI applications?
 
 {{% unit-journal-question-of-the-day question="What is the effect of using multimodal inputs with AI?" hint="Reflect on any observations you made using multimodal AI" %}}
+{{% instructions-code-org-update %}}

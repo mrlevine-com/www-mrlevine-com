@@ -17,6 +17,8 @@ weight: 20
 
 {{< collapse summary="Click here to reveal the answer." >}}
 
+Remember the steps of the problem solving process:
+
 1. Define
     - What problem are you trying to solve?
     - What are your constraints?
@@ -34,16 +36,24 @@ weight: 20
 
 {{</ collapse >}}
 
+### Why is the problem solving process effective?
+{{< collapse summary="Click here to reveal the answer." >}}
+
+The problem solving process is effective because it allows you to iterate (repeat the process) quickly. The more quickly you iterate, the more quickly you can discover if you need to adjust your plan or redefine the problem (e.g. “I need to study more” → “I need to study smarter”).
+
+{{</ collapse >}}
+
 ## Assignment
 {{% instructions-unit-journal-update %}}
 
 ### What the Problem Solving Process Looks Like
-Explain how you would approach each step of the problem solving process (define, prepare, try, reflect) for the following problems:
+Explain:
 
-- The World's Hardest Game
-- A Problem You Are Good at Solving
-- A Problem You Want to Get Better at Solving
+- How you would approach each step of the problem solving process
+- Why your process would be effective
 
-Remember, an effective process lets you iterate (repeat the process) quickly.
+For the following problems:
 
-The process can often reveal that you need to redefine the problem (e.g. “I need to study more” → “I need to study smarter”).
+- The hardest level you beat in the previous lesson
+- A problem of your choice that you are good at solving
+- A problem of your choice that you want to get better at solving

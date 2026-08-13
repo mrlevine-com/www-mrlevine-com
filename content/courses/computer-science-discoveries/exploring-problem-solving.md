@@ -13,13 +13,62 @@ days: 2
 - Assess how well-defined a problem is and use strategies to define the problem more precisely.
 
 ## Lesson Overview
-### What are the steps of the problem solving process?
+### How would you apply the problem solving process to the World's Hardest Game?
 {{< collapse summary="Click here to reveal the answer." >}}
 
-- Define
-- Prepare
-- Try
-- Reflect
+Write each step and fill in the blanks.
+
+1. Define
+    - What problem are you trying to solve?
+        > Problem: How do I beat the World's Hardest Game?
+    - What are your constraints?
+        > Constraints: I must avoid the blue circles, collect all the yellow circles, then move to the green beacon to complete a level.
+    - What does success look like?
+        > Success: I complete all thirty levels.
+2. Prepare
+    - Brainstorm / research possible solutions
+        > 1. Don't prepare; just keep trying.
+        > 2. Take notes on videos showing people beating each level.
+    - Compare pros and cons
+        > 1. This approach saves time initially but may cause me to struggle on certain levels.
+        > 2. This approach costs time initially but may allow me to beat levels more quickly.
+    - Make a plan
+        > I choose the first solution; I want to play now.
+3. Try
+    - Put your plan into action
+        > I play the first level and immediately hit a blue circle.
+4. Reflect
+    - How do your results compare to the goals you set while defining the problem?
+        > I aimed to beat the first level but I failed.
+    - What can you learn from this or do better next time?
+        > I can predict where the blue circles will move to avoid them.
+    - What new problems have you discovered?
+        > The blue circles move.
+
+Repeat each step above until the problem is solved.
+
+1. Define
+    > New: The blue circles move.
+2. Prepare
+    > New: Predict where the blue circles will move to avoid them.
+3. Try
+    > New: As I move the red square, I observe where the blue circles are moving, and almost move to the green beacon before accidentally hitting a blue circle.
+4. Reflect
+    > New: I made progress but still failed.
+    > New: I can prepare better by watching someone else beating the level.
+
+Keep repeating the steps until the problem is solved.
+
+1. Define
+    > New: Avoiding the blue circles seems to require knowing exactly when and where to move at each moment.
+2. Prepare
+    > New: Watch someone else beating the level and take notes on exactly when and where they move at each moment.
+3. Try
+    > New: I copy this person's movements exactly and beat the first level.
+4. Reflect
+    > New: I beat the first level and now I need to beat the second level.
+
+And so the process continues.
 
 {{</ collapse >}}
 

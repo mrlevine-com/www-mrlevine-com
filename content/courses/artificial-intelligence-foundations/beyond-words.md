@@ -1,6 +1,6 @@
 ---
 title: Beyond Words
-units: [Digital Information]
+units: [Problem Solving With AI]
 summary: AI can process images and more.
 weight: 20
 ---

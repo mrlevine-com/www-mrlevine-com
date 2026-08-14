@@ -38,7 +38,7 @@ There are eight possible patterns. Make sure you have included patterns like `sq
 
 {{</ collapse >}}
 
-### How can you represent the number 7 using only circles and squares?
+### How can you represent the number 7 using only the eight patterns you just listed?
 {{< collapse summary="Click here to reveal the answer." >}}
 
 Take a look at the seventh pattern you wrote down. Logically, you might choose that pattern to represent 7. Except, there's a problem...

@@ -94,7 +94,7 @@ Take turns adding one word based only on the last three words.
 |-------------------|----------|----------|----------|----------|----------|
 | _Space travel is_ |          |          |          |          |          |
 
-### Round 2: More Context Available
+#### Round 2: More Context Available
 Take turns adding one word based on the full starting prompt.
 
 1. Look at the starting prompt and the words added to the sentence by previous Neurons and write one word in your box to continue the sentence and pass the paper to the next Neuron.

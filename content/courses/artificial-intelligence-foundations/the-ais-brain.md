@@ -3,6 +3,7 @@ title: The AI's Brain
 units: [Problem Solving With AI]
 summary: AI makes better predictions with more data.
 weight: 30
+days: 2
 ---
 
 {{% param summary %}}
@@ -81,7 +82,7 @@ todo: add video
 {{% instructions-unit-journal-update %}}
 {{% unit-journal-define-terms "Large Language Models (LLM)" "Neural Network" "Training" "Training Data" %}}
 
-### Unplugged Neural Networks
+### Unplugged Neural Networks (Day 1)
 #### Round 1: Limited Context Prediction
 Get in a groups (up to five per group).
 
@@ -107,7 +108,7 @@ Take turns adding one word based on the full starting prompt.
 | Neuron 4        |                                                   |
 | Neuron 5        |                                                   |
 
-### Prompting Challenge
+### Prompting Challenge (Day 2)
 AI responds differently based on how much detail you provide in your prompt.
 
 In today's Code.org levels, you will test three levels of prompting:

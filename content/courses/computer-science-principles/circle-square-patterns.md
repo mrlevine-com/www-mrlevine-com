@@ -23,7 +23,7 @@ Recall from the previous lesson that the same information can be represented in 
 | Pictographic | Dots, tallys, emojis, etc.                                                     |
 | Mathematic   | `5 + 2`, `8 - 1`, a seven-sided shape, etc.                                    |
 
-Today, you will learn how to represent 7 using only circles and squares. This will prepare you for tomorrow's lesson on binary, the fundamental language of computers.
+Today, you will learn how to represent the number 7 using only circles and squares. This will prepare you for tomorrow's lesson on binary, the fundamental language of computers.
 
 {{</ collapse >}}
 
@@ -38,7 +38,7 @@ There are eight possible patterns. Make sure you have included patterns like `sq
 
 {{</ collapse >}}
 
-### How can you represent 7 using only circles and squares?
+### How can you represent the number 7 using only circles and squares?
 {{< collapse summary="Click here to reveal the answer." >}}
 
 Take a look at the seventh pattern you wrote down. Logically, you might choose that pattern to represent 7. Except, there's a problem...

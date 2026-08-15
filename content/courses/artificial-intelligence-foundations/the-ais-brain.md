@@ -1,7 +1,7 @@
 ---
 title: The AI's Brain
 units: [Problem Solving With AI]
-summary: AI makes better predictions with more data.
+summary: AI makes better predictions with more context.
 weight: 30
 days: 2
 ---
@@ -37,50 +37,35 @@ Your brain helps you notice patterns based on what you have experienced before.
 
 {{</ collapse >}}
 
-### What is a neural network?
+### How do AI chatbots work?
 {{< collapse summary="Click here to reveal the answer." >}}
+
+_Watch "How Chatbots and Large Language Models Work" on YouTube_
 
 {{% define "Neural Network" %}}
-
-{{</ collapse >}}
-
-<!--
-### What is the difference between LLMs and typical neural networks?
-### Why is it important for the AI to look at longer sequences such as sentences or paragraphs?
-### How does this relate to the context we provide in our prompts?
-### How does human feedback improve AI responses?
-### Why is it still important to be cautious when using AI, even with fine-tuning?
-{{< collapse summary="Click here to reveal the answer." >}}
-
-todo: add video
-
-{{</ collapse >}}
--->
-
-### What is a Large Language Model?
-{{< collapse summary="Click here to reveal the answer." >}}
-
 {{% define "Large Language Model (LLM)" %}}
-
-{{</ collapse >}}
-
-### What is training data?
-{{< collapse summary="Click here to reveal the answer." >}}
-
 {{% define "Training Data" %}}
+{{% define "Training" %}}
 
 {{</ collapse >}}
 
-### What is training?
+### What is the difference between LLMs and typical neural networks?
 {{< collapse summary="Click here to reveal the answer." >}}
 
-{{% define "Training" %}}
+Unlike a typical neural network which trains on a specific task, like how to recognize faces or images, an LLM is trained on the largest amount of information possible, such as everything available on the Internet.
+
+{{</ collapse >}}
+
+### Why is it important for the AI to look at longer sequences such as sentences or paragraphs? (Day 2)
+{{< collapse summary="Click here to reveal the answer." >}}
+
+{{% param summary %}}
 
 {{</ collapse >}}
 
 ## Assignment
 {{% instructions-unit-journal-update %}}
-{{% unit-journal-define-terms "Large Language Models (LLM)" "Neural Network" "Training" "Training Data" %}}
+{{% unit-journal-define-terms "Neural Network" "Large Language Models (LLM)" "Training Data" "Training" %}}
 
 ### Unplugged Neural Networks (Day 1)
 #### Round 1: Limited Context Prediction

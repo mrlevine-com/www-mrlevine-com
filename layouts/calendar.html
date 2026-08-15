@@ -226,8 +226,6 @@
 		const target = document.getElementById(id);
 		if (target) {
 			today.removeAttribute("hidden");
-			target.querySelector("a").textContent = "Today"
-			target.style="font-weight: 500; text-decoration: underline; text-underline-offset: .3rem; text-decoration-thickness: 2px;"
 			today.addEventListener("click", (e) => {
 				e.preventDefault();
 				target.scrollIntoView({ behavior: "smooth" });

@@ -113,7 +113,7 @@ Binary is a base 2 number system, meaning it uses two symbols to represent infor
 
 {{</ collapse >}}
 
-### Why binary?
+### Why do computers use binary?
 {{< collapse summary="Click here to reveal the answer." >}}
 
 Computers use binary numbers as a representation of electrical signals on a wire. The wire is always either off or on, so the "off" state can be represented by 0 and the "on" state by 1.
@@ -144,7 +144,7 @@ In binary, each place value represents one **bit** (**b**~inary dig~**it**). You
 {{% instructions-unit-journal-update %}}
 
 ### Make Your Flippy Do
-{{< collapse summary="Click here to see what it looks like." >}}
+{{< collapse summary="Click here to see what the Flippy Do looks like." >}}
 
 | 2<sup>7</sup> | 2<sup>6</sup> | 2<sup>5</sup> | 2<sup>4</sup> | 2<sup>3</sup> | 2<sup>2</sup> | 2<sup>1</sup> | 2<sup>0</sup> |
 |--------------:|--------------:|--------------:|--------------:|--------------:|--------------:|--------------:|--------------:|
@@ -153,167 +153,149 @@ In binary, each place value represents one **bit** (**b**~inary dig~**it**). You
 
 {{</ collapse >}}
 
-{{< collapse summary="Click here to see how to use it." >}}
-
-#### Convert Binary to Decimal
-**Example: Convert 1010 to decimal.**
+{{< collapse summary="Click here to see how to use the Flippy Do to convert the binary number 1010 to decimal." >}}
 
 1. Place the rightmost bit of your number in the rightmost column of the third row.
 
-| 2<sup>7</sup> | 2<sup>6</sup> | 2<sup>5</sup> | 2<sup>4</sup> | 2<sup>3</sup> | 2<sup>2</sup> | 2<sup>1</sup> | 2<sup>0</sup> |
-|--------------:|--------------:|--------------:|--------------:|--------------:|--------------:|--------------:|--------------:|
-| 128           | 64            | 32            | 16            | 8             | 4             | 2             | 1             |
-|               |               |               |               |               |               |               | **0**         |
+    | 2<sup>7</sup> | 2<sup>6</sup> | 2<sup>5</sup> | 2<sup>4</sup> | 2<sup>3</sup> | 2<sup>2</sup> | 2<sup>1</sup> | 2<sup>0</sup> |
+    |--------------:|--------------:|--------------:|--------------:|--------------:|--------------:|--------------:|--------------:|
+    | 128           | 64            | 32            | 16            | 8             | 4             | 2             | 1             |
+    |               |               |               |               |               |               |               | **0**         |
 
 2. Place the next bit to the left in the next column to the left in the third row.
 
-| 2<sup>7</sup> | 2<sup>6</sup> | 2<sup>5</sup> | 2<sup>4</sup> | 2<sup>3</sup> | 2<sup>2</sup> | 2<sup>1</sup> | 2<sup>0</sup> |
-|--------------:|--------------:|--------------:|--------------:|--------------:|--------------:|--------------:|--------------:|
-| 128           | 64            | 32            | 16            | 8             | 4             | 2             | 1             |
-|               |               |               |               |               |               | **1**         | 0             |
+    | 2<sup>7</sup> | 2<sup>6</sup> | 2<sup>5</sup> | 2<sup>4</sup> | 2<sup>3</sup> | 2<sup>2</sup> | 2<sup>1</sup> | 2<sup>0</sup> |
+    |--------------:|--------------:|--------------:|--------------:|--------------:|--------------:|--------------:|--------------:|
+    | 128           | 64            | 32            | 16            | 8             | 4             | 2             | 1             |
+    |               |               |               |               |               |               | **1**         | 0             |
 
 3. Repeat step 2 until you have placed every bit.
 
-| 2<sup>7</sup> | 2<sup>6</sup> | 2<sup>5</sup> | 2<sup>4</sup> | 2<sup>3</sup> | 2<sup>2</sup> | 2<sup>1</sup> | 2<sup>0</sup> |
-|--------------:|--------------:|--------------:|--------------:|--------------:|--------------:|--------------:|--------------:|
-| 128           | 64            | 32            | 16            | 8             | 4             | 2             | 1             |
-|               |               |               |               | **1**         | **0**         | 1             | 0             |
+    | 2<sup>7</sup> | 2<sup>6</sup> | 2<sup>5</sup> | 2<sup>4</sup> | 2<sup>3</sup> | 2<sup>2</sup> | 2<sup>1</sup> | 2<sup>0</sup> |
+    |--------------:|--------------:|--------------:|--------------:|--------------:|--------------:|--------------:|--------------:|
+    | 128           | 64            | 32            | 16            | 8             | 4             | 2             | 1             |
+    |               |               |               |               | **1**         | **0**         | 1             | 0             |
 
 4. Place a 0 in the remaining columns in the third row.
 
-| 2<sup>7</sup> | 2<sup>6</sup> | 2<sup>5</sup> | 2<sup>4</sup> | 2<sup>3</sup> | 2<sup>2</sup> | 2<sup>1</sup> | 2<sup>0</sup> |
-|--------------:|--------------:|--------------:|--------------:|--------------:|--------------:|--------------:|--------------:|
-| 128           | 64            | 32            | 16            | 8             | 4             | 2             | 1             |
-| **0**         | **0**         | **0**         | **0**         | 1             | 0             | 1             | 0             |
+    | 2<sup>7</sup> | 2<sup>6</sup> | 2<sup>5</sup> | 2<sup>4</sup> | 2<sup>3</sup> | 2<sup>2</sup> | 2<sup>1</sup> | 2<sup>0</sup> |
+    |--------------:|--------------:|--------------:|--------------:|--------------:|--------------:|--------------:|--------------:|
+    | 128           | 64            | 32            | 16            | 8             | 4             | 2             | 1             |
+    | **0**         | **0**         | **0**         | **0**         | 1             | 0             | 1             | 0             |
 
 5. Add up the numbers in the second row that have a 1 in the same column in the third row.
 
-`8 + 2 = 10`
+    `8 + 2 = 10`
 
-Congrats! You have successfully converted the binary number 1010 to the decimal number 10.
+    Congrats! You have successfully converted the binary number 1010 to the decimal number 10.
 
-#### Reset Your Flippy Do
-Reset your Flippy Do by erasing the zeros and ones in the third row.
+{{</ collapse >}}
 
-#### Convert Decimal to Binary
-**Example: Convert 25 to binary.**
+{{< collapse summary="Click here to see how to use the Flippy Do to convert the decimal number 25 to binary." >}}
+
+_Steps 1-3 are repeated._
 
 1. Find the largest number in the second row that is less than or equal to your number.
 
-{{< collapse summary="Click here to reveal the answer." >}}
-
-1. The largest number in the second row that is less than or equal to 25 is 16.
-2. The largest number in the second row that is less than or equal to 9 is 8.
-3. The largest number in the second row that is less than or equal to 1 is 1.
-
-{{</ collapse >}}
+    1. The largest number in the second row that is less than or equal to 25 is 16.
+    2. The largest number in the second row that is less than or equal to 9 is 8.
+    3. The largest number in the second row that is less than or equal to 1 is 1.
 
 2. Place a 1 in the same column as the number you found in the third row.
 
-{{< collapse summary="Click here to reveal the answer." >}}
-
-| 2<sup>7</sup> | 2<sup>6</sup> | 2<sup>5</sup> | 2<sup>4</sup> | 2<sup>3</sup> | 2<sup>2</sup> | 2<sup>1</sup> | 2<sup>0</sup> |
-|--------------:|--------------:|--------------:|--------------:|--------------:|--------------:|--------------:|--------------:|
-| 128           | 64            | 32            | 16            | 8             | 4             | 2             | 1             |
-|               |               |               | **1**         | **1**         |               |               | **1**         |
-
-{{</ collapse >}}
+    | 2<sup>7</sup> | 2<sup>6</sup> | 2<sup>5</sup> | 2<sup>4</sup> | 2<sup>3</sup> | 2<sup>2</sup> | 2<sup>1</sup> | 2<sup>0</sup> |
+    |--------------:|--------------:|--------------:|--------------:|--------------:|--------------:|--------------:|--------------:|
+    | 128           | 64            | 32            | 16            | 8             | 4             | 2             | 1             |
+    |               |               |               | **1**         | **1**         |               |               | **1**         |
 
 3. Subtract the number you found from your number to find the remainder.
 
-{{< collapse summary="Click here to reveal the answer." >}}
-
-1. `25 - 16 = 9`
-2. `9 - 8 = 1`
-3. `1 - 1 = 0`
-
-{{</ collapse >}}
+    1. `25 - 16 = 9`
+    2. `9 - 8 = 1`
+    3. `1 - 1 = 0`
 
 4. Repeat steps 1-3 with the remainder until the remainder is 0.
 
 5. Place a 0 in the remaining columns in the third row.
 
-| 2<sup>7</sup> | 2<sup>6</sup> | 2<sup>5</sup> | 2<sup>4</sup> | 2<sup>3</sup> | 2<sup>2</sup> | 2<sup>1</sup> | 2<sup>0</sup> |
-|--------------:|--------------:|--------------:|--------------:|--------------:|--------------:|--------------:|--------------:|
-| 128           | 64            | 32            | 16            | 8             | 4             | 2             | 1             |
-| **0**         | **0**         | **0**         | 1             | 1             | **0**         | **0**         | 1             |
+    | 2<sup>7</sup> | 2<sup>6</sup> | 2<sup>5</sup> | 2<sup>4</sup> | 2<sup>3</sup> | 2<sup>2</sup> | 2<sup>1</sup> | 2<sup>0</sup> |
+    |--------------:|--------------:|--------------:|--------------:|--------------:|--------------:|--------------:|--------------:|
+    | 128           | 64            | 32            | 16            | 8             | 4             | 2             | 1             |
+    | **0**         | **0**         | **0**         | 1             | 1             | **0**         | **0**         | 1             |
 
 6. Put together the bits in the third row to reveal the binary number.
 
-`00011001`
+    `00011001`
 
-Since the leading zeros do not affect the value of the number, you can safely remove them.
+    Since the leading zeros do not affect the value of the number, you can safely remove them.
 
-`11001`
+    `11001`
 
-Congrats! You have successfully converted the decimal number 25 to the binary number 11001.
+    Congrats! You have successfully converted the decimal number 25 to the binary number 11001.
 
 {{</ collapse >}}
 
 ### Answer the Questions
-
 Under your Flippy Do, answer the following questions.
-
-{{< collapse summary="Click here to see the questions." >}}
 
 _Remember to reset your Flippy Do before each conversion._
 
 1. **All 4-bit numbers**: Fill in the binary equivalents for the decimal numbers below. The first three are done for you!
 
-| Binary: 4-bit number | Decimal |
-|---------------------:|--------:|
-| 0000                 | 0       |
-| 0001                 | 1       |
-| 0010                 | 2       |
-| ____                 | __      |
-| ____                 | __      |
-| ____                 | __      |
-| ____                 | __      |
-| ____                 | __      |
-| ____                 | __      |
-| ____                 | __      |
-| ____                 | __      |
-| ____                 | __      |
-| ____                 | __      |
-| ____                 | __      |
-| ____                 | __      |
-| ____                 | __      |
+    | Binary: 4-bit number | Decimal |
+    |---------------------:|--------:|
+    | 0000                 | 0       |
+    | 0001                 | 1       |
+    | 0010                 | 2       |
+    | ____                 | __      |
+    | ____                 | __      |
+    | ____                 | __      |
+    | ____                 | __      |
+    | ____                 | __      |
+    | ____                 | __      |
+    | ____                 | __      |
+    | ____                 | __      |
+    | ____                 | __      |
+    | ____                 | __      |
+    | ____                 | __      |
+    | ____                 | __      |
+    | ____                 | __      |
 
 2. What do you notice when you compare the odd numbers with the even numbers? What might explain this?
 
 3. **Binary numbers with exactly one 1**: Complete the chart with all 8-bit binary numbers that have exactly one 1. The first two are done for you!
 
-| Binary: 8-bit number | Decimal |
-|---------------------:|--------:|
-| 00000001             | 1       |
-| 00000010             | 2       |
-| 00000100             | __      |
-| ________             | __      |
-| ________             | __      |
-| ________             | __      |
-| ________             | __      |
-| ________             | __      |
+    | Binary: 8-bit number | Decimal |
+    |---------------------:|--------:|
+    | 00000001             | 1       |
+    | 00000010             | 2       |
+    | 00000100             | __      |
+    | ________             | __      |
+    | ________             | __      |
+    | ________             | __      |
+    | ________             | __      |
+    | ________             | __      |
 
 4. What do you notice about the decimal equivalents above?
 
 5. **Conversion practice**: Find the equivalent binary or decimal numbers below.
 
-| Binary   | Decimal |
-|---------:|--------:|
-| 100      |         |
-| 101      |         |
-| 1101     |         |
-| 00011111 |         |
-| 00100000 |         |
-| 10101010 |         |
-| 11111111 |         |
-|          | 5       |
-|          | 17      |
-|          | 63      |
-|          | 64      |
-|          | 127     |
-|          | 256     |
-|          | 513     |
+    | Binary   | Decimal |
+    |---------:|--------:|
+    | 100      |         |
+    | 101      |         |
+    | 1101     |         |
+    | 00011111 |         |
+    | 00100000 |         |
+    | 10101010 |         |
+    | 11111111 |         |
+    |          | 5       |
+    |          | 17      |
+    |          | 63      |
+    |          | 64      |
+    |          | 127     |
+    |          | 256     |
+    |          | 513     |
 
 6. When you add a zero to the right of a decimal number, it multiplies its value by 10 (For example, 15 becomes 150). What similar result happens to the value of a binary number when you add a zero on the right? (For example, 11 would become 110).
 
@@ -323,12 +305,6 @@ _Remember to reset your Flippy Do before each conversion._
 
 9. How many bits would you need if you wanted to count up to the decimal number 1000?
 
-10. Write a concise definition or draw a sketch for the following vocabulary words:
-- Binary
-- Bit
-- Byte
-- Decimal
-
-{{</ collapse >}}
+{{% unit-journal-define-terms "Binary" "Bit" "Byte" "Decimal" %}}
 
 {{% instructions-code-org-update %}}

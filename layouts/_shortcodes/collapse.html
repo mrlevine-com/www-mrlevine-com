@@ -1,9 +1,7 @@
-{{ if .Get "summary" }}
-{{ else }}
-{{ warnf "missing value for param 'summary': %s" .Position }}
+{{ $ctx := dict
+	"page" .
+	"summary" (.Get "summary")
+}}
+{{ with partial "collapse.html" $ctx }}
+{{ .Inner }}
 {{ end }}
-<p><details {{ if (eq (.Get "openByDefault") true) }} open=true {{ end }} style="border-left: 1px dotted var(--secondary); padding-left: 10px;">
-	<summary markdown="span">{{ .Get "summary" | markdownify }}</summary>
-	<div style="height: var(--content-gap);"></div>
-	{{ .Inner | markdownify }}
-</details></p>

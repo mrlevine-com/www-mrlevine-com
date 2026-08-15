@@ -2,8 +2,8 @@
 {{ else }}
 {{ warnf "missing value for param 'summary': %s" .Position }}
 {{ end }}
-<p><details style="border-left: 1px dotted var(--secondary); padding-left: 10px;">
-	<summary markdown="span">{{ .summary | markdownify }}</summary>
+<p><details {{ if (eq (.openByDefault) true) }} open=true {{ end }} style="padding-inline-start: 1.24rem; border-left: 1px dotted var(--secondary);">
+	<summary style="color: var(--secondary); margin-inline-start: -1.11rem;" markdown="span">{{ .summary | markdownify }}</summary>
 	<div style="height: var(--content-gap);"></div>
 	{{ inner .page | markdownify }}
 </details></p>

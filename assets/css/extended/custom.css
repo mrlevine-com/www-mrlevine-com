@@ -1,0 +1,4 @@
+li::marker {
+  font-size: 11.1px;
+  color: var(--secondary);
+}

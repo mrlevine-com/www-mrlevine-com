@@ -2,10 +2,10 @@
 
 <header class="page-header">
 	{{ partial "breadcrumbs.html" . }}
-	<h1>
-		{{- .Title -}}
-	</h1>
-	<button id="today" hidden style="margin-top: 12px; padding: 4px 16px; font-size: 18px; border: 1px dotted var(--secondary); border-radius: var(--radius); cursor: pointer;">View Today</button>
+	<div style="display: flex; align-items: center; gap: 20px; flex-wrap: wrap;">
+		<h1>{{ .Title }}</h1>
+		<a href="#" id="today" hidden class="button" title="View Today">View Today</a>
+	</div>
 </header>
 
 {{ partial "cover.html" (dict "cxt" .) }}

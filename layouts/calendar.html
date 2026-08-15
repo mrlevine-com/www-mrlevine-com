@@ -143,8 +143,8 @@
 	{{ if not $haveOpenYear }}
 		{{ $currentYear = $ym }}
 		{{ $currentMonth = "" }}
-		<div class="archive-year">
-		<h2 class="archive-year-header" id="{{ $y }}-{{ $m }}">
+		<div class="archive-year" style="margin: 0; padding-top: 20px;" id="{{ $y }}-{{ $m }}">
+		<h2 class="archive-year-header">
 			<a class="archive-header-link" href="#{{ $y }}-{{ $m }}">
 				{{- $ymFormatted -}}
 			</a>
@@ -178,8 +178,8 @@
 				<span>Quarter {{ $currentQuarter }} Week {{ $currentWeek }}</span>
 			</div>
 		{{ end }}
-		<div class="archive-month">
-		<h3 class="archive-month-header" id="{{ $y }}-{{ $m }}-{{ $d }}">
+		<div class="archive-month" id="{{ $y }}-{{ $m }}-{{ $d }}">
+		<h3 class="archive-month-header">
 			<a class="archive-header-link" href="#{{ $y }}-{{ $m }}-{{ $d }}">
 				{{- $dFormatted -}}
 			</a>
@@ -218,6 +218,11 @@
 <script>
 	document.addEventListener("DOMContentLoaded", () => {
 		const d = new Date();
+		if (d.getDay() == 6) {
+			d.setDate(d.getDate() + 2);
+		} else if (d.getDay() == 0) {
+			d.setDate(d.getDate() + 1);
+		}
 		const id = `${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,"0")}-${String(d.getDate()).padStart(2,"0")}`;
 		const today = document.getElementById("today");
 		const target = document.getElementById(id);

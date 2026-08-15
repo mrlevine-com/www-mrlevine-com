@@ -1,7 +1,7 @@
 ---
 title: Exploring Problem Solving
 units: [Problem Solving and Computing]
-summary: The problem solving process can be applied to many problems.
+summary: The problem solving process can be applied to many different kinds of problems.
 weight: 30
 days: 2
 ---
@@ -75,7 +75,7 @@ And so the process continues.
 ## Assignment
 {{% instructions-unit-journal-update %}}
 
-### The Perfect Pet
+### The Perfect Pet (Day 1)
 #### Overview
 A group of people are trying to decide what pet will best fit their needs and lifestyle. Try to match up the pets with the person who will work best with this pet, so that each person is matched with exactly one pet.
 
@@ -105,7 +105,7 @@ Given each person's constraints, choose one pet for each person, so that each pe
 #### Once You're Done
 Record how you used each step of the problem solving process to solve this problem. Give examples of what each step looked like as you were solving that problem.
 
-### Partner Race Relay
+### Partner Race Relay (Day 1)
 #### Overview
 Aysha, Ben, Carla, Damien, Eric, Fan, and Genaro are a team in a partner race relay. For each round of the relay, two people run to the finish line holding a baton. Then one person runs back to return the baton to the starting line. The race ends when everyone is at the finish line.
 
@@ -137,7 +137,7 @@ Decide what order the players should go in so that everyone gets to the finish l
 #### Once You're Done
 Record how you used each step of the problem solving process to solve this problem. Give examples of what each step looked like as you were solving that problem.
 
-### Make a Game
+### Make a Game (Day 2)
 #### Overview
 Field day is coming up and you and your friends will be making a new, special game for it. You’ve got an entire school day to come up with a new game and its rules. Plan the most fun and exciting game that you can!
 

@@ -20,6 +20,7 @@ weight: 40
 
 ## Assignment
 {{% instructions-unit-journal-update %}}
+{{% unit-journal-define-terms "Computer" %}}
 
 ### Computer or Not a Computer
 Create a two-column table to categorize items.

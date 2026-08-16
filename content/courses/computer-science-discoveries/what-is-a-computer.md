@@ -14,21 +14,17 @@ weight: 40
 
 ## Lesson Overview
 ### What is a computer?
-{{< collapse summary="Click here to reveal the answer." >}}
-
-[insert video]
-
 {{% define "Computer" %}}
 
-{{</ collapse >}}
+{{< video title="What is a Computer?" src="/videos/what-is-a-computer.mp4">}}
 
 ## Assignment
 {{% instructions-unit-journal-update %}}
 
-### Computer or Not Computer
+### Computer or Not a Computer
 Create a two-column table to categorize items.
 
-| Computer | Not Computer |
+| Computer | Not a Computer |
 |----------|--------------|
 | _        | _            |
 

@@ -155,9 +155,9 @@
 
 	{{ if not $haveOpenMonth }}
 		{{ $currentMonth = $ymd }}
+		{{ $date := add $y "-" $m "-" $d }}
 		{{ if eq $dayOfWeek "Mon" }}
 			{{ $currentWeek = add $currentWeek 1 }}
-			{{ $date := add $y "-" $m "-" $d }}
 			{{ if eq $date "2026-08-10" }}
 				{{ $currentQuarter = 1 }}
 				{{ $currentWeek = 1 }}
@@ -174,11 +174,11 @@
 				{{ $currentQuarter = 4 }}
 				{{ $currentWeek = 1 }}
 			{{ end }}
-			<div class="archive-month" style="padding: 20px 0">Quarter {{ $currentQuarter }} Week {{ $currentWeek }} &nbsp;{{ ":books:" | markdownify }}</div>
+			<div id="{{ $date }}" class="archive-month" style="padding: 20px 0">Quarter {{ $currentQuarter }} Week {{ $currentWeek }} &nbsp;{{ ":books:" | markdownify }}</div>
 		{{ end }}
-		<div class="archive-month" id="{{ $y }}-{{ $m }}-{{ $d }}">
+		<div class="archive-month" id="{{ cond (eq $dayOfWeek "Mon") (add "mon-" $date) $date }}">
 		<h3 class="archive-month-header">
-			<a class="archive-header-link" href="#{{ $y }}-{{ $m }}-{{ $d }}">
+			<a class="archive-header-link" href="#{{ $date }}">
 				{{- $dFormatted -}}
 			</a>
 			<!--<sup class="archive-count">{{- index $dayCounts $ymd -}}</sup>-->

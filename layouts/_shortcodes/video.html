@@ -1,9 +1,9 @@
 {{ $title := .Get "title" }}
 {{ $src := .Get "src" }}
-{{ $thumbnail := .Get "thumbnail" }}
+{{ $poster := .Get "poster" }}
 {{ $cc := .Get "cc" | default "code.org" }}
 
-<video src="{{ $src }}" poster="{{ $thumbnail }}" controls muted></video>
+<video src="{{ $src }}" poster="{{ $poster }}" controls muted></video>
 
 {{ if eq $cc "code.org" -}}
 	<small class="md-content footer" style="font-size: 14px; padding: 0;">

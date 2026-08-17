@@ -16,7 +16,7 @@ weight: 40
 ### What is a computer?
 {{% define "Computer" %}}
 
-{{< video title="What is a Computer?" src="/videos/what-is-a-computer.mp4" thumbnail="/images/thumbnail-what-is-a-computer.jpg">}}
+{{< video title="What is a Computer?" src="/videos/what-is-a-computer.mp4" poster="/images/video-poster-what-is-a-computer.jpg">}}
 
 ## Assignment
 {{% instructions-unit-journal-update %}}

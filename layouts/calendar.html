@@ -43,7 +43,8 @@
 		{{ $isWeekend := or (eq $dayOfWeek "Sat") (eq $dayOfWeek "Sun") }}
 
 		{{ $today := $d | time.Format "2006-01-02" }}
-		{{ $noSchoolToday := where (where $allEvents "type" "No School") "date" $today }}
+		{{ $noLesson := slice "No School" "No Lesson" }}
+		{{ $noSchoolToday := where (where $allEvents "type" "in" $noLesson) "date" $today }}
 
 		{{ if and (not $isWeekend) (eq ($noSchoolToday | len) 0) }}
 			{{ $items = $items | append (dict

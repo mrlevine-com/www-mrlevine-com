@@ -3,7 +3,6 @@ title: Welcome to CSP
 units: [Digital Information]
 summary: Welcome to Computer Science Principles with Mr. Levine!
 weight: 10
-days: 2
 ---
 
 {{% param summary %}}

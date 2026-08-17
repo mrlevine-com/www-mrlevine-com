@@ -3,7 +3,6 @@ title: Intro to Problem Solving
 units: [Problem Solving and Computing]
 summary: Welcome to Computer Fundamentals with Mr. Levine!
 weight: 10
-days: 2
 ---
 
 {{% param summary %}}

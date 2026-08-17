@@ -1,7 +1,8 @@
 {{ $lesson := . }}
 {{ $course := $lesson.Parent }}
 {{ $currDate := $course.Params.Start | time.AsTime }}
-{{ $noSchool := where hugo.Data.events "type" "No School" }}
+{{ $noLesson := slice "No School" "No Lesson" }}
+{{ $noSchool := where hugo.Data.events "type" "in" $noLesson }}
 
 {{ range 30 }}
 	{{ $today := $currDate | time.Format "2006-01-02" }}

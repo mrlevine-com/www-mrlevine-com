@@ -2,3 +2,7 @@ li::marker {
   font-size: 11.1px;
   color: var(--secondary);
 }
+
+code {
+  line-height: 1 !important;
+}

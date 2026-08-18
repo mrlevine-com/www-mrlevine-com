@@ -1,6 +1,7 @@
 ---
 title: Representing Text
-summary: The same sequence of bits may represent different types of data in different contexts.
+units: [Digital Information]
+summary: The same sequence of bits can represent different types of data in different contexts.
 weight: 60
 ---
 
@@ -12,19 +13,34 @@ weight: 60
 - Describe the challenges in representing text when using a fixed number of bits for each character.
 
 ## Lesson Overview
-### How can computers understand text?
-How can computers understand text if they can only understand binary?
-
+### How do computers understand text if they only understand binary numbers?
 {{< collapse summary="Click here to reveal the answer." >}}
 
-They can use a system that maps bits to characters.
+They use a system for representing text using only numbers.
+
+This is an example of abstraction. For computers, each character is really just a number, which itself is really just a binary number.
+
+Wait, it's all 1s and 0s? Always has been.
+
+{{% define "Abstraction" %}}
+
+{{</ collapse >}}
+
+### How do you create a system for representing text using only numbers?
+{{< collapse summary="Click here to reveal the answer." >}}
+
+You assign a specific sequence of bits to each character.
+
+Remember your information sending device and circle square number system? You need rules so that the sender and receiver can understand the information.
+
+This need led to the creation of ASCII.
 
 {{</ collapse >}}
 
 ### What is ASCII?
-ASCII (American Standard Code for Information Interchange) is a widely used system for character encoding. It was originally developed in 1963 as a 7-bit system allowing for 128 characters. Symbols 0-31 and 127 were reserved for control characters (e.g. “Backspace” or “Delete”) with the numbers 32-126 being used for printable characters. As the 8-bit “byte” became standardized, ASCII was extended to the 8-bit format you see below.
+{{< collapse summary="Click here to reveal the answer." >}}
 
-{{< collapse summary="Click here to reveal the table." >}}
+ASCII (American Standard Code for Information Interchange) is a widely used system for character encoding. It was originally developed in 1963 as a 7-bit system allowing for 128 characters. Symbols 0-31 and 127 were reserved for control characters (e.g. “Backspace” or “Delete”) with the numbers 32-126 being used for printable characters. As the 8-bit “byte” became standardized, ASCII was extended to the 8-bit format you see below.
 
 | Num. | Bits     | Char. |
 |-----:|---------:|-------|
@@ -126,17 +142,31 @@ ASCII (American Standard Code for Information Interchange) is a widely used syst
 
 {{</ collapse >}}
 
+### What else can you do with the ninety-five printable characters defined by the ASCII Standard besides writing messages?
+{{< collapse summary="Click here to reveal the answer." >}}
+
+You can make a turtle.
+
+```
+                             ___-------___
+                         _-~~             ~~-_
+                      _-~                    /~-_
+   /^\__/^\         /~  \                   /    \
+ /|  O|| O|        /      \_______________/        \
+| |___||__|      /       /                \          \
+|          \    /      /                    \          \
+|   (_______) /______/                        \_________ \
+|         / /         \                      /            \
+ \         \^\\         \                  /               \     /
+   \         ||           \______________/      _-_       //\__//
+     \       ||------_-~~-_ ------------- \ --/~   ~\    || __/
+       ~-----||====/~     |==================|       |/~~~~~
+        (_(__/  ./     /                    \_\      \.
+               (_(___/                         \_____)_)
+
+```
+
+{{</ collapse >}}
+
 ## Assignment
-### Instructions
-#### Complete Code.org Unit 1 Lesson 6
-
-### Submission
-#### Deliverables
-| Item                                  | Est. Time |
-|---------------------------------------|----------:|
-| Unit 1 Lesson 6 submitted on Code.org | ~10 mins  |
-
-#### Rubric
-| Criteria                     | Points |
-|------------------------------|-------:|
-| Code.org Unit 1 Lesson 6     | 100    |
+{{% instructions-code-org-update %}}

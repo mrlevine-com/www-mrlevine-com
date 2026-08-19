@@ -24,6 +24,7 @@ To represent an analog image digitally, you would have to decide how to sample t
 
 ## Assignment
 {{% instructions-unit-journal-update %}}
+{{% unit-journal-define-terms "Analog Data" "Digital Data" "Sampling" %}}
 
 ### Record the Image
 Record an analog and digital representation of the following image:

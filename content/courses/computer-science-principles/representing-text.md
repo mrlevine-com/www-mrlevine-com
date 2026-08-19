@@ -20,7 +20,7 @@ They use a system for representing text using only numbers.
 
 This is an example of abstraction. For computers, each character is really just a number, which itself is really just a binary number.
 
-Wait, it's all 1s and 0s? Always has been.
+![Wait, it's all 1s and 0s?](/images/wait-its-all-1s-and-0s.jpg)
 
 {{% define "Abstraction" %}}
 

@@ -169,4 +169,16 @@ You can make a turtle.
 {{</ collapse >}}
 
 ## Assignment
+{{% instructions-unit-journal-update %}}
+
+### Record Your System
+At the beginning of class, based on [this Kahoot](https://create.kahoot.it/share/representing-text/104735bb-f7a1-423b-a071-fe34452d068a), you needed to record the following:
+
+- Your system for communicating text using only numbers (updating as needed to represent the different messages below)
+- Representations of the following messages based on your system:
+  - oh no
+  - Great!
+  - Free at 5?
+  - Cya 2nite!
+
 {{% instructions-code-org-update %}}

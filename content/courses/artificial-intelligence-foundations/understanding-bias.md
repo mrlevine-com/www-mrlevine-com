@@ -24,6 +24,8 @@ AI can be biased because it learns from patterns in data, but that data isn't al
 {{</ collapse >}}
 
 ### How can you reduce AI bias?
+{{< collapse summary="Click here to reveal the answer." >}}
+
 You can:
 
 - Improve training data to be more representative.
@@ -31,9 +33,10 @@ You can:
 
 {{% define "Alignment" %}}
 
+{{</ collapse >}}
 ## Assignment
 {{% instructions-unit-journal-update %}}
-{{% unit-journal-define-terms "Bias" "Contradiction" %}}
+{{% unit-journal-define-terms "Bias" "Alignment" %}}
 
 ### AI Audit
 As you complete Code.org, record the following.
@@ -62,9 +65,8 @@ As you complete Code.org, record the following.
 ### Reflection
 After completing Code.org, record the following:
 
-- Examples where you saw AI bias
+- Examples of where you saw AI bias
 - What you can do to help mitigate it
-- Why AI bias emerges
 
 {{% instructions-code-org-update %}}
 {{% unit-journal-question-of-the-day question="What is AI bias and how does it emerge?" %}}

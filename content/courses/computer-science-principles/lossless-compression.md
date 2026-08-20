@@ -25,7 +25,7 @@ Abbreviations save time and space, which is useful in computing where time and s
 >
 > — <cite>Kevin Malone[^1]</cite>
 
-{{< video title="Kevin's Small Talk - The Office" src="/videos/kevins-small-talk-the-office.mp4" cc="none">}}
+{{< video title="Kevin's Small Talk - The Office" src="/videos/kevins-small-talk-the-office.mp4" cc="none" >}}
 
 [^1]: The above quote is excerpted from [The Office, S8.E2, The Incentive](https://www.imdb.com/title/tt2051718/), aired September 29, 2011.
 

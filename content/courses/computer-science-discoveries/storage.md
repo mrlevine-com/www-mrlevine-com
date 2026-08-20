@@ -23,7 +23,7 @@ Computers save information to use in the future through storage.
 {{</ collapse >}}
 
 ### What do computers do?
-{{< video title="What Do Computers Do?" src="/videos/what-do-computers-do.mp4" poster="/images/video-poster-what-do-computers-do.jpg">}}
+{{< video title="What Do Computers Do?" src="/videos/what-do-computers-do.mp4" poster="/images/video-poster-what-do-computers-do.jpg" >}}
 
 ## Assignment
 {{% instructions-code-org-update %}}

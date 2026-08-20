@@ -13,6 +13,8 @@ weight: 70
 
 ## Lesson Overview
 ### How do you represent an image using only binary numbers?
+{{< collapse summary="Click here to reveal the answer." >}}
+
 Imagine a picture hand drawn on a piece of paper. Each pencil line would smoothly connect to the next, no matter how much you zoomed in on the picture with a magnifying glass. This drawing would be analog data.
 
 {{% define "Analog Data" %}}
@@ -21,6 +23,8 @@ To represent an analog image digitally, you would have to decide how to sample t
 
 {{% define "Digital Data" %}}
 {{% define "Sampling" %}}
+
+{{</ collapse >}}
 
 ## Assignment
 {{% instructions-unit-journal-update %}}

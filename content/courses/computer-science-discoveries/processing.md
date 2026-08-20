@@ -23,12 +23,16 @@ Computers turn inputs into outputs through processing.
 {{</ collapse >}}
 
 ### What are the different ways computers can process information?
+{{< collapse summary="Click here to reveal the answer." >}}
+
 There are four basic types of processing that computers can use:
 
 - **If/Then**: If something is true, do something else.
 - **Comparing**: Check whether things are the same or one is bigger than the other.
 - **Finding a Match**: Search a list or group of things for a match.
 - **Counting**: Keep track of how many of something there are.
+
+{{</ collapse >}}
 
 ## Assignment
 {{% instructions-code-org-update %}}

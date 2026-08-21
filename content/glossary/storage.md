@@ -1,7 +1,7 @@
 ---
 title: Storage
 units: [Problem Solving and Computing]
-summary: Saving information to use in the future
+summary: Information that is saved for the computer to use in the future
 hideMeta: true
 ---
 

@@ -1,5 +1,6 @@
 ---
 title: Lossy Compression
+units: [Digital Information]
 summary: The best compression algorithm depends on the situation.
 weight: 100
 ---
@@ -11,8 +12,8 @@ weight: 100
 - Given a piece of media, decide whether to use lossy or lossless compression based on the needs of a situation.
 
 ## Lesson Overview
-### Vocabulary
-- **Lossy Compression**: A process for reducing the number of bits needed to represent something in which some information is lost or thrown away (this process is not reversible)
+### What is lossy compression?
+{{% define "Lossy Compression" %}}
 
 ### How do you decide whether to use lossless or lossy compression?
 {{< collapse summary="Click here to reveal the answer." >}}
@@ -22,45 +23,31 @@ weight: 100
 
 {{</ collapse >}}
 
-### How do you use the Lossy Compression Widget?
-You will see the Lossy Compression Widget on Code.org Unit 1 Lesson 10 Levels 1 and 2.
-
-You need to click the "Run" button on the app before you can play with it.
-
-Adjust the slider to change the sample size and see different lossy compressions.
-
-- The larger the sample size, the smaller the file size but the image looks worse
-- The smaller the sample size, the better the image looks but the file size is larger
-
-On Level 2, click "New Image" and paste an image URL; find one on the internet!
-
 ## Assignment
-### Instructions
-#### Submit Level 2 Report on Canvas
-On Notability or your preferred software, create a blank document.
+{{% instructions-unit-journal-update %}}
+{{% unit-journal-define-terms "Lossless Compression" %}}
 
-Add three screenshots, each showing a different lossy compression for these three scenarios:
-1. You are submitting to a design competition where your submission will be carefully judged for color and composition.
-2. You are sending as a text message to a friend but you have almost run out of data on your phone plan.
-3. You are uploading as an icon for a website but the maximum file size is 1024 bytes.
+### Removing Vowels
+Try [this widget](https://studio.code.org/projects/applab/hxXJIEGg2yza_Q7t9W04xg), type "there are three tiers of tires at the shop", and record your answers to the following questions:
 
-Each screenshot must show your first name which appears at the top right of your Code.org account.
+- How is this widget similar to the Lossless Compression Widget you used?
+- How is it different?
 
-Below or near each screenshot, write a justification for why you chose that sample size for that scenario.
+### Guess the Image
+Do this three times:
 
-#### Complete Code.org Unit 1 Lesson 10 Level 3.
+1. Find an image you like on [Wikimedia Commons](https://commons.wikimedia.org/wiki/Main_Page) and copy its URL.
+2. On Level 2 on Code.org, click "Run", click "New Image", paste your image URL, then click "OK" (your image should appear).
+3. Move the slider all the way to the right so the sample size is 20.
+4. Have a classmate try to guess the image.
+5. If they do not guess correctly, reduce the sample size by 1 using the slider.
+6. Repeat steps 4 and 5 until the classmate correctly guesses the image.
+7. Record the following information:
+    - The original image pasted, with its:
+        - URL
+        - Size (bytes)
+    - The correctly guessed compressed image pasted, with its:
+        - Size (bytes)
+        - Sample size (1-20)
 
-### Submission
-#### Deliverables
-| Item                                   | Est. Time |
-|----------------------------------------|----------:|
-| Report submitted on Canvas             | ~30 mins  |
-| Unit 1 Lesson 10 submitted on Code.org | ~10 mins  |
-
-#### Rubric
-| Criteria                             | Points |
-|--------------------------------------|-------:|
-| 10pts per screenshot + justification | 60     |
-| All screenshots include first name   | 20     |
-| Custom image used                    | 10     |
-| Code.org Unit 1 Lesson 10 Level 3    | 10     |
+{{% instructions-code-org-update %}}

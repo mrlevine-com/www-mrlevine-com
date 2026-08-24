@@ -1,5 +1,6 @@
 ---
 title: Lossless Compression
+units: [Digital Information]
 summary: Data can be represented with fewer bits without losing any information.
 weight: 90
 ---
@@ -11,48 +12,60 @@ weight: 90
 - Create lossless compressions of text files.
 
 ## Lesson Overview
-### Vocabulary
-- **Lossless Compression**: A process for reducing the number of bits needed to represent something without losing any information (this process is reversible)
+### What is lossless compression?
+{{% define "Lossless Compression" %}}
 
 ### What are the advantages of using abbreviations when sending messages?
+> Why waste time say lot word when few word do trick?
+>
+> — <cite>Kevin Malone[^1]</cite>
+
+[^1]: The above quote is excerpted from [The Office, S8.E2, The Incentive](https://www.imdb.com/title/tt2051718/), aired September 29, 2011.
+
+{{< video title="Kevin's Small Talk - The Office" src="/videos/kevins-small-talk-the-office.mp4" poster="/images/video-poster-kevins-small-talk-the-office.jpg" cc="none" >}}
+
 {{< collapse summary="Click here to reveal the answer." >}}
 
 Abbreviations save time and space, which is useful in computing where time and space are limited.
 
 {{</ collapse >}}
 
-> Why waste time say lot word when few word do trick?
->
-> — <cite>Kevin Malone[^1]</cite>
+### How do I use the Text Compression Widget on Code.org?
+{{< video title="Text Compression Widget With Aloe Blacc" src="/videos/text-compression-widget-with-aloe-blacc.mp4" poster="/images/video-poster-text-compression-widget-with-aloe-blacc.jpg" >}}
 
-{{< video title="Kevin's Small Talk - The Office" src="/videos/kevins-small-talk-the-office.mp4" cc="none" >}}
 
-[^1]: The above quote is excerpted from [The Office, S8.E2, The Incentive](https://www.imdb.com/title/tt2051718/), aired September 29, 2011.
+{{< collapse summary="Click here to see an example." >}}
 
-### How do you use the Text Compression Widget?
-You will see the Text Compression Widget on Code.org Unit 1 Lesson 9 Level 1.
+#### Original Text
+`Pitter_patter_pitter_patter_listen_to_the_rain_pitter_patter_pitter_patter_on_the_window_pane`
 
-Type in the dictionary on the right and notice the text on the left updating with your symbols.
+#### Dictionary
 
-Look for repeated words, sentences, or even parts of words (like -ing or -th).
+| Symbol | Text  |
+|--------|-------|
+| ☀      | _the  |
+| ☂      | tter_ |
+| ☃      | Pi☂   |
+| ☄      | Pa☂   |
+| ★      | ☃☄☃☄  |
 
-The widget lets you copy-and-paste to embed symbols within symbols.
+#### Compressed Text
 
-Try to maximize the compression percentage at the bottom of the screen.
+`★listen_to☀_rain_★on☀_window_pane`
 
-{{< video title="Text Compression Widget With Aloe Blacc" src="/videos/text-compression-widget-with-aloe-blacc.mp4" >}}
+#### Compression Stats
+
+```
+Compressed text size: 33 bytes
+     Dictionary size: 24 bytes
+               Total: 57 bytes
+  Original text size: 93 bytes
+         Compression: 38.71%
+```
+
+{{</ collapse >}}
 
 ## Assignment
-### Instructions
-#### Complete Code.org Unit 1 Lesson 9
-
-### Submission
-#### Deliverables
-| Item                                  | Est. Time |
-|---------------------------------------|----------:|
-| Unit 1 Lesson 9 submitted on Code.org | ~20 mins  |
-
-#### Rubric
-| Criteria                 | Points |
-|--------------------------|-------:|
-| Code.org Unit 1 Lesson 9 | 100    |
+{{% instructions-unit-journal-update %}}
+{{% unit-journal-define-terms "Lossless Compression" %}}
+{{% instructions-code-org-update %}}

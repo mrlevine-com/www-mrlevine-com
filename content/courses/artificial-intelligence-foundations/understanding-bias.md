@@ -34,6 +34,7 @@ You can:
 {{% define "Alignment" %}}
 
 {{</ collapse >}}
+
 ## Assignment
 {{% instructions-unit-journal-update %}}
 {{% unit-journal-define-terms "Bias" "Alignment" %}}

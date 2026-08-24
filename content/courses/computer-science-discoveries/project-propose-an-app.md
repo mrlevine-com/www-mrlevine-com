@@ -1,5 +1,6 @@
 ---
 title: "Project: Propose an App"
+units: [Problem Solving and Computing]
 summary: Create an app that solves a problem.
 weight: 80
 days: 5

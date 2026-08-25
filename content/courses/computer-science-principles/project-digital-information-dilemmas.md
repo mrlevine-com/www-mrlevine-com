@@ -1,12 +1,12 @@
 ---
 title: "Project: Digital Information Dilemmas"
-summary: ":construction:"
+units: [Digital Information]
+summary: Digital information causes benefits and harms.
 weight: 120
 days: 2
 ---
 
 {{% param summary %}}
-> This page is under construction.
 
 ## Today's Objectives
 - Analyze an article about information digitization to determine the information being digitized and the initial goal or purpose.
@@ -14,32 +14,24 @@ days: 2
 - Examine articles to identify the social benefits and harms caused by information digitization.
 - Weigh social benefits or harms from a specific instance of information digitization.
 
-<!--
-
 ## Lesson Overview
-### ?
+### What have I learned so far?
 {{< collapse summary="Click here to reveal the answer." >}}
 
+You have learned:
 
+- Some technical challenges and questions that arise from the need to represent digital information in computers
+- How complex information like numbers, text, images, and sound are represented in bits
+- How compression works
+- The broader social impacts of digitizing the world's information
 
 {{</ collapse >}}
 
 ## Assignment
-### Instructions
-####
+{{% instructions-unit-journal-update %}}
 
-### Submission
-#### Deliverables
-| Item                                  | Est. Time |
-|---------------------------------------|----------:|
-| Today's activity submitted on Canvas  | ~__ mins  |
-| Unit _ Lesson _ submitted on Code.org | ~__ mins  |
+### Step 1: ...
 
-#### Rubric
-| Criteria                     | Points |
-|------------------------------|-------:|
-| ___                          | __     |
-| Your name written at the top | __     |
-| Code.org Unit _ Lesson _     | __     |
+{{% instructions-code-org-update %}}
 
--->
+## Upcoming Test

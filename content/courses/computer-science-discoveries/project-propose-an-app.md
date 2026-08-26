@@ -103,7 +103,7 @@ Get feedback from your classmates and record the following:
     |--------------------------------------------------------------------------------------------------------------------------------------------------------------|---------|------------------|
     | The outputs of the app are clearly described and could be used to help the user with the problem.                                                            | _       | _                |
     | Stored information is listed and makes sense for the what the app does. Information that would change over time is not listed.                               | _       | _                |
-    | The problem is well-defined, including a who the app will help, details of the problem, and how to tell it has been solved.                                  | _       | _                |
+    | The problem is well-defined, including who the app will help, details of the problem, and how to tell it has been solved.                                    | _       | _                |
     | The app is clearly described in detail, including what it does and how someone would use it.                                                                 | _       | _                |
     | The way that the inputs are processed to make the output is clearly described in terms of tasks that make sense for computing (e.g. sorting, counting, etc.) | _       | _                |
 - A description of what people liked overall

@@ -30,8 +30,18 @@ You have learned:
 ## Assignment
 {{% instructions-unit-journal-update %}}
 
-### Step 1: ...
+### Digital Information Dilemmas
+Choose one of the following Wikipedia articles to read:
+
+- [Virtual actor](https://en.wikipedia.org/wiki/Virtual_actor)
+- [DNA digital data storage](https://en.wikipedia.org/wiki/DNA_digital_data_storage)
+
+Based on the article you chose, record your answers to the following questions:
+
+- What was digitized?
+- What was the goal or purpose of digitizing this thing?
+- Is someone benefiting from this situation? If so, who?
+- Is someone being harmed in this situation? If so, who?
+- Are these impacts intended or unintended? How do you know?
 
 {{% instructions-code-org-update %}}
-
-## Upcoming Test

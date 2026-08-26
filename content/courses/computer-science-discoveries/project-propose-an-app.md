@@ -123,3 +123,6 @@ Create a simple ad for your app, including all of the following information:
 - A description of how the app processes and stores information
 
 As teams present, record the above information for every team's app.
+
+## Upcoming Quiz
+Look over your Unit Journal and play [this Kahoot](https://create.kahoot.it/share/quiz-problem-solving-and-computing/2ed7550c-87b5-4796-92d3-06bdec6bdd30) to prepare for your upcoming quiz.

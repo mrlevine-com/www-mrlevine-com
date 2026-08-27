@@ -36,9 +36,9 @@ In otherwise, AI companies could be training their models on copyrighted data.
 ### What is being done to regulate AI?
 {{< collapse summary="Click here to reveal the answer." >}}
 
-The European Union's proposed AI Act would require companies to say if copyrighted works were used to train their models and give creators the right to opt out.
-
 In 2023, artists and authors sued AI companies, arguing their copyrighted works were scraped and used without permission. They believe this practice is not just illegal, but also unethical, because it harms their ability to earn a living.
+
+In 2024, the European Union's AI Act passed, requiring companies to say if copyrighted works were used to train their models and give creators the right to opt out.
 
 {{</ collapse >}}
 
@@ -46,8 +46,10 @@ In 2023, artists and authors sued AI companies, arguing their copyrighted works 
 {{% instructions-unit-journal-update %}}
 {{% unit-journal-define-terms "Ethics" "Copyright" "Attribution" "Transparency" %}}
 
-### Ownership and AI Scenarios
-#### Scenario A
+### Ownership and AI Stories
+Read each of the following real-world stories and record your answers to the questions.
+
+#### First Story
 In 2023, controversy arose when AI-generated books created using tools like ChatGPT were listed on Amazon under fake author names and marketed as legitimate works.
 
 Record your answers to the following questions based on your opinion:
@@ -55,7 +57,7 @@ Record your answers to the following questions based on your opinion:
 - Who should own AI-generated content (the AI creator, the user, the company, or shared ownership)? Why?
 - What should happen if AI uses copyrighted material in training?
 
-#### Scenario B
+#### Second Story
 Debates over "real art" raged in 2022 after an AI-generated artwork titled "Théâtre D'opéra Spatial", created using MidJourney, won first place at the Colorado State Fair's digital art competition.
 
 Record your answers to the following questions based on your opinion:
@@ -63,7 +65,7 @@ Record your answers to the following questions based on your opinion:
 - Should AI-generated art be considered "real art"? Why?
 - Who should get credit (the AI, the programmer, or the person providing the prompt)?
 
-#### Scenario C
+#### Third Story
 In 2023, major music companies filed lawsuits against AI music platforms Suno AI and Udio AI, accusing them of using copyrighted songs without permission. These tools generate new music from user prompts, raising serious questions about ownership, consent, and compensation.
 
 Record your answers to the following questions based on your opinion:

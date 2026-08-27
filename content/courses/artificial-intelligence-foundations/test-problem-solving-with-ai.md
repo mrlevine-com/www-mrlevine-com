@@ -1,41 +1,12 @@
 ---
 title: "Test: Problem Solving With AI"
-summary: ":construction:"
+units: [Problem Solving With AI]
+summary: It's time to apply what you have learned about problem solving with AI!
 weight: 140
 ---
 
 {{% param summary %}}
-> This page is under construction.
 
-## Today's Objectives
--
-
-<!--
-
-## Lesson Overview
-### ?
-{{< collapse summary="Click here to reveal the answer." >}}
-
-
-
-{{</ collapse >}}
-
-## Assignment
-### Instructions
-####
-
-### Submission
-#### Deliverables
-| Item                                  | Est. Time |
-|---------------------------------------|----------:|
-| Today's activity submitted on Canvas  | ~__ mins  |
-| Unit _ Lesson _ submitted on Code.org | ~__ mins  |
-
-#### Rubric
-| Criteria                     | Points |
-|------------------------------|-------:|
-| ___                          | __     |
-| Your name written at the top | __     |
-| Code.org Unit _ Lesson _     | __     |
-
--->
+## Study Guide
+- Review the lessons and terms from this unit: [Problem Solving With AI](/units/problem-solving-with-ai)
+- Review your Unit Journal... aka your own personal study guide :bulb:

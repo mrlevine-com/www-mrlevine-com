@@ -1,7 +1,30 @@
 {{- $scratch := newScratch }}
 
+{{ $days := .Params.Days }}
+{{ $isMultiDay := gt $days 1 }}
 {{- with (partial "date.html" .) }}
-	{{- $scratch.Add "meta" (slice (printf "<span title='%s'>%s</span>" . (. | time.Format (default ":date_long" site.Params.DateFormat)))) }}
+	{{ $startDateF := . | time.Format (default ":date_long" site.Params.DateFormat) }}
+	{{ $endDate := . }}
+	{{ range 30 }}
+		{{ if le $days 1 }}
+			{{ break }}
+		{{ end }}
+
+		{{ $endDate = $endDate.AddDate 0 0 1 }}
+
+		{{ $dayOfWeek := $endDate | time.Format "Mon" }}
+		{{ $isWeekend := or (eq $dayOfWeek "Sat") (eq $dayOfWeek "Sun") }}
+
+		{{ $today := $endDate | time.Format "2006-01-02" }}
+		{{ $noLesson := slice "No School" "No Lesson" }}
+		{{ $noSchoolToday := where (where hugo.Data.events "type" "in" $noLesson) "date" $today }}
+
+		{{ if and (not $isWeekend) (eq ($noSchoolToday | len) 0) }}
+			{{ $days = sub $days 1 }}
+		{{ end }}
+	{{ end }}
+	{{ $endDateF := $endDate | time.Format (default ":date_long" site.Params.DateFormat) }}
+	{{- $scratch.Add "meta" (slice (printf "<span title='%s'>%s</span>" . (cond $isMultiDay (add $startDateF "&nbsp;&ndash;&nbsp;" $endDateF) $startDateF))) }}
 {{- end }}
 
 {{- if (.Param "ShowReadingTime") -}}

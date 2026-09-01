@@ -33,8 +33,8 @@ params:
   showBreadCrumbs: true
   dateFormat: Monday, January 2, 2006
   editPost:
-    url: https://github.com/mrlevine-com/www-mrlevine-com/edit/main/content
-    text: ✎ Propose Changes on GitHub
+    url: https://raw.githubusercontent.com/mrlevine-com/www-mrlevine-com/refs/heads/main/content
+    text: </> View Markdown
     appendFilePath: true
   showTOC: true
   showPostNavLinks: true

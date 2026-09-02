@@ -24,7 +24,7 @@
 		{{ end }}
 	{{ end }}
 	{{ $endDateF := $endDate | time.Format (default ":date_long" site.Params.DateFormat) }}
-	{{- $scratch.Add "meta" (slice (printf "<span title='%s'>%s</span>" . (cond $isMultiDay (add "> &nbsp;" $startDateF "&nbsp;&nbsp;&ndash;&nbsp;&nbsp;" $endDateF) (add "> &nbsp;" $startDateF)))) }}
+	{{- $scratch.Add "meta" (slice (printf "<span title='%s'>%s</span>" . (cond $isMultiDay (add ">&nbsp;" $startDateF "&nbsp;&nbsp;&ndash;&nbsp;&nbsp;" $endDateF) (add ">&nbsp;" $startDateF)))) }}
 {{- end }}
 
 {{- if (.Param "ShowReadingTime") -}}

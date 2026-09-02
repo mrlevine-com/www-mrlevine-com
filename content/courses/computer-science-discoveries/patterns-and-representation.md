@@ -28,6 +28,7 @@ Read the lesson overview from [this lesson](/courses/computer-science-principles
 
 ## Assignment
 {{% instructions-unit-journal-update %}}
+{{% unit-journal-define-terms "Encode" "Decode" %}}
 
 ### Create Your Own Number System
 Complete the assignment described in [this lesson](/courses/computer-science-principles/circle-square-patterns/).

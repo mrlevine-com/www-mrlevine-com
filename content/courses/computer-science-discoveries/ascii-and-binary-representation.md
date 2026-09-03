@@ -12,18 +12,16 @@ weight: 110
 - Use the ASCII system to encode and decode text information in binary.
 
 ## Lesson Overview
-### How do computers represent text?
-{{< collapse summary="Click here to reveal the answer." >}}
-
-Read the lesson overview from [this lesson](/courses/computer-science-principles/representing-text/).
-
-{{</ collapse >}}
-
 ### What is binary?
 {{% define "Binary" %}}
 
 ### What is a bit?
 {{% define "Bit" %}}
+
+### What is ASCII?
+{{% define "ASCII (American Standard Code for Information Interchange)" %}}
+
+Find the table in [this lesson](/courses/computer-science-principles/representing-text/).
 
 ## Assignment
 {{% instructions-unit-journal-update %}}

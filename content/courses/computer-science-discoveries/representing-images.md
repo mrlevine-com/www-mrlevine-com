@@ -1,33 +1,21 @@
 ---
 title: Representing Images
 units: [Data and Society, Representing Information]
-summary: ":construction:"
+summary: Computers use binary to represent images.
 weight: 120
 ---
 
 {{% param summary %}}
-> This page is under construction.
 
 ## Today's Objectives
--
-
-<!--
+- Create and manipulate binary patterns to represent black and white images.
+- Describe common features of systems used to represent information in binary.
 
 ## Lesson Overview
-### ?
-{{< collapse summary="Click here to reveal the answer." >}}
-
-
-
-{{</ collapse >}}
+### What is a pixel?
+{{% define "Pixel" %}}
 
 ## Assignment
-{{% instructions-unit-journal-create %}}
 {{% instructions-unit-journal-update %}}
-
-###
-
-{{% instructions-code-org-create %}}
+{{% unit-journal-define-terms "Pixel" %}}
 {{% instructions-code-org-update %}}
-
--->

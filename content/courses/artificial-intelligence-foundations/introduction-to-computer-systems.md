@@ -1,41 +1,54 @@
 ---
 title: Introduction to Computer Systems
-summary: ":construction:"
+units: [AI and the Systems That Power It]
+summary: Computer systems solve problems and impact the world around us.
 weight: 150
 ---
 
 {{% param summary %}}
-> This page is under construction.
 
 ## Today's Objectives
--
-
-<!--
+- Describe innovations in computing in different disciplines.
+- Explain how computer systems and people work together to solve problems.
+- Identify career pathways in computing.
 
 ## Lesson Overview
-### ?
-{{< collapse summary="Click here to reveal the answer." >}}
-
-
-
-{{</ collapse >}}
+### What is a computer system?
+{{% define "Computer System" %}}
 
 ## Assignment
-### Instructions
-####
+{{% instructions-unit-journal-create %}}
+{{% instructions-code-org-update %}}
+{{% instructions-unit-journal-update %}}
 
-### Submission
-#### Deliverables
-| Item                                  | Est. Time |
-|---------------------------------------|----------:|
-| Today's activity submitted on Canvas  | ~__ mins  |
-| Unit _ Lesson _ submitted on Code.org | ~__ mins  |
+### Computer Innovations
+Go to Code.org level 1 and record your answers to the following questions:
 
-#### Rubric
-| Criteria                     | Points |
-|------------------------------|-------:|
-| ___                          | __     |
-| Your name written at the top | __     |
-| Code.org Unit _ Lesson _     | __     |
+1. What industry did you select?
+2. What innovation did you select?
+3. Why did you choose this innovation?
 
--->
+### Industry Interviews
+Go to the Code.org level that has your selected innovation.
+
+Interview two industry professionals who interact with it.
+
+Your goal is to understand how computer systems support their day-to-day work and the challenges they face in their industry.
+
+Record the following information about both interviews:
+
+- Industry professional title
+- Role & responsibilities
+- Key challenges
+- How computing supports their work
+- How your chosen innovation helps
+
+### Your Role in Innovation
+Record your answers to the following questions:
+
+1. What is your assigned role?
+2. How does this role contribute to building the selected innovation?
+3. How do hardware engineers, software engineers, and product designers contribute to developing your selected innovation?
+
+{{% unit-journal-define-terms "Computer System" %}}
+{{% unit-journal-question-of-the-day question="How do computer systems solve problems and impact the world around us?" %}}

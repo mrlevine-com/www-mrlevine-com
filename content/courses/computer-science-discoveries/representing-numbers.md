@@ -1,33 +1,21 @@
 ---
 title: Representing Numbers
 units: [Data and Society, Representing Information]
-summary: ":construction:"
+summary: Computers use binary to represent numbers.
 weight: 130
 ---
 
 {{% param summary %}}
-> This page is under construction.
 
 ## Today's Objectives
--
-
-<!--
+- Extend a representation system based on patterns.
+- Use a binary system to represent numbers.
 
 ## Lesson Overview
-### ?
-{{< collapse summary="Click here to reveal the answer." >}}
-
-
-
-{{</ collapse >}}
+{{< video title="How Computers Work - Data and Binary" src="/videos/how-computers-work-data-and-binary.mp4" poster="/images/video-poster-how-computers-work-data-and-binary.jpg" >}}
 
 ## Assignment
-{{% instructions-unit-journal-create %}}
 {{% instructions-unit-journal-update %}}
 
-###
-
-{{% instructions-code-org-create %}}
-{{% instructions-code-org-update %}}
-
--->
+### Answer the Questions
+Record your answers to the questions from [this lesson's assignment](/courses/computer-science-principles/binary-numbers/#make-your-flippy-do).

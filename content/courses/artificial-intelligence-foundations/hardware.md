@@ -1,41 +1,60 @@
 ---
 title: Hardware
-summary: ":construction:"
+units: [AI and the Systems That Power It]
+summary: Computer systems solve problems and impact the world around us.
 weight: 160
 ---
 
 {{% param summary %}}
-> This page is under construction.
 
 ## Today's Objectives
--
-
-<!--
+- Describe innovations in computing in different disciplines.
+- Explain how computer systems and people work together to solve problems.
+- Identify career pathways in computing.
 
 ## Lesson Overview
-### ?
-{{< collapse summary="Click here to reveal the answer." >}}
-
-
-
-{{</ collapse >}}
+### What is hardware?
+{{% define "Hardware" %}}
+{{% define "Input" %}}
+{{% define "Output" %}}
+{{% define "Processing" %}}
+{{% define "Storage" %}}
+{{< video title="What Do Computers Do?" src="/videos/what-do-computers-do.mp4" poster="/images/video-poster-what-do-computers-do.jpg" >}}
 
 ## Assignment
-### Instructions
-####
+{{% instructions-code-org-update %}}
+{{% instructions-unit-journal-update %}}
 
-### Submission
-#### Deliverables
-| Item                                  | Est. Time |
-|---------------------------------------|----------:|
-| Today's activity submitted on Canvas  | ~__ mins  |
-| Unit _ Lesson _ submitted on Code.org | ~__ mins  |
+### Categorize the Hardware
+Record at least three examples of input devices and three examples or output devices.
 
-#### Rubric
-| Criteria                     | Points |
-|------------------------------|-------:|
-| ___                          | __     |
-| Your name written at the top | __     |
-| Code.org Unit _ Lesson _     | __     |
+### Storage Component Analogies
+Record the completed analogies for each term:
 
--->
+- RAM: It's like _______—it holds what you're actively working on but clears when you're done.
+- HDD: It's like _______—it stores everything but takes time to find and retrieve files.
+- SSD: It's like _______ with instant search—it still stores files but lets you access them quickly.
+- Flash Storage: It's like _______—you can carry important files with you anywhere.
+
+Word Bank:
+
+- A backpack
+- A school desk
+- The back room of a shoe store
+- An online shoe store
+
+### Processing Component Analogies
+Record the completed analogies for each term:
+
+- Motherboard: It's like _______—it connects everything and allows information to flow.
+- CPU: It's like _______—it follows recipes (instructions) and prepares dishes (processes data).
+- GPU: It's like _______—it can handle multiple tasks at once, speeding up graphics, AI, and complex computations.
+
+Word Bank:
+
+- A team of assistants
+- A city's road system
+- A conductor in an orchestra
+
+{{% unit-journal-define-terms "Hardware" "Input" "Output" "Processing" "Storage" "RAM" "HDD" SSD" Flash Storage" "Motherboard" "CPU" "GPU" %}}
+{{% unit-journal-question-of-the-day question="What components are essential for a computer to work?" %}}

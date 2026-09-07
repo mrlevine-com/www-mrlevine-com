@@ -1,6 +1,6 @@
 ---
 title: Output
-units: [Problem Solving and Computing]
+units: [Problem Solving and Computing, AI and the Systems That Power It]
 summary: The information computers give to users, devices, or other computers
 hideMeta: true
 ---

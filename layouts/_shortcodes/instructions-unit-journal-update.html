@@ -13,7 +13,7 @@ Do the following:
 
 1. Open Notability on your iPad.
 2. Open your "{{ .Page.Parent.Title }}" folder.
-3. Open your "{{ index .Page.Params.Units 0 }}" note.
+3. Open your "{{ index (last 1 .Page.Params.Units) 0 }}" note.
 4. Add the following information to this note:
 	- The title of today's lesson: "{{ .Page.Title }}"
 	- Your work for today's assignment

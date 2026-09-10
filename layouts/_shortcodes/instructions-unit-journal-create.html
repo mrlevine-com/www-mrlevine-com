@@ -13,9 +13,9 @@ Do the following:
 
 1. Open Notability on your iPad.
 2. Create a folder called "{{ .Page.Parent.Title }}" if you haven't already.
-3. Create a note in this folder called "{{ index .Page.Params.Units 0 }}".
+3. Create a note in this folder called "{{ index (last 1 .Page.Params.Units) 0 }}".
 4. Add the following information to this note:
 	- Your first and last name
-	- The title of this unit: "{{ index .Page.Params.Units 0 }}"
+	- The title of this unit: "{{ index (last 1 .Page.Params.Units) 0 }}"
 
 {{ end }}

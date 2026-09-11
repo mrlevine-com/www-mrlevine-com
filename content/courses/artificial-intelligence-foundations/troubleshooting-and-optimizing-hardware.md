@@ -1,5 +1,6 @@
 ---
 title: Troubleshooting and Optimizing Hardware
+units: [AI and the Systems That Power It, Hardware and Software]
 summary: ":construction:"
 weight: 170
 ---

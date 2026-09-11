@@ -1,6 +1,6 @@
 ---
 title: Hardware
-units: [AI and the Systems That Power It]
+units: [AI and the Systems That Power It, Hardware and Software]
 summary: Computer systems solve problems and impact the world around us.
 weight: 160
 ---

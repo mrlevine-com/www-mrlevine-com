@@ -1,6 +1,6 @@
 ---
 title: Introduction to Computer Systems
-units: [AI and the Systems That Power It]
+units: [AI and the Systems That Power It, Hardware and Software]
 summary: Computer systems solve problems and impact the world around us.
 weight: 150
 ---

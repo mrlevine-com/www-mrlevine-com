@@ -1,5 +1,6 @@
 ---
 title: Build a Computer System
+units: [AI and the Systems That Power It, Hardware and Software]
 summary: ":construction:"
 weight: 200
 ---

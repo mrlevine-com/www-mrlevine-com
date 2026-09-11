@@ -56,5 +56,5 @@ Word Bank:
 - A city's road system
 - A conductor in an orchestra
 
-{{% unit-journal-define-terms "Hardware" "Input" "Output" "Processing" "Storage" "RAM" "HDD" SSD" Flash Storage" "Motherboard" "CPU" "GPU" %}}
+{{% unit-journal-define-terms "Hardware" "Input" "Output" "Processing" "Storage" "RAM" "HDD" "SSD" "Flash Storage" "Motherboard" "CPU" "GPU" %}}
 {{% unit-journal-question-of-the-day question="What components are essential for a computer to work?" %}}

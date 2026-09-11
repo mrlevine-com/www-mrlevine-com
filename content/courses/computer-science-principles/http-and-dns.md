@@ -3,6 +3,7 @@ title: HTTP and DNS
 units: [The Internet]
 summary: DNS and HTTP let you easily find and load web pages.
 weight: 190
+days: 2
 ---
 
 {{% param summary %}}

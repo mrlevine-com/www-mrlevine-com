@@ -3,6 +3,7 @@ title: "Project: Create a Representation"
 units: [Data and Society, Representing Information]
 summary: ":construction:"
 weight: 160
+days: 2
 ---
 
 {{% param summary %}}

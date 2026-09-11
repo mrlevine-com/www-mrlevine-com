@@ -1,42 +1,23 @@
 ---
 title: Troubleshooting and Optimizing Hardware
 units: [AI and the Systems That Power It, Hardware and Software]
-summary: ":construction:"
+summary: Hardware problems can be solved strategically.
 weight: 170
 ---
 
 {{% param summary %}}
-> This page is under construction.
 
 ## Today's Objectives
--
-
-<!--
+- Troubleshoot issues in hardware using appropriate strategies.
+- Use decomposition strategies to break down a problem into manageable parts.
 
 ## Lesson Overview
-### ?
-{{< collapse summary="Click here to reveal the answer." >}}
-
-
-
-{{</ collapse >}}
+### How can hardware problems be solved strategically?
+{{% define "Troubleshooting" %}}
+{{% define "Decomposition" %}}
 
 ## Assignment
-### Instructions
-####
-
-### Submission
-#### Deliverables
-| Item                                  | Est. Time |
-|---------------------------------------|----------:|
-| Today's activity submitted on Canvas  | ~__ mins  |
-| Unit _ Lesson _ submitted on Code.org | ~__ mins  |
-
-#### Rubric
-| Criteria                     | Points |
-|------------------------------|-------:|
-| ___                          | __     |
-| Your name written at the top | __     |
-| Code.org Unit _ Lesson _     | __     |
-
--->
+{{% instructions-code-org-update %}}
+{{% instructions-unit-journal-update %}}
+{{% unit-journal-define-terms "Decomposition" "Troubleshooting" %}}
+{{% unit-journal-question-of-the-day question="Why is it important to have a strategy for troubleshooting?" %}}

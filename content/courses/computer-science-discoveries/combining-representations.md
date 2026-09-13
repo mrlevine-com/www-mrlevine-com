@@ -20,6 +20,3 @@ Decode the binary number `01000001` using the following binary systems:
 - **ASCII**: Convert to an ASCII character.
 - **Pixels**: Convert to a black and white 4x2 image.
 - **Binary Number System**: Convert to a decimal number.
-
-## Upcoming Quiz
-To prepare for your upcoming quiz, study all of the terms and definitions that you have written in your Unit Journal. You can find all five terms [here](/units/representing-information/) listed in alphabetical order after the lessons.

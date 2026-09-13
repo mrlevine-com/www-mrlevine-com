@@ -57,3 +57,6 @@ This binary number was encrypted using the algorithm and key above: `10101111`
 Record the decrypted binary number.
 
 {{% unit-journal-question-of-the-day question="How can you keep data secret and protect it from misuse?" %}}
+
+## Upcoming Quiz
+To prepare for your upcoming quiz, study all of the terms and definitions that you have written in your Unit Journal. You can find all ten terms [here](/units/representing-information/) listed in alphabetical order after the lessons.

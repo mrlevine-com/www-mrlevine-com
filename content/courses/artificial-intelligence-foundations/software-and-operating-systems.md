@@ -47,3 +47,6 @@ With a partner, search your iPad or computer to find real examples of operating 
 {{% unit-journal-question-of-the-day question="How does software shape the way we interact with technology every day?" hint="Try giving a specific example from today's activities." %}}
 
 {{% instructions-code-org-update %}}
+
+## Upcoming Quiz
+To prepare for your upcoming quiz, study all of the terms and definitions that you have written in your Unit Journal. You can find all fifteen terms [here](/units/hardware-and-software/) listed in alphabetical order after the lessons.

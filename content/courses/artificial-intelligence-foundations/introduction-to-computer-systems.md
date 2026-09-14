@@ -51,4 +51,4 @@ Record your answers to the following questions:
 3. How do hardware engineers, software engineers, and product designers contribute to developing your selected innovation?
 
 {{% unit-journal-define-terms "Computer System" %}}
-{{% unit-journal-question-of-the-day question="How do computer systems solve problems and impact the world around us?" %}}
+{{% unit-journal-question-of-the-day question="How do computer systems solve problems and impact the world around you?" %}}

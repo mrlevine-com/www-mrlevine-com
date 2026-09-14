@@ -44,7 +44,7 @@ With a partner, search your iPad or computer to find real examples of operating 
 9. **Software and Hardware**: Find an example of software that directly interacts with hardware. How does this software enable the hardware to function?
 10. **Comparing Software**: Find two different apps that perform similar tasks. What are the advantages of using one over the other?
 
-{{% unit-journal-question-of-the-day question="How does software shape the way we interact with technology every day?" hint="Try giving a specific example from today's activities." %}}
+{{% unit-journal-question-of-the-day question="How does software shape the way you interact with technology every day?" hint="Try giving a specific example from today's activities." %}}
 
 {{% instructions-code-org-update %}}
 

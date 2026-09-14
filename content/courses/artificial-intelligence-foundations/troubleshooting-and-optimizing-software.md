@@ -1,42 +1,27 @@
 ---
 title: Troubleshooting and Optimizing Software
 units: [AI and the Systems That Power It, Hardware and Software]
-summary: ":construction:"
+summary: Troubleshooting fixes what is broken; optimization improves what already works.
 weight: 190
 ---
 
 {{% param summary %}}
-> This page is under construction.
 
 ## Today's Objectives
--
-
-<!--
+- Recommend steps related to software to optimize system performance.
+- Troubleshoot issues in software using appropriate strategies.
 
 ## Lesson Overview
-### ?
-{{< collapse summary="Click here to reveal the answer." >}}
+### Troubleshooting vs. optimization
+{{% define "Troubleshooting" %}}
+{{% define "Optimization" %}}
 
+Troubleshooting means fixing something that's not working. For example, you fix a flat tire because your car won't move.
 
-
-{{</ collapse >}}
+Optimization means making something run better even if it's already working. For example, you change the oil in your car and tune the engine to get better mileage.
 
 ## Assignment
-### Instructions
-####
-
-### Submission
-#### Deliverables
-| Item                                  | Est. Time |
-|---------------------------------------|----------:|
-| Today's activity submitted on Canvas  | ~__ mins  |
-| Unit _ Lesson _ submitted on Code.org | ~__ mins  |
-
-#### Rubric
-| Criteria                     | Points |
-|------------------------------|-------:|
-| ___                          | __     |
-| Your name written at the top | __     |
-| Code.org Unit _ Lesson _     | __     |
-
--->
+{{% instructions-code-org-update %}}
+{{% instructions-unit-journal-update %}}
+{{% unit-journal-define-terms "Optimization" %}}
+{{% unit-journal-question-of-the-day question="How can you keep your computer systems running and performing well?" %}}

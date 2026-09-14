@@ -8,4 +8,4 @@ Students do not see the attached resources from Code.org; they only see the less
 ## Copy Objectives Verbatim
 Copy objectives verbatim in the exact order from the lesson, editing only to ensure every objective ends with a period and is free of typos, briefly summarizing any such edits or lack thereof.
 ## Address Students Directly
-Students read the lessons; use second person to address them.
+Students read the lessons; use second person to address them, adapting information as needed to conform to this standard.

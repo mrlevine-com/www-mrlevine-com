@@ -6,6 +6,6 @@ In the chat, briefly cite where you found any information you added to a lesson,
 ## Include All Information in Lessons
 Students do not see the attached resources from Code.org; they only see the lesson. Do not refer to these resources; copy or adapt the information from them into the lesson.
 ## Copy Objectives Verbatim
-Copy objectives verbatim in the exact order from the lesson, editing only to ensure every objective ends with a period and is free of typos, briefly summarizing any such edits or lack thereof.
+Copy objectives verbatim in the exact order from the attached lesson plan, editing only to ensure every objective ends with a period and is free of typos, briefly summarizing any such edits or lack thereof.
 ## Address Students Directly
 Students read the lessons; use second person to address them, adapting information as needed to conform to this standard.

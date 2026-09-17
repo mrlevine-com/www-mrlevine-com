@@ -108,6 +108,7 @@
 {{ $currentMonth := "" }}
 {{ $currentQuarter := 0 }}
 {{ $currentWeek := 0 }}
+{{ $quarterTestCounts := dict }}
 
 {{ range $sorted }}
 	{{ $p := .page }}
@@ -188,9 +189,17 @@
 		{{ $haveOpenMonth = true }}
 	{{ end }}
 
+	{{ $testLabel := "" }}
+	{{ if and $p (hasPrefix $p.File.ContentBaseName "test-") }}
+		{{ $qKey := printf "%s|%d" $p.Parent.File.ContentBaseName $currentQuarter }}
+		{{ $testNum := add (index $quarterTestCounts $qKey | default 0) 1 }}
+		{{ $quarterTestCounts = merge $quarterTestCounts (dict $qKey $testNum) }}
+		{{ $testLabel = printf "[Q%dT%d] " $currentQuarter $testNum }}
+	{{ end }}
+
 	<div class="archive-entry" style="{{ cond (not $p) "font-style: italic" "" }}">
 		<h3 class="archive-entry-title entry-hint-parent" style="{{ cond ($p) "margin: 10px" "" }}">
-			{{- $p.Title | default $event.title | markdownify -}}
+			{{- $testLabel -}}{{- $p.Title | default $event.title | markdownify -}}
 			{{- cond $isMultiDay (add " (Day " (string .day) ")") "" -}}
 		</h3>
 		<div class="entry-content" style="{{ cond ($p) "margin: 10px" "" }}">

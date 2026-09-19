@@ -6,3 +6,8 @@ li::marker {
 code {
   line-height: 1 !important;
 }
+
+.auth-status a,
+.auth-status span {
+  font-size: 16px;
+}

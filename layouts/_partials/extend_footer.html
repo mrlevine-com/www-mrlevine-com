@@ -1,0 +1,61 @@
+<script>
+(function () {
+	var AUTH_ORIGIN = (window.location.hostname === "localhost")
+		? "http://localhost:8787"
+		: "https://auth.mrlevine.com";
+
+	function init() {
+		var menu = document.getElementById("menu");
+		if (!menu) return;
+
+		var item = document.createElement("li");
+		item.className = "auth-status";
+		menu.appendChild(item);
+
+		function renderSignedOut() {
+			var url = AUTH_ORIGIN + "/?callbackURL=" + encodeURIComponent(window.location.href);
+			var link = document.createElement("a");
+			link.href = url;
+			link.textContent = "Sign In";
+			item.appendChild(link);
+		}
+
+		function renderSignedIn(user) {
+			var span = document.createElement("span");
+			span.textContent = (user && (user.name || user.email)) || "Signed in";
+			item.appendChild(span);
+
+			var link = document.createElement("a");
+			link.href = "#";
+			link.textContent = "Sign Out";
+			link.onclick = function (e) {
+				e.preventDefault();
+				fetch(AUTH_ORIGIN + "/api/auth/sign-out", {
+					method: "POST",
+					credentials: "include",
+					headers: { "Content-Type": "application/json" },
+					body: JSON.stringify({})
+				}).then(function () { window.location.reload(); });
+			};
+			item.appendChild(link);
+		}
+
+		fetch(AUTH_ORIGIN + "/api/auth/get-session", { credentials: "include" })
+			.then(function (res) { return res.json(); })
+			.then(function (data) {
+				if (data && data.session) {
+					renderSignedIn(data.user);
+				} else {
+					renderSignedOut();
+				}
+			})
+			.catch(renderSignedOut);
+	}
+
+	if (document.readyState === "loading") {
+		document.addEventListener("DOMContentLoaded", init);
+	} else {
+		init();
+	}
+})();
+</script>

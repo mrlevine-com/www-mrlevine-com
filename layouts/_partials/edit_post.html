@@ -18,3 +18,7 @@
         </a>
     </span>
 {{- end }}
+
+{{ with images.QR .Permalink }}
+    <img style="margin-top: 8px" src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}" alt="QR code for this lesson">
+{{ end }}

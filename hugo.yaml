@@ -37,6 +37,7 @@ params:
     text: </> View Markdown
     appendFilePath: true
   showTOC: true
+  tocOpen: true
   showPostNavLinks: true
   assets:
     favicon: icon.png

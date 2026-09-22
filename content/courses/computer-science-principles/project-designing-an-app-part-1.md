@@ -84,8 +84,6 @@ Record how talking with the users of your app impacted your design decisions.
 3. Record a response that addresses all of the keywords you identified.
 4. Record a brief reflection on your challenges and successes.
 
-{{% instructions-code-org-update %}}
-
 ### Step 5: Create Your User Interface (Day 2)
 A prototype helps you plan the look and features of your app before you program it.
 
@@ -100,6 +98,8 @@ If you and your partner divided the screens between yourselves, combine them int
 3. **Partner B** shares their project's link, and **Partner A** pastes it into the import box.
 4. **Partner A** selects all of the screens and assets to import.
 5. **Partner A** sets the home screen to be the default screen by switching to Design Mode and clicking on the screen.
+
+{{% instructions-code-org-update %}}
 
 ### Reflect on Your Design (Day 2)
 Record whether you had to make any changes to your original design once you transferred it to the screen, and why.

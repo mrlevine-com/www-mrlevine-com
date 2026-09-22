@@ -45,7 +45,6 @@ Cross tabulation is a way of counting how many people chose two things together,
 {{</ collapse >}}
 
 ## Assignment
-{{% instructions-unit-journal-create %}}
 {{% instructions-unit-journal-update %}}
 
 ### Survey Results

@@ -11,3 +11,7 @@ Copy objectives verbatim in the exact order from the attached lesson plan, editi
 Students read the lessons; use second person to address them, adapting information as needed to conform to this standard.
 ## State Assignment Todos Clearly
 Each `###` under `## Assignment` should include a key sentence with a verb stating what work to do (in Unit Journal, which is implied).
+## Be ADHD-Friendly
+At the start of each session, invoke the `i-have-adhd` skill after the user's first message, say "ADHD mode on", apply its rules to all lessons and chat messages you generate for the rest of the session, and briefly summarize everything you made ADHD-friendly.
+## Show Time Estimates
+Only put time estimates in `###` headings under `## Assignment`, styled as `~10mins`.

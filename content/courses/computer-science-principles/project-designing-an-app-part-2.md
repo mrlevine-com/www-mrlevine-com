@@ -2,7 +2,7 @@
 title: "Project: Designing an App Part 2"
 summary: ":construction:"
 weight: 280
-days: 3
+days: 2
 ---
 
 {{% param summary %}}

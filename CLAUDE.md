@@ -15,5 +15,11 @@ Each `###` under `## Assignment` should include a key sentence with a verb stati
 At the start of each session, invoke the `i-have-adhd` skill after the user's first message, say "ADHD mode on", apply its rules to all lessons and chat messages you generate for the rest of the session, and briefly summarize everything you made ADHD-friendly.
 ## Show Time Estimates
 Only put time estimates in `###` headings under `## Assignment`, styled as `~10mins`.
+## Format Code Examples
+Format all code examples like this:
+```js {linenos=table}
+console.log("Starting my program!");
+console.log("Hi!");
+```
 ## Include Vocabulary
 If the attached lesson plan defines vocabulary terms, create or update them in `/content/glossary/{term}`, reference them in `## Lesson Overview` with `{{% define "Term" %}}` outside of any `{{< collapse >}}`, and assign them in `## Assignment` with `{{% unit-journal-define-terms "Term1" "Term2" ... %}}`. Write each `summary` as the lesson plan's definition, trimmed to a concise phrase or sentence: capitalize the first letter, no trailing period, and link any other defined glossary term it mentions as `[term](/glossary/slug/)`.

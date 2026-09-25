@@ -12,7 +12,7 @@ Students read the lessons; use second person to address them, adapting informati
 ## State Assignment Todos Clearly
 Each `###` under `## Assignment` should include a key sentence with a verb stating what work to do (in Unit Journal, which is implied).
 ## Be ADHD-Friendly
-At the start of each session, invoke the `i-have-adhd` skill after the user's first message, say "ADHD mode on", apply its rules to all lessons and chat messages you generate for the rest of the session, and briefly summarize everything you made ADHD-friendly.
+At the start of each session, ensure the user has invoked the `i-have-adhd` skill before continuing the conversation, then say "ADHD mode is on for the rest of the session", and apply its rules to all lessons and chat messages you generate for the rest of the session.
 ## Show Time Estimates
 Only put time estimates in `###` headings under `## Assignment`, styled as `~10mins`.
 ## Format Code Examples

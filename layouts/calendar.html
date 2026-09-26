@@ -2,7 +2,7 @@
 
 <header class="page-header">
 	{{ partial "breadcrumbs.html" . }}
-	<div style="display: flex; align-items: start; gap: 20px; flex-direction: column;">
+	<div style="display: flex; align-items: start; gap: var(--gap); flex-direction: column;">
 		<h1>{{ .Title }}</h1>
 		<a href="#" id="today" hidden class="button" title="View Today">View Today</a>
 	</div>
@@ -145,7 +145,7 @@
 	{{ if not $haveOpenYear }}
 		{{ $currentYear = $ym }}
 		{{ $currentMonth = "" }}
-		<div class="archive-year" style="margin: 0; padding-top: 20px;" id="{{ $y }}-{{ $m }}">
+		<div class="archive-year" style="margin: 0; padding-top: var(--gap);" id="{{ $y }}-{{ $m }}">
 		<h2 class="archive-year-header">
 			<a class="archive-header-link" href="#{{ $y }}-{{ $m }}">
 				{{- $ymFormatted -}}
@@ -176,16 +176,16 @@
 				{{ $currentQuarter = 4 }}
 				{{ $currentWeek = 1 }}
 			{{ end }}
-			<div id="{{ $date }}" class="archive-month" style="padding: 20px 0">Quarter {{ $currentQuarter }} Week {{ $currentWeek }} &nbsp;{{ ":books:" | markdownify }}</div>
+			<div id="{{ $date }}" class="archive-month" style="padding: var(--gap) 0">Quarter {{ $currentQuarter }} Week {{ $currentWeek }} &nbsp;{{ ":books:" | markdownify }}</div>
 		{{ end }}
-		<div class="archive-month" id="{{ cond (eq $dayOfWeek "Mon") (add "mon-" $date) $date }}">
-		<h3 class="archive-month-header">
+		<div class="archive-month" style="padding: var(--gap) 0" id="{{ cond (eq $dayOfWeek "Mon") (add "mon-" $date) $date }}">
+		<h3 class="archive-month-header" style="margin: 0 0 var(--gap) 0">
 			<a class="archive-header-link" href="#{{ $date }}">
 				{{- $dFormatted -}}
 			</a>
 			<!--<sup class="archive-count">{{- index $dayCounts $ymd -}}</sup>-->
 		</h3>
-		<div class="archive-posts">
+		<div class="archive-posts" style="display: flex; flex-direction: column; gap: var(--gap)">
 		{{ $haveOpenMonth = true }}
 	{{ end }}
 
@@ -197,7 +197,7 @@
 		{{ $testLabel = printf "[Q%dT%d] " $currentQuarter $testNum }}
 	{{ end }}
 
-	<div class="archive-entry" style="{{ cond (not $p) "font-style: italic" "" }}">
+	<div class="archive-entry" style="margin: 0; {{ cond (not $p) "font-style: italic" "" }}">
 		<h3 class="archive-entry-title entry-hint-parent" style="{{ cond ($p) "margin: 10px" "" }}">
 			{{- $testLabel -}}{{- $p.Title | default $event.title | markdownify -}}
 			{{- cond $isMultiDay (add " (Day " (string .day) ")") "" -}}

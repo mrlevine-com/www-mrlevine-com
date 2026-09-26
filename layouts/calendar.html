@@ -241,7 +241,7 @@
 				target.scrollIntoView({ behavior: "smooth" });
 				history.pushState(null, "", `#${id}`);
 			});
-			target.querySelectorAll(".entry-link").forEach((link) => {
+			(document.getElementById(`mon-${id}`) || target).querySelectorAll(".entry-link").forEach((link) => {
 				link.style.setProperty("--entry-link-border", "var(--today-accent)");
 				link.style.setProperty("--entry-link-width", "3px");
 			});

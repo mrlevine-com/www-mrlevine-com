@@ -201,3 +201,17 @@ You may use or change any of these sentence starters:
 {{</ collapse >}}
 
 For example, a classmate might recommend adding sound effects, improving navigation, or changing the design. Your change might make your app more engaging, easier to use, more interactive, or more accessible.
+
+## Upcoming Quiz
+To prepare for your upcoming quiz, study all of the terms and definitions that you have written in your Unit Journal. You can find all twelve terms [here](/units/intro-to-app-design/) listed in alphabetical order after the lessons.
+
+You also need to know what each of the following commands does. Check out [Code.org's App Lab Documentation](https://studio.code.org/docs/ide/applab) to learn more about each command.
+
+- `console.log()`
+- `onEvent()`
+- `playSound()`
+- `setProperty()`
+- `setScreen()`
+- `showElement()`
+- `hideElement()`
+- `randomNumber()`

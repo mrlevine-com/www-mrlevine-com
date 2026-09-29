@@ -221,3 +221,10 @@ Record a table like this. For each practice, describe how you've grown and how y
 |                | Communication   |                    |
 
 {{% unit-journal-question-of-the-day question="How can I use data to make my own recommendations?" %}}
+
+## Upcoming Quiz
+To prepare for your upcoming quiz, look over your Unit Journal and make sure you can explain each of these terms:
+
+- **Raw data**, **cleaning data**, and **irrelevant data** from [Structuring Data]({{< relref "structuring-data.md" >}})
+- **Cross tabulation** from [Interpreting Data]({{< relref "interpreting-data.md" >}})
+- **Algorithm** from [Automating Data Decisions]({{< relref "automating-data-decisions.md" >}})

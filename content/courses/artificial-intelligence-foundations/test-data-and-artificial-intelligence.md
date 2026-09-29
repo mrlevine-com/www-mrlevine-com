@@ -1,41 +1,12 @@
 ---
-title: "Test: AI and the Systems That Power It"
-summary: ":construction:"
+title: "Test: Data and Artificial Intelligence"
+units: [AI and the Systems That Power It, Data and Artificial Intelligence]
+summary: It's time to apply what you have learned about data and artificial intelligence!
 weight: 280
 ---
 
 {{% param summary %}}
-> This page is under construction.
 
-## Today's Objectives
--
-
-<!--
-
-## Lesson Overview
-### ?
-{{< collapse summary="Click here to reveal the answer." >}}
-
-
-
-{{</ collapse >}}
-
-## Assignment
-### Instructions
-####
-
-### Submission
-#### Deliverables
-| Item                                  | Est. Time |
-|---------------------------------------|----------:|
-| Today's activity submitted on Canvas  | ~__ mins  |
-| Unit _ Lesson _ submitted on Code.org | ~__ mins  |
-
-#### Rubric
-| Criteria                     | Points |
-|------------------------------|-------:|
-| ___                          | __     |
-| Your name written at the top | __     |
-| Code.org Unit _ Lesson _     | __     |
-
--->
+## Study Guide
+- Review the lessons and terms from this unit: [Data and Artificial Intelligence](/units/data-and-artificial-intelligence)
+- Review your Unit Journal... aka your own personal study guide :bulb:

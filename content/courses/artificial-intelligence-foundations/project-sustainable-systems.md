@@ -1,6 +1,6 @@
 ---
 title: "Project: Sustainable Systems"
-units: [AI and the Systems That Power It]
+units: [AI and the Systems That Power It, Data and Artificial Intelligence]
 summary: An AI-infused computer system can help the world reach a UN Sustainable Development Goal.
 weight: 270
 days: 3

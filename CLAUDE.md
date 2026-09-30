@@ -11,6 +11,8 @@ Copy objectives verbatim in the exact order from the attached lesson plan, editi
 Students read the lessons; use second person to address them, adapting information as needed to conform to this standard.
 ## State Assignment Todos Clearly
 Each `###` under `## Assignment` should include a key sentence with a verb stating what work to do (in Unit Journal, which is implied).
+## Favor Hand-drawing
+Students use Notability to create their Unit Journals. When applicable, turn assignment todos into something that needs to be hand-drawn.
 ## Be ADHD-Friendly
 At the start of each session, ensure the user has invoked the `i-have-adhd` skill before continuing the conversation, then say "ADHD mode is on for the rest of the session", and apply its rules to all lessons and chat messages you generate for the rest of the session.
 ## Show Time Estimates

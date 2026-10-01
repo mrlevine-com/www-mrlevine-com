@@ -3,19 +3,23 @@
 {{- range where $backlinks "source.section" "courses" }}
 	{{- $urls = $urls | append .source.relPermalink }}
 {{- end }}
-{{- with $urls }}
-<div class="post-content md-content">
-	<h2>Mentioned in These Lessons</h2>
-	{{- range (site.GetPage "/courses").Sections }}
-		{{- $course := . }}
-		{{- with where .RegularPages "RelPermalink" "in" $urls }}
-		<h3>{{ $course.Title }}</h3>
-		<ul>
-			{{- range . }}
-			<li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
-			{{- end }}
-		</ul>
-		{{- end }}
+{{- $items := slice }}
+{{- range where (where site.RegularPages "Section" "courses") "RelPermalink" "in" $urls }}
+	{{- $d := partial "date.html" . }}
+	{{- $items = $items | append (dict
+		"page" .
+		"date" $d
+		"sortKey" (printf "%s|%03d" ($d.Format "2006-01-02") .Parent.Weight)
+	) }}
+{{- end }}
+{{- with $items }}
+<h2>Lessons</h2>
+<div class="archive-posts" style="display: flex; flex-direction: column; gap: var(--gap); padding-top: var(--gap);">
+	{{- range sort . "sortKey" "asc" }}
+		{{ partial "lesson-card.html" (dict
+			"page" .page
+			"content" (printf "%s · %s" .page.Parent.Title (.date | time.Format (default ":date_long" site.Params.DateFormat)))
+		) }}
 	{{- end }}
 </div>
 {{- end }}

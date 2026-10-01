@@ -220,14 +220,20 @@
 <script>
 	document.addEventListener("DOMContentLoaded", () => {
 		const d = new Date();
-		if (d.getDay() == 6) {
-			d.setDate(d.getDate() + 2);
-		} else if (d.getDay() == 0) {
+		const toId = (date) => `${date.getFullYear()}-${String(date.getMonth()+1).padStart(2,"0")}-${String(date.getDate()).padStart(2,"0")}`;
+		const todayId = toId(d);
+		let id, target, highlight;
+		for (let i = 0; i < 30; i++) {
+			id = toId(d);
+			target = document.getElementById(id);
+			highlight = document.getElementById(`mon-${id}`) || target;
+			if (highlight && highlight.querySelector("a.entry-link")) {
+				break;
+			}
+			target = null;
 			d.setDate(d.getDate() + 1);
 		}
-		const id = `${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,"0")}-${String(d.getDate()).padStart(2,"0")}`;
 		const today = document.getElementById("today");
-		const target = document.getElementById(id);
 		if (target) {
 			today.removeAttribute("hidden");
 			today.addEventListener("click", (e) => {
@@ -235,14 +241,17 @@
 				target.scrollIntoView({ behavior: "smooth" });
 				history.pushState(null, "", `#${id}`);
 			});
-			(document.getElementById(`mon-${id}`) || target).classList.add("is-today");
+			highlight.classList.add(id === todayId ? "is-today" : "is-next");
+			if (id !== todayId) {
+				today.textContent = today.title = "View Up Next";
+			}
 			if (location.hash === "#today") {
 				target.scrollIntoView();
 				history.replaceState(null, "", `#${id}`);
 			}
 		}
 		document.querySelectorAll(".archive-month").forEach((day) => {
-			if (day.querySelector(".archive-month-header") && day.id.replace("mon-", "") < id) {
+			if (day.querySelector(".archive-month-header") && day.id.replace("mon-", "") < todayId) {
 				day.classList.add("is-past");
 			}
 		});

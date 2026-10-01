@@ -9,6 +9,8 @@ menus:
       pageRef: /calendar
     - name: Courses
       pageRef: /courses
+    - name: Glossary
+      pageRef: /glossary
 taxonomies:
   unit: units
 markup:

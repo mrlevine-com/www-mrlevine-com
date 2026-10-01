@@ -1,0 +1,21 @@
+{{- $backlinks := where (site.Home.Store.Get "backlinks") "target" .RelPermalink }}
+{{- $urls := slice }}
+{{- range where $backlinks "source.section" "courses" }}
+	{{- $urls = $urls | append .source.relPermalink }}
+{{- end }}
+{{- with $urls }}
+<div class="post-content md-content">
+	<h2>Mentioned in These Lessons</h2>
+	{{- range (site.GetPage "/courses").Sections }}
+		{{- $course := . }}
+		{{- with where .RegularPages "RelPermalink" "in" $urls }}
+		<h3>{{ $course.Title }}</h3>
+		<ul>
+			{{- range . }}
+			<li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+			{{- end }}
+		</ul>
+		{{- end }}
+	{{- end }}
+</div>
+{{- end }}

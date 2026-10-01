@@ -5,6 +5,6 @@
 <p><details {{ if (eq (.openByDefault) true) }} open=true {{ end }} style="padding-inline-start: 1.24rem; border-left: 1px dotted var(--secondary);">
 	<summary style="color: var(--secondary); margin-inline-start: -1.11rem;" markdown="span">{{ .summary | markdownify }}</summary>
 	<div style="padding-top: var(--content-gap);">
-		{{ inner .page | markdownify }}
+		{{ .page.Page.RenderString (inner .page) }}
 	</div>
 </details></p>

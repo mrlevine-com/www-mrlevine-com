@@ -11,6 +11,8 @@ menus:
       pageRef: /courses
     - name: Glossary
       pageRef: /glossary
+    - name: Search
+      pageRef: /search
 taxonomies:
   unit: units
 markup:
@@ -23,7 +25,7 @@ markup:
   highlight:
     noClasses: false
 outputs:
-  home: [html, rss, backlinks]
+  home: [html, rss, json, backlinks]
 module:
   imports:
     - path: github.com/adityatelange/hugo-PaperMod
@@ -55,3 +57,5 @@ params:
   showPostNavLinks: true
   assets:
     favicon: icon.png
+  fuseOpts:
+    threshold: 0.2

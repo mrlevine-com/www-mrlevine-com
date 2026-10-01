@@ -13,6 +13,8 @@ menus:
       pageRef: /glossary
     - name: Search
       pageRef: /search
+pagination:
+  pagerSize: 1000
 taxonomies:
   unit: units
 markup:

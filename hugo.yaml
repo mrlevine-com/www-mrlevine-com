@@ -36,8 +36,12 @@ params:
     imageWidth: 200
     imageHeight: 200
     buttons:
-      - name: View Courses
-        url: /courses
+      - name: AP Computer Science Principles
+        url: /courses/computer-science-principles/#today
+      - name: Artificial Intelligence in the World
+        url: /courses/artificial-intelligence-foundations/#today
+      - name: Computer Fundamentals
+        url: /courses/computer-science-discoveries/#today
   showBreadCrumbs: true
   dateFormat: Monday, January 2, 2006
   editPost:

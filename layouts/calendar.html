@@ -236,6 +236,10 @@
 				history.pushState(null, "", `#${id}`);
 			});
 			(document.getElementById(`mon-${id}`) || target).classList.add("is-today");
+			if (location.hash === "#today") {
+				target.scrollIntoView();
+				history.replaceState(null, "", `#${id}`);
+			}
 		}
 		document.querySelectorAll(".archive-month").forEach((day) => {
 			if (day.querySelector(".archive-month-header") && day.id.replace("mon-", "") < id) {

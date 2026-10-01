@@ -61,3 +61,4 @@ params:
     favicon: icon.png
   fuseOpts:
     threshold: 0.2
+    keys: [name, summary, content]

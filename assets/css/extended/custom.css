@@ -14,3 +14,28 @@ li::marker {
 code {
   line-height: 1 !important;
 }
+
+.is-today {
+  --entry-link-border: var(--today-accent);
+  --entry-link-width: 3px;
+}
+
+.is-today .archive-month-header {
+  width: auto;
+}
+
+.is-today .archive-month-header::after {
+  content: "Today";
+  margin-left: 10px;
+  padding: 2px 10px;
+  border-radius: var(--radius);
+  background: var(--today-accent);
+  color: var(--theme);
+  font-size: 14px;
+  font-weight: 600;
+  vertical-align: middle;
+}
+
+.is-past {
+  opacity: 0.6;
+}

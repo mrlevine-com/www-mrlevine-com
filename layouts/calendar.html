@@ -235,11 +235,13 @@
 				target.scrollIntoView({ behavior: "smooth" });
 				history.pushState(null, "", `#${id}`);
 			});
-			(document.getElementById(`mon-${id}`) || target).querySelectorAll(".entry-link").forEach((link) => {
-				link.style.setProperty("--entry-link-border", "var(--today-accent)");
-				link.style.setProperty("--entry-link-width", "1px");
-			});
+			(document.getElementById(`mon-${id}`) || target).classList.add("is-today");
 		}
+		document.querySelectorAll(".archive-month").forEach((day) => {
+			if (day.querySelector(".archive-month-header") && day.id.replace("mon-", "") < id) {
+				day.classList.add("is-past");
+			}
+		});
 	});
 </script>
 

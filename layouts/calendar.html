@@ -220,21 +220,13 @@
 <script>
 	document.addEventListener("DOMContentLoaded", () => {
 		const d = new Date();
-		const toId = (date) => `${date.getFullYear()}-${String(date.getMonth()+1).padStart(2,"0")}-${String(date.getDate()).padStart(2,"0")}`;
-		const todayId = toId(d);
-		let id, target, highlight;
-		for (let i = 0; i < 30; i++) {
-			id = toId(d);
-			target = document.getElementById(id);
-			highlight = document.getElementById(`mon-${id}`) || target;
-			if (highlight && highlight.querySelector("a.entry-link")) {
-				break;
-			}
-			target = null;
-			d.setDate(d.getDate() + 1);
-		}
+		const todayId = `${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,"0")}-${String(d.getDate()).padStart(2,"0")}`;
+		const days = [...document.querySelectorAll(".archive-month")].filter((day) => day.querySelector(".archive-month-header"));
+		const highlight = days.find((day) => day.id.replace("mon-", "") >= todayId && day.querySelector("a.entry-link"));
 		const today = document.getElementById("today");
-		if (target) {
+		if (highlight) {
+			const id = highlight.id.replace("mon-", "");
+			const target = document.getElementById(id);
 			today.removeAttribute("hidden");
 			today.addEventListener("click", (e) => {
 				e.preventDefault();
@@ -250,8 +242,8 @@
 				history.replaceState(null, "", `#${id}`);
 			}
 		}
-		document.querySelectorAll(".archive-month").forEach((day) => {
-			if (day.querySelector(".archive-month-header") && day.id.replace("mon-", "") < todayId) {
+		days.forEach((day) => {
+			if (day.id.replace("mon-", "") < todayId) {
 				day.classList.add("is-past");
 			}
 		});

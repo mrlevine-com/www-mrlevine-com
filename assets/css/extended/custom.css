@@ -55,6 +55,13 @@ code {
   font-weight: 400;
 }
 
+.course-star {
+  position: relative;
+  z-index: 1;
+  padding: 0 4px;
+  color: var(--secondary);
+}
+
 .auth-status a {
   font-size: 16px;
 }

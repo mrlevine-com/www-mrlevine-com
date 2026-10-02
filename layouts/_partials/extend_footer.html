@@ -30,6 +30,43 @@
 				title.prepend(line);
 			}
 
+			var courses = ((user && user.courses) || "").split(",").filter(Boolean);
+			if (window.location.pathname === "/courses/") {
+				document.querySelectorAll(".post-entry").forEach(function (entry) {
+					var course = new URL(entry.querySelector(".entry-link").href).pathname.split("/")[2];
+					var heading = entry.querySelector(".entry-header h2");
+					var star = document.createElement("button");
+					star.className = "course-star";
+					star.setAttribute("aria-label", "Star " + heading.textContent.trim());
+					function render() {
+						var starred = courses.indexOf(course) !== -1;
+						star.textContent = starred ? "⭐" : "☆";
+						star.setAttribute("aria-pressed", starred);
+						star.title = starred ? "Unstar this course" : "Star this course";
+					}
+					star.onclick = function () {
+						var previous = courses.slice();
+						courses = courses.indexOf(course) !== -1
+							? courses.filter(function (c) { return c !== course; })
+							: courses.concat(course);
+						render();
+						fetch(AUTH_ORIGIN + "/api/auth/update-user", {
+							method: "POST",
+							credentials: "include",
+							headers: { "Content-Type": "application/json" },
+							body: JSON.stringify({ courses: courses.join(",") })
+						}).then(function (res) {
+							if (!res.ok) throw new Error(res.status);
+						}).catch(function () {
+							courses = previous;
+							render();
+						});
+					};
+					render();
+					heading.appendChild(star);
+				});
+			}
+
 			var link = document.createElement("a");
 			link.href = "#";
 			link.textContent = "Sign Out";

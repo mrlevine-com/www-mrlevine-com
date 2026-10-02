@@ -1,0 +1,15 @@
+{{ $p := .page }}
+{{ $event := .event }}
+<div class="archive-entry" style="margin: 0; {{ cond (not $p) "font-style: italic" "" }}">
+	<h3 class="archive-entry-title entry-hint-parent" style="{{ cond ($p) "margin: 10px" "" }}">
+		{{- .label -}}{{- $p.Title | default $event.title | markdownify -}}{{- .suffix -}}
+	</h3>
+	<div class="entry-content" style="{{ cond ($p) "margin: 10px" "" }}">
+		{{- .content -}}
+	</div>
+	{{- if $p -}}
+		<a class="entry-link" style="border: var(--entry-link-width, 1px) solid var(--entry-link-border, var(--tertiary))" aria-label="post link to {{ $p.Title | plainify }}" href="{{ $p.Permalink }}"></a>
+	{{- else -}}
+		<div class="entry-link"></div>
+	{{- end -}}
+</div>

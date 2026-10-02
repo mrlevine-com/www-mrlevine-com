@@ -9,3 +9,19 @@ Students do not see the attached resources from Code.org; they only see the less
 Copy objectives verbatim in the exact order from the attached lesson plan, editing only to ensure every objective ends with a period and is free of typos, briefly summarizing any such edits or lack thereof.
 ## Address Students Directly
 Students read the lessons; use second person to address them, adapting information as needed to conform to this standard.
+## State Assignment Todos Clearly
+Each `###` under `## Assignment` should include a key sentence with a verb stating what work to do (in Unit Journal, which is implied).
+## Favor Hand-drawing
+Students use Notability to create their Unit Journals. When applicable, turn assignment todos into something that needs to be hand-drawn.
+## Be ADHD-Friendly
+At the start of each session, ensure the user has invoked the `i-have-adhd` skill before continuing the conversation, then say "ADHD mode is on for the rest of the session", and apply its rules to all lessons and chat messages you generate for the rest of the session.
+## Show Time Estimates
+Only put time estimates in `###` headings under `## Assignment`, styled as `~10mins`.
+## Format Code Examples
+Format all code examples like this:
+```js {linenos=table}
+console.log("Starting my program!");
+console.log("Hi!");
+```
+## Include Vocabulary
+If the attached lesson plan defines vocabulary terms, create or update them in `/content/glossary/{term}`, reference them in `## Lesson Overview` with `{{% define "Term" %}}` outside of any `{{< collapse >}}`, and assign them in `## Assignment` with `{{% unit-journal-define-terms "Term1" "Term2" ... %}}`. Write each `summary` as the lesson plan's definition, trimmed to a concise phrase or sentence: capitalize the first letter, no trailing period, and link any other defined glossary term it mentions as `[term](/glossary/slug/)`.

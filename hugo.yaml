@@ -9,15 +9,29 @@ menus:
       pageRef: /calendar
     - name: Courses
       pageRef: /courses
+    - name: Glossary
+      pageRef: /glossary
+    - name: Search
+      pageRef: /search
+pagination:
+  pagerSize: 1000
 taxonomies:
   unit: units
 markup:
   goldmark:
     renderer:
       unsafe: true
+    renderHooks:
+      link:
+        useEmbedded: always
+  highlight:
+    noClasses: false
+outputs:
+  home: [html, rss, json, backlinks]
 module:
   imports:
     - path: github.com/adityatelange/hugo-PaperMod
+    - path: github.com/jmooring/hugo-module-backlinks
 params:
   profileMode:
     enabled: true
@@ -28,8 +42,12 @@ params:
     imageWidth: 200
     imageHeight: 200
     buttons:
-      - name: View Courses
-        url: /courses
+      - name: AP Computer Science Principles
+        url: /courses/computer-science-principles/#today
+      - name: Artificial Intelligence in the World
+        url: /courses/artificial-intelligence-foundations/#today
+      - name: Computer Fundamentals
+        url: /courses/computer-science-discoveries/#today
   showBreadCrumbs: true
   dateFormat: Monday, January 2, 2006
   editPost:
@@ -37,6 +55,10 @@ params:
     text: </> View Markdown
     appendFilePath: true
   showTOC: true
+  tocOpen: true
   showPostNavLinks: true
   assets:
     favicon: icon.png
+  fuseOpts:
+    threshold: 0.2
+    keys: [name, summary, content]

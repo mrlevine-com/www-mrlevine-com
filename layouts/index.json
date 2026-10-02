@@ -1,0 +1,7 @@
+{{- $index := slice -}}
+{{- range site.RegularPages -}}
+	{{- if and (not .Params.searchHidden) (ne .Parent.Kind "home") }}
+		{{- $index = $index | append (dict "title" (printf "%s · %s" .Title .Parent.Title) "name" .Title "content" .Plain "permalink" .Permalink "summary" .Summary) -}}
+	{{- end }}
+{{- end -}}
+{{- $index | jsonify -}}

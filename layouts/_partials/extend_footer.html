@@ -4,6 +4,10 @@
 		? "http://localhost:8787"
 		: "https://auth.mrlevine.com";
 
+	function courseOf(href) {
+		return new URL(href).pathname.split("/")[2];
+	}
+
 	function init() {
 		var menu = document.getElementById("menu");
 		if (!menu) return;
@@ -31,9 +35,19 @@
 			}
 
 			var courses = ((user && user.courses) || "").split(",").filter(Boolean);
+			var buttons = Array.from(document.querySelectorAll(".profile .buttons .button"));
+			var myButtons = buttons.filter(function (button) {
+				return courses.indexOf(courseOf(button.href)) !== -1;
+			});
+			if (myButtons.length) {
+				buttons.forEach(function (button) {
+					button.hidden = myButtons.indexOf(button) === -1;
+				});
+			}
+
 			if (window.location.pathname === "/courses/") {
 				document.querySelectorAll(".post-entry").forEach(function (entry) {
-					var course = new URL(entry.querySelector(".entry-link").href).pathname.split("/")[2];
+					var course = courseOf(entry.querySelector(".entry-link").href);
 					var heading = entry.querySelector(".entry-header h2");
 					var star = document.createElement("button");
 					star.className = "course-star";

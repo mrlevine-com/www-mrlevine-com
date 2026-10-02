@@ -20,11 +20,7 @@
 			item.appendChild(link);
 		}
 
-		function renderSignedIn(user) {
-			var span = document.createElement("span");
-			span.textContent = (user && (user.name || user.email)) || "Signed in";
-			item.appendChild(span);
-
+		function renderSignedIn() {
 			var link = document.createElement("a");
 			link.href = "#";
 			link.textContent = "Sign Out";
@@ -44,7 +40,7 @@
 			.then(function (res) { return res.json(); })
 			.then(function (data) {
 				if (data && data.session) {
-					renderSignedIn(data.user);
+					renderSignedIn();
 				} else {
 					renderSignedOut();
 				}

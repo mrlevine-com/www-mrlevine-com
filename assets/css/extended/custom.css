@@ -47,7 +47,6 @@ code {
   opacity: 0.6;
 }
 
-.auth-status a,
-.auth-status span {
+.auth-status a {
   font-size: 16px;
 }

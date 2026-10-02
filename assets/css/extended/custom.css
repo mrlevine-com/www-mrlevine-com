@@ -47,6 +47,14 @@ code {
   opacity: 0.6;
 }
 
+.profile-name {
+  display: block;
+  margin-bottom: 4px;
+  color: var(--secondary);
+  font-size: 0.6em;
+  font-weight: 400;
+}
+
 .auth-status a {
   font-size: 16px;
 }

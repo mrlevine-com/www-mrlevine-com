@@ -20,7 +20,16 @@
 			item.appendChild(link);
 		}
 
-		function renderSignedIn() {
+		function renderSignedIn(user) {
+			var title = document.querySelector(".profile_inner h1");
+			var name = user && user.name;
+			if (title && name) {
+				var line = document.createElement("span");
+				line.className = "profile-name";
+				line.textContent = name + "'s";
+				title.prepend(line);
+			}
+
 			var link = document.createElement("a");
 			link.href = "#";
 			link.textContent = "Sign Out";
@@ -40,7 +49,7 @@
 			.then(function (res) { return res.json(); })
 			.then(function (data) {
 				if (data && data.session) {
-					renderSignedIn();
+					renderSignedIn(data.user);
 				} else {
 					renderSignedOut();
 				}

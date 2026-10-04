@@ -1,41 +1,48 @@
 ---
 title: Welcome to Web Apps
-summary: ":construction:"
+units: [AI-Generated Design]
+summary: Web apps follow shared design patterns that shape how you use them every day.
 weight: 290
 ---
 
 {{% param summary %}}
-> This page is under construction.
 
 ## Today's Objectives
--
-
-<!--
+- Explain how intentional layout decisions shape user behavior and interaction.
+- Recognize common structural design patterns in web apps you use daily.
 
 ## Lesson Overview
-### ?
-{{< collapse summary="Click here to reveal the answer." >}}
+### What is a web app?
+{{% define "Web App" %}}
 
+### Why do so many web apps look alike?
+{{% define "Pattern Recognition" %}}
 
+Designers put things where you expect them, so you know how to use an app without thinking.
 
-{{</ collapse >}}
+### What are the most common web app components?
+{{% define "Navigation Bar" %}}
+{{% define "Hero Section" %}}
+{{% define "Gallery Cards" %}}
+{{% define "Footer" %}}
 
 ## Assignment
-### Instructions
-####
+{{% instructions-code-org-update %}}
+{{% instructions-unit-journal-create %}}
+{{% instructions-unit-journal-update %}}
 
-### Submission
-#### Deliverables
-| Item                                  | Est. Time |
-|---------------------------------------|----------:|
-| Today's activity submitted on Canvas  | ~__ mins  |
-| Unit _ Lesson _ submitted on Code.org | ~__ mins  |
+{{% unit-journal-define-terms "Web App" "Pattern Recognition" "Navigation Bar" "Hero Section" "Gallery Cards" "Footer" %}}
 
-#### Rubric
-| Criteria                     | Points |
-|------------------------------|-------:|
-| ___                          | __     |
-| Your name written at the top | __     |
-| Code.org Unit _ Lesson _     | __     |
+### Draw a Web App (~15mins)
+Pick one of the following apps or come up with your own:
 
--->
+- **Pet Adoption Hub**: find a dog to adopt
+- **Daily News Digital**: find the top 3 news stories
+- **Community Cleanup**: sign up for a park cleanup
+- **Pizza Express**: order pizza for delivery
+
+Then:
+
+1. Hand-draw your app with a navigation bar, hero section, gallery cards, and footer.
+2. Label each component.
+3. Next to each interactive element (e.g. buttons), write what happens when someone clicks it.

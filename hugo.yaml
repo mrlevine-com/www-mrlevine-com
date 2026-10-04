@@ -35,7 +35,7 @@ module:
 params:
   profileMode:
     enabled: true
-    title: '<abbr title="Computer Science">Comp Sci</abbr> Teacher'
+    title: Computer Science Teacher
     subtitle: ":round_pushpin: Archbishop McCarthy High School"
     imageUrl: icon.png
     imageTitle: Mr. Levine

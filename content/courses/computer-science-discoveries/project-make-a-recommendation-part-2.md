@@ -3,7 +3,6 @@ title: "Project: Make a Recommendation Part 2"
 units: [Data and Society, Solving Data Problems]
 summary: Finish your recommendation project.
 weight: 261
-days: 3
 ---
 
 {{% param summary %}}

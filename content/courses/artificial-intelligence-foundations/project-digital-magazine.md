@@ -1,7 +1,8 @@
 ---
-title: Successful Cybersecurity Stories
+title: "Project: Digital Magazine"
 summary: ":construction:"
-weight: 470
+weight: 410
+days: 5
 ---
 
 {{% param summary %}}

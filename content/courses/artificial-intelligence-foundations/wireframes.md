@@ -1,7 +1,7 @@
 ---
-title: Successful Cybersecurity Stories
+title: Wireframes
 summary: ":construction:"
-weight: 470
+weight: 380
 ---
 
 {{% param summary %}}

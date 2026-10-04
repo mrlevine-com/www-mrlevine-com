@@ -1,7 +1,7 @@
 ---
-title: Successful Cybersecurity Stories
+title: Brand Identity
 summary: ":construction:"
-weight: 470
+weight: 330
 ---
 
 {{% param summary %}}

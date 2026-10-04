@@ -1,7 +1,7 @@
 ---
-title: Successful Cybersecurity Stories
+title: Accessibility in Design
 summary: ":construction:"
-weight: 470
+weight: 370
 ---
 
 {{% param summary %}}

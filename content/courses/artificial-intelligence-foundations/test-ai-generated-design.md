@@ -1,7 +1,7 @@
 ---
-title: Successful Cybersecurity Stories
+title: "Test: AI-Generated Design"
 summary: ":construction:"
-weight: 470
+weight: 420
 ---
 
 {{% param summary %}}

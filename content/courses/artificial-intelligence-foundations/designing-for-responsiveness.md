@@ -1,7 +1,7 @@
 ---
-title: Successful Cybersecurity Stories
+title: Designing for Responsiveness
 summary: ":construction:"
-weight: 470
+weight: 400
 ---
 
 {{% param summary %}}

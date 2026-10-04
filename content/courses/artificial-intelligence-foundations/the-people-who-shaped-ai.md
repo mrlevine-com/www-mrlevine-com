@@ -1,7 +1,7 @@
 ---
-title: Successful Cybersecurity Stories
+title: The People Who Shaped AI
 summary: ":construction:"
-weight: 470
+weight: 580
 ---
 
 {{% param summary %}}

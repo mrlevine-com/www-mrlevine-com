@@ -1,7 +1,7 @@
 ---
 title: Confidentiality, Integrity, and Availability
 summary: ":construction:"
-weight: 460
+weight: 480
 ---
 
 {{% param summary %}}

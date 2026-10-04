@@ -1,7 +1,7 @@
 ---
 title: AAA and AI
 summary: ":construction:"
-weight: 480
+weight: 500
 ---
 
 {{% param summary %}}

@@ -1,7 +1,7 @@
 ---
-title: Successful Cybersecurity Stories
+title: Finding Your Style
 summary: ":construction:"
-weight: 470
+weight: 320
 ---
 
 {{% param summary %}}

@@ -1,7 +1,7 @@
 ---
-title: Introduction to Data Science
+title: Build Your First Web Page With AI
 summary: ":construction:"
-weight: 550
+weight: 310
 ---
 
 {{% param summary %}}

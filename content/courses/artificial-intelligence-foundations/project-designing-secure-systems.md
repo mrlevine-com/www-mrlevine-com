@@ -1,7 +1,7 @@
 ---
 title: "Project: Designing Secure Systems"
 summary: ":construction:"
-weight: 530
+weight: 550
 days: 3
 ---
 

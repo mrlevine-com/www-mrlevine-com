@@ -1,7 +1,7 @@
 ---
 title: AI in Encryption
 summary: ":construction:"
-weight: 500
+weight: 520
 ---
 
 {{% param summary %}}

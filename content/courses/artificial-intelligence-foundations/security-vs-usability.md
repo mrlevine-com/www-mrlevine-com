@@ -1,7 +1,7 @@
 ---
 title: Security vs Usability
 summary: ":construction:"
-weight: 510
+weight: 530
 ---
 
 {{% param summary %}}

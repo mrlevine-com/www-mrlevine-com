@@ -1,7 +1,7 @@
 ---
-title: The Internet's Hidden Barriers
+title: "Test: AI-Generated Design"
 summary: ":construction:"
-weight: 350
+weight: 420
 ---
 
 {{% param summary %}}

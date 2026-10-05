@@ -1,7 +1,7 @@
 ---
-title: Routers and Redundancy
+title: Brand Identity
 summary: ":construction:"
-weight: 320
+weight: 330
 ---
 
 {{% param summary %}}

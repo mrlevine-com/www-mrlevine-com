@@ -1,7 +1,8 @@
 ---
-title: IP Addresses
+title: "Project: Digital Magazine"
 summary: ":construction:"
-weight: 310
+weight: 410
+days: 5
 ---
 
 {{% param summary %}}

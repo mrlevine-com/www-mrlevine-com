@@ -1,7 +1,7 @@
 ---
-title: Data Cleaning and Analysis Techniques
+title: Accessibility in Design
 summary: ":construction:"
-weight: 620
+weight: 370
 ---
 
 {{% param summary %}}

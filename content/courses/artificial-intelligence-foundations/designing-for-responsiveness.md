@@ -1,7 +1,7 @@
 ---
-title: Data Interpretation
+title: Designing for Responsiveness
 summary: ":construction:"
-weight: 630
+weight: 400
 ---
 
 {{% param summary %}}

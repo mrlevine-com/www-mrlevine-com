@@ -1,7 +1,7 @@
 ---
-title: "Test: Insights From Data and AI"
+title: From Wireframes to Layouts
 summary: ":construction:"
-weight: 660
+weight: 390
 ---
 
 {{% param summary %}}

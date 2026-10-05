@@ -1,7 +1,7 @@
 ---
-title: Ethical Data Collection
+title: Wireframes
 summary: ":construction:"
-weight: 570
+weight: 380
 ---
 
 {{% param summary %}}

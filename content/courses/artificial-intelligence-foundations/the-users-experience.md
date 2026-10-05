@@ -1,7 +1,7 @@
 ---
-title: Data Storytelling
+title: The User's Experience
 summary: ":construction:"
-weight: 600
+weight: 300
 ---
 
 {{% param summary %}}

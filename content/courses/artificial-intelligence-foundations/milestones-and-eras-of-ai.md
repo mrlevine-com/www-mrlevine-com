@@ -1,7 +1,7 @@
 ---
-title: Making Sense of Data
+title: Milestones and Eras of AI
 summary: ":construction:"
-weight: 560
+weight: 570
 ---
 
 {{% param summary %}}

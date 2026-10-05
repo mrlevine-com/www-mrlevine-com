@@ -1,7 +1,7 @@
 ---
-title: "Test: The Fabric of the Internet and AI"
+title: Finding Your Style
 summary: ":construction:"
-weight: 400
+weight: 320
 ---
 
 {{% param summary %}}

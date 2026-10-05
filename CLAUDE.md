@@ -18,7 +18,7 @@ Students read the lessons; use second person to address them, adapting informati
 ## State Assignment Todos Clearly
 Each `###` under `## Assignment` should open with a key sentence with a verb stating what work to do (in Unit Journal, which is implied), not a scenario.
 ## Limit Assignment Todos
-Assign at most 3 todos, each with at most 3 steps. Count each `###`, `unit-journal-define-terms`, and `unit-journal-question-of-the-day` as a todo; don't count `instructions-*` shortcodes. Merge related work instead of dropping important content. Suggest any other todos in the chat, not the lesson, each with a one-line justification tied to a specific objective.
+Assign at most 3 todos of at most 3 steps each. Every `###` and shortcode counts except `instructions-unit-journal-update`. Merge related work rather than drop it; suggest extra todos in the chat, each justified by an objective.
 ## Favor Hand-drawing
 Students use Notability to create their Unit Journals. When applicable, turn assignment todos into something that needs to be hand-drawn.
 ## Show Time Estimates

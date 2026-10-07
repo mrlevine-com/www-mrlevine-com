@@ -108,9 +108,9 @@ Don't like a change? Use "Version History" to go back. You can't break anything.
 
 {{% unit-journal-define-terms "Prompt Engineering" %}}
 
-### Sketch Your Prompt Refinement (~10mins)
-Sketch how refining one of your prompts in Web Lab (Level 3) changed your page:
+### Show Your Prompt Refinement (~5mins)
+Show how refining one of your prompts in Web Lab (Level 3) changed your page:
 
-1. Write a prompt you gave AI, then sketch the page it made.
+1. Write a prompt you gave AI, then add a screenshot of the page it made (or sketch it).
 2. Write how you refined that prompt to fix or improve the page.
-3. Sketch the new page and circle what changed.
+3. Add a screenshot of the new page (or sketch it), and circle what changed.

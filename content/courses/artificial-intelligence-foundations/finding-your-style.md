@@ -82,8 +82,8 @@ Designers share drafts early so others can catch problems they can't see themsel
 
 {{% unit-journal-define-terms "Mood Board" %}}
 
-### Add Your Mood Board (~5mins)
-Add the mood board you built in Code.org (Level 2) and get feedback on it:
+### Show Your Mood Board (~5mins)
+Show the mood board you built in Code.org (Level 2) and get feedback on it:
 
 1. Add a screenshot of your mood board (or sketch it), then label your 2–3 style words.
 2. Show a classmate, and write their feedback under your mood board using one of these sentence starters:

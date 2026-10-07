@@ -46,3 +46,8 @@ code {
 .is-past {
   opacity: 0.6;
 }
+
+.home-today {
+  width: 100%;
+  text-align: start;
+}

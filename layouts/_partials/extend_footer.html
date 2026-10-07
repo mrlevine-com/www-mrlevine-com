@@ -1,0 +1,24 @@
+{{ if .IsHome }}
+<script>
+	document.addEventListener("DOMContentLoaded", async () => {
+		const buttons = document.querySelector(".profile .buttons");
+		const calendarUrl = "{{ "calendar/" | relURL }}";
+		try {
+			const res = await fetch(calendarUrl);
+			const doc = new DOMParser().parseFromString(await res.text(), "text/html");
+			const d = new Date();
+			const todayId = `${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,"0")}-${String(d.getDate()).padStart(2,"0")}`;
+			const days = [...doc.querySelectorAll(".archive-month")].filter((day) => day.querySelector(".archive-month-header"));
+			const highlight = days.find((day) => day.id.replace("mon-", "") >= todayId && day.querySelector("a.entry-link"));
+			if (!highlight) return;
+			const id = highlight.id.replace("mon-", "");
+			highlight.removeAttribute("id");
+			highlight.classList.add("home-today", id === todayId ? "is-today" : "is-next");
+			highlight.querySelector(".archive-header-link").href = `${calendarUrl}#${id}`;
+			buttons.replaceWith(highlight);
+		} catch {
+			// Keep the course buttons if the calendar can't be loaded
+		}
+	});
+</script>
+{{ end }}

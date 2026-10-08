@@ -1,0 +1,112 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:02.420
+(bell dings)
+
+00:00:05.360 --> 00:00:07.600
+When programming, it is often necessary
+
+00:00:07.600 --> 00:00:09.920
+to establish whether something is true
+
+00:00:09.983 --> 00:00:14.583
+or false so that a computer can make decisions about what actions are appropriate to take
+
+00:00:14.583 --> 00:00:15.903
+next.
+
+00:00:15.903 --> 00:00:19.967
+For example, when deciding whether or not to provide voter registration information,
+
+00:00:19.967 --> 00:00:24.967
+the computer must first determine if it is true that the person is old enough to vote.
+
+00:00:24.967 --> 00:00:29.951
+This is something that is done using what programmers call a Boolean expression.
+
+00:00:29.951 --> 00:00:34.951
+You can think of it like a yes or no question that the computer can evaluate.
+
+00:00:34.951 --> 00:00:39.935
+It's called a Boolean because it's named after the mathematician
+
+00:00:39.935 --> 00:00:46.935
+George Boole, who made many discoveries related to working with binary true or false values.
+
+00:00:46.935 --> 00:00:56.679
+In the voter registration example, your Boolean expression might look like this. This asks, is the value stored in the variable age equal
+
+00:00:56.679 --> 00:00:59.903
+to 18? If it is, then the statement
+
+00:00:59.903 --> 00:01:03.423
+is true, otherwise the statement is false.
+
+00:01:03.423 --> 00:01:07.623
+Remember, the double equals is the equality operator.
+
+00:01:07.623 --> 00:01:09.887
+It asks if two things are equal
+
+00:01:09.887 --> 00:01:15.227
+or not. If you are using a single equal sign, you are using the assignment operator to
+
+00:01:15.227 --> 00:01:18.607
+set the value of a variable, which is something else entirely.
+
+00:01:19.871 --> 00:01:26.871
+In addition to the equality operator, we can ask questions about if one value is greater than or less than another value.
+
+00:01:26.871 --> 00:01:29.855
+And these are called comparison operators.
+
+00:01:29.855 --> 00:01:34.655
+If you saw the statement "3 less than 2" in math class, you'd think something was terribly
+
+00:01:34.655 --> 00:01:35.655
+wrong.
+
+00:01:35.655 --> 00:01:38.415
+But this is still not math class.
+
+00:01:38.415 --> 00:01:39.815
+In programming, you use the
+
+00:01:39.839 --> 00:01:44.839
+comparison operators to ask the computer a question which it can answer true or
+
+00:01:44.839 --> 00:01:49.319
+false. So with this line, the computer sees you asking:
+
+00:01:49.823 --> 00:01:51.863
+Is 3 less than 2?
+
+00:01:51.863 --> 00:01:55.643
+The answer in this case is no or false.
+
+00:01:55.643 --> 00:01:59.623
+We can use a comparison operator in our voter registration example to make the
+
+00:01:59.807 --> 00:02:01.807
+program even more accurate.
+
+00:02:01.807 --> 00:02:03.807
+Because it's not just 18-year-olds who can vote,
+
+00:02:03.807 --> 00:02:06.807
+it's anyone whose age is 18 or older.
+
+00:02:06.807 --> 00:02:09.791
+So the question you'd want the computer to evaluate
+
+00:02:09.791 --> 00:02:15.791
+should be: Is the user's age greater than or equal to 18? Like this.
+
+00:02:19.775 --> 00:02:25.495
+Now that we can express the question, we can have the computer actually do something depending
+
+00:02:25.495 --> 00:02:29.735
+on whether the answer is true or false, such as displaying the registration
+
+00:02:29.759 --> 00:02:33.519
+info if true. We'll learn more about how to do that next.

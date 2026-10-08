@@ -160,20 +160,9 @@
 		{{ $date := add $y "-" $m "-" $d }}
 		{{ if eq $dayOfWeek "Mon" }}
 			{{ $currentWeek = add $currentWeek 1 }}
-			{{ if eq $date "2026-08-10" }}
-				{{ $currentQuarter = 1 }}
-				{{ $currentWeek = 1 }}
-			{{ end }}
-			{{ if eq $date "2026-10-12" }}
-				{{ $currentQuarter = 2 }}
-				{{ $currentWeek = 1 }}
-			{{ end }}
-			{{ if eq $date "2027-01-04" }}
-				{{ $currentQuarter = 3 }}
-				{{ $currentWeek = 1 }}
-			{{ end }}
-			{{ if eq $date "2027-03-15" }}
-				{{ $currentQuarter = 4 }}
+			{{ $weekEvents := where (where $allEvents "date" "ge" $date) "date" "lt" ((.date.AddDate 0 0 7).Format "2006-01-02") }}
+			{{ if where $weekEvents "title" "like" "^Begin Quarter" }}
+				{{ $currentQuarter = add $currentQuarter 1 }}
 				{{ $currentWeek = 1 }}
 			{{ end }}
 			<div id="{{ $date }}" class="archive-month" style="padding: var(--gap) 0">Quarter {{ $currentQuarter }} Week {{ $currentWeek }} &nbsp;{{ ":books:" | markdownify }}</div>

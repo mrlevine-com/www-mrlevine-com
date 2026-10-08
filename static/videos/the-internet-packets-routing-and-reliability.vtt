@@ -1,0 +1,286 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:02.720
+7 6 5 4 3 2 1
+
+00:00:08.560 --> 00:00:09.920
+Hi my name is Len Root
+
+00:00:09.984 --> 00:00:14.224
+I am a software engineer here at Spotify, and I will be the first to admit that I often
+
+00:00:14.224 --> 00:00:17.664
+take for granted the reliability of the internet.
+
+00:00:17.664 --> 00:00:19.944
+The sheer amount of information zooming around the internet
+
+00:00:19.968 --> 00:00:24.388
+is astonishing. But how is it possible for every piece of data to be delivered to you
+
+00:00:24.388 --> 00:00:25.208
+reliably?
+
+00:00:29.953 --> 00:00:33.953
+directly to Spotify's servers and Spotify sends you a song on a direct
+
+00:00:33.953 --> 00:00:39.313
+dedicated line but actually that's not how the internet works. If the internet
+
+00:00:39.313 --> 00:00:39.937
+were made of direct
+
+00:00:39.937 --> 00:00:44.177
+direct, dedicated connections, it would be impossible to keep things working as millions
+
+00:00:44.177 --> 00:00:48.837
+of users join, especially since there is no guarantee that every wire in computer is working
+
+00:00:48.837 --> 00:00:49.537
+all the time.
+
+00:00:49.922 --> 00:00:59.907
+Instead, data travels on the internet in a much less direct fashion.
+
+00:00:59.907 --> 00:01:04.627
+John and I began working on the design of what we now call the Internet.
+
+00:01:04.627 --> 00:01:09.827
+Bob and I had the responsibility and the opportunity to design the Internet
+
+00:01:09.891 --> 00:01:16.091
+protocols and its architecture. So we persisted in participating in the
+
+00:01:16.091 --> 00:01:19.876
+Internet's growth and evolution for all of this time up to and including
+
+00:01:19.876 --> 00:01:29.860
+including the present.
+
+00:01:29.860 --> 00:01:34.820
+path may change in the midst of a computer-to-computer conversation.
+
+00:01:34.820 --> 00:01:39.040
+Information on the Internet goes from one computer to another in what we call a packet
+
+00:01:39.040 --> 00:01:39.820
+of information.
+
+00:01:39.845 --> 00:01:44.585
+and a packet travels from one place to another on the internet a lot like how
+
+00:01:44.585 --> 00:01:48.965
+you might get from one place to another in a car. Depending on traffic congestion
+
+00:01:48.965 --> 00:01:49.829
+or road congestion,
+
+00:01:49.829 --> 00:01:54.589
+conditions, you might choose or be forced to take a different route to get to the same
+
+00:01:54.589 --> 00:01:58.769
+place each time you travel.
+
+00:01:58.769 --> 00:01:59.814
+And just as you can transport
+
+00:01:59.814 --> 00:02:04.534
+and all sorts of stuff inside a car. Many kinds of digital information can be sent with
+
+00:02:04.534 --> 00:02:08.534
+IP packets, but there are some limits.
+
+00:02:08.534 --> 00:02:09.774
+What if, for example, you
+
+00:02:09.799 --> 00:02:13.639
+need to move a space shuttle from where it was built to where it will be launched.
+
+00:02:13.639 --> 00:02:18.059
+The shuttle won't fit in one truck, so it needs to be broken down into pieces, transported
+
+00:02:18.059 --> 00:02:19.759
+using a fleet of trucks.
+
+00:02:19.783 --> 00:02:24.023
+They could all take different routes and might get to the destination at different times,
+
+00:02:24.023 --> 00:02:28.723
+but once all the pieces are there, you can reassemble the pieces into the complete shuttle
+
+00:02:28.723 --> 00:02:29.768
+and it'll be ready for us.
+
+00:02:29.768 --> 00:02:30.768
+launch.
+
+00:02:30.768 --> 00:02:34.368
+On the internet, the details work similarly.
+
+00:02:34.368 --> 00:02:39.288
+If you have a very large image that you want to send to a friend or upload to a website,
+
+00:02:39.752 --> 00:02:44.552
+That image might be made up of tens of billions of bits, or ones and zeros, too many to send
+
+00:02:44.552 --> 00:02:46.232
+along in one packet.
+
+00:02:46.232 --> 00:02:49.672
+Since it's data on a computer, the computer sending the image can quickly
+
+00:02:49.737 --> 00:02:54.897
+break it into hundreds or even thousands of smaller parts called packets.
+
+00:02:54.897 --> 00:02:59.577
+Unlike cars or trucks, these packets don't have drivers and they don't choose their route.
+
+00:02:59.721 --> 00:03:03.881
+Each packet has the internet address of where it came from and where it's going.
+
+00:03:03.881 --> 00:03:08.521
+Special computers on the internet called routers act like traffic managers to keep the packets
+
+00:03:08.521 --> 00:03:09.706
+moving through the network.
+
+00:03:09.706 --> 00:03:15.186
+works smoothly. If one route is congested, individual packets may travel different routes
+
+00:03:15.186 --> 00:03:19.666
+through the internet and they may arrive at the destination at slightly different times.
+
+00:03:19.691 --> 00:03:25.351
+or even out of order. So let's talk about how this works. As part of the
+
+00:03:25.351 --> 00:03:29.311
+internet protocol, every router keeps track of multiple paths for sending
+
+00:03:29.311 --> 00:03:29.675
+packets.
+
+00:03:29.675 --> 00:03:35.875
+and it chooses the cheapest available path for each piece of data based on destination IP address for the packet.
+
+00:03:36.575 --> 00:03:39.595
+Cheapest in this case doesn't mean cost but time
+
+00:03:39.660 --> 00:03:43.580
+and non-technical factors such as politics and relationships between companies.
+
+00:03:44.460 --> 00:03:48.860
+Often the best route for data to travel isn't necessarily the most direct.
+
+00:03:48.860 --> 00:03:49.580
+Having options
+
+00:03:49.644 --> 00:03:55.004
+for paths makes the network fault tolerant, which means the network can keep sending packets even
+
+00:03:55.004 --> 00:03:59.564
+if something goes horribly horribly wrong. This is the basis for a key principle of the
+
+00:03:59.629 --> 00:04:00.629
+the internet.
+
+00:04:00.629 --> 00:04:01.629
+Reliability.
+
+00:04:01.629 --> 00:04:08.029
+Now, what if you want to request some data and not everything is delivered?
+
+00:04:08.029 --> 00:04:09.349
+Say you want to listen to a song.
+
+00:04:09.614 --> 00:04:12.734
+How can you be 100% sure all the data will be delivered
+
+00:04:12.734 --> 00:04:15.054
+so the song plays perfectly?
+
+00:04:15.054 --> 00:04:17.374
+Introducing your new best friend TCP,
+
+00:04:17.374 --> 00:04:19.254
+Transmission Control Protocol.
+
+00:04:19.598 --> 00:04:23.598
+TCP manages the sending and receiving of all your data as packets.
+
+00:04:23.598 --> 00:04:26.598
+Think of it like a guaranteed mail service.
+
+00:04:26.598 --> 00:04:29.583
+When you request a song on your device, Spotify sends a song.
+
+00:04:29.583 --> 00:04:34.943
+song broken up into many packets. When your packets arrive, TCP does a full
+
+00:04:34.943 --> 00:04:39.567
+inventory and sends back acknowledgments of each packet received.
+
+00:04:39.567 --> 00:04:43.327
+If all packets are there, TCP signs for your delivery and you're done.
+
+00:04:49.552 --> 00:04:54.032
+If TCP finds some packets are missing, it won't sign.
+
+00:04:54.032 --> 00:04:59.032
+Otherwise, your song wouldn't sound as good, or portions of the song could be missing.
+
+00:04:59.032 --> 00:04:59.532
+For each miss...
+
+00:04:59.536 --> 00:05:02.936
+missing or incomplete packet, Spotify will resend them.
+
+00:05:02.936 --> 00:05:08.056
+Once TCP verifies the delivery of many packets for that one song request, your song will
+
+00:05:08.056 --> 00:05:08.576
+start to play.
+
+00:05:09.521 --> 00:05:15.521
+What's great about the TCP and router systems is they're scalable.
+
+00:05:15.521 --> 00:05:18.241
+They can work with 8 devices or 8 billion devices.
+
+00:05:18.241 --> 00:05:19.481
+In fact, because of these...
+
+00:05:19.506 --> 00:05:24.226
+principles of fault tolerance and redundancy, the more routers we add, the more reliable
+
+00:05:24.226 --> 00:05:25.226
+the internet becomes.
+
+00:05:25.226 --> 00:05:29.226
+What's also great is we can grow and scale the internet without interrupting service
+
+00:05:29.226 --> 00:05:29.426
+for any reason.
+
+00:05:29.490 --> 00:05:39.475
+anybody using it.
+
+00:05:39.475 --> 00:05:44.475
+that make up the internet, connect to each other, communicate with each other, and work together
+
+00:05:44.475 --> 00:05:49.459
+because of agreed upon standards for how data is sent around on a website.
+
+00:05:49.459 --> 00:05:55.219
+the internet. Computing devices or routers along the internet help all the packets make
+
+00:05:55.219 --> 00:05:59.419
+their way to the destination where they're reassembled if necessary in order.
+
+00:05:59.444 --> 00:06:09.428
+order.
+
+00:06:09.428 --> 00:06:14.268
+using a mobile app, or when sensors or devices on the internet talk to each other.
+
+00:06:19.413 --> 00:06:21.993
+(upbeat music)

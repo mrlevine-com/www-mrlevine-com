@@ -1,0 +1,280 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:05.000
+[Music]
+
+00:00:05.000 --> 00:00:09.000
+My name is Aloe Blacc. I'm a singer and songwriter and entertainer.
+
+00:00:09.983 --> 00:00:14.663
+♪ So when we are many, it's all over ♪
+
+00:00:14.663 --> 00:00:17.303
+When it became more and more important for artists
+
+00:00:17.303 --> 00:00:19.063
+to have a presence on the internet,
+
+00:00:19.063 --> 00:00:19.903
+I quickly...
+
+00:00:19.967 --> 00:00:28.207
+We developed the skill to build a website and get online, use my knowledge of coding
+
+00:00:28.207 --> 00:00:29.927
+to make it so that people could...
+
+00:00:29.951 --> 00:00:31.951
+Learn more about our music.
+
+00:00:35.711 --> 00:00:39.935
+Every bit of data or information can be stored digitally. Whether it's numbers...
+
+00:00:39.935 --> 00:00:45.255
+pictures, music, or video, all of it can be represented digitally. That means the
+
+00:00:45.255 --> 00:00:49.335
+information can be represented by electrical signals that are on or off, or
+
+00:00:49.335 --> 00:00:49.919
+as one's...
+
+00:00:49.919 --> 00:00:51.919
+and zeros, so to speak.
+
+00:00:51.919 --> 00:00:56.679
+But representing information in ones and zeros can take up a lot of space.
+
+00:00:56.679 --> 00:00:59.903
+For example, if you wanted to store a three-minute song digitally...
+
+00:00:59.903 --> 00:01:05.983
+it would take up over 30 megabytes of space. A one-hour HD video would take 800 gigabytes.
+
+00:01:05.983 --> 00:01:09.543
+In the real world, digital information is compressed.
+
+00:01:09.887 --> 00:01:15.247
+to take up less space. A 30 megabyte song can be compressed down to 3 megabytes.
+
+00:01:15.247 --> 00:01:19.727
+An hour long video can be compressed from 800 gigabytes down to just 1 gigabyte.
+
+00:01:19.871 --> 00:01:25.751
+of light. Sometimes compression is lossy, which means that to save some space, some
+
+00:01:25.751 --> 00:01:29.831
+of the information is thrown away. For example, an image can
+
+00:01:29.855 --> 00:01:34.535
+be compressed to a lower resolution to lose some detail. Lossy compression is
+
+00:01:34.535 --> 00:01:38.275
+useful because in many cases the human eye or ear can't even notice the
+
+00:01:38.275 --> 00:01:39.839
+details that are being lost.
+
+00:01:39.839 --> 00:01:45.719
+When you compress data without losing any details, that's called lossless compression.
+
+00:01:45.719 --> 00:01:49.559
+This means the compressed data can be decompressed back into the exact original.
+
+00:01:49.823 --> 00:01:55.823
+One way of doing lossless compression is to find patterns in the data you're trying to compress.
+
+00:01:55.823 --> 00:01:59.807
+As an extreme example, imagine a book about dogs with high levels of fat.
+
+00:01:59.807 --> 00:02:02.727
+hundreds of pages using only one word.
+
+00:02:02.727 --> 00:02:06.367
+Each page just says dog, dog, dog, dog, dog,
+
+00:02:06.367 --> 00:02:08.527
+over and over a million times.
+
+00:02:08.527 --> 00:02:09.791
+Instead of writing it all out,
+
+00:02:09.791 --> 00:02:13.251
+you could just store the pattern, dog times one million.
+
+00:02:13.251 --> 00:02:17.651
+Now that's a silly example but let's look at a more real example.
+
+00:02:17.651 --> 00:02:19.775
+Instead of a book, imagine the lyrics
+
+00:02:19.775 --> 00:02:26.255
+of a song. If a single word or phrase is repeated a lot, you can store that once and then reuse
+
+00:02:26.255 --> 00:02:29.735
+it without repeating the data.
+
+00:02:29.759 --> 00:02:31.999
+with a simple text compression widget.
+
+00:02:31.999 --> 00:02:34.919
+This widget lets you experiment with compressing text.
+
+00:02:34.919 --> 00:02:36.799
+You want to represent the original text
+
+00:02:36.799 --> 00:02:39.359
+with as few bytes as possible.
+
+00:02:39.359 --> 00:02:39.743
+The widget is a little bit different.
+
+00:02:39.743 --> 00:02:44.743
+it lets you try compressing different ways and see it as it happens. Let's see how it
+
+00:02:44.743 --> 00:02:49.543
+works. The widget shows you some text to compress. In this example, lyrics to one of
+
+00:02:49.543 --> 00:02:49.727
+Alice in the World.
+
+00:02:49.727 --> 00:02:53.727
+In the dictionary area, you can type patterns you see in the text.
+
+00:02:53.727 --> 00:02:56.727
+For now, let's just look for words that repeat.
+
+00:02:56.727 --> 00:02:59.711
+As you type in the dictionary area, a single word is a word.
+
+00:02:59.711 --> 00:03:04.391
+symbol would be substituted in the main text area. In the example here you can
+
+00:03:04.391 --> 00:03:08.831
+see each occurrence of the words "I was" has been replaced with a symbol of a sun
+
+00:03:08.831 --> 00:03:09.695
+and "I"
+
+00:03:09.695 --> 00:03:11.695
+time has been replaced with an umbrella.
+
+00:03:19.679 --> 00:03:22.599
+that they could reconstruct the original text.
+
+00:03:22.599 --> 00:03:25.279
+So the question is, is the total number
+
+00:03:25.279 --> 00:03:27.359
+of bytes in the compressed text plus the bytes
+
+00:03:27.359 --> 00:03:29.663
+in the dictionary less than the number of bytes--
+
+00:03:29.663 --> 00:03:34.463
+in the original text? The answer is yes for our current example, and the widget shows
+
+00:03:34.463 --> 00:03:39.023
+you how it's calculated. We assume that every character that needs to be sent takes one
+
+00:03:39.023 --> 00:03:39.343
+bite.
+
+00:03:39.647 --> 00:03:47.647
+So the display shows the compressed version of the lyrics with the symbols substituted in it has 216 bytes or characters.
+
+00:03:47.647 --> 00:03:49.631
+It also shows the number of bytes of the lyrics.
+
+00:03:49.631 --> 00:03:55.751
+in the dictionary as 10. This is to store the words "I was" and "I'm" also the symbols
+
+00:03:55.751 --> 00:03:59.591
+that represent those patterns. This gives us a total of 200.
+
+00:03:59.615 --> 00:04:07.335
+We can see that the original text had 240 characters or bytes, so we reduced the bytes
+
+00:04:07.335 --> 00:04:09.575
+needed to represent the poem by 14 bytes.
+
+00:04:09.599 --> 00:04:16.039
+or 5.8% not a bad start. Looking for words that repeat is a good start but
+
+00:04:16.039 --> 00:04:19.583
+you can look for other patterns. Sometimes a repeating pattern
+
+00:04:19.583 --> 00:04:23.103
+could be a subpart of a word or many words.
+
+00:04:23.103 --> 00:04:25.303
+Here's where it really gets cool.
+
+00:04:25.303 --> 00:04:27.943
+You can find patterns that include dictionary symbols
+
+00:04:27.943 --> 00:04:29.567
+you just made.
+
+00:04:29.567 --> 00:04:35.747
+For example, we replace words "I was" with a sun symbol, but now you can also see that
+
+00:04:35.747 --> 00:04:39.507
+a new pattern didn't know sun symbol lost.
+
+00:04:39.551 --> 00:04:43.551
+You can type this in the dictionary too.
+
+00:04:43.551 --> 00:04:49.535
+As a side note, to enter the sun symbol you need to copy and paste it, unless your keyboard has a sun on it.
+
+00:04:49.535 --> 00:04:55.175
+With that little change, we're now up to 26% compression.
+
+00:04:55.175 --> 00:04:59.519
+Try it yourself and see if you can do better.
+
+00:04:59.519 --> 00:05:04.559
+song lyric or poem is obvious, but really any form of information can have repetition
+
+00:05:04.559 --> 00:05:07.979
+or patterns in it. They're just not as obvious.
+
+00:05:07.979 --> 00:05:09.439
+For example, an outdoor
+
+00:05:09.503 --> 00:05:14.063
+The door's phono can have a blue sky, and instead of storing every single blue pixel,
+
+00:05:14.063 --> 00:05:15.803
+that can be compressed.
+
+00:05:15.803 --> 00:05:19.487
+With the amount of information that's digitized and sent around the internet every day,
+
+00:05:19.487 --> 00:05:24.127
+there are much fancier ways to compress the data. Data compression is now built
+
+00:05:24.127 --> 00:05:28.247
+into how every picture, a song, or movie is stored, and almost every webpage you
+
+00:05:28.247 --> 00:05:29.447
+visit is compressed as it's
+
+00:05:29.471 --> 00:05:31.791
+sent to your device.
+
+00:05:31.791 --> 00:05:34.671
+All these compression algorithms have one thing in common.
+
+00:05:34.671 --> 00:05:39.231
+They all aim to represent the information in the smallest format possible, in a way
+
+00:05:39.231 --> 00:05:39.455
+that
+
+00:05:39.455 --> 00:05:44.335
+can be decompressed to reconstruct the original, or at least something close to it.
+
+00:05:49.439 --> 00:05:51.519
+(chimes)

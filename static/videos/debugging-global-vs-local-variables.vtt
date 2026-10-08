@@ -1,0 +1,127 @@
+WEBVTT
+
+00:00:00.940 --> 00:00:02.840
+Let's look at this little program.
+
+00:00:02.840 --> 00:00:05.560
+It looks very similar to ones we've already seen.
+
+00:00:05.560 --> 00:00:09.240
+It creates a variable and then assigns it a value over here.
+
+00:00:10.160 --> 00:00:10.921
+Then there's an on of this.
+
+00:00:10.921 --> 00:00:16.321
+event that allows the variable to increase by one every time the button is clicked.
+
+00:00:16.321 --> 00:00:20.905
+Finally, we set the property of clicks, and that just lets us see how it's changing over
+
+00:00:20.905 --> 00:00:24.505
+over time, and we've also got this watcher down here
+
+00:00:24.505 --> 00:00:27.005
+so we can see how the value of clicks is changing.
+
+00:00:29.665 --> 00:00:30.745
+But when we run it,
+
+00:00:30.953 --> 00:00:34.953
+Something weird happens.
+
+00:00:34.953 --> 00:00:40.953
+Over here, we're getting NAN, that stands for not a number.
+
+00:00:41.047 --> 00:00:45.047
+And down here we're seeing that clicks isn't changing at all.
+
+00:00:45.047 --> 00:00:48.447
+Now, the solution to fixing this problem is pretty easy,
+
+00:00:48.447 --> 00:00:50.487
+and for now it's the only thing you're going to need to do.
+
+00:00:51.108 --> 00:01:00.448
+If you switch over to text mode, this is even easier, you'll see that clicks is being created
+
+00:01:00.448 --> 00:01:01.008
+here online
+
+00:01:01.408 --> 00:01:04.608
+one, but we're also trying to recreate it on line three.
+
+00:01:09.728 --> 00:01:11.128
+Go back into block mode.
+
+00:01:11.645 --> 00:01:15.645
+Here's the program how we're used to seeing it, and it's not that different.
+
+00:01:15.645 --> 00:01:21.645
+But suddenly our program runs as we want.
+
+00:01:21.953 --> 00:01:29.553
+And we can see it both here and down here in the watch panel.
+
+00:01:29.553 --> 00:01:31.953
+The reason that this is happening is because of a constant...
+
+00:01:32.034 --> 00:01:37.794
+called scope. And without getting too into it, the basic idea is if you create
+
+00:01:37.794 --> 00:01:42.240
+a variable inside of a block like on event and in particular
+
+00:01:42.240 --> 00:01:46.040
+anything that has this function command, which you're going to learn more about
+
+00:01:46.040 --> 00:01:52.303
+later in this year, it creates a variable that has local scope.
+
+00:01:52.303 --> 00:01:57.023
+Local scope means that you can only use it in the space that it was created.
+
+00:01:57.023 --> 00:02:00.623
+And that means anywhere inside of this on event.
+
+00:02:00.623 --> 00:02:02.303
+Most variables we want
+
+00:02:02.413 --> 00:02:07.573
+going to have global scope. It's best practice to create variables for now at
+
+00:02:07.573 --> 00:02:12.413
+the beginning of your program like we did here on line one.
+
+00:02:12.576 --> 00:02:15.736
+Eventually you're going to want to create some local variables.
+
+00:02:15.736 --> 00:02:21.276
+For now we don't, and so you're going to need to debug programs the way we just did.
+
+00:02:21.276 --> 00:02:22.576
+Make sure you're not using var.
+
+00:02:22.639 --> 00:02:26.959
+inside of an on event, use your watch panel to see if strange things are
+
+00:02:26.959 --> 00:02:31.239
+happening like a variable isn't changing when it looks like it should, and check
+
+00:02:31.239 --> 00:02:32.891
+if you're getting weird outputs.
+
+00:02:32.891 --> 00:02:35.891
+For example, like we got, not a number.
+
+00:02:35.891 --> 00:02:41.891
+Later in the course, you'll learn more how to use this concept.
+
+00:02:41.891 --> 00:02:42.891
+But for now,
+
+00:02:42.961 --> 00:02:48.081
+For now, happy debugging and go catch some of those local variables to remove them from
+
+00:02:48.081 --> 00:02:49.461
+your program.

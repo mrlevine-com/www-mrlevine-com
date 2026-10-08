@@ -1,0 +1,61 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:07.200
+[MUSIC]
+
+00:00:07.200 --> 00:00:09.983
+So far, you've only been drawing gray colored shapes.
+
+00:00:09.983 --> 00:00:12.983
+Let's throw some color into these shapes to make them more interesting.
+
+00:00:13.703 --> 00:00:19.967
+Every shape has two elements that can be colored, a stroke and a fill. The stroke is the border.
+
+00:00:19.967 --> 00:00:24.567
+of the shape. The fill is the color inside the shape. At any point you can
+
+00:00:24.567 --> 00:00:28.927
+change the color used to draw the stroke or fill of the shape. For example,
+
+00:00:28.927 --> 00:00:29.951
+here we'll change the color to a little bit.
+
+00:00:29.951 --> 00:00:35.551
+the fill to be the color green before drawing a rectangle. If you draw more rectangles after
+
+00:00:35.551 --> 00:00:39.591
+setting the fill color, they'll also be green. Until you change the fill color, you'll be
+
+00:00:39.591 --> 00:00:39.591
+ready to do that.
+
+00:00:39.935 --> 00:00:43.935
+color, GameLab will continue to draw shapes in the color that you set.
+
+00:00:43.935 --> 00:00:45.855
+The same applies for the stroke of your shapes.
+
+00:00:49.919 --> 00:00:57.119
+If you don't want your shapes to have a stroke or a fill, you can use the "no stroke" or "no fill" commands to make it so.
+
+00:00:57.839 --> 00:00:59.903
+The order of commands matters a lot in game.
+
+00:00:59.903 --> 00:01:03.903
+You need to change the color of your stroke or fill before you draw the shape.
+
+00:01:03.903 --> 00:01:09.887
+If you were drawing or painting in real life, this would be like dipping your paintbrush into your palette before drawing on the canvas.
+
+00:01:09.887 --> 00:01:15.127
+the canvas. There's lots of other commands you can use to create interesting and complex
+
+00:01:15.127 --> 00:01:19.487
+drawings. As you get more familiar with all the drawing tools available in GameLab, you'll
+
+00:01:19.487 --> 00:01:19.871
+get better
+
+00:01:19.871 --> 00:01:31.711
+bringing your ideas to life. Happy drawing!

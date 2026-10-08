@@ -1,0 +1,286 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:09.940
+[Music]
+
+00:00:09.984 --> 00:00:13.984
+Hi, my name is Paula and I am a software engineer at Microsoft.
+
+00:00:13.984 --> 00:00:16.984
+Let's talk about how the Internet works.
+
+00:00:16.984 --> 00:00:19.968
+My job relies on networks being able to work with you.
+
+00:00:19.968 --> 00:00:22.248
+able to talk with one another.
+
+00:00:22.248 --> 00:00:27.008
+But back in the 1970s, there was no standard method for this.
+
+00:00:27.008 --> 00:00:29.928
+It took the work of Vint Cerf and Bob Kahn
+
+00:00:29.953 --> 00:00:33.953
+to invent the Internet Working Protocol to make communication possible.
+
+00:00:33.953 --> 00:00:38.953
+This invention laid the groundwork for what we now call the Internet.
+
+00:00:39.937 --> 00:00:42.297
+Internet is a network of networks.
+
+00:00:42.297 --> 00:00:46.637
+It links billions of devices together all around the globe.
+
+00:00:46.637 --> 00:00:49.817
+So maybe you're connected with a laptop or a phone through
+
+00:00:49.922 --> 00:00:54.922
+but then that Wi-Fi connection connects to an internet service provider or ISP
+
+00:00:54.922 --> 00:00:59.907
+and that ISP connects you to billions and billions of devices around the world.
+
+00:00:59.907 --> 00:01:05.667
+world through hundreds of thousands of networks that are all interconnected.
+
+00:01:05.667 --> 00:01:09.891
+One thing that most people do not appreciate is that the Internet is a
+
+00:01:09.891 --> 00:01:16.571
+really a design philosophy and an architecture expressed in a set of protocols.
+
+00:01:16.571 --> 00:01:19.851
+A protocol is a well-known set of rules and standards that if all
+
+00:01:19.876 --> 00:01:24.996
+parties agree to use it will allow them to communicate without trouble.
+
+00:01:24.996 --> 00:01:29.676
+How the internet actually physically works is less important than the fact that this
+
+00:01:29.676 --> 00:01:29.836
+is a very important thing.
+
+00:01:29.860 --> 00:01:36.480
+design philosophy has allowed the internet to adapt and absorb new communication technologies.
+
+00:01:36.480 --> 00:01:39.845
+This is because in order for a new technology to use the internet in some way.
+
+00:01:39.845 --> 00:01:44.985
+fashion, it just needs to know which protocols to work with.
+
+00:01:44.985 --> 00:01:48.145
+All the different devices on the internet have unique addresses.
+
+00:01:48.145 --> 00:01:49.825
+An address on the internet
+
+00:01:49.829 --> 00:01:54.709
+That is just a number, similar to a phone number or street address, that's unique
+
+00:01:54.709 --> 00:01:57.429
+to each computer or device at the edge of the network.
+
+00:01:59.814 --> 00:02:02.814
+to how most homes and businesses have a mailing address.
+
+00:02:02.814 --> 00:02:05.814
+You don't need to know a person to send them a letter in the mail,
+
+00:02:05.814 --> 00:02:09.799
+but you do need to know their address and how to write the address properly.
+
+00:02:09.799 --> 00:02:14.359
+properly, so the letter can be carried by the mail system to its destination.
+
+00:02:14.359 --> 00:02:19.599
+The addressing system for computers on the internet is similar, and it forms part of
+
+00:02:19.599 --> 00:02:19.783
+one.
+
+00:02:19.783 --> 00:02:23.083
+one of the most important protocols used in internet communication,
+
+00:02:23.083 --> 00:02:26.083
+simply called the Internet Protocol or IP.
+
+00:02:26.083 --> 00:02:29.768
+A computer's address then is called its IP address.
+
+00:02:29.768 --> 00:02:35.448
+Visiting a website is really just your computer asking another computer for information.
+
+00:02:35.448 --> 00:02:39.648
+Your computer sends a message to the other computer's IP address and it also sends
+
+00:02:39.752 --> 00:02:45.872
+long its origin address so the other computer knows where to send its response.
+
+00:02:45.872 --> 00:02:48.192
+You may have seen an IP address.
+
+00:02:48.192 --> 00:02:49.392
+It's just a bunch of numbers.
+
+00:02:49.737 --> 00:02:52.737
+These numbers are organized in a hierarchy.
+
+00:02:52.737 --> 00:02:58.737
+Just like a home address has a country, a city, a street, and a house number,
+
+00:02:58.737 --> 00:02:59.721
+an IP address has a country, a city, a street, and a house number.
+
+00:02:59.721 --> 00:03:05.881
+has many parts. Just like all digital data, each of these numbers is represented in bits.
+
+00:03:06.681 --> 00:03:09.561
+Traditional IP addresses are 32 bits long.
+
+00:03:09.706 --> 00:03:13.706
+with 8 bits for each part of the address.
+
+00:03:13.706 --> 00:03:18.746
+The earlier numbers usually identify the country and regional network of the device.
+
+00:03:18.746 --> 00:03:19.691
+Then come the
+
+00:03:19.691 --> 00:03:25.611
+networks and then finally the address of the specific device. This version of IP
+
+00:03:25.611 --> 00:03:29.651
+addressing is called IPV4. It was designed in
+
+00:03:29.675 --> 00:03:35.695
+1973 and widely adopted in the early 80s and provides for more than 4 billion
+
+00:03:35.695 --> 00:03:39.660
+unique addresses for devices connecting to the internet.
+
+00:03:39.660 --> 00:03:45.260
+But the internet has turned out to be much more popular than even Vans surf imagine.
+
+00:03:45.260 --> 00:03:48.700
+And 4 billion unique addresses won't be enough.
+
+00:03:48.700 --> 00:03:49.500
+We're now in the middle of the world.
+
+00:03:49.644 --> 00:03:55.404
+middle of a multi-year transition to a longer IP address format called IPv6
+
+00:03:55.404 --> 00:03:59.629
+which uses 128 bits per address.
+
+00:03:59.629 --> 00:04:04.629
+and provides over 340 undecillion unique addresses.
+
+00:04:05.229 --> 00:04:08.109
+That's more than enough for every grain of sun on Earth
+
+00:04:08.109 --> 00:04:09.614
+to have its own IP address.
+
+00:04:09.614 --> 00:04:14.614
+Most users never see or care about internet addresses.
+
+00:04:14.614 --> 00:04:19.598
+A system called the Domain Name System, or DNS, associates names like...
+
+00:04:19.598 --> 00:04:24.318
+www.example.com with the corresponding addresses.
+
+00:04:24.318 --> 00:04:29.558
+Your computer uses the DNS to look up domain names and get the associated IP address.
+
+00:04:29.583 --> 00:04:33.023
+which is used to connect your computer to the destination on the internet.
+
+00:04:35.023 --> 00:04:39.423
+Say hi there. I want to go to www.code.org.
+
+00:04:39.567 --> 00:04:46.967
+Hmm yeah, I don't know the the IP address for that domain let me ask around hey
+
+00:04:47.607 --> 00:04:49.552
+Hey, no, I get to uh
+
+00:04:49.552 --> 00:04:52.552
+code.org
+
+00:04:52.552 --> 00:04:54.552
+now I got it right here
+
+00:04:54.552 --> 00:04:59.536
+it's 174.129.14.120
+
+00:04:59.536 --> 00:05:04.536
+Oh, okay great, thanks. Yeah, I'm gonna write that down and save it for later in case I need it.
+
+00:05:04.536 --> 00:05:06.536
+Hey, here's that address you wanted.
+
+00:05:06.536 --> 00:05:08.536
+Awesome, thank you.
+
+00:05:09.521 --> 00:05:13.841
+[MUSIC]
+
+00:05:13.841 --> 00:05:18.821
+So how do we design a system for billions of devices to find any one of
+
+00:05:18.821 --> 00:05:19.506
+billions of devices?
+
+00:05:19.506 --> 00:05:25.746
+different websites. There is no way one VNS server can handle all the requests
+
+00:05:25.746 --> 00:05:29.490
+from all devices. The answer is the VNS server.
+
+00:05:29.490 --> 00:05:34.550
+are connected in a distributed hierarchy and are divided into zones, splitting up
+
+00:05:34.550 --> 00:05:39.450
+responsibility for the major domains such as .org, .com, .org
+
+00:05:39.475 --> 00:05:47.995
+DNS was originally created to be an open and public communication protocol for government
+
+00:05:47.995 --> 00:05:49.435
+and educational institutions.
+
+00:05:49.459 --> 00:05:54.459
+Because of its openness, DNS is susceptible to cyber attacks.
+
+00:05:54.459 --> 00:05:57.459
+An example attack is DNS spoofing.
+
+00:05:57.459 --> 00:05:59.444
+That's when a high-end user is using a server-side attack.
+
+00:05:59.444 --> 00:06:06.444
+The attacker taps into a DNS server and changes it to match a domain name with the wrong IP address.
+
+00:06:06.444 --> 00:06:09.428
+This lets the attacker send people to the server.
+
+00:06:09.428 --> 00:06:15.748
+to an e-poster website. If this happens to you, you are vulnerable for more problems
+
+00:06:15.748 --> 00:06:19.268
+because you are using that picked website as if it is real.
+
+00:06:19.413 --> 00:06:28.093
+The internet is huge and getting bigger every day, but the domain name system and internet
+
+00:06:28.093 --> 00:06:29.398
+protocol are designed to help you.
+
+00:06:29.398 --> 00:06:32.998
+to scale, no matter how much the internet grows.

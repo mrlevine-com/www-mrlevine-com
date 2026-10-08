@@ -1,0 +1,301 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:07.840
+[Music]
+
+00:00:07.840 --> 00:00:09.960
+I'm Jasmine Lawrence and I'm a program manager.
+
+00:00:09.984 --> 00:00:11.984
+on the Xbox One engineering team.
+
+00:00:19.968 --> 00:00:25.248
+the world and we rely on the internet to make that happen. This is no easy task
+
+00:00:25.248 --> 00:00:29.928
+and there are a lot of things happening behind the scenes.
+
+00:00:29.953 --> 00:00:33.713
+The internet is totally changing how people interact and connect.
+
+00:00:33.713 --> 00:00:36.033
+But how does it work?
+
+00:00:36.033 --> 00:00:39.913
+How do the computers all across the world actually communicate with each other?
+
+00:00:39.937 --> 00:00:43.697
+Let's look at web browsing.
+
+00:00:43.697 --> 00:00:45.857
+First you open a web browser.
+
+00:00:45.857 --> 00:00:49.257
+It's the app you use to access the web pages.
+
+00:00:49.257 --> 00:00:49.777
+Next you open a web browser.
+
+00:00:49.922 --> 00:00:55.122
+You type in the web address or URL, which stands for Uniform Resource Locator,
+
+00:00:55.122 --> 00:00:59.682
+of the website you want to visit, like tumblr.com.
+
+00:00:59.907 --> 00:01:02.487
+(upbeat music)
+
+00:01:04.347 --> 00:01:06.547
+Hi, I'm David Karp, the founder of Tumblr,
+
+00:01:06.547 --> 00:01:07.707
+and we're here today to talk about
+
+00:01:07.707 --> 00:01:09.867
+how those web browsers we use every day.
+
+00:01:09.891 --> 00:01:19.851
+actually work.
+
+00:01:19.876 --> 00:01:24.876
+At the moment, your computer starts talking to another computer called a server that's
+
+00:01:24.876 --> 00:01:27.636
+usually thousands of miles away.
+
+00:01:27.636 --> 00:01:29.860
+And in milliseconds, your computer asks that.
+
+00:01:29.860 --> 00:01:34.540
+server for a website and that server starts to talk back to your computer in
+
+00:01:34.540 --> 00:01:39.845
+a language called HTTP and HTTP stands for hypertext transfer.
+
+00:01:39.845 --> 00:01:40.845
+for protocol.
+
+00:01:40.845 --> 00:01:44.725
+You can kind of think of it as the language that one computer uses to ask another computer
+
+00:01:44.725 --> 00:01:45.725
+for a document.
+
+00:01:45.725 --> 00:01:48.005
+It's actually really pretty straightforward.
+
+00:01:48.005 --> 00:01:49.829
+If you were to intercept the conversation, you'd have to do it.
+
+00:01:49.829 --> 00:01:52.829
+between your computer and a web server on the internet.
+
+00:01:52.829 --> 00:01:55.829
+It's mainly made up of something called GET requests.
+
+00:01:55.829 --> 00:01:57.829
+And those are really very simply the word GET
+
+00:01:57.829 --> 00:01:59.814
+and then the name of the document that you're requesting.
+
+00:01:59.814 --> 00:02:09.799
+So if you're trying to log into Tumblr and load our login page, all you're doing is sending a GET request to Tumblr server that says GET/LOGIN.
+
+00:02:09.799 --> 00:02:16.359
+and that tells Tumblr server that you want all of the HTML code for the Tumblr login page.
+
+00:02:17.639 --> 00:02:19.639
+So HTML stands for hypertext.
+
+00:02:19.783 --> 00:02:25.783
+markup language and you can think of that as the language that you use to tell a web browser how to make a page look.
+
+00:02:25.783 --> 00:02:29.768
+So if you think about something like Wikipedia, which is really just a big simple document
+
+00:02:29.768 --> 00:02:36.168
+And HTML is the language that you use to make that title big and bold, to make the font the right font,
+
+00:02:36.968 --> 00:02:39.748
+to link certain text to
+
+00:02:39.752 --> 00:02:44.532
+certain other pages to make some text bold, to make some text italic, to put an image
+
+00:02:44.532 --> 00:02:47.772
+in the middle of the page, to align the image to the right, to align the image to the left.
+
+00:02:49.737 --> 00:02:56.137
+webpage is included directly in the HTML, but other parts, images or videos, are separate
+
+00:02:56.137 --> 00:02:59.297
+files with their own URLs that need to be requested.
+
+00:02:59.721 --> 00:03:05.721
+The browser sends separate HTTP requests for each of these and displays them as they arrive.
+
+00:03:07.721 --> 00:03:09.561
+If a web page has a lot of different
+
+00:03:09.706 --> 00:03:18.586
+images, each of them causes a separate HTTP request and the page loads slower.
+
+00:03:18.586 --> 00:03:19.691
+Now sometimes when you browse
+
+00:03:19.691 --> 00:03:24.131
+browser web, you're not just requesting pages with get requests.
+
+00:03:24.131 --> 00:03:29.571
+Sometimes you send information, like when you fill out a form or type a search query.
+
+00:03:29.675 --> 00:03:36.675
+browser sends this information in plain text to the web server using an HTTP post request.
+
+00:03:39.660 --> 00:03:46.380
+make a post request that is a post to Tumblr's login page that has some data attached to
+
+00:03:46.380 --> 00:03:48.700
+it. It has your email address. It has your password.
+
+00:03:49.644 --> 00:03:54.524
+to Tumblr server, Tumblr server figures out that, okay, you're David.
+
+00:03:54.524 --> 00:03:59.004
+It sends a webpage back to your browser that says, success, logged in as David.
+
+00:03:59.004 --> 00:03:59.604
+But along with that,
+
+00:03:59.629 --> 00:04:04.269
+webpage it also attaches a little bit of invisible cookie data that your browser
+
+00:04:04.269 --> 00:04:08.589
+sees and knows to save and that's really important because it's really the
+
+00:04:08.589 --> 00:04:09.549
+only way that a website can
+
+00:04:09.614 --> 00:04:12.014
+can remember who you are.
+
+00:04:12.014 --> 00:04:15.774
+And all that cookie data really is an ID card for Tumblr.
+
+00:04:15.774 --> 00:04:18.574
+It's a number that identifies you as David.
+
+00:04:18.574 --> 00:04:19.598
+And your web browser holds--
+
+00:04:19.598 --> 00:04:24.998
+on to that number and then the next time you refresh tumblr, the next time you go to tumblr.com,
+
+00:04:24.998 --> 00:04:29.583
+your web browser knows to automatically attach that ID number with the request that it sent
+
+00:04:29.583 --> 00:04:33.583
+over to Tumblr server. So now Tumblr server sees the request coming from your browser,
+
+00:04:33.583 --> 00:04:37.583
+sees the ID number, and knows, "Okay, this is a request from David."
+
+00:04:39.567 --> 00:04:43.647
+Now, the internet is completely open.
+
+00:04:43.647 --> 00:04:48.407
+All of its connections are shared, and information is sent in plain text.
+
+00:04:48.407 --> 00:04:49.527
+This makes it possible for how to use it.
+
+00:04:49.552 --> 00:04:55.192
+hackers to snoop on any personal information that you send over the internet.
+
+00:04:55.192 --> 00:04:59.536
+But safe websites prevent this by asking your web browser to communicate
+
+00:04:59.536 --> 00:05:05.836
+on a secure channel using something called Secure Socket Layer and its successor, Transport
+
+00:05:05.836 --> 00:05:07.636
+Layer Security.
+
+00:05:07.636 --> 00:05:09.521
+You can think of SSL and T-
+
+00:05:09.521 --> 00:05:16.261
+TLS as a layer of security wrapped around your communications to protect them from snooping or tampering.
+
+00:05:17.201 --> 00:05:19.201
+SSL and TLS are active.
+
+00:05:19.506 --> 00:05:25.586
+when you see the little block that appears in your browser address bar next to the HTTPS.
+
+00:05:25.586 --> 00:05:29.486
+The HTTPS protocols ensure that your HTTP requests are
+
+00:05:29.490 --> 00:05:39.475
+secure and protected.
+
+00:05:39.475 --> 00:05:44.475
+an official ID card, proving that it's the website it claims to be.
+
+00:05:44.475 --> 00:05:49.235
+Digital certificates are published by certificate authorities, which are trusted entities that
+
+00:05:49.235 --> 00:05:49.435
+vary.
+
+00:05:49.459 --> 00:05:54.139
+the identities of websites and issue certificates for them, just like a
+
+00:05:54.139 --> 00:05:59.339
+government can issue IDs or passports. Now if a website tries to start a secure
+
+00:05:59.444 --> 00:06:07.444
+connection without a properly issued digital certificate, your browser will warn you.
+
+00:06:07.444 --> 00:06:09.124
+That's the basics of web browsing.
+
+00:06:09.428 --> 00:06:12.028
+the part of the internet we see day to day.
+
+00:06:12.528 --> 00:06:19.028
+To summarize, HTTP and DNS manage the sending and receiving of HTML,
+
+00:06:19.128 --> 00:06:19.413
+meet the end of the web.
+
+00:06:19.413 --> 00:06:25.353
+files or anything on the web. What makes this possible under the hood are TCP/IP
+
+00:06:25.353 --> 00:06:29.398
+and router networks that break down and transport information
+
+00:06:29.398 --> 00:06:31.398
+in small packets.
+
+00:06:31.398 --> 00:06:34.398
+Those packets themselves are made up of binary.
+
+00:06:34.398 --> 00:06:36.918
+Sequences of ones and zeros that are physically sent through electric wires, fiber, and
+
+00:06:39.382 --> 00:06:42.942
+dropped at cables and wireless networks.
+
+00:06:42.942 --> 00:06:46.782
+Fortunately, once you've learned how one layer of the internet works, you can rely
+
+00:06:46.782 --> 00:06:49.342
+on it without remembering all the details.
+
+00:06:49.367 --> 00:06:57.367
+And we can trust that all those layers will work together to successfully deliver information at scale and with reliability.
+
+00:06:59.351 --> 00:07:01.931
+(upbeat music)

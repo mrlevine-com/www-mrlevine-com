@@ -1,0 +1,271 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:08.560
+[MUSIC]
+
+00:00:08.560 --> 00:00:09.984
+>> Hi, my name is
+
+00:00:09.984 --> 00:00:16.024
+Lamore Free and I'm an engineer here at Adafruit Industries. And this is where I
+
+00:00:16.024 --> 00:00:19.968
+do engineering and design and I design circuits for fashion.
+
+00:00:19.968 --> 00:00:21.468
+and music and technology.
+
+00:00:23.028 --> 00:00:24.908
+- My name is Federico Gomez-Sores
+
+00:00:24.908 --> 00:00:28.368
+and I'm a software developer with Microsoft Hack4Good.
+
+00:00:28.368 --> 00:00:29.953
+And I look into using tech.
+
+00:00:29.953 --> 00:00:32.953
+to help us solve some of the big social problems of our times.
+
+00:00:36.953 --> 00:00:39.937
+You may have heard that computers work on one side.
+
+00:00:39.937 --> 00:00:41.737
+ones and zeros.
+
+00:00:41.737 --> 00:00:45.737
+Or you may have seen scary looking visuals like this,
+
+00:00:45.737 --> 00:00:48.657
+but almost nobody today actually deals directly
+
+00:00:48.657 --> 00:00:49.897
+with these ones and zeros.
+
+00:00:49.922 --> 00:00:54.922
+But ones and zeros do play a big role in how computers work on the inside.
+
+00:00:59.907 --> 00:01:01.907
+all the information in a computer.
+
+00:01:01.907 --> 00:01:05.907
+How do you store or represent information using electricity?
+
+00:01:05.907 --> 00:01:09.891
+Well, if you have a single wire with electricity flowing through it...
+
+00:01:09.891 --> 00:01:17.091
+the signal can either be on or off. That's not a lot of choices, but it's a really important start.
+
+00:01:17.091 --> 00:01:19.651
+With one wire we can represent a yes.
+
+00:01:19.876 --> 00:01:28.136
+or no, true or false, a 1 or a 0, or anything else with only two options.
+
+00:01:28.136 --> 00:01:29.836
+This on-off state of a single state of a single state of a single state of a single state
+
+00:01:29.860 --> 00:01:33.940
+wire is called a bit and it's the smallest piece of information a computer
+
+00:01:33.940 --> 00:01:39.700
+can store. If you use more wires you get more bits more ones and zeros with more
+
+00:01:39.700 --> 00:01:39.845
+bits
+
+00:01:39.845 --> 00:01:42.845
+you could represent more complex information.
+
+00:01:42.845 --> 00:01:47.845
+But to understand that, we need to learn about something called the binary number system.
+
+00:01:49.829 --> 00:01:57.909
+In the decimal number system, we have 10 digits from 0 to 9, and that's how we've all learned
+
+00:01:57.909 --> 00:01:58.909
+to count.
+
+00:01:58.909 --> 00:01:59.814
+In the binary, we have 10 digits from 0 to 9, and that's how we've all learned to
+
+00:01:59.814 --> 00:02:06.954
+binary number system, we only have two digits, 0 and 1. With these two digits, we can count
+
+00:02:06.954 --> 00:02:09.274
+up to any number.
+
+00:02:09.274 --> 00:02:09.799
+Here's how this works.
+
+00:02:09.799 --> 00:02:15.799
+In the decimal number system we're all used to, each position in a number has a different value.
+
+00:02:15.799 --> 00:02:19.783
+There's the 1 position, the 10 position, the 100% position.
+
+00:02:19.783 --> 00:02:25.543
+position and so on. For example, a 9 in the 100 position is a 900.
+
+00:02:26.903 --> 00:02:29.743
+In binary, each position also carries a value.
+
+00:02:29.768 --> 00:02:34.888
+But instead of multiplying by 10 each time, we multiply by 2.
+
+00:02:34.888 --> 00:02:39.728
+So there is the 1's position, the 2's position, the 4's position, the 8's position.
+
+00:02:39.752 --> 00:02:42.232
+position, and so on.
+
+00:02:42.232 --> 00:02:48.512
+For example, the number 9 in binary is 1001.
+
+00:02:48.512 --> 00:02:49.737
+To calculate the value
+
+00:02:49.737 --> 00:02:57.777
+we add 1 times 8 plus 0 times 4 plus 0 times 2 plus 1 times 1.
+
+00:02:57.777 --> 00:02:59.617
+Almost nobody does this math because
+
+00:02:59.721 --> 00:03:01.161
+computer do it for us.
+
+00:03:02.641 --> 00:03:05.541
+What's important is that any number can be represented
+
+00:03:05.541 --> 00:03:07.881
+with only ones and zeros,
+
+00:03:07.881 --> 00:03:09.706
+or by a bunch of wires that are on.
+
+00:03:09.706 --> 00:03:11.466
+on or off.
+
+00:03:11.466 --> 00:03:12.726
+The more wires you use,
+
+00:03:12.726 --> 00:03:15.066
+the larger the numbers you can store.
+
+00:03:15.066 --> 00:03:16.346
+- With eight wires,
+
+00:03:16.346 --> 00:03:19.691
+you can store numbers between zero and...
+
+00:03:19.691 --> 00:03:29.451
+255. That's eight wants. With just 32 wires, you can store all the way from zero to over 4 billion.
+
+00:03:29.675 --> 00:03:34.675
+Using the binary number system, you can represent any number you like.
+
+00:03:34.675 --> 00:03:37.675
+But what about other types of information?
+
+00:03:37.675 --> 00:03:39.660
+Like text, images,
+
+00:03:39.660 --> 00:03:45.540
+or sound. It turns out that all these things can also be represented with numbers.
+
+00:03:49.644 --> 00:03:53.184
+Think of all the letters in the alphabet.
+
+00:03:53.184 --> 00:03:55.184
+You could assign a number to each letter.
+
+00:03:55.184 --> 00:03:58.704
+A could be one, B could be two, and so on.
+
+00:03:58.704 --> 00:03:59.624
+You can then represent
+
+00:03:59.629 --> 00:04:03.369
+and any word or paragraph as a sequence of numbers.
+
+00:04:03.369 --> 00:04:06.009
+And as we saw, these numbers can be stored
+
+00:04:06.009 --> 00:04:08.529
+as on or off electrical signals.
+
+00:04:09.614 --> 00:04:19.374
+Every word you see on every webpage on your phone is represented using a system like this.
+
+00:04:19.598 --> 00:04:26.598
+Now, let's consider photos, videos, and all the graphics you see on the screen.
+
+00:04:26.598 --> 00:04:29.583
+All of these images are made out of teeny tiny...
+
+00:04:29.583 --> 00:04:33.663
+dots called pixels, and each pixel has a color.
+
+00:04:33.663 --> 00:04:37.783
+Each of the colors can be represented with numbers.
+
+00:04:37.783 --> 00:04:39.543
+When you consider that a typical
+
+00:04:39.567 --> 00:04:42.327
+has millions of these pixels.
+
+00:04:42.327 --> 00:04:45.607
+And a typical video shows 30 images per second.
+
+00:04:45.607 --> 00:04:48.047
+Now we're talking about a lot of data here.
+
+00:04:49.552 --> 00:04:52.132
+(upbeat music)
+
+00:04:53.672 --> 00:04:57.952
+Every sound is basically a series of vibrations in the air.
+
+00:04:57.952 --> 00:04:59.536
+Vibrations can be represented.
+
+00:04:59.536 --> 00:05:06.536
+graphically as a waveform. Any point on this waveform can be represented by a number.
+
+00:05:06.536 --> 00:05:09.521
+And this way any sound can be broken down.
+
+00:05:09.521 --> 00:05:12.281
+down into a series of numbers.
+
+00:05:12.281 --> 00:05:18.401
+If you want higher quality sound, you would pick 32-bit audio over 8-bit audio.
+
+00:05:18.401 --> 00:05:19.506
+More bits means a high quality sound.
+
+00:05:19.506 --> 00:05:21.506
+higher range of numbers.
+
+00:05:29.490 --> 00:05:33.330
+But you will be dealing with images, or sound, or video.
+
+00:05:33.330 --> 00:05:37.770
+So if you want to understand how computers work on the inside, it all comes down to these
+
+00:05:37.770 --> 00:05:39.210
+simple ones and zeros.
+
+00:05:39.475 --> 00:05:43.315
+and the electrical signals in the circuits behind them.
+
+00:05:43.315 --> 00:05:46.435
+They are the backbone of how all computers input,
+
+00:05:46.435 --> 00:05:49.459
+store, process, and output information.
+
+00:05:49.459 --> 00:05:52.039
+(upbeat music)

@@ -193,7 +193,7 @@
 		"suffix" (cond $isMultiDay (add " (Day " (string .day) ")") "")
 		"content" (printf "%s%s"
 			(cond (eq $courseFilter "calendar") ($p.Parent.Title | default $event.type) (cond (ne $p.Params.Summary ":construction:") ($p.Summary | plainify | htmlUnescape | default $event.type) "This page is under construction..."))
-			(cond $p (cond (or (not $p.Params.Units) (eq $p.Params.Summary ":construction:")) " ○" " ●") ""))
+			(cond (and $p hugo.IsDevelopment) (cond (or (not $p.Params.Units) (eq $p.Params.Summary ":construction:")) " ○" " ●") ""))
 	) }}
 {{ end }}
 

@@ -1,0 +1,226 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:05.000
+[SOUND]
+
+00:00:05.000 --> 00:00:09.000
+Most apps keep track of pieces of information that change and
+
+00:00:09.000 --> 00:00:09.983
+update as you use the app.
+
+00:00:09.983 --> 00:00:15.703
+For example, a simple game can keep track of your score and the number of lives you have left as you play.
+
+00:00:16.303 --> 00:00:19.967
+Apps utilize the computer's memory to do this, and learning how to use it
+
+00:00:19.967 --> 00:00:24.367
+use that memory when programming is a really powerful skill.
+
+00:00:24.367 --> 00:00:29.951
+The most common way to leverage a computer's memory is by creating a variable.
+
+00:00:29.951 --> 00:00:33.591
+is just a container for storing a value.
+
+00:00:33.591 --> 00:00:37.511
+And once created, the variable is stored in the computer's memory,
+
+00:00:37.511 --> 00:00:39.911
+and it can be used and updated.
+
+00:00:39.935 --> 00:00:42.735
+repeatedly throughout your program.
+
+00:00:42.735 --> 00:00:47.775
+As an example, let's use variables to keep track of the score and the number of lives
+
+00:00:47.775 --> 00:00:49.455
+remaining in a hypothetical game.
+
+00:00:49.919 --> 00:00:52.519
+Creating the variable is really easy.
+
+00:00:52.519 --> 00:00:57.439
+You use the word var followed by a label that you want to give the variable.
+
+00:00:57.439 --> 00:00:59.903
+You can choose any label you want, but it's not.
+
+00:00:59.903 --> 00:01:02.823
+It helps to choose a word that describes the variable
+
+00:01:02.823 --> 00:01:04.503
+that you want to store.
+
+00:01:04.503 --> 00:01:07.023
+So let's label our first variable score
+
+00:01:07.023 --> 00:01:08.823
+to keep track of the score.
+
+00:01:08.823 --> 00:01:09.887
+And then we can create a--
+
+00:01:09.887 --> 00:01:13.667
+second variable to keep track of lives.
+
+00:01:13.667 --> 00:01:15.447
+Remember these labels.
+
+00:01:15.447 --> 00:01:19.287
+You'll need them later in order to use the variables.
+
+00:01:19.287 --> 00:01:19.871
+We can assign--
+
+00:01:19.871 --> 00:01:25.271
+a value to the variable using the equal sign, like this.
+
+00:01:25.271 --> 00:01:29.591
+Let's set our starting score to zero and our number of lives to three.
+
+00:01:29.591 --> 00:01:29.855
+Remember you can do this.
+
+00:01:29.855 --> 00:01:34.455
+you only need to use the var at the time that you want to create a new variable. A common
+
+00:01:34.455 --> 00:01:39.735
+mistake is to use it every single time you want to refer to a variable. Also, be sure
+
+00:01:39.839 --> 00:01:45.079
+avoid mixing up the order when you call your variables. The labels have to appear on the
+
+00:01:45.079 --> 00:01:48.959
+left and the value has to appear on the right. Like this.
+
+00:01:49.823 --> 00:01:51.823
+Not like this.
+
+00:01:51.823 --> 00:01:54.343
+Often, you'll want to create a variable and assign it a
+
+00:01:54.343 --> 00:01:55.783
+value right away.
+
+00:01:55.783 --> 00:01:58.183
+There's a really convenient way to do this with one line of
+
+00:01:58.183 --> 00:01:59.263
+code.
+
+00:01:59.263 --> 00:01:59.807
+This is sometimes--
+
+00:01:59.807 --> 00:02:02.367
+is called initializing the variable.
+
+00:02:02.367 --> 00:02:05.327
+It's important to realize that this single line of code
+
+00:02:05.327 --> 00:02:07.287
+is actually doing two things.
+
+00:02:07.287 --> 00:02:09.791
+First, creating the variable, and then second--
+
+00:02:09.791 --> 00:02:11.791
+assigning it a value.
+
+00:02:12.351 --> 00:02:19.471
+Let's take a moment to talk about the equal sign. In many coding language, the equal symbol is called the assignment operator.
+
+00:02:19.775 --> 00:02:22.775
+because you use it to assign a value to a variable.
+
+00:02:22.775 --> 00:02:24.775
+And you're probably used to seeing it in math,
+
+00:02:24.775 --> 00:02:27.775
+but in programming it's a little bit different.
+
+00:02:27.775 --> 00:02:29.759
+If you were in math class, and you saw...
+
+00:02:29.759 --> 00:02:36.439
+saw this, something would definitely be wrong. Score can't possibly equal both 5 and 7,
+
+00:02:36.439 --> 00:02:39.719
+but this is not math class.
+
+00:02:39.743 --> 00:02:45.583
+The computer is executing a set of instructions one after the other, so this would just tell
+
+00:02:45.583 --> 00:02:49.703
+the computer to set score to 5, and then on the next line, set it to 5.
+
+00:02:49.727 --> 00:02:51.527
+to 7.
+
+00:02:51.527 --> 00:02:55.507
+In an effort to avoid confusion, programmers often don't use the word "equals" when
+
+00:02:55.507 --> 00:02:56.887
+we see this sign.
+
+00:02:56.887 --> 00:02:59.687
+Instead, they use the phrase "gets the value."
+
+00:02:59.711 --> 00:03:06.351
+value. So when we see a statement like this, we could read it as score gets the value 7,
+
+00:03:06.351 --> 00:03:09.695
+or score gets 7 for short. Some programming language.
+
+00:03:09.695 --> 00:03:14.215
+which is to avoid the confusion entirely by representing the assignment statements with
+
+00:03:14.215 --> 00:03:17.615
+a sideways arrow, like this.
+
+00:03:17.615 --> 00:03:19.679
+To use a variable, you just
+
+00:03:19.679 --> 00:03:25.079
+refer to it by its label. Anywhere the variable name appears in the program, the value currently
+
+00:03:25.079 --> 00:03:28.599
+stored in the variable will be retrieved from memory.
+
+00:03:28.599 --> 00:03:29.639
+The tricky part is
+
+00:03:29.663 --> 00:03:35.503
+is that when using a variable, you often can't see visually what its value is.
+
+00:03:35.503 --> 00:03:39.623
+To bypass that problem, you can use write or code.
+
+00:03:39.647 --> 00:03:43.487
+console.log to display the value like this.
+
+00:03:45.567 --> 00:03:47.047
+This is a really handy trick,
+
+00:03:47.047 --> 00:03:49.631
+but remember there's a difference between showing.
+
+00:03:49.631 --> 00:03:54.211
+the value of a variable and writing out the variable's label.
+
+00:03:54.211 --> 00:03:58.331
+When text appears in quotes, you're telling the computer to write those literal ASCII
+
+00:03:58.331 --> 00:03:59.551
+characters on the screen
+
+00:03:59.615 --> 00:04:01.615
+like this.
+
+00:04:09.599 --> 00:04:15.199
+retrieve its value. If you haven't made that variable, then the computer will give an error.
+
+00:04:19.583 --> 00:04:21.663
+(chimes)

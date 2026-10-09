@@ -146,7 +146,7 @@
 		{{ $currentYear = $ym }}
 		{{ $currentMonth = "" }}
 		<div class="archive-year" style="margin: 0; padding-top: var(--gap);" id="{{ $y }}-{{ $m }}">
-		<h2 class="archive-year-header">
+		<h2 class="archive-year-header" style="margin-bottom: var(--card-gap)">
 			<a class="archive-header-link" href="#{{ $y }}-{{ $m }}">
 				{{- $ymFormatted -}}
 			</a>
@@ -165,16 +165,16 @@
 				{{ $currentQuarter = add $currentQuarter 1 }}
 				{{ $currentWeek = 1 }}
 			{{ end }}
-			<div id="{{ $date }}" class="archive-month" style="padding: var(--gap) 0">Quarter {{ $currentQuarter }} Week {{ $currentWeek }} &nbsp;{{ ":books:" | markdownify }}</div>
+			<div id="{{ $date }}" class="archive-month" style="padding: var(--card-gap) 0">Quarter {{ $currentQuarter }} Week {{ $currentWeek }} &nbsp;{{ ":books:" | markdownify }}</div>
 		{{ end }}
-		<div class="archive-month" style="padding: var(--gap) 0" id="{{ cond (eq $dayOfWeek "Mon") (add "mon-" $date) $date }}">
-		<h3 class="archive-month-header" style="margin: 0 0 var(--gap) 0">
+		<div class="archive-month" style="padding: var(--card-gap) 0" id="{{ cond (eq $dayOfWeek "Mon") (add "mon-" $date) $date }}">
+		<h3 class="archive-month-header" style="margin: 0 0 var(--card-gap) 0">
 			<a class="archive-header-link" href="#{{ $date }}">
 				{{- $dFormatted -}}
 			</a>
 			<!--<sup class="archive-count">{{- index $dayCounts $ymd -}}</sup>-->
 		</h3>
-		<div class="archive-posts" style="display: flex; flex-direction: column; gap: var(--gap)">
+		<div class="archive-posts" style="display: flex; flex-direction: column; gap: var(--card-gap)">
 		{{ $haveOpenMonth = true }}
 	{{ end }}
 

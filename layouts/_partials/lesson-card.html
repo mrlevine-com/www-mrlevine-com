@@ -1,6 +1,6 @@
 {{ $p := .page }}
 {{ $event := .event }}
-<div class="archive-entry" style="margin: 0; {{ cond (not $p) "font-style: italic" "" }}">
+<div class="archive-entry" style="margin: 0; {{ if not $p }}font-style: italic; padding-bottom: 0; margin-bottom: -10px{{ end }}">
 	<h3 class="archive-entry-title entry-hint-parent" style="{{ cond ($p) "margin: 10px" "" }}">
 		{{- .label -}}{{- $p.Title | default $event.title | markdownify -}}{{- .suffix -}}
 	</h3>

@@ -1,5 +1,6 @@
 :root {
   --today-accent: #24707f;
+  --card-gap: 14px;
 }
 
 :root[data-theme="dark"] {
@@ -48,6 +49,7 @@ code {
 }
 
 .home-today {
+  flex-direction: column;
   width: 100%;
   text-align: start;
 }

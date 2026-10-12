@@ -54,8 +54,7 @@ params:
     url: https://raw.githubusercontent.com/mrlevine-com/www-mrlevine-com/refs/heads/main/content
     text: </> View Markdown
     appendFilePath: true
-  showTOC: true
-  tocOpen: true
+  showTOC: false
   showPostNavLinks: true
   assets:
     favicon: icon.png

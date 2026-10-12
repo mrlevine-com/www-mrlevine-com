@@ -2,7 +2,7 @@
 
 <header class="page-header">
 	{{ partial "breadcrumbs.html" . }}
-	<div style="display: flex; align-items: start; gap: var(--gap); flex-direction: column;">
+	<div style="display: flex; align-items: start; gap: var(--card-gap); flex-direction: column;">
 		<h1>{{ .Title }}</h1>
 		<a href="#" id="today" hidden class="button" title="View Today">View Today</a>
 	</div>
@@ -145,7 +145,7 @@
 	{{ if not $haveOpenYear }}
 		{{ $currentYear = $ym }}
 		{{ $currentMonth = "" }}
-		<div class="archive-year" style="margin: 0; padding-top: var(--gap);" id="{{ $y }}-{{ $m }}">
+		<div class="archive-year" style="margin: 0; padding-top: var(--card-gap);" id="{{ $y }}-{{ $m }}">
 		<h2 class="archive-year-header" style="margin-bottom: var(--card-gap)">
 			<a class="archive-header-link" href="#{{ $y }}-{{ $m }}">
 				{{- $ymFormatted -}}

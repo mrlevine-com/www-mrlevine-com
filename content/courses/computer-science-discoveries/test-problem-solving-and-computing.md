@@ -2,7 +2,7 @@
 title: "Test: Problem Solving and Computing"
 units: [Problem Solving and Computing]
 summary: It's time to apply what you have learned about problem solving and computing!
-weight: 80
+weight: 85
 ---
 
 {{% param summary %}}

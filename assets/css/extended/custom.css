@@ -7,6 +7,10 @@
   --today-accent: #53a1b3;
 }
 
+:root[data-theme="dark"] img[src*="/flowchart-"] {
+  filter: invert(1) hue-rotate(180deg);
+}
+
 li::marker {
   font-size: 11.1px;
   color: var(--secondary);

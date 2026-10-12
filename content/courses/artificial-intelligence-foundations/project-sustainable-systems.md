@@ -103,4 +103,4 @@ Add a **Reflection: AI As Co-Creator** section to your diagram describing one AI
 {{% unit-journal-question-of-the-day question="What did you learn about designing ethical and sustainable systems?" hint="Think about your Ethical Considerations section." %}}
 
 ## Upcoming Quiz
-To prepare for your upcoming quiz, study all of the terms and definitions that you have written in your Unit Journal. You can find all eleven terms [here](/units/data-and-artificial-intelligence/) listed in alphabetical order after the lessons.
+To prepare for your upcoming quiz, study all of the terms and definitions that you have written in your Unit Journal. You can find all twelve terms [here](/units/data-and-artificial-intelligence/) listed in alphabetical order after the lessons.

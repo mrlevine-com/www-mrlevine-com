@@ -25,7 +25,7 @@ weight: 100
 
 ## Assignment
 {{% instructions-unit-journal-update %}}
-{{% unit-journal-define-terms "Lossless Compression" %}}
+{{% unit-journal-define-terms "Lossy Compression" %}}
 
 ### Removing Vowels
 Try [this widget](https://studio.code.org/projects/applab/hxXJIEGg2yza_Q7t9W04xg), type "there are three tiers of tires at the shop", and record your answers to the following questions:

@@ -65,7 +65,7 @@ Unlike a typical neural network which trains on a specific task, like how to rec
 
 ## Assignment
 {{% instructions-unit-journal-update %}}
-{{% unit-journal-define-terms "Neural Network" "Large Language Models (LLM)" "Training Data" "Training" %}}
+{{% unit-journal-define-terms "Neural Network" "Large Language Model (LLM)" "Training Data" "Training" %}}
 
 ### Unplugged Neural Networks (Day 1)
 #### Round 1: Limited Context Prediction

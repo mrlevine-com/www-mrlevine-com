@@ -22,6 +22,8 @@ Similarly, devices on the Internet have addresses to make them easy to locate fo
 {{</ collapse >}}
 
 ### What is the Internet Protocol?
+{{% define "Protocol" %}}
+{{% define "IP Address" %}}
 {{% define "Internet Protocol (IP)" %}}
 {{< video title="What is the Internet?" src="/videos/the-internet-ip-addresses-and-dns.mp4" poster="/images/video-poster-the-internet-ip-addresses-and-dns.jpg" >}}
 

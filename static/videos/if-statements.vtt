@@ -1,0 +1,52 @@
+WEBVTT
+
+00:00:05.400 --> 00:00:11.120
+Our daily lives are filled with decisions, big and small. Even simple choices like what
+
+00:00:11.120 --> 00:00:15.740
+to wear usually are the result of complex considerations. What's the weather going
+
+00:00:15.740 --> 00:00:20.440
+to be like? What will you be doing today? Do you feel like making an impression or keeping
+
+00:00:20.440 --> 00:00:26.180
+it casual? But the world around us is constantly changing, so we want to adapt the choices
+
+00:00:26.180 --> 00:00:31.800
+we make to match the changing conditions. What's true for humans is also true for computer
+
+00:00:31.800 --> 00:00:36.600
+programs. We don't want our programs to always run in the same way, they should respond to
+
+00:00:36.600 --> 00:00:42.560
+changing conditions. In the last video, we learned how to use Boolean expressions to
+
+00:00:42.560 --> 00:00:48.160
+establish whether something is true or false. We can now add something called a conditional
+
+00:00:48.160 --> 00:00:53.880
+statement to help guide the computer's decisions based on that information. The simplest conditional
+
+00:00:53.880 --> 00:00:59.960
+statement is an if statement. It says that if something is true, the computer should
+
+00:00:59.960 --> 00:01:05.240
+run a specific block of code. Let's say that you want to create a program that displays
+
+00:01:05.240 --> 00:01:10.660
+whether or not you are old enough to see a PG-13 movie. So the question we want the computer
+
+00:01:10.660 --> 00:01:18.960
+to evaluate is if age is greater than or equal to 13. The question, or Boolean expression,
+
+00:01:18.960 --> 00:01:24.920
+goes next to the if. The block of code we want to run, only if the condition is true,
+
+00:01:24.920 --> 00:01:30.600
+goes inside the if statement. So in our example, whenever the expression age greater than or
+
+00:01:30.600 --> 00:01:35.840
+equal to 13 is true, the program will write to the screen that you are old enough to see
+
+00:01:35.840 --> 00:01:37.240
+a PG-13 movie.

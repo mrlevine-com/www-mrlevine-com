@@ -1,0 +1,76 @@
+WEBVTT
+
+00:00:05.200 --> 00:00:09.820
+Sometimes the decisions you will want your program to make have more than two possible
+
+00:00:09.820 --> 00:00:10.820
+outcomes.
+
+00:00:10.820 --> 00:00:15.860
+Let's continue our movie rating example, where we want to check whether the highest
+
+00:00:15.860 --> 00:00:23.720
+rating you can go see alone is an R-rated movie, a PG-13 movie, or just a G-rated movie.
+
+00:00:23.720 --> 00:00:29.260
+To check between these three different cases, we can add an else if statement.
+
+00:00:29.260 --> 00:00:35.060
+An else if statement is another condition that a program checks only if the previous if statements
+
+00:00:35.060 --> 00:00:36.860
+were false.
+
+00:00:36.860 --> 00:00:45.260
+So if age is greater than or equal to 17, write that user can see an R-rated movie alone.
+
+00:00:45.260 --> 00:00:51.980
+Else if the age is greater than or equal to 13, write that the user can see a PG-13 movie
+
+00:00:51.980 --> 00:00:53.480
+alone.
+
+00:00:53.480 --> 00:00:59.140
+Else, write that the user can see a G-rated movie alone.
+
+00:00:59.140 --> 00:01:04.500
+The else condition becomes the default condition, because when all the previous if and else if
+
+00:01:04.500 --> 00:01:08.540
+statements are false, it will default to the else statement.
+
+00:01:08.540 --> 00:01:12.740
+Be careful as you construct longer sequences of else if statements.
+
+00:01:12.740 --> 00:01:17.580
+If you mix up the order, you might not get the behavior you intended.
+
+00:01:17.580 --> 00:01:22.420
+In our example, imagine we had switched the code so that the first condition checked if
+
+00:01:22.420 --> 00:01:28.060
+the user was old enough to see PG-13 movies, like this.
+
+00:01:28.060 --> 00:01:33.780
+This would mean that everyone who is 13 or older would be told they can only see PG-13
+
+00:01:33.780 --> 00:01:36.660
+movies, even the adults.
+
+00:01:36.660 --> 00:01:41.700
+And with the next else if line, the computer would be looking for people 17 or older in
+
+00:01:41.700 --> 00:01:43.380
+the remaining group.
+
+00:01:43.380 --> 00:01:48.300
+This code misses the adults because they were true in that first condition.
+
+00:01:48.300 --> 00:01:49.940
+This won't work.
+
+00:01:49.940 --> 00:01:54.780
+The computer checks the conditions from top to bottom, so it is important to enter the
+
+00:01:54.780 --> 00:02:03.580
+most specific condition first.

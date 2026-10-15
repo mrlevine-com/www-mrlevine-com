@@ -19,6 +19,14 @@
     </span>
 {{- end }}
 
+{{ $ctx := dict
+	"page" .
+	"summary" "Click here to reveal the QR code for this lesson."
+}}
+<div style="margin: 6px 0 -10px 0;">
+{{ with partial "collapse.html" $ctx }}
 {{ with images.QR .Permalink }}
-    <img style="margin-top: 30px" src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}" alt="QR code for this lesson">
+<img src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}" alt="QR code for this lesson" style="border-radius: var(--radius);">
 {{ end }}
+{{ end }}
+</div>

@@ -1,0 +1,85 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:06.940
+[MUSIC]
+
+00:00:06.940 --> 00:00:09.840
+If you want to animate a single shape in Game Lab,
+
+00:00:09.984 --> 00:00:13.484
+you can quickly end up with a lot of variables to manage.
+
+00:00:13.484 --> 00:00:16.244
+You'll need one to store the shape's x position,
+
+00:00:16.244 --> 00:00:19.484
+one to store the y position, one for width,
+
+00:00:19.484 --> 00:00:19.968
+one for height,
+
+00:00:19.968 --> 00:00:26.968
+and as you add fills, strokes, and other characteristics, you'll need even more variables.
+
+00:00:26.968 --> 00:00:29.953
+If you want to animate additional shapes, you'll need to
+
+00:00:29.953 --> 00:00:32.793
+create a whole other set of variables.
+
+00:00:32.793 --> 00:00:36.113
+All this can quickly lead to problems with organization
+
+00:00:36.113 --> 00:00:38.233
+and clarity in your code.
+
+00:00:38.233 --> 00:00:39.937
+So what's an elegant and manageable
+
+00:00:39.937 --> 00:00:46.077
+way to keep track of all these variables? The solution is to start animating with
+
+00:00:46.077 --> 00:00:49.797
+sprites. Think of a sprite like a character that
+
+00:00:49.922 --> 00:00:52.202
+lives inside your animations.
+
+00:00:52.202 --> 00:00:57.202
+At first, a sprite will pretty much just be a rectangle.
+
+00:00:57.342 --> 00:00:59.907
+But the beauty of a sprite is what it has
+
+00:00:59.907 --> 00:01:05.067
+going on behind the scenes. When you make a sprite, it comes with properties,
+
+00:01:05.067 --> 00:01:09.891
+which are variables that store the characteristics of a sprite.
+
+00:01:09.891 --> 00:01:14.131
+Properties describe things like where the sprite's located on the screen, what it looks
+
+00:01:14.131 --> 00:01:17.451
+like, and what color it is.
+
+00:01:17.451 --> 00:01:19.851
+To create a new sprite, use the createSprite
+
+00:01:19.876 --> 00:01:24.516
+command. You can assign your sprite a label just like you would a variable.
+
+00:01:25.876 --> 00:01:29.860
+This code is creating a new sprite and giving it the label mySprite,
+
+00:01:29.860 --> 00:01:34.540
+but you can label it anything you'd like.
+
+00:01:34.540 --> 00:01:38.380
+Just like shapes, sprites need to be drawn to the screen.
+
+00:01:38.380 --> 00:01:39.845
+Use the drawSprites command
+
+00:01:39.845 --> 00:01:42.445
+to see your sprite appear in the display area.

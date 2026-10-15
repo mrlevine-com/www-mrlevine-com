@@ -1,0 +1,31 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:06.320
+[MUSIC]
+
+00:00:06.320 --> 00:00:09.940
+You can control a sprite's properties in your program by using dot
+
+00:00:09.984 --> 00:00:16.864
+notation. First, connect the label of the sprite to the label of the property with a dot.
+
+00:00:17.744 --> 00:00:19.824
+Now you can use this just like a variable.
+
+00:00:19.968 --> 00:00:29.928
+So, for example, mySprite.x gets 200. We'll update the sprite's x location to 200.
+
+00:00:29.953 --> 00:00:35.753
+mySprite.width gets 50. We'll update the sprite's width to 50. The next time you
+
+00:00:35.753 --> 00:00:39.937
+call drawSprites, these new property values will be used to draw the sprite.
+
+00:00:39.937 --> 00:00:43.937
+Sprites can have tons of properties.
+
+00:00:43.937 --> 00:00:49.922
+As you get familiar with them, they'll give you powerful controls over what your sprites look like and can do.
+
+00:00:49.922 --> 00:00:53.262
+[MUSIC]

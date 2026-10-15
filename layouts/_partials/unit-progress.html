@@ -1,0 +1,98 @@
+{{- $lesson := . }}
+{{- $course := .Parent }}
+{{- if and $course $course.Params.Start }}
+	{{- /* Each test ends a unit, except lessons after a test tagged with its units (like a "Part 2" project) stay in that unit */}}
+	{{- $unitNum := 0 }}
+	{{- $hereNum := 0 }}
+	{{- $afterTest := false }}
+	{{- $testUnits := "" }}
+	{{- $unitNums := slice }}
+	{{- range $p := $course.Pages }}
+		{{- $units := delimit ($p.Params.Units | default slice) "|" }}
+		{{- if and $afterTest (or (eq $units "") (ne $units $testUnits)) }}
+			{{- $unitNum = add $unitNum 1 }}
+			{{- $afterTest = false }}
+		{{- end }}
+		{{- if hasPrefix $p.File.ContentBaseName "test-" }}
+			{{- $afterTest = true }}
+			{{- $testUnits = $units }}
+		{{- end }}
+		{{- if eq $p $lesson }}
+			{{- $hereNum = $unitNum }}
+		{{- end }}
+		{{- $unitNums = $unitNums | append $unitNum }}
+	{{- end }}
+
+	{{- $unit := slice }}
+	{{- $test := false }}
+	{{- $tagged := cond (gt (len ($lesson.GetTerms "units")) 0) $lesson false }}
+	{{- range $i, $p := $course.Pages }}
+		{{- if eq (index $unitNums $i) $hereNum }}
+			{{- $unit = $unit | append $p }}
+			{{- if hasPrefix $p.File.ContentBaseName "test-" }}
+				{{- $test = $p }}
+			{{- end }}
+			{{- if and (not $tagged) (gt (len ($p.GetTerms "units")) 0) }}
+				{{- $tagged = $p }}
+			{{- end }}
+		{{- end }}
+	{{- end }}
+
+	{{- if $test }}
+		{{- $first := index $unit 0 }}
+		{{- $d := partialCached "date.html" $first $first.RelPermalink }}
+		{{- $noLesson := slice "No School" "No Lesson" }}
+		{{- $noSchool := where hugo.Data.events "type" "in" $noLesson }}
+		{{- $dots := slice }}
+
+		{{- range $p := $unit }}
+			{{- $days := $p.Params.Days | default 1 }}
+			{{- $isTest := hasPrefix $p.File.ContentBaseName "test-" }}
+			{{- range $day := seq $days }}
+				{{- $title := printf "%s%s · %s" ($p.Title | plainify) (cond (gt $days 1) (printf " (Day %d)" $day) "") ($d.Format "Mon, Jan 2") }}
+				{{- $dots = $dots | append (dict "page" $p "date" $d "title" $title "isTest" $isTest) }}
+
+				{{- range 30 }}
+					{{- $d = $d.AddDate 0 0 1 }}
+					{{- $dayOfWeek := $d | time.Format "Mon" }}
+					{{- $isWeekend := or (eq $dayOfWeek "Sat") (eq $dayOfWeek "Sun") }}
+					{{- $noSchoolToday := where $noSchool "date" ($d | time.Format "2006-01-02") }}
+					{{- if and (not $isWeekend) (eq ($noSchoolToday | len) 0) }}
+						{{- break }}
+					{{- end }}
+				{{- end }}
+			{{- end }}
+		{{- end }}
+
+		<div class="unit-progress">
+			<span class="unit-progress-dots">
+			{{- range $dots }}
+				<a class="unit-progress-dot{{ if .isTest }} is-test{{ end }}{{ if eq .page $lesson }} is-here{{ end }}" href="{{ .page.RelPermalink }}" data-date="{{ .date.Format "2006-01-02" }}" title="{{ .title }}" aria-label="{{ .title }}">
+					{{- if .isTest }}<span>{{ ":memo:" | emojify }}</span>{{ end -}}
+				</a>
+			{{- end }}
+			</span>
+			<span class="unit-progress-name">
+				{{- with $tagged }}
+					{{- with index (last 1 (.GetTerms "units")) 0 }}
+						<a href="{{ .RelPermalink }}" title="View Unit">{{ .LinkTitle }}</a>
+					{{- end }}
+				{{- else }}
+					{{- strings.TrimPrefix "Test: " $test.Title }}
+				{{- end -}}
+			</span>
+		</div>
+		<script>
+			(() => {
+				const el = document.currentScript.previousElementSibling;
+				const d = new Date();
+				const today = `${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,"0")}-${String(d.getDate()).padStart(2,"0")}`;
+				const dots = [...el.querySelectorAll(".unit-progress-dot")];
+				dots.forEach((dot) => {
+					if (dot.dataset.date < today) dot.dataset.state = "past";
+					if (dot.dataset.date === today) dot.dataset.state = "today";
+				});
+			})();
+		</script>
+	{{- end }}
+{{- end }}

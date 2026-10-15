@@ -52,6 +52,63 @@ code {
   opacity: 0.6;
 }
 
+.unit-progress {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px 10px;
+  margin-top: 8px;
+}
+
+.unit-progress-dots {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px;
+}
+
+.unit-progress-dot {
+  position: relative;
+  width: 10px;
+  height: 10px;
+  border: 2px solid var(--secondary);
+  border-radius: 50%;
+  text-decoration: none !important;
+}
+
+.unit-progress-dot::after {
+  content: "";
+  position: absolute;
+  inset: -7px;
+}
+
+.unit-progress-dot[data-state="past"] {
+  background: var(--secondary);
+}
+
+.unit-progress-dot[data-state="today"] {
+  border-color: var(--today-accent);
+  background: var(--today-accent);
+}
+
+.unit-progress-dot.is-here {
+  outline: 2px solid var(--today-accent);
+  outline-offset: 2px;
+}
+
+.unit-progress-dot.is-test {
+  width: auto;
+  height: auto;
+  border: none;
+  border-radius: var(--radius);
+  background: none;
+  line-height: 1;
+}
+
+.unit-progress-dot.is-test[data-state="past"] > span {
+  opacity: 0.6;
+}
+
 .home-today {
   flex-direction: column;
   width: 100%;

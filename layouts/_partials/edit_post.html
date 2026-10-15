@@ -19,6 +19,8 @@
     </span>
 {{- end }}
 
+{{ partial "unit-progress.html" . }}
+
 {{ $ctx := dict
 	"page" .
 	"summary" "Click here to reveal the QR code for this lesson."

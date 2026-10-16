@@ -13,10 +13,10 @@
 	&nbsp;·&nbsp;
 {{- end }}
 {{- with images.QR .Permalink -}}
-	<button type="button" class="post-qr-button" popovertarget="post-qr" title="Show QR Code">QR</button>
-	<div id="post-qr" class="post-qr" popover>
+	<button type="button" class="post-qr-button" onclick="document.getElementById('post-qr').showModal()" title="Show QR Code">QR</button>
+	<dialog id="post-qr" class="post-qr" onclick="if (event.target === this) this.close()">
 		<img src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}" alt="QR code for this lesson">
-	</div>
+	</dialog>
 {{- end }}
 
 {{- with $unit }}

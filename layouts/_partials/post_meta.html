@@ -25,7 +25,7 @@
 	{{ end }}
 	{{ $endDateF := $endDate | time.Format (default ":date_long" site.Params.DateFormat) }}
 	{{- $calendarUrl := printf "%s#%s" $.Parent.RelPermalink (. | time.Format "2006-01-02") }}
-	{{- $scratch.Add "meta" (slice (printf "<a href='%s' title='View in Calendar'>%s</a>" $calendarUrl (cond $isMultiDay (add ">&nbsp;" $startDateF "&nbsp;&nbsp;&ndash;&nbsp;&nbsp;" $endDateF) (add ">&nbsp;" $startDateF)))) }}
+	{{- $scratch.Add "meta" (slice (printf "<a href='%s' title='View in Calendar'>%s</a>" $calendarUrl (cond $isMultiDay (add $startDateF "&nbsp;&nbsp;&ndash;&nbsp;&nbsp;" $endDateF) $startDateF))) }}
 {{- end }}
 
 {{- if (.Param "ShowReadingTime") -}}

@@ -1,34 +1,42 @@
-{{- if and (.Param "editPost.URL") (not (.Param "editPost.disabled")) -}}
-    {{- if or (.Param "author") (.Param "ShowReadingTime") (not .Date.IsZero) .IsTranslated true }}
-        {{- printf "&nbsp;&#10072;" | safeHTML -}}
-    {{- end -}}
+{{- $lesson := . }}
+{{- $unit := partial "unit-progress.html" . }}
 
-    {{- $editURL := .Param "editPost.URL" }}
-    {{- $appendFilePath := .Param "editPost.appendFilePath" | default false }}
-    {{- $editText := .Param "editPost.Text" | default (i18n "edit_post" ) -}}
-
-    {{- if $appendFilePath -}}
-        {{- $fileUrlPath := path.Join .File.Path }}
-        {{- $editURL = printf "%s/%s" $editURL $fileUrlPath -}}
-    {{- end -}}
-
-    <span>
-        <a href="{{ $editURL }}" rel="noopener noreferrer edit" target="_blank">
-            {{- $editText -}}
-        </a>
-    </span>
+{{- with partial "date.html" . }}&nbsp;·&nbsp;{{ end }}
+{{- with $unit }}
+	{{- with .tagged }}
+		{{- with index (last 1 (.GetTerms "units")) 0 -}}
+			<a href="{{ .RelPermalink }}" title="View Unit">{{ .LinkTitle }}</a>
+		{{- end }}
+	{{- else -}}
+		<span>{{ strings.TrimPrefix "Test: " .test.Title }}</span>
+	{{- end -}}
+	&nbsp;·&nbsp;
+{{- end }}
+{{- with images.QR .Permalink -}}
+	<button type="button" class="post-qr-button" popovertarget="post-qr" title="Show QR Code">QR</button>
+	<div id="post-qr" class="post-qr" popover>
+		<img src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}" alt="QR code for this lesson">
+	</div>
 {{- end }}
 
-{{ partial "unit-progress.html" . }}
-
-{{ $ctx := dict
-	"page" .
-	"summary" "Click here to reveal the QR code for this lesson."
-}}
-<div style="margin: 6px 0 -10px 0;">
-{{ with partial "collapse.html" $ctx }}
-{{ with images.QR .Permalink }}
-<img src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}" alt="QR code for this lesson" style="border-radius: var(--radius);">
-{{ end }}
-{{ end }}
-</div>
+{{- with $unit }}
+	<div class="unit-progress">
+	{{- range .dots }}
+		<a class="unit-progress-dot{{ if .isTest }} is-test{{ end }}{{ if eq .page $lesson }} is-here{{ end }}" href="{{ .page.RelPermalink }}" data-date="{{ .date.Format "2006-01-02" }}" title="{{ .title }}" aria-label="{{ .title }}">
+			{{- if .isTest }}<span>{{ ":memo:" | emojify }}</span>{{ end -}}
+		</a>
+	{{- end }}
+	</div>
+	<script>
+		(() => {
+			const el = document.currentScript.previousElementSibling;
+			const d = new Date();
+			const today = `${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,"0")}-${String(d.getDate()).padStart(2,"0")}`;
+			const dots = [...el.querySelectorAll(".unit-progress-dot")];
+			dots.forEach((dot) => {
+				if (dot.dataset.date < today) dot.dataset.state = "past";
+				if (dot.dataset.date === today) dot.dataset.state = "today";
+			});
+		})();
+	</script>
+{{- end }}

@@ -52,19 +52,40 @@ code {
   opacity: 0.6;
 }
 
+.post-qr-button {
+  padding: 0;
+  border: none;
+  background: none;
+  color: inherit;
+  font: inherit;
+  text-decoration: underline dotted;
+  text-underline-offset: 0.3rem;
+  cursor: pointer;
+}
+
+.post-qr {
+  padding: 16px;
+  border: none;
+  border-radius: var(--radius);
+  background: #fff;
+}
+
+.post-qr::backdrop {
+  background: rgb(0 0 0 / 0.6);
+}
+
+.post-qr img {
+  width: min(80vmin, 480px);
+  height: auto;
+  image-rendering: pixelated;
+}
+
 .unit-progress {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  gap: 6px 10px;
-  margin-top: 8px;
-}
-
-.unit-progress-dots {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
   gap: 6px;
+  margin-top: var(--content-gap);
 }
 
 .unit-progress-dot {

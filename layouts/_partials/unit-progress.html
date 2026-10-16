@@ -1,5 +1,6 @@
 {{- $lesson := . }}
 {{- $course := .Parent }}
+{{- $result := false }}
 {{- if and $course $course.Params.Start }}
 	{{- /* Each test ends a unit, except lessons after a test tagged with its units (like a "Part 2" project) stay in that unit */}}
 	{{- $unitNum := 0 }}
@@ -49,7 +50,7 @@
 			{{- $days := $p.Params.Days | default 1 }}
 			{{- $isTest := hasPrefix $p.File.ContentBaseName "test-" }}
 			{{- range $day := seq $days }}
-				{{- $title := printf "%s%s · %s" ($p.Title | plainify) (cond (gt $days 1) (printf " (Day %d)" $day) "") ($d.Format "Mon, Jan 2") }}
+				{{- $title := printf "%s%s · %s" ($p.Title | plainify) (cond (gt $days 1) (printf " (Day %d)" $day) "") ($d | time.Format (default ":date_long" site.Params.DateFormat)) }}
 				{{- $dots = $dots | append (dict "page" $p "date" $d "title" $title "isTest" $isTest) }}
 
 				{{- range 30 }}
@@ -64,35 +65,7 @@
 			{{- end }}
 		{{- end }}
 
-		<div class="unit-progress">
-			<span class="unit-progress-dots">
-			{{- range $dots }}
-				<a class="unit-progress-dot{{ if .isTest }} is-test{{ end }}{{ if eq .page $lesson }} is-here{{ end }}" href="{{ .page.RelPermalink }}" data-date="{{ .date.Format "2006-01-02" }}" title="{{ .title }}" aria-label="{{ .title }}">
-					{{- if .isTest }}<span>{{ ":memo:" | emojify }}</span>{{ end -}}
-				</a>
-			{{- end }}
-			</span>
-			<span class="unit-progress-name">
-				{{- with $tagged }}
-					{{- with index (last 1 (.GetTerms "units")) 0 }}
-						<a href="{{ .RelPermalink }}" title="View Unit">{{ .LinkTitle }}</a>
-					{{- end }}
-				{{- else }}
-					{{- strings.TrimPrefix "Test: " $test.Title }}
-				{{- end -}}
-			</span>
-		</div>
-		<script>
-			(() => {
-				const el = document.currentScript.previousElementSibling;
-				const d = new Date();
-				const today = `${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,"0")}-${String(d.getDate()).padStart(2,"0")}`;
-				const dots = [...el.querySelectorAll(".unit-progress-dot")];
-				dots.forEach((dot) => {
-					if (dot.dataset.date < today) dot.dataset.state = "past";
-					if (dot.dataset.date === today) dot.dataset.state = "today";
-				});
-			})();
-		</script>
+		{{- $result = dict "dots" $dots "tagged" $tagged "test" $test }}
 	{{- end }}
 {{- end }}
+{{- return $result }}

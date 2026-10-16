@@ -135,3 +135,32 @@ code {
   width: 100%;
   text-align: start;
 }
+
+.is-today .archive-month-header::after,
+.is-next .archive-month-header::after {
+  animation: today-pulse 2s ease-in-out infinite;
+}
+
+@keyframes today-pulse {
+  50% {
+    box-shadow: 0 0 0 6px color-mix(in srgb, var(--today-accent) 25%, transparent);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .is-today .archive-month-header::after,
+  .is-next .archive-month-header::after {
+    animation: none;
+  }
+}
+
+.md-content blockquote {
+  padding: 8px 14px;
+  border-inline-start: 4px solid var(--today-accent);
+  border-radius: 0 var(--radius) var(--radius) 0;
+  background: color-mix(in srgb, var(--today-accent) 8%, transparent);
+}
+
+.md-content blockquote p:last-child {
+  margin-bottom: 0;
+}

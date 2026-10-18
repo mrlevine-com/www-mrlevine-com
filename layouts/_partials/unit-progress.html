@@ -46,6 +46,22 @@
 		{{- $noSchool := where hugo.Data.events "type" "in" $noLesson }}
 		{{- $dots := slice }}
 
+		{{- /* The school day before the unit starts, so its first lesson is only up next (like on the home page) once that day has passed */}}
+		{{- $prev := "" }}
+		{{- if ne $first (index $course.Pages 0) }}
+			{{- $p := $d }}
+			{{- range 30 }}
+				{{- $p = $p.AddDate 0 0 -1 }}
+				{{- $dayOfWeek := $p | time.Format "Mon" }}
+				{{- $isWeekend := or (eq $dayOfWeek "Sat") (eq $dayOfWeek "Sun") }}
+				{{- $noSchoolToday := where $noSchool "date" ($p | time.Format "2006-01-02") }}
+				{{- if and (not $isWeekend) (eq ($noSchoolToday | len) 0) }}
+					{{- $prev = $p | time.Format "2006-01-02" }}
+					{{- break }}
+				{{- end }}
+			{{- end }}
+		{{- end }}
+
 		{{- range $p := $unit }}
 			{{- $days := $p.Params.Days | default 1 }}
 			{{- $isTest := hasPrefix $p.File.ContentBaseName "test-" }}
@@ -65,7 +81,7 @@
 			{{- end }}
 		{{- end }}
 
-		{{- $result = dict "dots" $dots "tagged" $tagged "test" $test }}
+		{{- $result = dict "dots" $dots "tagged" $tagged "test" $test "prev" $prev }}
 	{{- end }}
 {{- end }}
 {{- return $result }}

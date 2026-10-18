@@ -20,7 +20,7 @@
 {{- end }}
 
 {{- with $unit }}
-	<div class="unit-progress">
+	<div class="unit-progress" data-prev="{{ .prev }}">
 	{{- range .dots }}
 		<a class="unit-progress-dot{{ if .isTest }} is-test{{ end }}{{ if eq .page $lesson }} is-here{{ end }}" href="{{ .page.RelPermalink }}" data-date="{{ .date.Format "2006-01-02" }}" title="{{ .title }}" aria-label="{{ .title }}">
 			{{- if .isTest }}<span>{{ ":memo:" | emojify }}</span>{{ end -}}
@@ -35,8 +35,9 @@
 			const dots = [...el.querySelectorAll(".unit-progress-dot")];
 			dots.forEach((dot) => {
 				if (dot.dataset.date < today) dot.dataset.state = "past";
-				if (dot.dataset.date === today) dot.dataset.state = "today";
 			});
+			const next = dots.findIndex((dot) => dot.dataset.date >= today);
+			if (next > 0 || (next === 0 && el.dataset.prev < today)) dots[next].dataset.state = "today";
 		})();
 	</script>
 {{- end }}

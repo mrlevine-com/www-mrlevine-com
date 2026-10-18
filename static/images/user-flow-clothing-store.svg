@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 750 380" font-family="sans-serif" font-size="16" font-weight="bold" text-anchor="middle">
+  <defs>
+    <marker id="arrowA" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#a08a00"/></marker>
+    <marker id="arrowB" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#d35400"/></marker>
+  </defs>
+  <rect width="750" height="380" rx="8" fill="#fff"/>
+  <polyline points="405,90 405,115.0 200,115.0 200,140" fill="none" stroke="#bbb" stroke-width="2"/>
+  <polyline points="405,90 405,115.0 610,115.0 610,140" fill="none" stroke="#bbb" stroke-width="2"/>
+  <polyline points="200,180 200,205.0 120,205.0 120,230" fill="none" stroke="#bbb" stroke-width="2"/>
+  <polyline points="200,180 200,205.0 280,205.0 280,230" fill="none" stroke="#bbb" stroke-width="2"/>
+  <polyline points="610,180 610,205.0 540,205.0 540,230" fill="none" stroke="#bbb" stroke-width="2"/>
+  <polyline points="610,180 610,205.0 680,205.0 680,230" fill="none" stroke="#bbb" stroke-width="2"/>
+  <polyline points="120,270 120,295.0 60,295.0 60,320" fill="none" stroke="#bbb" stroke-width="2"/>
+  <polyline points="120,270 120,295.0 180,295.0 180,320" fill="none" stroke="#bbb" stroke-width="2"/>
+  <polyline points="540,270 540,295.0 420,295.0 420,320" fill="none" stroke="#bbb" stroke-width="2"/>
+  <polyline points="540,270 540,295.0 540,295.0 540,320" fill="none" stroke="#bbb" stroke-width="2"/>
+  <polyline points="540,270 540,295.0 660,295.0 660,320" fill="none" stroke="#bbb" stroke-width="2"/>
+  <polyline points="405,90 405,115.0 200,115.0 200,138" fill="none" stroke="#a08a00" stroke-width="4" stroke-dasharray="8 5" marker-end="url(#arrowA)"/>
+  <polyline points="200,180 200,205.0 120,205.0 120,228" fill="none" stroke="#a08a00" stroke-width="4" stroke-dasharray="8 5" marker-end="url(#arrowA)"/>
+  <polyline points="120,270 120,295.0 180,295.0 180,318" fill="none" stroke="#a08a00" stroke-width="4" stroke-dasharray="8 5" marker-end="url(#arrowA)"/>
+  <polyline points="405,90 405,115.0 610,115.0 610,138" fill="none" stroke="#d35400" stroke-width="4" stroke-dasharray="8 5" marker-end="url(#arrowB)"/>
+  <polyline points="610,180 610,205.0 540,205.0 540,228" fill="none" stroke="#d35400" stroke-width="4" stroke-dasharray="8 5" marker-end="url(#arrowB)"/>
+  <polyline points="540,270 540,295.0 540,295.0 540,318" fill="none" stroke="#d35400" stroke-width="4" stroke-dasharray="8 5" marker-end="url(#arrowB)"/>
+  <text x="300" y="40" font-size="26" fill="#a08a00">A</text>
+  <text x="510" y="40" font-size="26" fill="#d35400">B</text>
+  <rect x="350.0" y="50" width="110" height="40" fill="#c9daf8" stroke="#d35400" stroke-width="3"/>
+  <text x="405" y="76" fill="#222">Home</text>
+  <rect x="140.0" y="140" width="120" height="40" fill="#d9ead3" stroke="#a08a00" stroke-width="3"/>
+  <text x="200" y="166" fill="#222">Shop</text>
+  <rect x="550.0" y="140" width="120" height="40" fill="#d9ead3" stroke="#d35400" stroke-width="3"/>
+  <text x="610" y="166" fill="#222">Support</text>
+  <rect x="60.0" y="230" width="120" height="40" fill="#fff2cc" stroke="#a08a00" stroke-width="3"/>
+  <text x="120" y="256" fill="#222">Clothes</text>
+  <rect x="220.0" y="230" width="120" height="40" fill="#f0f0f0" stroke="#bbb" stroke-width="2"/>
+  <text x="280" y="256" fill="#999">Shoes</text>
+  <rect x="480.0" y="230" width="120" height="40" fill="#fff2cc" stroke="#d35400" stroke-width="3"/>
+  <text x="540" y="256" fill="#222">FAQs</text>
+  <rect x="620.0" y="230" width="120" height="40" fill="#f0f0f0" stroke="#bbb" stroke-width="2"/>
+  <text x="680" y="256" fill="#999">Contact</text>
+  <rect x="5.0" y="320" width="110" height="40" fill="#f0f0f0" stroke="#bbb" stroke-width="2"/>
+  <text x="60" y="346" fill="#999">Shirts</text>
+  <rect x="125.0" y="320" width="110" height="40" fill="#fce5cd" stroke="#a08a00" stroke-width="3"/>
+  <text x="180" y="346" fill="#222">Pants</text>
+  <rect x="365.0" y="320" width="110" height="40" fill="#f0f0f0" stroke="#bbb" stroke-width="2"/>
+  <text x="420" y="346" fill="#999">Shipping</text>
+  <rect x="485.0" y="320" width="110" height="40" fill="#fce5cd" stroke="#d35400" stroke-width="3"/>
+  <text x="540" y="346" fill="#222">Returns</text>
+  <rect x="605.0" y="320" width="110" height="40" fill="#f0f0f0" stroke="#bbb" stroke-width="2"/>
+  <text x="660" y="346" fill="#999">Sizes</text>
+</svg>

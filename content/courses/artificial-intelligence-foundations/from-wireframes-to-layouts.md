@@ -1,41 +1,41 @@
 ---
 title: From Wireframes to Layouts
-summary: ":construction:"
+units: [AI-Generated Design]
+summary: AI builds the best layouts when you give it both a wireframe and a written description.
 weight: 390
 ---
 
 {{% param summary %}}
-> This page is under construction.
 
 ## Today's Objectives
--
-
-<!--
+- Debug issues that arise when translating sketches to layouts.
+- Prompt AI to generate layouts that align with their wireframes.
+- Refine prompts to bring AI output closer to planned structures.
 
 ## Lesson Overview
-### ?
-{{< collapse summary="Click here to reveal the answer." >}}
+### What should you give AI?
+**Both a wireframe and a written description**, like using a map and written directions to find a new place:
 
+- **Wireframe**: shows where everything goes on the page.
+- **Written description**: explains what each part is for, like "This will be a website about indoor plants. Include a logo, welcome image, short intro, and four sections for plant categories."
 
+### Why does AI get it wrong?
+AI guesses what your wireframe means from patterns, so it can misread:
 
-{{</ collapse >}}
+- **Unclear shapes**, like a box that could be a button or an image
+- **Poor spacing** that makes separate parts look connected
+- **Overlapping lines** that blur the layout
+
+### How do you fix a mismatch?
+Fix one mismatch per prompt, and say exactly what you want:
+
+| Vague | Specific |
+|-------|----------|
+| "Fix the navigation bar." | "Place the navigation bar at the top with links in this exact order: Home, Planner, Tips from left to right." |
 
 ## Assignment
-### Instructions
-####
+{{% instructions-code-org-update %}}
+{{% instructions-unit-journal-update %}}
 
-### Submission
-#### Deliverables
-| Item                                  | Est. Time |
-|---------------------------------------|----------:|
-| Today's activity submitted on Canvas  | ~__ mins  |
-| Unit _ Lesson _ submitted on Code.org | ~__ mins  |
-
-#### Rubric
-| Criteria                     | Points |
-|------------------------------|-------:|
-| ___                          | __     |
-| Your name written at the top | __     |
-| Code.org Unit _ Lesson _     | __     |
-
--->
+### Record Your Layout Fix (~5mins)
+Record one way AI's layout didn't match your wireframe and the prompt you used to fix it.

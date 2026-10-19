@@ -1,7 +1,7 @@
 ---
-title: Encryption
+title: Nested Conditionals for Complex Logic
 summary: ":construction:"
-weight: 510
+weight: 500
 ---
 
 {{% param summary %}}

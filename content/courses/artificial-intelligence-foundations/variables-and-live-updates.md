@@ -1,7 +1,7 @@
 ---
-title: "Test: AI-Powered Threats and Defenses"
+title: Variables and Live Updates
 summary: ":construction:"
-weight: 560
+weight: 450
 ---
 
 {{% param summary %}}

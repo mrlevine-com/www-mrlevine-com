@@ -1,7 +1,7 @@
 ---
-title: Layered Defenses
+title: Building More Dynamic Pages
 summary: ":construction:"
-weight: 540
+weight: 490
 ---
 
 {{% param summary %}}

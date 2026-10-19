@@ -1,8 +1,7 @@
 ---
-title: "Project: Designing Secure Systems"
+title: Making Decisions With If/Else
 summary: ":construction:"
-weight: 550
-days: 3
+weight: 470
 ---
 
 {{% param summary %}}

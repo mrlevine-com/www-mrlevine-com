@@ -1,7 +1,7 @@
 ---
-title: Security vs Usability
+title: Interactivity in Web Apps
 summary: ":construction:"
-weight: 530
+weight: 430
 ---
 
 {{% param summary %}}

@@ -1,5 +1,5 @@
 ---
-title: Confidentiality, Integrity, and Availability
+title: Functions With Parameters
 summary: ":construction:"
 weight: 480
 ---

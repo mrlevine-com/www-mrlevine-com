@@ -1,0 +1,145 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:05.840
+[MUSIC PLAYING]
+
+00:00:05.840 --> 00:00:09.983
+In App Lab, the toolbox now has a tab called Functions.
+
+00:00:09.983 --> 00:00:13.263
+There are two blocks.
+
+00:00:13.263 --> 00:00:17.423
+This one defines a new function,
+
+00:00:17.423 --> 00:00:19.967
+and this one calls a function.
+
+00:00:19.967 --> 00:00:26.847
+Let's make a function that updates the number of likes on the screen and plays a sound.
+
+00:00:26.847 --> 00:00:29.951
+We'll call it twice, once in each
+
+00:00:29.951 --> 00:00:32.451
+onEvent block.
+
+00:00:32.451 --> 00:00:37.091
+Drag a define a function block out.
+
+00:00:37.091 --> 00:00:39.931
+Notice how both of these onEvent blocks
+
+00:00:39.935 --> 00:00:42.815
+have the same last two commands in them.
+
+00:00:45.135 --> 00:00:48.895
+To help simplify this program, let's take these commands and
+
+00:00:48.895 --> 00:00:49.895
+turn them into a
+
+00:00:49.919 --> 00:00:59.799
+function. And let's give the function a name like updateScreen. Now we can
+
+00:00:59.903 --> 00:01:03.423
+remove the repeated code from the rest of the program.
+
+00:01:04.903 --> 00:01:05.743
+Now click Run.
+
+00:01:08.023 --> 00:01:09.823
+Hey, we defined a function,
+
+00:01:09.887 --> 00:01:11.887
+but nothing happened.
+
+00:01:11.887 --> 00:01:15.887
+The reason is we forgot step two.
+
+00:01:15.887 --> 00:01:18.887
+We need to call the function.
+
+00:01:19.871 --> 00:01:27.871
+To call a function, drag out the "call a function" block from the toolbox and put it in the program.
+
+00:01:27.871 --> 00:01:29.855
+Now add in the
+
+00:01:29.855 --> 00:01:31.855
+name of the function we just defined.
+
+00:01:33.355 --> 00:01:37.115
+Now that we have both defined and called our function,
+
+00:01:37.115 --> 00:01:39.839
+the code will actually run, and the likes
+
+00:01:39.839 --> 00:01:41.379
+will change on the screen.
+
+00:01:41.379 --> 00:01:42.219
+Check it out.
+
+00:01:45.319 --> 00:01:47.039
+It works.
+
+00:01:47.039 --> 00:01:49.799
+Notice that if I also call the function
+
+00:01:49.823 --> 00:01:53.143
+before its definition, it still works.
+
+00:01:59.807 --> 00:02:04.407
+[MUSIC]
+
+00:02:04.407 --> 00:02:08.227
+Defining a function simply gives a name to a block of code, but
+
+00:02:08.227 --> 00:02:09.487
+it doesn't actually run it.
+
+00:02:09.791 --> 00:02:13.791
+The definition can be anywhere in your program.
+
+00:02:13.791 --> 00:02:17.791
+This means that your code can get messy and really hard to read,
+
+00:02:17.791 --> 00:02:19.775
+so we typically put our
+
+00:02:19.775 --> 00:02:25.695
+function definitions at the end of our programs to help keep things organized.
+
+00:02:25.695 --> 00:02:29.735
+You can also see why it's important to give your function a meaningful and descriptive
+
+00:02:29.759 --> 00:02:32.559
+name. If you call it something like doStuff,
+
+00:02:32.559 --> 00:02:35.919
+it'll be unclear what the function is supposed to do,
+
+00:02:35.919 --> 00:02:38.399
+and it makes it hard to use in your own code.
+
+00:02:39.743 --> 00:02:44.383
+Giving a function a meaningful name makes it much easier to understand what it does.
+
+00:02:44.383 --> 00:02:49.503
+Using functions like this in your program not only makes your code easier to understand,
+
+00:02:49.727 --> 00:02:53.207
+it also makes it easier to fix problems or errors.
+
+00:02:53.207 --> 00:02:55.767
+When you fix a problem inside your function,
+
+00:02:55.767 --> 00:02:58.047
+that will automatically fix that problem
+
+00:02:58.047 --> 00:02:59.711
+wherever the function is called.
+
+00:02:59.711 --> 00:03:02.131
+(soft music)

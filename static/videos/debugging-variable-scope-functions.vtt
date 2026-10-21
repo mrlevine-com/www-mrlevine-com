@@ -1,0 +1,121 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:04.960
+Let's read this short program together to learn something about the concept
+
+00:00:04.960 --> 00:00:11.920
+scope. We talked about scope a little bit in the variables lessons. Alright, let's
+
+00:00:11.920 --> 00:00:17.920
+read the program. On line 2, it says var points get 0, which means that we have
+
+00:00:17.920 --> 00:00:23.160
+created the variable points and assigned it the value 0. Then we call the
+
+00:00:23.160 --> 00:00:29.200
+function changePoints, which we can read down here. We create the variable boom
+
+00:00:29.200 --> 00:00:33.760
+and assign it 5, and then we do something kind of weird, which you might remember:
+
+00:00:33.760 --> 00:00:39.600
+we create the variable points again and assign it 1,000. We're gonna pay close
+
+00:00:39.600 --> 00:00:44.840
+attention to this line of code in a little bit. Then the function says, or
+
+00:00:44.840 --> 00:00:49.920
+console logs, "Inside the function I have" the value of points, plus "points." The
+
+00:00:49.920 --> 00:00:53.960
+function is over, so we go back to line 5, and it says, "Outside the function I have
+
+00:00:53.960 --> 00:00:59.240
+points points," so whatever the value of points is. We would expect this to be the
+
+00:00:59.240 --> 00:01:09.440
+same in both places, but let's run it and see what happens. Alright, that was kind
+
+00:01:09.440 --> 00:01:14.520
+of fast, but we can see down here in the console what went on. It says, "Inside the
+
+00:01:14.520 --> 00:01:18.040
+function I have 1,000 points." That makes sense because we assigned the value
+
+00:01:18.040 --> 00:01:24.080
+1,000 right before it on line 11, on line 10, and then on line 11, it said, "I have
+
+00:01:24.080 --> 00:01:28.160
+1,000 points." But up here, it says, "Outside the function I have 0 points,"
+
+00:01:28.160 --> 00:01:32.720
+and that makes no sense because we didn't change the value in between here
+
+00:01:32.720 --> 00:01:39.920
+on line 11 and on line 5. Once again, the difference is that variables that are
+
+00:01:39.920 --> 00:01:46.240
+created inside of a function are only available inside of that function, and we
+
+00:01:46.240 --> 00:01:51.640
+can see that with this variable boom. At the end of the program, the watch window
+
+00:01:51.640 --> 00:01:57.240
+is telling us that boom is not available. That's because it was created here
+
+00:01:57.240 --> 00:02:01.400
+inside of the function, and so now that the next line of code has moved
+
+00:02:01.400 --> 00:02:07.840
+on, the program just doesn't know anything about boom. Meanwhile, we created
+
+00:02:07.840 --> 00:02:13.060
+the variable points twice, but because this time we did it inside of a function,
+
+00:02:13.060 --> 00:02:18.400
+the program thinks that you want a new variable that is only accessible here. In
+
+00:02:18.400 --> 00:02:22.780
+fact, your program has two variables called points, which is very confusing,
+
+00:02:22.780 --> 00:02:34.440
+and you probably don't want to do it. The best way to change this is to just delete
+
+00:02:34.440 --> 00:02:47.520
+that var command. If we run it again, you'll see that now we're not trying to
+
+00:02:47.520 --> 00:02:51.840
+create the variable on line 10. The program understands that we're talking
+
+00:02:51.840 --> 00:02:56.480
+about the same variable in both places, and so in each case, it says you have
+
+00:02:56.480 --> 00:03:02.200
+1,000 points. Once again, boom is not available, which makes sense because we
+
+00:03:02.200 --> 00:03:07.760
+still are creating it here inside the function. Variables that are created
+
+00:03:07.760 --> 00:03:13.680
+outside of any function are said to have global scope, and scope just means where
+
+00:03:13.680 --> 00:03:18.160
+in the program can you talk about or use this variable. So points, you can use
+
+00:03:18.160 --> 00:03:23.360
+anywhere. Boom has local scope, which means that it can only be used inside of
+
+00:03:23.360 --> 00:03:29.160
+the function or onEvent where it was created. As you're debugging programs, pay
+
+00:03:29.160 --> 00:03:33.840
+close attention to where you're using the var command. There are definitely
+
+00:03:33.840 --> 00:03:37.880
+reasons you would want to create a variable with local scope like boom, and
+
+00:03:37.880 --> 00:03:42.920
+we'll talk about these more in this class, but for now, keep making variables
+
+00:03:42.920 --> 00:03:50.040
+once at the top of your program and outside of any functions or onEvents.

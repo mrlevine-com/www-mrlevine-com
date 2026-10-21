@@ -2,7 +2,7 @@
 title: "Project: Decision Maker App"
 summary: ":construction:"
 weight: 410
-days: 3
+days: 4
 ---
 
 {{% param summary %}}

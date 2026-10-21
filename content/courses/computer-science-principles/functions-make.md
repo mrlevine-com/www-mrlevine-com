@@ -129,3 +129,6 @@ Before you submit, check that:
 - [ ] Every `onEvent()` and function has a comment explaining its purpose and function.
 
 _For extra credit, add a dropdown of image names and use it to decorate your quote._
+
+## Upcoming Quiz
+To prepare for your upcoming quiz, study all of the terms and definitions that you have written in your Unit Journal. You can find all ten terms [here](/units/variables-conditionals-and-functions/) listed in alphabetical order after the lessons.

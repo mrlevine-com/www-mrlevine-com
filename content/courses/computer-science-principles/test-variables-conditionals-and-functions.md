@@ -1,41 +1,12 @@
 ---
 title: "Test: Variables, Conditionals, and Functions"
-summary: ":construction:"
+units: ["Variables, Conditionals, and Functions"]
+summary: It's time to apply what you have learned about variables, conditionals, and functions!
 weight: 420
 ---
 
 {{% param summary %}}
-> This page is under construction.
 
-## Today's Objectives
--
-
-<!--
-
-## Lesson Overview
-### ?
-{{< collapse summary="Click here to reveal the answer." >}}
-
-
-
-{{</ collapse >}}
-
-## Assignment
-### Instructions
-####
-
-### Submission
-#### Deliverables
-| Item                                  | Est. Time |
-|---------------------------------------|----------:|
-| Today's activity submitted on Canvas  | ~__ mins  |
-| Unit _ Lesson _ submitted on Code.org | ~__ mins  |
-
-#### Rubric
-| Criteria                     | Points |
-|------------------------------|-------:|
-| ___                          | __     |
-| Your name written at the top | __     |
-| Code.org Unit _ Lesson _     | __     |
-
--->
+## Study Guide
+- Review the lessons and terms from this unit: [Variables, Conditionals, and Functions](/units/variables-conditionals-and-functions)
+- Review your Unit Journal... aka your own personal study guide :bulb:

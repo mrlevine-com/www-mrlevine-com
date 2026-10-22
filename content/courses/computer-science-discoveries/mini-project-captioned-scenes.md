@@ -16,7 +16,6 @@ weight: 370
 
 A scene that combines shapes, sprites, and text. Think of it as a page in a story, a panel in a comic, or a scene on its own.
 
-- For example: two aliens float in space past a few planets. One asks, "What kind of music do planets sing?" The other answers, "Neptunes!"
 - You're not limited to shapes, sprites, and text. You can add variables and randomness too.
 - Plan first with [the problem solving process]({{< relref "the-problem-solving-process.md" >}}): Define and Prepare in your Unit Journal, Try in Game Lab, then Reflect.
 
@@ -42,7 +41,7 @@ Everything you've learned in Game Lab so far:
 
 Code your scene back to front: background, then shapes, then sprites, then text.
 
-This code draws the alien scene. Your animation names will match the ones you add in the Animation tab:
+This code draws two aliens floating in space past a few planets. Your animation names will match the ones you add in the Animation tab:
 
 ```js {linenos=table}
 background("navy");
@@ -59,8 +58,8 @@ alien2.scale = 0.8;
 drawSprites();
 fill("white");
 textSize(20);
-text("What kind of music do planets sing?", 20, 120);
-text("Neptunes!", 200, 200);
+text("Two aliens explore space.", 20, 120);
+text("Next stop: the stars!", 200, 200);
 ```
 
 - Lines 8 and 11 change a property after each sprite gets its animation.
@@ -111,9 +110,9 @@ Hand-draw a plan for a scene with at least 2 shapes, 2 sprites, and 2 lines of t
     |--------------|--------------|---------------------|
     | `alien1`     | A blue alien | `rotation` and `scale` |
 
-    | Text                                  | Style                                 |
-    |---------------------------------------|---------------------------------------|
-    | "What kind of music do planets sing?" | White, 20 pixels tall, at (20, 120)   |
+    | Text                        | Style                               |
+    |-----------------------------|-------------------------------------|
+    | "Two aliens explore space." | White, 20 pixels tall, at (20, 120) |
 
 Idea too big? Shrink it: get the background, 2 sprites, and 2 lines of text working first, then add more if you have time.
 

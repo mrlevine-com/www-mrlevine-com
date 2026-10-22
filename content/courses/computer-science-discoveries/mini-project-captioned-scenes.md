@@ -117,5 +117,3 @@ Hand-draw a plan for a scene with at least 2 shapes, 2 sprites, and 2 lines of t
 Idea too big? Shrink it: get the background, 2 sprites, and 2 lines of text working first, then add more if you have time.
 
 {{% instructions-code-org-update %}}
-
-{{% unit-journal-question-of-the-day question="How can you use Game Lab to express your creativity?" hint="Use your captioned scene as an example: what you're most proud of, what was most challenging, and what you'd change next time. Then look at your classmates' scenes, and add one especially creative way someone used the blocks." %}}

@@ -40,3 +40,6 @@ Fix one issue per prompt, then resize the preview again to test it:
 {{% instructions-unit-journal-update %}}
 
 {{% unit-journal-define-terms "Responsiveness" %}}
+
+## Upcoming Quiz
+To prepare for your upcoming quiz, study all of the terms and definitions that you have written in your Unit Journal. You can find all twenty-two terms [here](/units/ai-generated-design/) listed in alphabetical order after the lessons.

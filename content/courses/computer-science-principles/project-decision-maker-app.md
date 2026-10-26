@@ -123,7 +123,11 @@ Complete Steps 7–11 to build, test, and submit your app:
         - [ ] Your code runs with no warnings or errors, and at least one number and one string are each stored in a variable and used to make the decision.
         - [ ] `updateScreen()` is called at least twice and has a comment that clearly explains its purpose and functionality.
         - [ ] Inside `updateScreen()`, a conditional uses your variables and a logical operator (`&&`, `||`, or `!`) to display at least 3 different responses.
-    - **Step 11: Record Video.** Screen-record your app running, showing its input, at least one thing it does, and its output. Keep it under 1 minute, with no voice narration.
+    - **Step 11: Record Video.** Screen-record your app running, showing its input, at least one thing it does, and its output. Keep it under 1 minute, with no voice narration. On Windows:
+        1. Run your app in Code.org.
+        2. Press <kbd>Windows</kbd> + <kbd>Shift</kbd> + <kbd>R</kbd>, then drag a box around your app.
+        3. Make sure the microphone button is off, then click **Start**.
+        4. Use your app, then click the red **Stop** button. Your video saves automatically to your **Videos > Screen Recordings** folder.
     - Submit your app in Level 8.
 
 ### Practice the Create PT Written Response (~20mins)

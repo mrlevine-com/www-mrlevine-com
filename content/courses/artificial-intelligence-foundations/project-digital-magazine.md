@@ -49,6 +49,3 @@ Use TAG:
 
 ### Record Your Iteration Log (~5mins)
 Record two times AI gave you something unexpected, and what you decided to do about each one.
-
-## Upcoming Quiz
-To prepare for your upcoming quiz, study all of the terms and definitions that you have written in your Unit Journal. You can find all twenty-two terms [here](/units/ai-generated-design/) listed in alphabetical order after the lessons.

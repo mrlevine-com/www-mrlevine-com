@@ -3,7 +3,6 @@ title: "Test: Drawing and Sprites"
 units: [Interactive Animations and Games, Drawing and Sprites]
 summary: It's time to apply what you have learned about drawing and sprites!
 weight: 380
-days: 2
 ---
 
 {{% param summary %}}

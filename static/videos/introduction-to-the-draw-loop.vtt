@@ -1,0 +1,139 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:07.600
+[MUSIC]
+
+00:00:07.600 --> 00:00:09.980
+Animated movies create the impression that characters
+
+00:00:09.983 --> 00:00:14.363
+are moving smoothly. But if you slow them down enough, you'll realize there are lots
+
+00:00:14.363 --> 00:00:19.103
+of individual images. Each image is just a little bit different from the one before.
+
+00:00:19.967 --> 00:00:23.967
+Speed them back up, and your eyes are tricked into thinking you're watching real life motion.
+
+00:00:25.407 --> 00:00:27.967
+A very simple example of this effect is a flipbook.
+
+00:00:28.847 --> 00:00:29.887
+The key to animation,
+
+00:00:29.951 --> 00:00:34.951
+whether on paper or the computer, is that part of the drawing is changing over time.
+
+00:00:35.951 --> 00:00:39.935
+An easy way to achieve a change is to use the randomNumber
+
+00:00:39.935 --> 00:00:47.215
+command to generate a new random location, size, or color for the shape we're drawing.
+
+00:00:47.215 --> 00:00:49.919
+Here's a simple program that draws a single rectangle
+
+00:00:49.919 --> 00:00:53.759
+with a random x position and a random y position.
+
+00:00:53.759 --> 00:00:56.879
+If we run and reset this program over and over again,
+
+00:00:56.879 --> 00:00:58.599
+we can see that it draws the rectangle
+
+00:00:58.599 --> 00:00:59.903
+in a new position each time.
+
+00:00:59.903 --> 00:01:04.983
+But that's like a flipbook with only one page.
+
+00:01:04.983 --> 00:01:09.783
+To create real animations, we need to be able to string these pages of the flipbook together.
+
+00:01:09.887 --> 00:01:14.887
+In Game Lab, we'll do this using the draw function.
+
+00:01:14.887 --> 00:01:17.727
+The draw function is special in Game Lab.
+
+00:01:17.727 --> 00:01:19.767
+The commands inside of the draw function are run
+
+00:01:19.871 --> 00:01:24.591
+line by line from top to bottom. But once the computer reaches the end of the commands
+
+00:01:24.591 --> 00:01:28.671
+inside the draw function, it jumps back to the beginning and repeats the commands over
+
+00:01:28.671 --> 00:01:29.855
+and over again, as long as
+
+00:01:29.855 --> 00:01:32.495
+your program is running.
+
+00:01:32.495 --> 00:01:36.415
+Because the code in the draw function repeats in a loop, we'll just refer to this as the
+
+00:01:36.415 --> 00:01:39.375
+draw loop.
+
+00:01:39.375 --> 00:01:39.815
+Let's move our
+
+00:01:39.839 --> 00:01:43.999
+rectangle inside the draw loop and see what happens.
+
+00:01:43.999 --> 00:01:47.559
+Whoa, so many rectangles!
+
+00:01:47.559 --> 00:01:49.823
+We can see that a rectangle isn't just being drawn once
+
+00:01:49.823 --> 00:01:54.503
+anymore. Game Lab is automatically calling the commands inside of the draw loop
+
+00:01:54.503 --> 00:01:59.743
+many times a second. In this program, that means that a new random x and y
+
+00:01:59.807 --> 00:02:04.527
+location is generated and then a rectangle is drawn over and over and over.
+
+00:02:06.287 --> 00:02:09.567
+You can place as many commands as you like inside of the draw function.
+
+00:02:09.791 --> 00:02:16.791
+For example, let's choose a new fill color before drawing each rectangle by placing a fill command inside the draw loop.
+
+00:02:16.791 --> 00:02:19.775
+Instead of always choosing the same color, we'll randomize by
+
+00:02:19.775 --> 00:02:23.535
+replacing the red value with the randomNumber command.
+
+00:02:23.535 --> 00:02:25.695
+So in every frame of the flipbook,
+
+00:02:25.695 --> 00:02:27.735
+the computer is picking a new shade of red
+
+00:02:27.735 --> 00:02:29.535
+and setting that as the fill color.
+
+00:02:29.759 --> 00:02:33.679
+Then it picks a new x and y value and draws a rectangle with those values.
+
+00:02:35.039 --> 00:02:39.439
+In a typical animated movie or flipbook, you don't continue to see all of the drawings that
+
+00:02:39.439 --> 00:02:39.679
+came
+
+00:02:39.743 --> 00:02:44.943
+earlier in the animation. Instead, you have the illusion of a single shape or character moving
+
+00:02:44.943 --> 00:02:49.503
+over time. You'll discover how to make that happen with the draw loop soon.
+
+00:02:49.727 --> 00:02:52.307
+[MUSIC]

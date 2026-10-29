@@ -107,6 +107,7 @@ Stuck? Open the "Help & Tips" tab, or hover over a block and click "Examples." M
 
 ## Assignment
 {{% instructions-code-org-update %}}
+{{% instructions-unit-journal-create %}}
 {{% instructions-unit-journal-update %}}
 {{% unit-journal-define-terms "Frame" %}}
 {{% unit-journal-question-of-the-day question="How can you animate your images in Game Lab?" hint="Draw 3 frames of the shaking alien above, side by side, with the alien in a slightly different spot in each. Then explain how the draw loop turns frames like these into an animation." %}}

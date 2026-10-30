@@ -1,7 +1,8 @@
 ---
-title: Combining Conditions With AND/OR
+title: "Project: Designing Secure Systems"
 summary: ":construction:"
-weight: 510
+weight: 550
+days: 3
 ---
 
 {{% param summary %}}

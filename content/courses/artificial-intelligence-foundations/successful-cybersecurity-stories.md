@@ -1,8 +1,7 @@
 ---
-title: "Project: Reactive Logic"
+title: Successful Cybersecurity Stories
 summary: ":construction:"
-weight: 530
-days: 5
+weight: 470
 ---
 
 {{% param summary %}}

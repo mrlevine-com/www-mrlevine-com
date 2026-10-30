@@ -1,7 +1,7 @@
 ---
-title: Functions With Parameters
+title: AI in Encryption
 summary: ":construction:"
-weight: 480
+weight: 520
 ---
 
 {{% param summary %}}

@@ -1,7 +1,7 @@
 ---
-title: Variables and Live Updates
+title: Encryption
 summary: ":construction:"
-weight: 450
+weight: 510
 ---
 
 {{% param summary %}}

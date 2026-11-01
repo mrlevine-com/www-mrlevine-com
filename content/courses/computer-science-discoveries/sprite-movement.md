@@ -82,4 +82,4 @@ Stuck? Open the "Help & Tips" tab, or hover over a block and click "Examples." M
 ## Assignment
 {{% instructions-code-org-update %}}
 {{% instructions-unit-journal-update %}}
-{{% unit-journal-question-of-the-day question="How can you control sprite movement in Game Lab?" hint="Draw a sprite in 3 frames as it moves diagonally, and label each arrow between frames with the counter pattern code that moved it. Then name one movement you'd make with random numbers and one you'd make with the counter pattern." %}}
+{{% unit-journal-question-of-the-day question="How can you control sprite movement in Game Lab?" hint="Draw a sprite moving right across 3 frames, and label the arrows with the code that moves it. Then name one movement you'd use random numbers for instead." %}}

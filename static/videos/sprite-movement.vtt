@@ -1,0 +1,70 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:02.580
+[MUSIC]
+
+00:00:07.260 --> 00:00:09.920
+You can animate with sprites too.
+
+00:00:09.920 --> 00:00:12.640
+To do this, you'll need to update their properties
+
+00:00:12.640 --> 00:00:16.040
+inside the draw loop using the counter pattern.
+
+00:00:17.000 --> 00:00:21.840
+For example, this program creates a sprite called mySprite.
+
+00:00:21.840 --> 00:00:25.280
+Then inside the draw loop, it uses the counter pattern
+
+00:00:25.280 --> 00:00:30.280
+to increase the sprite's x position by one in each frame.
+
+00:00:30.840 --> 00:00:33.840
+This makes the sprite move smoothly across the screen.
+
+00:00:35.920 --> 00:00:38.760
+Adding a second sprite to a program is easy.
+
+00:00:38.760 --> 00:00:41.580
+You just use the createSprite command again.
+
+00:00:43.080 --> 00:00:45.040
+This program animates two sprites
+
+00:00:45.040 --> 00:00:47.240
+called sprite1 and sprite2.
+
+00:00:48.080 --> 00:00:51.160
+sprite1 uses the counter pattern to move across the screen
+
+00:00:51.160 --> 00:00:53.720
+by adding one to its x property.
+
+00:00:53.720 --> 00:00:57.160
+sprite2 moves down by adding one to the y property
+
+00:00:57.160 --> 00:00:59.080
+on each tick of the draw loop.
+
+00:01:00.260 --> 00:01:02.600
+These sprites have lots of other properties,
+
+00:01:02.600 --> 00:01:04.280
+but our program only needs to deal
+
+00:01:04.280 --> 00:01:06.160
+with the ones that are changing.
+
+00:01:09.120 --> 00:01:11.840
+Sprites already help you write more readable programs,
+
+00:01:11.840 --> 00:01:14.000
+and they are going to be extremely helpful
+
+00:01:14.000 --> 00:01:17.760
+and powerful tools for making fun games and animations.
+
+00:01:17.760 --> 00:01:18.760
+So stay tuned.

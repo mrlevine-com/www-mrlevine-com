@@ -7,6 +7,7 @@ At the start of each session, invoke the `i-have-adhd` skill yourself before doi
 4. Cut anything students don't need to do the work.
 5. Cap lists at 5 items by grouping related items, never by dropping content. Verbatim content, like objectives, is exempt.
 6. Put information right next to the step that uses it.
+7. Keep wording short: merge overlapping sections, start list items with a bold one- or two-word label followed by one short line, turn repeated parallel sentences into a table, and give two examples rather than three or more.
 ## Infer Which Lesson to Edit
 After reading the attached resources from Code.org, infer which lesson to edit in `/content/courses/{course}/{lesson}`.
 ## Include All Information in Lessons
@@ -31,7 +32,9 @@ console.log("Hi!");
 ```
 ## Include Vocabulary
 If the attached lesson plan defines vocabulary terms, create or update them in `/content/glossary/{term}`, reference them in `## Lesson Overview` with `{{% define "Term" %}}` outside of any `{{< collapse >}}`, and assign them in `## Assignment` with `{{% unit-journal-define-terms "Term1" "Term2" ... %}}`. Write each `summary` as the lesson plan's definition, trimmed to a concise phrase or sentence: capitalize the first letter, no trailing period, and link any other defined glossary term it mentions as `[term](/glossary/slug/)`.
-## Make SVGs Dark-Mode Friendly
+## Add Visuals
+Give each lesson at least one simple visual, saved as an SVG in `/static/images`, wherever a picture explains a key idea faster than words, such as a process, a comparison, causes and effects, or data. Place it right next to the question it explains, keep it to a few shapes with short labels, and write alt text that states what it shows. Draw graphs only from real data with a verifiable source, and show them with `{{< figure >}}` and a caption citing that source.
+
 In dark mode, `assets/css/extended/custom.css` inverts every SVG in `/static/images` (`invert(1) hue-rotate(180deg)`), so draw each one for light mode with a transparent background (no full-size white `<rect>`). Use mid-tone colors, since very light or very dark ones turn muddy when inverted. Preview each SVG in both modes before using it.
 ## Compress Videos
 For any video that is untracked or has uncommitted changes (check with `git status -uall`), check its size with `ls -lh`. If it exceeds 25 MiB (the Cloudflare Pages limit for a single asset), compress it with `ffmpeg` at CRF 30, increasing the CRF by 1 until the file is under 25 MiB. Do not compress videos that are already committed and unchanged.

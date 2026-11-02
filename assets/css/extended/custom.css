@@ -7,8 +7,12 @@
   --today-accent: #53a1b3;
 }
 
-:root[data-theme="dark"] img[src*="/flowchart-"] {
+:root[data-theme="dark"] img[src^="/images/"][src$=".svg"] {
   filter: invert(1) hue-rotate(180deg);
+}
+
+.md-content figure > figcaption {
+  text-align: center;
 }
 
 li::marker {

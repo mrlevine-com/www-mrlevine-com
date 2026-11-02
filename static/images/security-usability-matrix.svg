@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 380" font-family="sans-serif" font-size="16" text-anchor="middle">
+  <rect x="130" y="10" width="285" height="160" rx="8" fill="#c77d0a" fill-opacity="0.15" stroke="#c77d0a" stroke-width="3"/>
+  <rect x="425" y="10" width="285" height="160" rx="8" fill="#5b8c3a" fill-opacity="0.15" stroke="#5b8c3a" stroke-width="3"/>
+  <rect x="130" y="180" width="285" height="160" rx="8" fill="#d9534f" fill-opacity="0.15" stroke="#d9534f" stroke-width="3"/>
+  <rect x="425" y="180" width="285" height="160" rx="8" fill="#337ab7" fill-opacity="0.15" stroke="#337ab7" stroke-width="3"/>
+  <g font-weight="bold" fill="#333">
+    <text x="272" y="75">Convenient but risky</text>
+    <text x="567" y="75">The sweet spot</text>
+    <text x="272" y="245">Frustrating and dangerous</text>
+    <text x="567" y="245">Over-secured</text>
+  </g>
+  <g fill="#333" font-size="14">
+    <text x="272" y="105">Auto-login on a</text>
+    <text x="272" y="125">shared device</text>
+    <text x="567" y="105">Password manager</text>
+    <text x="567" y="125">that autofills</text>
+    <text x="272" y="275">New complex password</text>
+    <text x="272" y="295">every 2 weeks</text>
+    <text x="567" y="275">Two-factor login</text>
+    <text x="567" y="295">every single time</text>
+  </g>
+  <g font-weight="bold" fill="#333">
+    <text x="272" y="368">Low security</text>
+    <text x="567" y="368">High security</text>
+    <text transform="translate(110,90) rotate(-90)">Good usability</text>
+    <text transform="translate(110,260) rotate(-90)">Bad usability</text>
+  </g>
+</svg>

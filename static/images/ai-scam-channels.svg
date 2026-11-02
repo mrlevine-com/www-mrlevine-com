@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 230" font-family="sans-serif" font-size="16" text-anchor="middle">
+  <g fill="none" stroke="#333" stroke-width="2">
+    <rect x="10" y="10" width="220" height="210" rx="10"/>
+    <rect x="250" y="10" width="220" height="210" rx="10"/>
+    <rect x="490" y="10" width="220" height="210" rx="10"/>
+  </g>
+  <!-- Smishing: phone with a text bubble -->
+  <rect x="90" y="30" width="60" height="110" rx="8" fill="none" stroke="#337ab7" stroke-width="4"/>
+  <path d="M98,52 H142 V82 H112 L102,92 V82 H98 Z" fill="#5b8c3a"/>
+  <g stroke="#fff" stroke-width="3">
+    <line x1="104" y1="62" x2="136" y2="62"/>
+    <line x1="104" y1="72" x2="126" y2="72"/>
+  </g>
+  <!-- Vishing: phone with sound waves -->
+  <rect x="300" y="30" width="60" height="110" rx="8" fill="none" stroke="#337ab7" stroke-width="4"/>
+  <circle cx="330" cy="85" r="12" fill="#5b8c3a"/>
+  <g fill="none" stroke="#c77d0a" stroke-width="5" stroke-linecap="round">
+    <path d="M380,65 A28,28 0 0 1 380,105"/>
+    <path d="M396,52 A46,46 0 0 1 396,118"/>
+  </g>
+  <!-- Deepfake: video screen with a face -->
+  <rect x="545" y="40" width="110" height="80" rx="6" fill="none" stroke="#337ab7" stroke-width="4"/>
+  <circle cx="600" cy="68" r="14" fill="#5b8c3a"/>
+  <path d="M576,112 Q576,86 600,86 Q624,86 624,112 Z" fill="#5b8c3a"/>
+  <g font-weight="bold" fill="#333">
+    <text x="120" y="172">Smishing</text>
+    <text x="360" y="172">Vishing</text>
+    <text x="600" y="172">Deepfake</text>
+  </g>
+  <g fill="#333" font-size="14">
+    <text x="120" y="200">AI writes personal texts</text>
+    <text x="360" y="200">AI clones a voice</text>
+    <text x="600" y="200">AI fakes a face</text>
+  </g>
+</svg>

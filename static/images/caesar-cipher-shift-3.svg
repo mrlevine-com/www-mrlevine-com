@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 175" font-family="sans-serif" font-size="16" text-anchor="middle">
+  <text x="380" y="22" font-weight="bold" fill="#333">Key = 3: shift forward 3 to encrypt, back 3 to decrypt</text>
+  <g font-weight="bold" fill="#333" text-anchor="end" font-size="15">
+    <text x="92" y="64">Plain</text>
+    <text x="92" y="144">Secret</text>
+  </g>
+  <g fill="none" stroke-width="2">
+    <rect x="100" y="40" width="25" height="36" stroke="#337ab7"/><rect x="100" y="120" width="25" height="36" stroke="#c77d0a"/>
+    <rect x="125" y="40" width="25" height="36" stroke="#337ab7"/><rect x="125" y="120" width="25" height="36" stroke="#c77d0a"/>
+    <rect x="150" y="40" width="25" height="36" stroke="#337ab7"/><rect x="150" y="120" width="25" height="36" stroke="#c77d0a"/>
+    <rect x="175" y="40" width="25" height="36" stroke="#337ab7"/><rect x="175" y="120" width="25" height="36" stroke="#c77d0a"/>
+    <rect x="200" y="40" width="25" height="36" stroke="#337ab7"/><rect x="200" y="120" width="25" height="36" stroke="#c77d0a"/>
+    <rect x="225" y="40" width="25" height="36" stroke="#337ab7"/><rect x="225" y="120" width="25" height="36" stroke="#c77d0a"/>
+    <rect x="250" y="40" width="25" height="36" stroke="#337ab7"/><rect x="250" y="120" width="25" height="36" stroke="#c77d0a"/>
+    <rect x="275" y="40" width="25" height="36" stroke="#337ab7"/><rect x="275" y="120" width="25" height="36" stroke="#c77d0a"/>
+    <rect x="300" y="40" width="25" height="36" stroke="#337ab7"/><rect x="300" y="120" width="25" height="36" stroke="#c77d0a"/>
+    <rect x="325" y="40" width="25" height="36" stroke="#337ab7"/><rect x="325" y="120" width="25" height="36" stroke="#c77d0a"/>
+    <rect x="350" y="40" width="25" height="36" stroke="#337ab7"/><rect x="350" y="120" width="25" height="36" stroke="#c77d0a"/>
+    <rect x="375" y="40" width="25" height="36" stroke="#337ab7"/><rect x="375" y="120" width="25" height="36" stroke="#c77d0a"/>
+    <rect x="400" y="40" width="25" height="36" stroke="#337ab7"/><rect x="400" y="120" width="25" height="36" stroke="#c77d0a"/>
+    <rect x="425" y="40" width="25" height="36" stroke="#337ab7"/><rect x="425" y="120" width="25" height="36" stroke="#c77d0a"/>
+    <rect x="450" y="40" width="25" height="36" stroke="#337ab7"/><rect x="450" y="120" width="25" height="36" stroke="#c77d0a"/>
+    <rect x="475" y="40" width="25" height="36" stroke="#337ab7"/><rect x="475" y="120" width="25" height="36" stroke="#c77d0a"/>
+    <rect x="500" y="40" width="25" height="36" stroke="#337ab7"/><rect x="500" y="120" width="25" height="36" stroke="#c77d0a"/>
+    <rect x="525" y="40" width="25" height="36" stroke="#337ab7"/><rect x="525" y="120" width="25" height="36" stroke="#c77d0a"/>
+    <rect x="550" y="40" width="25" height="36" stroke="#337ab7"/><rect x="550" y="120" width="25" height="36" stroke="#c77d0a"/>
+    <rect x="575" y="40" width="25" height="36" stroke="#337ab7"/><rect x="575" y="120" width="25" height="36" stroke="#c77d0a"/>
+    <rect x="600" y="40" width="25" height="36" stroke="#337ab7"/><rect x="600" y="120" width="25" height="36" stroke="#c77d0a"/>
+    <rect x="625" y="40" width="25" height="36" stroke="#337ab7"/><rect x="625" y="120" width="25" height="36" stroke="#c77d0a"/>
+    <rect x="650" y="40" width="25" height="36" stroke="#337ab7"/><rect x="650" y="120" width="25" height="36" stroke="#c77d0a"/>
+    <rect x="675" y="40" width="25" height="36" stroke="#337ab7"/><rect x="675" y="120" width="25" height="36" stroke="#c77d0a"/>
+    <rect x="700" y="40" width="25" height="36" stroke="#337ab7"/><rect x="700" y="120" width="25" height="36" stroke="#c77d0a"/>
+    <rect x="725" y="40" width="25" height="36" stroke="#337ab7"/><rect x="725" y="120" width="25" height="36" stroke="#c77d0a"/>
+  </g>
+  <g stroke="#777" stroke-width="1.5">
+    <line x1="112" y1="82" x2="112" y2="112"/><path d="M108,106 L112,113 L116,106" fill="none"/>
+    <line x1="137" y1="82" x2="137" y2="112"/><path d="M133,106 L137,113 L141,106" fill="none"/>
+    <line x1="162" y1="82" x2="162" y2="112"/><path d="M158,106 L162,113 L166,106" fill="none"/>
+    <line x1="187" y1="82" x2="187" y2="112"/><path d="M183,106 L187,113 L191,106" fill="none"/>
+    <line x1="212" y1="82" x2="212" y2="112"/><path d="M208,106 L212,113 L216,106" fill="none"/>
+    <line x1="237" y1="82" x2="237" y2="112"/><path d="M233,106 L237,113 L241,106" fill="none"/>
+    <line x1="262" y1="82" x2="262" y2="112"/><path d="M258,106 L262,113 L266,106" fill="none"/>
+    <line x1="287" y1="82" x2="287" y2="112"/><path d="M283,106 L287,113 L291,106" fill="none"/>
+    <line x1="312" y1="82" x2="312" y2="112"/><path d="M308,106 L312,113 L316,106" fill="none"/>
+    <line x1="337" y1="82" x2="337" y2="112"/><path d="M333,106 L337,113 L341,106" fill="none"/>
+    <line x1="362" y1="82" x2="362" y2="112"/><path d="M358,106 L362,113 L366,106" fill="none"/>
+    <line x1="387" y1="82" x2="387" y2="112"/><path d="M383,106 L387,113 L391,106" fill="none"/>
+    <line x1="412" y1="82" x2="412" y2="112"/><path d="M408,106 L412,113 L416,106" fill="none"/>
+    <line x1="437" y1="82" x2="437" y2="112"/><path d="M433,106 L437,113 L441,106" fill="none"/>
+    <line x1="462" y1="82" x2="462" y2="112"/><path d="M458,106 L462,113 L466,106" fill="none"/>
+    <line x1="487" y1="82" x2="487" y2="112"/><path d="M483,106 L487,113 L491,106" fill="none"/>
+    <line x1="512" y1="82" x2="512" y2="112"/><path d="M508,106 L512,113 L516,106" fill="none"/>
+    <line x1="537" y1="82" x2="537" y2="112"/><path d="M533,106 L537,113 L541,106" fill="none"/>
+    <line x1="562" y1="82" x2="562" y2="112"/><path d="M558,106 L562,113 L566,106" fill="none"/>
+    <line x1="587" y1="82" x2="587" y2="112"/><path d="M583,106 L587,113 L591,106" fill="none"/>
+    <line x1="612" y1="82" x2="612" y2="112"/><path d="M608,106 L612,113 L616,106" fill="none"/>
+    <line x1="637" y1="82" x2="637" y2="112"/><path d="M633,106 L637,113 L641,106" fill="none"/>
+    <line x1="662" y1="82" x2="662" y2="112"/><path d="M658,106 L662,113 L666,106" fill="none"/>
+    <line x1="687" y1="82" x2="687" y2="112"/><path d="M683,106 L687,113 L691,106" fill="none"/>
+    <line x1="712" y1="82" x2="712" y2="112"/><path d="M708,106 L712,113 L716,106" fill="none"/>
+    <line x1="737" y1="82" x2="737" y2="112"/><path d="M733,106 L737,113 L741,106" fill="none"/>
+  </g>
+  <g font-weight="bold" fill="#333">
+    <text x="112" y="64">A</text><text x="112" y="144">D</text>
+    <text x="137" y="64">B</text><text x="137" y="144">E</text>
+    <text x="162" y="64">C</text><text x="162" y="144">F</text>
+    <text x="187" y="64">D</text><text x="187" y="144">G</text>
+    <text x="212" y="64">E</text><text x="212" y="144">H</text>
+    <text x="237" y="64">F</text><text x="237" y="144">I</text>
+    <text x="262" y="64">G</text><text x="262" y="144">J</text>
+    <text x="287" y="64">H</text><text x="287" y="144">K</text>
+    <text x="312" y="64">I</text><text x="312" y="144">L</text>
+    <text x="337" y="64">J</text><text x="337" y="144">M</text>
+    <text x="362" y="64">K</text><text x="362" y="144">N</text>
+    <text x="387" y="64">L</text><text x="387" y="144">O</text>
+    <text x="412" y="64">M</text><text x="412" y="144">P</text>
+    <text x="437" y="64">N</text><text x="437" y="144">Q</text>
+    <text x="462" y="64">O</text><text x="462" y="144">R</text>
+    <text x="487" y="64">P</text><text x="487" y="144">S</text>
+    <text x="512" y="64">Q</text><text x="512" y="144">T</text>
+    <text x="537" y="64">R</text><text x="537" y="144">U</text>
+    <text x="562" y="64">S</text><text x="562" y="144">V</text>
+    <text x="587" y="64">T</text><text x="587" y="144">W</text>
+    <text x="612" y="64">U</text><text x="612" y="144">X</text>
+    <text x="637" y="64">V</text><text x="637" y="144">Y</text>
+    <text x="662" y="64">W</text><text x="662" y="144">Z</text>
+    <text x="687" y="64">X</text><text x="687" y="144">A</text>
+    <text x="712" y="64">Y</text><text x="712" y="144">B</text>
+    <text x="737" y="64">Z</text><text x="737" y="144">C</text>
+  </g>
+</svg>

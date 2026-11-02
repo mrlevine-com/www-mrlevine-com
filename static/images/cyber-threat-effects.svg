@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 230" font-family="sans-serif" font-size="16" text-anchor="middle">
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#d9534f"/>
+    </marker>
+  </defs>
+  <g fill="none" stroke="#333" stroke-width="2">
+    <rect x="10" y="10" width="190" height="210" rx="10"/>
+    <rect x="206" y="10" width="190" height="210" rx="10"/>
+    <rect x="402" y="10" width="190" height="210" rx="10"/>
+    <rect x="598" y="10" width="190" height="210" rx="10"/>
+  </g>
+  <!-- DDoS: many devices flood one server -->
+  <rect x="85" y="45" width="40" height="80" rx="4" fill="#337ab7"/>
+  <g stroke="#fff" stroke-width="3">
+    <line x1="93" y1="62" x2="117" y2="62"/>
+    <line x1="93" y1="85" x2="117" y2="85"/>
+    <line x1="93" y1="108" x2="117" y2="108"/>
+  </g>
+  <g fill="#666">
+    <circle cx="35" cy="45" r="8"/>
+    <circle cx="35" cy="85" r="8"/>
+    <circle cx="35" cy="125" r="8"/>
+    <circle cx="175" cy="45" r="8"/>
+    <circle cx="175" cy="85" r="8"/>
+    <circle cx="175" cy="125" r="8"/>
+  </g>
+  <g stroke="#d9534f" stroke-width="3" marker-end="url(#arrow)">
+    <line x1="45" y1="49" x2="79" y2="62"/>
+    <line x1="45" y1="85" x2="79" y2="85"/>
+    <line x1="45" y1="121" x2="79" y2="108"/>
+    <line x1="165" y1="49" x2="131" y2="62"/>
+    <line x1="165" y1="85" x2="131" y2="85"/>
+    <line x1="165" y1="121" x2="131" y2="108"/>
+  </g>
+  <!-- Misconfiguration: a file with an open lock -->
+  <rect x="266" y="40" width="60" height="80" rx="4" fill="none" stroke="#337ab7" stroke-width="4"/>
+  <g stroke="#337ab7" stroke-width="3">
+    <line x1="276" y1="58" x2="316" y2="58"/>
+    <line x1="276" y1="72" x2="316" y2="72"/>
+    <line x1="276" y1="86" x2="300" y2="86"/>
+  </g>
+  <path d="M357,96 V78 A12,12 0 0 0 333,78 V84" fill="none" stroke="#c77d0a" stroke-width="5" stroke-linecap="round"/>
+  <rect x="320" y="96" width="44" height="34" rx="4" fill="#c77d0a"/>
+  <!-- Worm: one infected device copies itself to others -->
+  <g fill="#5b8c3a">
+    <rect x="472" y="30" width="52" height="36" rx="4"/>
+    <rect x="420" y="100" width="52" height="36" rx="4"/>
+    <rect x="524" y="100" width="52" height="36" rx="4"/>
+  </g>
+  <g fill="#d9534f">
+    <circle cx="498" cy="48" r="7"/>
+    <circle cx="446" cy="118" r="7"/>
+    <circle cx="550" cy="118" r="7"/>
+  </g>
+  <g stroke="#d9534f" stroke-width="3" marker-end="url(#arrow)">
+    <line x1="482" y1="70" x2="458" y2="94"/>
+    <line x1="514" y1="70" x2="538" y2="94"/>
+  </g>
+  <!-- Ransomware: a file with a closed lock -->
+  <rect x="658" y="40" width="60" height="80" rx="4" fill="none" stroke="#337ab7" stroke-width="4"/>
+  <g stroke="#337ab7" stroke-width="3">
+    <line x1="668" y1="58" x2="708" y2="58"/>
+    <line x1="668" y1="72" x2="708" y2="72"/>
+    <line x1="668" y1="86" x2="692" y2="86"/>
+  </g>
+  <path d="M722,96 V84 A12,12 0 0 1 746,84 V96" fill="none" stroke="#d9534f" stroke-width="5"/>
+  <rect x="712" y="96" width="44" height="34" rx="4" fill="#d9534f"/>
+  <g font-weight="bold" fill="#333">
+    <text x="105" y="170">DDoS</text>
+    <text x="301" y="170">Misconfiguration</text>
+    <text x="497" y="170">Worm</text>
+    <text x="693" y="170">Ransomware</text>
+  </g>
+  <g fill="#333" font-size="14">
+    <text x="105" y="198">Floods a site</text>
+    <text x="301" y="198">Leaves files open</text>
+    <text x="497" y="198">Copies itself</text>
+    <text x="693" y="198">Locks your files</text>
+  </g>
+</svg>

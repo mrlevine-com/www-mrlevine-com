@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 210" font-family="sans-serif" font-size="16" text-anchor="middle">
+  <rect x="10" y="10" width="200" height="110" rx="10" fill="#5b8c3a" fill-opacity="0.15" stroke="#5b8c3a" stroke-width="3"/>
+  <rect x="260" y="10" width="200" height="110" rx="10" fill="#337ab7" fill-opacity="0.15" stroke="#337ab7" stroke-width="3"/>
+  <rect x="510" y="10" width="200" height="110" rx="10" fill="#c9a227" fill-opacity="0.2" stroke="#c9a227" stroke-width="3"/>
+  <g stroke="#333" stroke-width="3" fill="#333">
+    <line x1="214" y1="65" x2="246" y2="65"/>
+    <path d="M256,65 L244,57 L244,73 Z"/>
+    <line x1="464" y1="65" x2="496" y2="65"/>
+    <path d="M506,65 L494,57 L494,73 Z"/>
+  </g>
+  <g font-weight="bold" fill="#333">
+    <text x="110" y="58">User input</text>
+    <text x="360" y="58">Data storage</text>
+    <text x="610" y="58">Data transfer</text>
+  </g>
+  <g fill="#333" font-size="14">
+    <text x="110" y="85">Login, forms</text>
+    <text x="360" y="85">Saved profiles</text>
+    <text x="610" y="85">Sharing, email</text>
+  </g>
+  <g fill="#333" font-size="14">
+    <text x="110" y="160">Defense:</text>
+    <text x="360" y="160">Defense:</text>
+    <text x="610" y="160">Defense:</text>
+  </g>
+  <g font-weight="bold" fill="#333">
+    <text x="110" y="185">CAPTCHA</text>
+    <text x="360" y="185">Hashed passwords</text>
+    <text x="610" y="185">Encryption (HTTPS)</text>
+  </g>
+</svg>

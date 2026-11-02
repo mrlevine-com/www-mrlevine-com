@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 320" font-family="sans-serif" font-size="16" text-anchor="middle">
+  <path d="M360,95 L190,245 L530,245 Z" fill="none" stroke="#333" stroke-width="3" stroke-linejoin="round"/>
+  <circle cx="360" cy="95" r="16" fill="#337ab7"/>
+  <circle cx="190" cy="245" r="16" fill="#5b8c3a"/>
+  <circle cx="530" cy="245" r="16" fill="#c77d0a"/>
+  <g font-weight="bold" fill="#fff" font-size="16">
+    <text x="360" y="101">C</text>
+    <text x="190" y="251">I</text>
+    <text x="530" y="251">A</text>
+  </g>
+  <text x="360" y="200" font-weight="bold" font-size="20" fill="#333">CIA Triad</text>
+  <g font-weight="bold" font-size="18">
+    <text x="360" y="40" fill="#337ab7">Confidentiality</text>
+    <text x="190" y="290" fill="#5b8c3a">Integrity</text>
+    <text x="530" y="290" fill="#c77d0a">Availability</text>
+  </g>
+  <g fill="#333" font-size="15">
+    <text x="360" y="64">Who can see it?</text>
+    <text x="190" y="313">Is it correct?</text>
+    <text x="530" y="313">Can you get to it?</text>
+  </g>
+</svg>

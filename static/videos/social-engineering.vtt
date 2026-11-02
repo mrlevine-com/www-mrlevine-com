@@ -1,0 +1,118 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:04.880
+So I invited a few of the world's best hackers to try to hack me and show me where my vulnerabilities
+
+00:00:04.880 --> 00:00:05.880
+are.
+
+00:00:05.880 --> 00:00:09.400
+And now I'm going to meet them in Las Vegas for DEF CON, the biggest hacker convention
+
+00:00:09.400 --> 00:00:09.984
+of the year.
+
+00:00:09.984 --> 00:00:14.984
+They're going to hack me using social engineering, which is essentially hacking without any code.
+
+00:00:14.984 --> 00:00:17.984
+They just use a phone and an internet connection.
+
+00:00:17.984 --> 00:00:19.499
+You wanna do a sample vishing call?
+
+00:00:19.499 --> 00:00:20.499
+What's vishing?
+
+00:00:20.499 --> 00:00:24.648
+Vishing is voice elicitation, and basically what you do is you use the phone
+
+00:00:24.648 --> 00:00:29.728
+to extract information or data points that can be used in a later attack.
+
+00:00:29.728 --> 00:00:31.953
+Let's do it. Who are you going to call?
+
+00:00:31.953 --> 00:00:37.953
+Maybe I'll call your cell phone provider and see if I can get them to give me your email address.
+
+00:00:37.953 --> 00:00:39.937
+I bet they're good. I bet they have my back.
+
+00:00:39.937 --> 00:00:45.737
+But yeah, go for it. I'm going to spoof from your number, so it's going to look like it's calling from you. Okay.
+
+00:00:48.357 --> 00:00:49.922
+Hi, I'm actually, I'm so sorry.
+
+00:00:49.922 --> 00:00:51.922
+Can you hear me okay?
+
+00:00:51.922 --> 00:00:53.922
+My baby, I'm sorry.
+
+00:00:53.922 --> 00:00:57.922
+My husband's like, "We're about to apply for a loan,
+
+00:00:57.922 --> 00:00:59.907
+and we just had a baby," and he's like, "Get this
+
+00:00:59.907 --> 00:01:05.707
+done by today." So I'm so sorry, I can't call you back. I'm trying to log into our
+
+00:01:05.707 --> 00:01:09.891
+account for user information, and I can't remember what email
+
+00:01:09.891 --> 00:01:16.891
+address we used to log the account in. The baby's crying, and, um, can you help me?
+
+00:01:16.891 --> 00:01:17.891
+Awesome.
+
+00:01:17.891 --> 00:01:19.876
+In just 30 seconds,
+
+00:01:19.876 --> 00:01:22.876
+Jessica gets access to my personal email address.
+
+00:01:22.876 --> 00:01:27.876
+Now if I needed to add our daughter on our account so she could call in and make changes,
+
+00:01:27.876 --> 00:01:29.860
+how would I need to go about doing that?
+
+00:01:29.860 --> 00:01:35.620
+You would have to send me a secure PIN through a text message? Yeah. Well, the thing is, I don't think I'll be able to receive
+
+00:01:35.620 --> 00:01:37.620
+a text message if I'm on the phone. Oh,
+
+00:01:38.700 --> 00:01:41.845
+I'm not on there either?
+
+00:01:41.845 --> 00:01:45.845
+So I thought when we got married, he added me to the account.
+
+00:01:45.845 --> 00:01:49.829
+Jess uses my girlfriend's name and a fake Social Security number
+
+00:01:49.829 --> 00:01:53.069
+to set up her own personal access to my account.
+
+00:01:53.069 --> 00:01:55.309
+Wait, I'm sorry, so there's no password on my account right now?
+
+00:01:55.309 --> 00:01:56.469
+Can I set that up?
+
+00:01:56.469 --> 00:01:59.189
+She even gets the support person to change my password.
+
+00:01:59.189 --> 00:02:03.414
+Thank you so much for your help today. So she just basically blocked me out of my own
+
+00:02:03.414 --> 00:02:06.500
+account. I'll get her fed after this.
+
+00:02:06.500 --> 00:02:09.174
+All right, thank you.

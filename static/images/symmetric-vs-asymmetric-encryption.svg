@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 300" font-family="sans-serif" font-size="15" text-anchor="middle">
+  <defs>
+    <g id="k" fill="none" stroke-width="4" stroke-linecap="round">
+      <circle cx="0" cy="0" r="9"/>
+      <path d="M9,0 H40 M32,0 V8 M39,0 V8"/>
+    </g>
+  </defs>
+  <g font-size="17" font-weight="bold" fill="#333" text-anchor="start">
+    <text x="15" y="24">Symmetric: one shared key</text>
+    <text x="15" y="174">Asymmetric: two different keys</text>
+  </g>
+  <g fill="none" stroke="#333" stroke-width="2">
+    <rect x="25" y="55" width="110" height="50" rx="8"/>
+    <rect x="305" y="55" width="110" height="50" rx="8"/>
+    <rect x="585" y="55" width="110" height="50" rx="8"/>
+    <rect x="25" y="205" width="110" height="50" rx="8"/>
+    <rect x="305" y="205" width="110" height="50" rx="8"/>
+    <rect x="585" y="205" width="110" height="50" rx="8"/>
+  </g>
+  <g font-size="20" font-weight="bold" fill="#333">
+    <text x="80" y="87">Hey!</text>
+    <text x="360" y="87">Khb!</text>
+    <text x="640" y="87">Hey!</text>
+    <text x="80" y="237">Hey!</text>
+    <text x="360" y="237">x9$Q</text>
+    <text x="640" y="237">Hey!</text>
+  </g>
+  <g stroke="#777" stroke-width="3" fill="none">
+    <path d="M145,80 H295 M286,72 L296,80 L286,88"/>
+    <path d="M425,80 H575 M566,72 L576,80 L566,88"/>
+    <path d="M145,230 H295 M286,222 L296,230 L286,238"/>
+    <path d="M425,230 H575 M566,222 L576,230 L566,238"/>
+  </g>
+  <use href="#k" x="200" y="58" stroke="#337ab7"/>
+  <use href="#k" x="480" y="58" stroke="#337ab7"/>
+  <use href="#k" x="200" y="208" stroke="#5b8c3a"/>
+  <use href="#k" x="480" y="208" stroke="#d9534f"/>
+  <g font-size="14" fill="#333">
+    <text x="220" y="110">Key locks</text>
+    <text x="500" y="110">Same key unlocks</text>
+    <text x="220" y="260" fill="#5b8c3a" font-weight="bold">Public key locks</text>
+    <text x="500" y="260" fill="#d9534f" font-weight="bold">Private key unlocks</text>
+    <text x="220" y="280">Anyone can have it</text>
+    <text x="500" y="280">Only you have it</text>
+  </g>
+</svg>

@@ -1,0 +1,88 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:02.580
+(upbeat music)
+
+00:00:06.980 --> 00:00:09.520
+The world around us is constantly changing,
+
+00:00:09.520 --> 00:00:09.984
+and we do our best
+
+00:00:09.984 --> 00:00:14.784
+to adapt to different conditions. If it's sunny outside, wearing sunglasses
+
+00:00:14.784 --> 00:00:19.344
+is a good choice, but if it's raining, you'll need to put on a raincoat.
+
+00:00:19.344 --> 00:00:19.968
+Just like humans,
+
+00:00:19.968 --> 00:00:23.648
+computer programs also change depending on different conditions.
+
+00:00:23.648 --> 00:00:27.888
+To make our programs responsive, we use conditional statements.
+
+00:00:27.888 --> 00:00:29.953
+Conditional statements are commands that
+
+00:00:29.953 --> 00:00:34.673
+run a specific block of code only if something is true.
+
+00:00:34.673 --> 00:00:37.753
+The simplest conditional is an if statement.
+
+00:00:37.753 --> 00:00:39.937
+An if statement uses a Boolean
+
+00:00:39.937 --> 00:00:42.977
+expression to ask a true or false question,
+
+00:00:42.977 --> 00:00:46.017
+and then runs the code inside if the Boolean evaluates
+
+00:00:46.017 --> 00:00:49.057
+to true, like this.
+
+00:00:49.057 --> 00:00:49.922
+Let's look at an example
+
+00:00:49.922 --> 00:00:51.922
+of conditionals in action.
+
+00:00:53.922 --> 00:00:55.922
+First, we'll create a sprite.
+
+00:00:56.922 --> 00:00:59.907
+Then we'll use the draw function to draw the
+
+00:00:59.907 --> 00:01:09.891
+background, and move the sprite across the screen using the counter pattern.
+
+00:01:09.891 --> 00:01:12.471
+(upbeat music)
+
+00:01:19.876 --> 00:01:27.656
+We'll add a conditional if statement inside the draw function.
+
+00:01:27.656 --> 00:01:29.856
+Inside the conditional, we'll put a Boolean expression
+
+00:01:29.860 --> 00:01:33.860
+that asks, "Is the sprite's x position greater than 200?"
+
+00:01:33.860 --> 00:01:37.860
+In this case, let's change the look of the sprite
+
+00:01:37.860 --> 00:01:39.845
+if it moves past the middle of the screen.
+
+00:01:39.845 --> 00:01:44.845
+Finally, we'll draw our sprite and see what happens.
+
+00:01:49.829 --> 00:01:58.829
+Computers only do exactly what we tell them to do, but with conditionals, we can have our programs adapt to changes and respond to user input.
+
+00:01:59.814 --> 00:02:02.394
+(upbeat music)

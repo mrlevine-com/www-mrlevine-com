@@ -1,0 +1,121 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:02.580
+(upbeat music)
+
+00:00:06.880 --> 00:00:08.680
+I'm originally from South Carolina,
+
+00:00:08.680 --> 00:00:09.983
+and now I'm all the way over
+
+00:00:09.983 --> 00:00:17.983
+in California in Silicon Valley. And here, software is all about optimism. It's not just a means to an end,
+
+00:00:18.543 --> 00:00:19.823
+it's this thing that gives us
+
+00:00:19.967 --> 00:00:23.887
+hope to solve every problem that the world potentially has.
+
+00:00:25.567 --> 00:00:29.807
+Moving your sprites around the screen means using a very familiar pattern, the counter pattern.
+
+00:00:29.951 --> 00:00:39.935
+This pattern lets you add to the position or rotation of your sprite on each tick of the draw loop, so it looks like it's moving or rotating at different speeds.
+
+00:00:39.935 --> 00:00:44.855
+Here's an example we've seen before. Using the counter pattern with the sprite's x
+
+00:00:44.855 --> 00:00:49.695
+property, we can control the sprite's velocity, how fast it's moving in a
+
+00:00:49.695 --> 00:00:49.919
+particular
+
+00:00:49.919 --> 00:00:57.359
+direction. If we add a larger amount to the x position, the sprite looks like it's
+
+00:00:57.359 --> 00:00:59.903
+moving faster.
+
+00:00:59.903 --> 00:01:05.903
+Adding a smaller amount makes the sprite look like it's moving more slowly.
+
+00:01:05.903 --> 00:01:09.887
+You've been using the counter pattern to control a sprite's velocity
+
+00:01:09.887 --> 00:01:15.927
+a lot. In programming, when the same pattern happens many times, you can often hide those
+
+00:01:15.927 --> 00:01:19.247
+details inside another block.
+
+00:01:19.247 --> 00:01:19.871
+In our example,
+
+00:01:19.871 --> 00:01:23.111
+that block is velocityX.
+
+00:01:23.111 --> 00:01:25.551
+The velocityX property hides the details
+
+00:01:25.551 --> 00:01:29.011
+of the counter pattern that changes the sprite's x position.
+
+00:01:29.011 --> 00:01:29.855
+Whatever number you assign
+
+00:01:29.855 --> 00:01:34.975
+to this property will automatically be added to your sprite's x position on the next tick of the
+
+00:01:34.975 --> 00:01:39.839
+draw loop. This program creates a sprite, gives it an
+
+00:01:39.839 --> 00:01:41.839
+animation, and then draws it on the screen.
+
+00:01:44.839 --> 00:01:49.823
+Now let's give that sprite a velocity by setting its velocityX property to 1,
+
+00:01:49.823 --> 00:01:52.703
+just once at the beginning of the program.
+
+00:01:52.703 --> 00:01:54.083
+When we rerun the program,
+
+00:01:54.083 --> 00:01:56.723
+we see that the sprite's position is updated.
+
+00:01:56.723 --> 00:01:59.043
+Under the hood, the velocityX property
+
+00:01:59.043 --> 00:01:59.807
+and the counter pattern
+
+00:01:59.807 --> 00:02:05.887
+are used to update the sprite's position, moving it across the screen.
+
+00:02:05.887 --> 00:02:09.647
+The other new properties that work in a similar way are velocityY,
+
+00:02:09.791 --> 00:02:14.111
+which controls velocity in the vertical direction, and rotationSpeed,
+
+00:02:14.111 --> 00:02:16.431
+which controls how fast the sprite rotates.
+
+00:02:19.775 --> 00:02:26.495
+The under-the-hood behaviors of velocityX, velocityY, and rotationSpeed are all things
+
+00:02:26.495 --> 00:02:28.655
+you've tackled in previous lessons.
+
+00:02:28.655 --> 00:02:29.735
+Now we get to
+
+00:02:29.759 --> 00:02:34.299
+let those blocks handle the details for us and explore new ways of moving sprites on the screen.
+
+00:02:39.743 --> 00:02:41.743
+(chime)

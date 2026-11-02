@@ -1,0 +1,166 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:05.240
+[MUSIC]
+
+00:00:05.240 --> 00:00:07.320
+Hi, everyone. I'm going to show you how to use
+
+00:00:07.320 --> 00:00:09.984
+the Data Visualizer tool in App Lab.
+
+00:00:09.984 --> 00:00:14.484
+This tool will let you look at the data and the different datasets in a number of different ways.
+
+00:00:14.484 --> 00:00:17.484
+I'll show you how to access it and how to use its features.
+
+00:00:17.484 --> 00:00:19.968
+First, you're going to want to go to the Data tab over
+
+00:00:19.968 --> 00:00:24.648
+here. The first thing we're going to want to do is import a dataset. So you can
+
+00:00:24.648 --> 00:00:29.568
+look through the categories of datasets here.
+
+00:00:29.953 --> 00:00:35.953
+You can even preview what's in a dataset by clicking on this Preview button right here.
+
+00:00:35.953 --> 00:00:39.937
+This will give you an example of the data that's contained
+
+00:00:39.937 --> 00:00:44.377
+in this dataset. This might give you an idea of whether you're interested in using this
+
+00:00:44.377 --> 00:00:49.857
+data or not. You can also click on this "More Info" button to see the metadata
+
+00:00:49.922 --> 00:00:53.602
+associated with that dataset. This will tell you about the source of the data,
+
+00:00:53.602 --> 00:00:58.082
+any cleaning that might have been done to the dataset, and more details about
+
+00:00:58.082 --> 00:00:59.907
+the data that's contained in each of the
+
+00:00:59.907 --> 00:01:05.747
+columns. Once you've imported the dataset, it should show up over here on the right-hand side.
+
+00:01:07.267 --> 00:01:09.747
+Let's take a look at this AP Computer Science
+
+00:01:09.891 --> 00:01:16.171
+test taker dataset. Once you click on it, you'll see all the data show up here with
+
+00:01:16.171 --> 00:01:18.731
+the columns across the top and the values going down.
+
+00:01:18.731 --> 00:01:24.016
+The visualizer tool is up here where it says Visualize Data. Once you click on it, you'll see
+
+00:01:24.016 --> 00:01:27.796
+this pop-up show up. This is where you're going to do the work of actually
+
+00:01:27.796 --> 00:01:29.860
+creating your data visualizations.
+
+00:01:29.860 --> 00:01:35.700
+Across the top, you'll see that there's a place to put a title in for your chart. You can choose between
+
+00:01:36.280 --> 00:01:39.845
+what type of chart you want to make. You can make a bar chart, a histogram,
+
+00:01:39.845 --> 00:01:46.845
+a scatter plot, or a crosstab. Let's start by looking at a bar chart.
+
+00:01:46.845 --> 00:01:49.829
+If we're going to make a bar chart, we
+
+00:01:49.829 --> 00:01:54.709
+first need to decide which value it is that we want to graph.
+
+00:01:54.709 --> 00:01:59.814
+Now, we can look at these values in this dropdown and choose that way, or we can
+
+00:01:59.814 --> 00:02:03.854
+go back to the metadata tab over here and read a little bit more about what
+
+00:02:03.854 --> 00:02:08.934
+each column contains. Let's say we're interested in this column right here:
+
+00:02:08.934 --> 00:02:16.679
+Total Percent Female. What percentage of students who took an APCS test in that state were female?
+
+00:02:19.783 --> 00:02:25.783
+Go back over here to the Visualizer tab and select that variable from this dropdown.
+
+00:02:25.783 --> 00:02:29.768
+Now, this bar chart shows, across the x-axis,
+
+00:02:29.768 --> 00:02:39.752
+the percentages, so the total percentage of test takers in a state that identified as female. The height of each bar shows the number of states that shared
+
+00:02:39.752 --> 00:02:45.552
+that percentage. So, for example, six different states had 30% of their
+
+00:02:45.552 --> 00:02:49.737
+CS test takers identify as female. Now, this
+
+00:02:49.737 --> 00:02:52.737
+bar chart is helpful for answering certain types of questions.
+
+00:02:52.737 --> 00:02:55.737
+It's helpful for learning some information.
+
+00:02:55.737 --> 00:02:58.737
+But there are other ways that we can visualize this data as well.
+
+00:02:58.737 --> 00:02:59.721
+For example,
+
+00:02:59.721 --> 00:03:08.841
+we can make a histogram. Let's look at the same value as before: Total Percent Female.
+
+00:03:08.841 --> 00:03:16.706
+When we make a histogram, the first thing we need to decide is the bucket size, or the range that each category is going to represent.
+
+00:03:16.706 --> 00:03:19.691
+In this case, percent. So we can have each category be
+
+00:03:19.691 --> 00:03:27.571
+2%, and this is what the chart would look like. We can have it be 10%, and this is
+
+00:03:27.571 --> 00:03:29.675
+what the chart would look like. Again, this is the
+
+00:03:29.675 --> 00:03:36.235
+same data, just being visualized in different ways. Let's go with 5% buckets.
+
+00:03:36.235 --> 00:03:39.660
+Now, this is the same data we looked at in the
+
+00:03:39.660 --> 00:03:46.540
+bar chart, but we can see different things here. So instead of unique percentages, we can see a
+
+00:03:46.540 --> 00:03:49.500
+range of percentages. So we can see that 22 states
+
+00:03:49.644 --> 00:03:56.644
+had between 25 and 30 percent of their CS test takers identify as female.
+
+00:03:56.644 --> 00:03:59.629
+And this type of visualization can be helpful for
+
+00:03:59.629 --> 00:04:03.949
+answering different types of questions and learning different types of information.
+
+00:04:03.949 --> 00:04:08.049
+Later, we'll learn more about the other types of visualizations you can make with this
+
+00:04:08.049 --> 00:04:08.989
+Visualizer tool.
+
+00:04:09.614 --> 00:04:12.194
+(upbeat music)

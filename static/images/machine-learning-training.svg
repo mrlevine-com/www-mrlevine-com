@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 230" font-family="sans-serif" font-size="15">
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#555"/>
+    </marker>
+  </defs>
+  <g fill="none" stroke-width="3">
+    <rect x="10" y="30" width="180" height="110" rx="10" stroke="#d68a1c"/>
+    <rect x="240" y="30" width="180" height="110" rx="10" stroke="#337ab7"/>
+    <rect x="470" y="30" width="180" height="110" rx="10" stroke="#5a9e6f"/>
+  </g>
+  <g stroke="#555" stroke-width="3" marker-end="url(#arrow)">
+    <line x1="195" y1="85" x2="230" y2="85"/>
+    <line x1="425" y1="85" x2="460" y2="85"/>
+  </g>
+  <g text-anchor="middle" fill="#333">
+    <text x="100" y="60" font-weight="bold">1. You label</text>
+    <text x="100" y="88">"fish"</text>
+    <text x="100" y="112">"not fish"</text>
+    <text x="330" y="60" font-weight="bold">2. AI trains</text>
+    <text x="330" y="88">finds patterns</text>
+    <text x="330" y="112">in your labels</text>
+    <text x="560" y="60" font-weight="bold">3. AI predicts</text>
+    <text x="560" y="88">labels new</text>
+    <text x="560" y="112">images itself</text>
+  </g>
+  <path d="M100,150 L100,190 L560,190 L560,150" fill="none" stroke="#d9534f" stroke-width="3" stroke-dasharray="6 5"/>
+  <text x="330" y="215" text-anchor="middle" fill="#d9534f" font-weight="bold">Biased labels in = biased predictions out</text>
+</svg>

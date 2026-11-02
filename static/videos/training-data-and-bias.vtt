@@ -1,0 +1,136 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:02.580
+(upbeat music)
+
+00:00:07.480 --> 00:00:09.984
+Machine learning is only as good as the training data
+
+00:00:09.984 --> 00:00:11.064
+you put into it.
+
+00:00:11.064 --> 00:00:14.624
+So it's super important to use high-quality data
+
+00:00:14.624 --> 00:00:16.564
+and lots of it.
+
+00:00:16.564 --> 00:00:19.664
+But if data is so important, it's worth asking:
+
+00:00:19.664 --> 00:00:21.968
+where does training data come from?
+
+00:00:21.968 --> 00:00:24.248
+Often, computers are collecting training data
+
+00:00:24.248 --> 00:00:26.248
+from people like you and me
+
+00:00:26.248 --> 00:00:28.248
+without any effort on our part.
+
+00:00:28.248 --> 00:00:29.953
+A video streaming service might keep track
+
+00:00:29.953 --> 00:00:35.153
+of what you watch, then it can recognize patterns in that data to recommend what you might want
+
+00:00:35.153 --> 00:00:39.713
+to watch next. Other times, you're directly asked to help,
+
+00:00:39.937 --> 00:00:43.337
+like when a website asks you to spot street signs in photos.
+
+00:00:43.337 --> 00:00:47.297
+You're providing training data to help a machine learn to see,
+
+00:00:47.297 --> 00:00:49.017
+and maybe even one day drive.
+
+00:00:49.922 --> 00:00:51.682
+(upbeat music)
+
+00:00:51.682 --> 00:00:54.322
+Medical researchers can use medical images
+
+00:00:54.322 --> 00:00:56.202
+as training data to teach computers
+
+00:00:56.202 --> 00:00:58.842
+how to recognize and diagnose diseases.
+
+00:00:59.907 --> 00:01:03.647
+Machine learning needs hundreds and thousands of images
+
+00:01:03.647 --> 00:01:07.407
+and training direction from a doctor who knows what to look for
+
+00:01:07.407 --> 00:01:09.807
+before it can correctly identify disease.
+
+00:01:09.891 --> 00:01:14.891
+Even with thousands of examples, there can be problems with the computer's predictions.
+
+00:01:14.891 --> 00:01:19.876
+If X-ray data is only collected from men, then the computer's predictions
+
+00:01:19.876 --> 00:01:24.936
+may only work for men. It may not recognize diseases when asked to diagnose the X-ray
+
+00:01:24.936 --> 00:01:28.776
+of a woman. This blind spot in the training data creates
+
+00:01:28.776 --> 00:01:29.860
+something called bias.
+
+00:01:29.860 --> 00:01:35.860
+Biased data favors some things and deprioritizes or excludes others.
+
+00:01:35.860 --> 00:01:39.845
+Depending on how training data is collected, who is doing the collecting,
+
+00:01:39.845 --> 00:01:42.345
+and how the data is fed into the computer,
+
+00:01:42.345 --> 00:01:45.885
+there is a chance that human bias is included in the data.
+
+00:01:45.885 --> 00:01:47.745
+By learning from biased data,
+
+00:01:47.745 --> 00:01:49.829
+the computer may make biased predictions.
+
+00:01:49.829 --> 00:01:53.829
+This can happen whether the people training the computer are aware of it or not.
+
+00:01:53.829 --> 00:01:57.829
+So when you are looking at training data, ask yourself two questions.
+
+00:01:57.829 --> 00:01:59.814
+Is this enough data to accurately
+
+00:01:59.814 --> 00:02:06.294
+train a computer? And does this data represent all possible scenarios and users without bias?
+
+00:02:07.254 --> 00:02:09.654
+This is where you, as the human trainer, can play a
+
+00:02:09.799 --> 00:02:14.679
+crucial role. It's up to you to give your machine unbiased data. That means
+
+00:02:14.679 --> 00:02:19.559
+collecting tons of examples, often from lots of different sources.
+
+00:02:19.559 --> 00:02:24.343
+Remember, when you pick and choose data for machine learning, you're actually programming the algorithm
+
+00:02:24.343 --> 00:02:27.423
+using training data instead of code.
+
+00:02:27.423 --> 00:02:29.063
+The data is the code.
+
+00:02:29.768 --> 00:02:33.368
+The better the data you provide, the better the computer will learn.

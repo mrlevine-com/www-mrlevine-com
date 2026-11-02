@@ -1,0 +1,142 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:05.000
+[MUSIC]
+
+00:00:05.000 --> 00:00:09.000
+Using the Data Visualizer tool in App Lab, we can also make scatter plots.
+
+00:00:09.000 --> 00:00:13.984
+Scatter plots are useful for answering questions about relationships between variables or
+
+00:00:13.984 --> 00:00:17.924
+attributes in your dataset. First, we'll want to choose Scatter Plot from the
+
+00:00:17.924 --> 00:00:19.968
+dropdown.
+
+00:00:19.968 --> 00:00:23.968
+And let's start with some variables that we've looked at before.
+
+00:00:23.968 --> 00:00:27.968
+And the x values will look at the total percent of female test takers.
+
+00:00:27.968 --> 00:00:29.953
+Now, if I wanted to know
+
+00:00:29.953 --> 00:00:35.833
+about the relationship between the percentage of female CS test takers in a state and the
+
+00:00:35.833 --> 00:00:39.673
+percentage of schools in that state that offer an AP program,
+
+00:00:39.937 --> 00:00:41.937
+I could make this scatterplot.
+
+00:00:43.297 --> 00:00:48.537
+Now, this scatterplot shows along the x-axis the total percent of female test takers
+
+00:00:48.537 --> 00:00:49.897
+and on the y-axis the
+
+00:00:49.922 --> 00:00:56.162
+percentage of schools in a state that offer an AP program. Each dot represents a particular state.
+
+00:00:56.802 --> 00:00:59.762
+So, for example, we can see that this state right here,
+
+00:00:59.907 --> 00:01:06.847
+38% of the schools in that state offer an AP program, and 29% of the test takers in that
+
+00:01:06.847 --> 00:01:08.947
+state identified as female.
+
+00:01:08.947 --> 00:01:15.891
+By looking at this entire graph, we can see what, if any, relationship exists between these two variables.
+
+00:01:15.891 --> 00:01:19.876
+We can also use the filter tool at the bottom to
+
+00:01:19.876 --> 00:01:21.876
+narrow down our investigation.
+
+00:01:23.316 --> 00:01:28.916
+Let's say we are interested in looking at only states where a large amount of tests were taken.
+
+00:01:28.916 --> 00:01:29.860
+Let's say 2,000.
+
+00:01:29.860 --> 00:01:35.860
+We can choose the appropriate value here, Total APCS Exams.
+
+00:01:35.860 --> 00:01:39.845
+We can choose greater than or equal to.
+
+00:01:39.845 --> 00:01:44.365
+And then we'll find the first value that's larger than 2,000 here:
+
+00:01:44.365 --> 00:01:46.365
+2,215.
+
+00:01:47.365 --> 00:01:49.829
+Now this graph still shows the same variables.
+
+00:01:49.829 --> 00:01:56.469
+It's just that we're looking at only the states where there were 2,000 or more CS tests taken.
+
+00:01:56.469 --> 00:01:59.814
+The last type of visual we can make is a crosstab.
+
+00:01:59.814 --> 00:02:07.314
+Crosstabs are useful for looking at datasets that involve some values that are strings instead of numbers.
+
+00:02:08.054 --> 00:02:09.799
+So for this type of visualization,
+
+00:02:09.799 --> 00:02:11.799
+let's look at another dataset.
+
+00:02:16.559 --> 00:02:19.783
+This dataset comes from the publication The Root and contains
+
+00:02:19.783 --> 00:02:26.383
+information about the 100 most influential African Americans. After we import it, we
+
+00:02:26.383 --> 00:02:27.503
+can look at it here.
+
+00:02:29.768 --> 00:02:39.752
+Let's say we wanted to get a sense of the most common type of people included in this list, maybe with respect to
+
+00:02:39.752 --> 00:02:42.092
+the sector that they're in and their age.
+
+00:02:43.372 --> 00:02:48.372
+We can choose those two variables here for our x and y values.
+
+00:02:49.172 --> 00:02:55.297
+And now you'll see this table that shows up. Each of these values here in different shades of blue
+
+00:02:55.297 --> 00:02:59.721
+show the frequency at which these different combinations showed up.
+
+00:02:59.721 --> 00:03:04.801
+So, for example, we can see here that in this entire dataset, four of the people on this
+
+00:03:04.801 --> 00:03:09.081
+list are age 39 and work in the community sector.
+
+00:03:09.081 --> 00:03:14.186
+And we can see that that's the most combination out of all the possible combinations in this dataset.
+
+00:03:14.186 --> 00:03:18.866
+There are any number of possible questions you could investigate using these visualizations,
+
+00:03:18.866 --> 00:03:24.571
+from understanding the variability in your dataset to starting to uncover patterns and relationships in the data.
+
+00:03:25.611 --> 00:03:29.531
+These visualizations will help you gain insight into topics that are interesting
+
+00:03:29.675 --> 00:03:31.275
+to you and are important to you.

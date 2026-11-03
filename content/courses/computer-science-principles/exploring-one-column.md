@@ -88,8 +88,8 @@ Make a **histogram**. It works like a bar chart, but first it groups numbers int
 
 {{< collapse summary="Click here to reveal the answer." >}}
 
-1. Level 1 (Making Bar Charts and Histograms): open the "Data" tab, open the Dogs table, then click "Visualize Data." Pick a chart type and a column, and your chart appears.
-2. Level 2 (Check for Understanding): explain why someone would make a histogram instead of a bar chart.
+1. Level 1 (Making Bar Charts and Histograms): open the "Data" tab, open the "Dogs" table, then click "Visualize Data." Pick a chart type and a column, and your chart appears. Then do the Assignment below.
+2. Level 2 (Check for Understanding): explain why someone would make a histogram instead of a bar chart. Use the table above for a hint.
 
 {{</ collapse >}}
 

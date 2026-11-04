@@ -57,8 +57,8 @@ Filter it. A filter shows only the rows you choose, without deleting any data.
 ### How do you get through today's levels?
 {{< collapse summary="Click here to reveal the answer." >}}
 
-1. Level 1 (Data Cleaning): open the "Data" tab, open the "Student Info" table, then make charts of "Average Hours of Sleep" and "Favorite Subject" and look for problems. To fix a cell, click "Edit" at the end of its row, change it, then click "Save." Remake both charts when you're done.
-2. Level 2 (Data Filtering): open the "Data" tab, then open the "Female State Legislators" and "US Women Running for Elected Office in 2020" tables. Use "Filter" and "By" at the bottom of the Data Visualizer to choose which rows to chart. Then do the Assignment below.
+1. Level 1 (Data Cleaning): open the "Data" tab, open the "Student Info" table, then make charts of "Average Hours of Sleep" and "Favorite Subject" and look for problems. To fix a cell, click "Edit" at the end of its row, change it, then click "Save." Remake both charts when you're done. Then do step 1 of the Assignment below.
+2. Level 2 (Data Filtering): open the "Data" tab, then open the "Female State Legislators" and "US Women Running for Elected Office in 2020" tables. Use "Filter" and "By" at the bottom of the Data Visualizer to choose which rows to chart. Then do steps 2 and 3 of the Assignment below.
 3. Level 3 (Check for Understanding): explain what makes cleaning data by hand challenging.
 
 {{</ collapse >}}
@@ -69,11 +69,11 @@ Filter it. A filter shows only the rows you choose, without deleting any data.
 
 _Tip: For "Cleaning Data," sketch a messy column and its clean version. For "Data Filtering," sketch a table with only some rows circled._
 
-### Answer Questions With Filtered Charts (~25mins)
-Filter two datasets in Level 2, and sketch each chart you make:
+### Clean and Filter Data to Answer Questions (~35mins)
+Clean one dataset in Level 1 and filter two datasets in Level 2, and sketch each chart you make:
 
-1. **Female State Legislators:** filter "Year" by the year you were born, make a histogram of "Percentage of Females in Legislature" with a bucket size of 5, and sketch it. Then change the filter to 2019, and sketch that chart too.
-2. **Compare:** write how many states had 25–30% female legislators in each year, what this data shows, and why that might be the case.
+1. **Student Info:** sketch your "Favorite Subject" chart before and after you clean the data, and label each messy value you fixed. Then compare your clean chart with a classmate's, and write whether they match and why.
+2. **Female State Legislators:** filter "Year" by the year you were born, make a histogram of "Percentage of Females in Legislature" with a bucket size of 5, and sketch it. Change the filter to 2019, and sketch that chart too. Then write how many states had 25–30% female legislators in each year, what this data shows, and why that might be the case.
 3. **US Women Running for Elected Office in 2020:** pick any chart type, then filter to answer each question and sketch its chart:
     - Which states had at least one woman run for Governor?
     - Which states had more than 10 women win their primary race?

@@ -96,4 +96,3 @@ Stuck? Open the "Help & Tips" tab, or hover over a block and click "Examples." M
 {{% instructions-code-org-update %}}
 {{% instructions-unit-journal-update %}}
 {{% unit-journal-define-terms "Boolean Expression" "Condition" "Conditionals" %}}
-{{% unit-journal-question-of-the-day question="How can programs react to changes as they are running?" hint="Draw the car above in 2 frames: one with `car.x` at 200 and one with `car.x` at 403. Label each with whether `car.x > 400` is true or false, and what happens next. Then name one app or game you use that reacts to a change, and the condition it checks." %}}

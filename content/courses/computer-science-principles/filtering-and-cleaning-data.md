@@ -57,8 +57,8 @@ Filter it. A filter shows only the rows you choose, without deleting any data.
 ### How do you get through today's levels?
 {{< collapse summary="Click here to reveal the answer." >}}
 
-1. Level 1 (Data Cleaning): open the "Data" tab, then make charts of "Average Hours of Sleep" and "Favorite Subject" and look for problems. To fix a cell, click "Edit" at the end of its row, change it, then click "Save." Remake both charts when you're done.
-2. Level 2 (Data Filtering): use "Filter" and "By" at the bottom of the Data Visualizer to choose which rows to chart.
+1. Level 1 (Data Cleaning): open the "Data" tab, open the "Student Info" table, then make charts of "Average Hours of Sleep" and "Favorite Subject" and look for problems. To fix a cell, click "Edit" at the end of its row, change it, then click "Save." Remake both charts when you're done.
+2. Level 2 (Data Filtering): open the "Data" tab, then open the "Female State Legislators" and "US Women Running for Elected Office in 2020" tables. Use "Filter" and "By" at the bottom of the Data Visualizer to choose which rows to chart. Then do the Assignment below.
 3. Level 3 (Check for Understanding): explain what makes cleaning data by hand challenging.
 
 {{</ collapse >}}

@@ -47,7 +47,7 @@ _Source: the Dogs dataset in App Lab's Data Library, from Code.org._
 
 {{< collapse summary="Click here to reveal the answers." >}}
 
-1. 4.
+1. 4 breeds.
 2. 12 years, with 8 breeds.
 3. Working breeds seem to live the shortest, and Toy breeds seem to live the longest. You can't be sure, though, since each group has a spread of life spans.
 

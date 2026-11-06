@@ -82,7 +82,7 @@ Research one of these topics with a partner, then teach it to classmates who cho
 |------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------|
 | **Big data**           | [Big Data in Healthcare](https://www.mgbu.edu/news-and-more/opinions/data-analytics/harnessing-big-data-healthcare-uses-benefits-challenges-and-real-examples)                                | Scalability, parallel systems  |
 | **Crowdsourced data**  | [How Pokemon Inspired a Citizen Science Project](https://www.npr.org/2018/04/20/597972310/how-pokemon-inspired-a-citizen-science-project-to-monitor-tiny-streams), [Zooniverse: About](https://www.zooniverse.org/about), [NASA Citizen Science](https://science.nasa.gov/citizen-science/) | Citizen science, crowdsourcing |
-| **Open data**          | [NASA: Landsat Open Data](https://science.nasa.gov/mission/landsat/open-data/)                                                                                                                | Open data, open access          |
+| **Open data**          | [NASA: Landsat Open Data](https://science.nasa.gov/mission/landsat/open-data/), [How Are iNaturalist Data Used for Research?](https://help.inaturalist.org/en/support/solutions/articles/151000170341-how-are-inaturalist-data-used-for-research-) | Open data, open access          |
 
 1. Draw the Data Analysis Process, and label each step with an example from your topic's links.
 2. Write your topic's core idea in one sentence, plus two problems or questions it's being used to solve.

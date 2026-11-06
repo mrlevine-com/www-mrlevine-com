@@ -80,9 +80,9 @@ Research one of these topics with a partner, then teach it to classmates who cho
 
 | Topic                  | Links                                                                                                                                                                                         | Look for these terms           |
 |------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------|
-| **Big data**           | [AI and Parallel Systems](https://www.youtube.com/watch?v=1XGo8K1boH4), [Big Data and Medicine](https://www.youtube.com/watch?v=bMrDHtGHFR4)                                                 | Scalability, parallel systems  |
-| **Crowdsourced data**  | [How Pokemon Inspired a Citizen Science Project](https://www.npr.org/2018/04/20/597972310/how-pokemon-inspired-a-citizen-science-project-to-monitor-tiny-streams), [What Is Citizen Science?](https://youtu.be/81hhecI0p5k) | Citizen science, crowdsourcing |
-| **Open data**          | [What Is Open Data?](https://www.youtube.com/watch?v=qSD9ob8rGcs), [The Case for Open Data](https://www.youtube.com/watch?v=iOrPK7p2AwI)                                                      | Open data, open access          |
+| **Big data**           | [Big Data in Healthcare](https://www.mgbu.edu/news-and-more/opinions/data-analytics/harnessing-big-data-healthcare-uses-benefits-challenges-and-real-examples)                                | Scalability, parallel systems  |
+| **Crowdsourced data**  | [How Pokemon Inspired a Citizen Science Project](https://www.npr.org/2018/04/20/597972310/how-pokemon-inspired-a-citizen-science-project-to-monitor-tiny-streams), [Zooniverse: About](https://www.zooniverse.org/about), [NASA Citizen Science](https://science.nasa.gov/citizen-science/) | Citizen science, crowdsourcing |
+| **Open data**          | [NASA: Landsat Open Data](https://science.nasa.gov/mission/landsat/open-data/)                                                                                                                | Open data, open access          |
 
 1. Draw the Data Analysis Process, and label each step with an example from your topic's links.
 2. Write your topic's core idea in one sentence, plus two problems or questions it's being used to solve.

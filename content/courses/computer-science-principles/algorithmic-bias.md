@@ -35,8 +35,6 @@ Through both the photos and the people cropping them.
 
 {{</ collapse >}}
 
-{{% define "Data Bias" %}}
-
 ### What went wrong with Twitter's cropping algorithm?
 Watch [Are We Automating Racism?](https://youtu.be/Ok5sKLXqynQ) from 0:00 to 4:05, then from 9:30 to 13:46.
 
@@ -75,7 +73,6 @@ Even a perfectly fair algorithm can cause harm when it stops people from represe
 
 ## Assignment
 {{% instructions-unit-journal-update %}}
-{{% unit-journal-define-terms "Data Bias" %}}
 
 ### Respond to Twitter's Biased Algorithm (~20mins)
 Think through what happened, as both a user and a CEO:

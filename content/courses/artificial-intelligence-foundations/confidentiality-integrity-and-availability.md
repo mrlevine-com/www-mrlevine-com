@@ -96,30 +96,28 @@ Not every failure comes from a hacker. Sometimes a regular user causes harm beca
 _Tip: For "CIA Triad," sketch the triangle. For the other three, sketch a lock, a document with a checkmark, and an "Open" sign._
 
 ### Attack and Defend a System (~20mins)
-Investigate the scenarios below with a partner:
+Attack and defend three of these systems with a partner:
 
-| Scenario                     | What happened                                                                                      |
-|------------------------------|----------------------------------------------------------------------------------------------------|
-| **1. Deleted Memories**      | A teen shares a family photo folder where every relative can view, upload, and delete. After someone reorganizes it, photos are missing. |
-| **2. Locked Out on Launch Day** | On a game's release night, the login system can't handle the traffic. Correct logins fail, some people are blocked, and no one knows who got in. |
-| **3. Calendar Chaos**        | A student adds personal notes to a school calendar, then finds out others could see it and someone changed a note. |
-| **4. Science Fair Switch-Up** | Two groups share a folder. One group's project is replaced with something else, and the teacher can't tell who did it or when. |
-| **5. Guest Wi-Fi Surprise**  | Maya gives a friend her guest Wi-Fi password. That night, her smart TV connects and her Netflix profile is renamed, with no one else home. |
-| **6. Locked Grades**         | After an update, no one can log into the school's grade portal for two days, so a student can't check their GPA when they need it. |
+| Scenario              | What happened                                                              |
+|-----------------------|----------------------------------------------------------------------------|
+| **1. Photo Folder**   | Every relative can delete from a shared family folder. Photos go missing.  |
+| **2. Game Launch**    | Logins fail on release night, and no one knows who got in.                 |
+| **3. School Calendar** | Others can see a student's personal notes, and someone changed one.       |
+| **4. Science Fair**   | A group's project in a shared folder is replaced. No one knows by whom.    |
+| **5. Guest Wi-Fi**    | A friend uses Maya's Wi-Fi password, then renames her Netflix profile.     |
+| **6. Grade Portal**   | After an update, no one can log in for two days.                           |
 
-1. Write C, I, or A (or more than one) next to each scenario number.
-2. Draw a table with the columns from the example in the Lesson Overview. Fill in a row for three scenarios, one for each goal, taking turns as attacker and defender. Use these if you get stuck:
+1. Write C, I, or A next to each scenario number (some get more than one).
+2. Copy the Lesson Overview's table and fill in one row each for a C, an I, and an A scenario. Take turns as attacker and defender. Stuck? Pick a fix:
 
-    | Fix type          | Fixes                                                                      |
-    |-------------------|----------------------------------------------------------------------------|
-    | **Check identity** | 2-step verification, stronger logins, unique accounts instead of shared ones |
-    | **Limit access**  | Let only some people edit or delete, give view-only access, preview who can see it before sharing |
-    | **Track changes** | Version history, change logs, alerts for logins or changes                  |
-    | **Recover**       | Backups and auto-save                                                       |
-    | **Handle traffic** | More system capacity for busy times and outages                            |
+    | Fix type           | Examples                            | Tradeoff                      |
+    |--------------------|-------------------------------------|-------------------------------|
+    | **Check identity** | 2-step verification, own accounts   | Slower logins, users locked out |
+    | **Limit access**   | View-only, only some can delete     | Harder to work together       |
+    | **Track changes**  | Version history, change alerts      | More to manage                |
+    | **Recover**        | Backups, auto-save                  | More cost                     |
+    | **Handle traffic** | More capacity for busy times        | More cost                     |
 
-    Tradeoffs might be slower logins or extra steps, confused users or real users locked out, less flexibility for working together, or more cost and effort to manage.
-
-3. Write one pattern you notice for each goal: what went wrong, and what kind of fix helped.
+3. Under your table, write what kind of fix worked for each goal.
 
 {{% instructions-code-org-update %}}

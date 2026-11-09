@@ -29,8 +29,6 @@ From examples, not step-by-step code. **Machine learning** is how computers reco
 
 The patterns the AI finds are new **information**, and people use that information to make decisions.
 
-{{% define "Information" %}}
-
 ### How does training data affect what AI learns?
 {{< video title="Training Data & Bias" src="/videos/training-data-and-bias.mp4" poster="/images/video-poster-training-data-and-bias.jpg" >}}
 
@@ -84,9 +82,9 @@ To use AI for good, avoid training data that would repeat human bias.
 
 ## Assignment
 {{% instructions-unit-journal-update %}}
-{{% unit-journal-define-terms "Information" "Data Bias" %}}
+{{% unit-journal-define-terms "Data Bias" %}}
 
-_Tip: For "Information," sketch a chart with an arrow pointing to a pattern it reveals. For "Data Bias," sketch a group of photos with one type of person missing._
+_Tip: For "Data Bias," sketch a group of photos with one type of person missing._
 
 ### Draw How Your Bias Trained A.I. (~10mins)
 Show how your opinions in Levels 6–7 became A.I.'s training data:

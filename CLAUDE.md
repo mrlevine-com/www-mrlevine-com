@@ -32,6 +32,8 @@ console.log("Hi!");
 ```
 ## Include Vocabulary
 If the attached lesson plan defines vocabulary terms, create or update them in `/content/glossary/{term}`, reference them in `## Lesson Overview` with `{{% define "Term" %}}` outside of any `{{< collapse >}}`, and assign them in `## Assignment` with `{{% unit-journal-define-terms "Term1" "Term2" ... %}}`. Write each `summary` as the lesson plan's definition, trimmed to a concise phrase or sentence: capitalize the first letter, no trailing period, and link any other defined glossary term it mentions as `[term](/glossary/slug/)`.
+
+Define and assign each term only once per unit, in the first lesson (by `weight`) of that unit that uses it. Before adding `{{% define %}}` or `{{% unit-journal-define-terms %}}`, check earlier lessons with the same `units` value; if the term already appears there, leave it out of both shortcodes (and any tip that mentions it).
 ## Add Visuals
 Give each lesson at least one simple visual, saved as an SVG in `/static/images`, wherever a picture explains a key idea faster than words, such as a process, a comparison, causes and effects, or data. Place it right next to the question it explains, keep it to a few shapes with short labels, and write alt text that states what it shows. Draw graphs only from real data with a verifiable source, and show them with `{{< figure >}}` and a caption citing that source.
 

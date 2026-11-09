@@ -84,8 +84,6 @@ To use AI for good, avoid training data that would repeat human bias.
 {{% instructions-unit-journal-update %}}
 {{% unit-journal-define-terms "Data Bias" %}}
 
-_Tip: For "Data Bias," sketch a group of photos with one type of person missing._
-
 ### Draw How Your Bias Trained A.I. (~10mins)
 Show how your opinions in Levels 6–7 became A.I.'s training data:
 

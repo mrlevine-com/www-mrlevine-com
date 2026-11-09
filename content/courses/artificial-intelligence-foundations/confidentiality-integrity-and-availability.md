@@ -108,7 +108,7 @@ Attack and defend three of these systems with a partner:
 | **6. Grade Portal**   | After an update, no one can log in for two days.                           |
 
 1. Write C, I, or A next to each scenario number (some get more than one).
-2. Copy the Lesson Overview's table and fill in one row each for a C, an I, and an A scenario. Take turns as attacker and defender. Stuck? Pick a fix:
+2. Draw a table with columns **Attacker's target**, **Goal**, **Why it matters**, **Defender's fix**, and **Tradeoff**. Fill in one row each for a C, an I, and an A scenario. Take turns as attacker and defender. Stuck? Pick a fix:
 
     | Fix type           | Examples                            | Tradeoff                      |
     |--------------------|-------------------------------------|-------------------------------|

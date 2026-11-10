@@ -7,8 +7,11 @@
   "permissions": {
     "allow": [
       "Bash(git add *)",
-      "Bash(git commit *)",
       "Bash(/home/mrlevine/.local/share/whisper/whisper-cli *)"
+    ],
+    "ask": [
+      "Bash(git commit *)",
+      "PowerShell(git commit *)"
     ]
   }
 }

@@ -8,6 +8,15 @@ At the start of each session, invoke the `i-have-adhd` skill yourself before doi
 5. Cap lists at 5 items by grouping related items, never by dropping content. Verbatim content, like objectives, is exempt.
 6. Put information right next to the step that uses it.
 7. Keep wording short: merge overlapping sections, start list items with a bold one- or two-word label followed by one short line, turn repeated parallel sentences into a table, and give two examples rather than three or more.
+## Make Lessons Rewarding (Octalysis)
+Students are high schoolers on iPads with short attention spans, so the work must feel easy and rewarding. Use Yu-kai Chou's Octalysis framework (notes in `../mytextmate/docs/octalysis.md`) as the lens. The goal is for every lesson on the site to follow this model. Apply it to any lesson you edit; a site-wide pass is a separate, later project. "Authentication, Authorization, and Accounting" (AI Foundations) is the model lesson. In lessons:
+1. **Shrink the work:** one main hand-drawn todo of ~15mins when possible, plus terms and Code.org. Cut big lists and tables down to what that todo needs.
+2. **Guess, then check:** quiz questions ask students to guess before revealing, score 1 point each, and end the reveal with a win line (e.g. "Got 3/3? You're ready for Code.org.").
+3. **Let them choose and build:** have students design their own thing (an app, a rule, a scenario) instead of sorting a given list.
+4. **Add a twist:** include one curious or playful step, like "Hack it: circle the weak spot."
+5. **Show the finish line:** end each todo with "✅ Done when ..." listing what a finished page has.
+
+Favor White Hat drives (1 to 3) plus 4 (Ownership) and 7 (Curiosity). Avoid Black Hat pressure like countdowns, streaks, or threats of losing points. In the chat, name the drives each change uses.
 ## Infer Which Lesson to Edit
 After reading the attached resources from Code.org, infer which lesson to edit in `/content/courses/{course}/{lesson}`.
 ## Include All Information in Lessons

@@ -45,4 +45,4 @@ For any video in `/static/videos` without a matching `.vtt`, generate one with t
 ## Be Transparent About Information Sources
 In the chat, briefly cite where you found any information you added to a lesson, including which attached or online resources you used and whether the information has been modified.
 ## Commit Changes
-When work is finished, run the commit yourself, with messages based on previous commits; the harness pauses it for my approval, so I can review the changes first. Never add `Co-Authored-By` lines (or any other AI attribution) to the commit messages.
+When work is finished, run the commit yourself, with messages based on previous commits; the harness pauses it for my approval, so I can review the changes first. Once I approve and the commit succeeds, run `git push`. Never add `Co-Authored-By` lines (or any other AI attribution) to the commit messages.

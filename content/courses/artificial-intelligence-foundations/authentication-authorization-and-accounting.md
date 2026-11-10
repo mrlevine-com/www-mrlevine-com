@@ -17,11 +17,13 @@ weight: 490
 
 {{< collapse summary="Click here to reveal the answer." >}}
 
-Three steps systems use to protect the CIA Triad, whether you're logging into a game, checking grades, or sharing a playlist:
+Three checks every app runs, from games to grades:
 
-1. **Authentication:** checks who you are.
-2. **Authorization:** decides what you're allowed to do. It only works after authentication.
-3. **Accounting:** tracks what you did. You'll learn more about it next lesson.
+| Step               | Asks                                    |
+|--------------------|-----------------------------------------|
+| **Authentication** | Who are you?                            |
+| **Authorization**  | What can you do? (only after step 1)    |
+| **Accounting**     | What did you do? (more on this next lesson) |
 
 {{</ collapse >}}
 
@@ -30,53 +32,55 @@ Three steps systems use to protect the CIA Triad, whether you're logging into a 
 {{% define "Authorization" %}}
 {{% define "Accounting" %}}
 
-### How do you prove you're you without showing your face?
+### How do you prove you're you?
 {{< collapse summary="Click here to reveal the answer." >}}
 
-With something you know, have, or are:
+Show something you know, have, or are:
 
-| Something you... | Examples                                                                  |
-|------------------|---------------------------------------------------------------------------|
-| **Know**         | Password, PIN code, security question, pattern lock                       |
-| **Have**         | Code texted to your phone, hardware security key (like a YubiKey), authentication app (like Google Authenticator), access card or badge |
-| **Are**          | Fingerprint scan, Face ID, voice recognition, iris scan                   |
+| Something you... | Examples                               |
+|------------------|----------------------------------------|
+| **Know**         | Password, PIN                          |
+| **Have**         | Code texted to your phone, school ID   |
+| **Are**          | Face ID, fingerprint                   |
 
-AI can fool some of these. For example, it can fake your voice or face.
+AI can fake some of these, like your voice or face.
 
 {{</ collapse >}}
 
-### How do systems decide what you're allowed to do?
+### How do apps decide what you can do?
 {{< collapse summary="Click here to reveal the answer." >}}
 
-With an access control model. Each one writes rules like "If [conditions], then grant or deny access to [something]":
+With an access control model: a rule like "If ..., then grant or deny access to ...":
 
-| Model                              | Who or what decides                 | Example                                          |
-|------------------------------------|-------------------------------------|--------------------------------------------------|
-| **Role-Based (RBAC)**              | Your role, like student or teacher  | If you're a teacher, then grant access to change grades. |
-| **Discretionary (DAC)**            | The owner of the thing              | If you shared your doc with a friend, then grant them access to edit it. |
-| **Attribute-Based (ABAC)**         | Details like device, location, or time | If you're on a school laptop, then grant access to the testing app. |
+| Model                      | Who decides            | Example                                   |
+|----------------------------|------------------------|-------------------------------------------|
+| **Role-Based (RBAC)**      | Your role              | If you're a teacher, then you can change grades. |
+| **Discretionary (DAC)**    | The owner              | If you share your doc with a friend, then they can edit it. |
+| **Attribute-Based (ABAC)** | Details like place or time | If it's class time, then school Wi-Fi blocks games. |
 
 {{</ collapse >}}
 
-### Is each statement accurate?
-1. "Authentication decides which files you're allowed to edit."
-2. "You choose who can comment on your posts, so that's role-based access control."
-3. "A bank app blocks logins from a new country at 3 a.m. That's role-based access control."
+### Can you spot the mistake in each?
+Guess first, then check. Score 1 point for each one you get.
+
+1. "Authentication decides which files you can edit."
+2. "You choose who can comment on your posts. That's role-based."
+3. "A bank app blocks logins from a new country at 3 a.m. That's role-based."
 
 {{< collapse summary="Click here to reveal the answers." >}}
 
-None of them are accurate:
-
 1. **Authorization** decides what you can edit. Authentication only checks who you are.
-2. You own the posts and chose who can comment, so it's **discretionary**.
-3. Location and time are attributes, so it's **attribute-based**.
+2. You own the posts, so it's **discretionary**.
+3. Place and time are details, so it's **attribute-based**.
+
+Got 3/3? You're ready for Code.org.
 
 {{</ collapse >}}
 
 ### How do you get through today's levels?
 {{< collapse summary="Click here to reveal the answer." >}}
 
-1. Level 1 (Check for Understanding): answer two questions about how systems check who you are and decide what you can access. Say *how* a login checks you, not just "you log in."
+1. Level 1 (Check for Understanding): answer two questions about how systems check who you are and decide what you can do. Say *how* a login checks you, not just "you log in."
 
 {{</ collapse >}}
 
@@ -84,20 +88,15 @@ None of them are accurate:
 {{% instructions-unit-journal-update %}}
 {{% unit-journal-define-terms "AAA Tools" "Authentication" "Authorization" "Accounting" %}}
 
-_Tip: For "AAA Tools," sketch the three boxes from the Lesson Overview. For the other three, sketch a fingerprint, a door with a "Teachers Only" sign, and a list of logins._
+_Tip: For "AAA Tools," sketch the three boxes from the Lesson Overview._
 
-### Sort Logins and Write Access Rules (~20mins)
-Practice authentication and access control:
+### Design the Security for Your Own App (~15mins)
+Draw the login and access rules for an app you'd want to build, like a game, a playlist app, or a club site:
 
-1. Draw three columns labeled Know, Have, and Are. Without looking, sort these into them, then check against the Lesson Overview: password, PIN code, security question, pattern lock, code texted to your phone, hardware security key, authentication app, access card, fingerprint scan, Face ID, voice recognition, iris scan.
-2. Circle one method in each column that AI could fool, and write how. Then add one new method of your own to each column.
-3. Pick two scenarios below. For each, write a rule ("If ..., then grant/deny access to ..."), label it RBAC, DAC, or ABAC, and write why that model fits.
+1. **Login:** Sketch its login screen with two ways to prove it's you, and label each Know, Have, or Are.
+2. **Rules:** Write two rules, like "If you're an admin, then you can ban players," and label each RBAC, DAC, or ABAC.
+3. **Hack it:** Circle one login method AI could fake, and write how.
 
-| Where              | Scenarios                                                                                         |
-|--------------------|---------------------------------------------------------------------------------------------------|
-| **School**         | Only teachers can update final grades. Anyone can browse the online library, but only logged-in students can download eBooks. School Wi-Fi blocks gaming sites during school hours. You join a video call directly with a school email, or else wait in the lobby. |
-| **Home & friends** | A friend gives you their Disney+ login. Your mom sets screen time limits on your sibling's iPad apps. You let only certain friends add songs to your playlist. You let a friend see your private photo album for 24 hours. Only parents can approve new events on the family calendar. |
-| **Apps**           | A ride-sharing app shows the driver's exact location based on ride status and user role. An app blocks payments on public Wi-Fi. A smartwatch app shares your step count publicly but keeps your heart rate private. A bank app shows your balance but needs face recognition to transfer money. You enter a PIN sent to your email to reset your social media password. A messaging app shows your online status only to your contacts. An online store shows different prices to logged-in members. |
-| **Groups**         | VIP ticket holders get the front section at a concert. Only registered members can vote on a club website. Moderators can delete offensive comments in an online art community. Gym trainers can update your fitness goals, but you can only view them. |
+✅ Done when your app has 2 labeled logins, 2 labeled rules, and 1 weak spot circled.
 
 {{% instructions-code-org-update %}}
